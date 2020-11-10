@@ -1,5 +1,7 @@
 import angular from 'angular';
 
+import './edgeDataCenter.css';
+
 import overviewPage from './pages/overviewPage/overviewPage';
 import expansionPanel from './components/expansionPanel/expansionPanel';
 import siteInfo from './components/siteInfo/siteInfo';
