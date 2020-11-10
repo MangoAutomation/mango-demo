@@ -1,0 +1,106 @@
+<div ng-if="!$ctrl.points" ayout="column" layout-gt-sm="row" layout-align-gt-sm="center center">
+    <div class="edc-imagen" class="container">
+        <md-icon>done_outline</md-icon>
+        <em ma-tr="edc.notFoundInformation"></em>
+    </div>
+</div>
+
+<div ng-if="$ctrl.points" class="charts-container">
+    <!-- Color Green:#46AF56/ Yellow:#DAC144/ Red:#ED1F1F -->
+    <div ng-if="$ctrl.points.pue">
+        <p style="text-align: center;" ma-tr="edc.pue"></p>
+        <ma-gauge-chart
+            point="$ctrl.points.pue"
+            start="0"
+            band-1-end="$ctrl.siteInfo.gaugeOverview[0].pue.band1End"
+            band-1-color="{{$ctrl.settings.bandColor.band1Color}}"
+            band-2-end="$ctrl.siteInfo.gaugeOverview[0].pue.band2End"
+            band-2-color="{{$ctrl.settings.bandColor.band2Color}}"
+            band-3-end="$ctrl.siteInfo.gaugeOverview[0].pue.band3End"
+            band-3-color="{{$ctrl.settings.bandColor.band3Color}}"
+            value-font-size="12"
+            value-offset="1"
+            tick-interval="100"
+            arrow-inner-radius="3"
+            arrow-alpha="0.7"
+            axis-alpha="0.1"
+            style="height: 150px; width: 100%;"
+        ></ma-gauge-chart>
+    </div>
+    <div ng-if="$ctrl.points.totalPower">
+        <p style="text-align: center;" ma-tr="edc.totalPower"></p>
+        <ma-gauge-chart
+            ng-if="$ctrl.points.totalPower"
+            point="$ctrl.points.totalPower"
+            start="0"
+            band-1-end="$ctrl.siteInfo.gaugeOverview[0].totalPower.band1End"
+            band-1-color="{{$ctrl.settings.bandColor.band1Color}}"
+            band-2-end="$ctrl.siteInfo.gaugeOverview[0].totalPower.band2End"
+            band-2-color="{{$ctrl.settings.bandColor.band2Color}}"
+            band-3-end="$ctrl.siteInfo.gaugeOverview[0].totalPower.band3End"
+            band-3-color="{{$ctrl.settings.bandColor.band3Color}}"
+            value-font-size="12"
+            value-offset="1"
+            tick-interval="100"
+            arrow-inner-radius="3"
+            arrow-alpha="0.7"
+            axis-alpha="0.1"
+            style="height: 150px; width: 100%;"
+        ></ma-gauge-chart>
+    </div>
+    <div ng-if="$ctrl.points.itPower">
+        <p style="text-align: center;" ma-tr="edc.itPower"></p>
+        <ma-gauge-chart
+            ng-if="$ctrl.points.itPower"
+            point="$ctrl.points.itPower"
+            start="0"
+            band-1-end="$ctrl.siteInfo.gaugeOverview[0].itPower.band1End"
+            band-1-color="{{$ctrl.settings.bandColor.band1Color}}"
+            band-2-end="$ctrl.siteInfo.gaugeOverview[0].itPower.band2End"
+            band-2-color="{{$ctrl.settings.bandColor.band2Color}}"
+            band-3-end="$ctrl.siteInfo.gaugeOverview[0].itPower.band3End"
+            band-3-color="{{$ctrl.settings.bandColor.band3Color}}"
+            value-font-size="12"
+            value-offset="1"
+            tick-interval="100"
+            arrow-inner-radius="3"
+            arrow-alpha="0.7"
+            axis-alpha="0.1"
+            style="height: 150px; width: 100%;"
+        ></ma-gauge-chart>
+    </div>
+    <div ng-if="$ctrl.points.mechanicalPower">
+        <p style="text-align: center;" ma-tr="edc.mechanicalPower"></p>
+        <ma-gauge-chart
+            ng-if="$ctrl.points.mechanicalPower"
+            point="$ctrl.points.mechanicalPower"
+            start="0"
+            band-1-end="$ctrl.siteInfo.gaugeOverview[0].mechanicalPower.band1End"
+            band-1-color="{{$ctrl.settings.bandColor.band1Color}}"
+            band-2-end="$ctrl.siteInfo.gaugeOverview[0].mechanicalPower.band2End"
+            band-2-color="{{$ctrl.settings.bandColor.band2Color}}"
+            band-3-end="$ctrl.siteInfo.gaugeOverview[0].mechanicalPower.band3End"
+            band-3-color="{{$ctrl.settings.bandColor.band3Color}}"
+            value-font-size="12"
+            value-offset="1"
+            tick-interval="100"
+            arrow-inner-radius="3"
+            arrow-alpha="0.7"
+            axis-alpha="0.1"
+            style="height: 150px; width: 100%;"
+        ></ma-gauge-chart>
+    </div>
+    <div class="margin-container">
+        <p ma-tr="edc.environmental"></p>
+        <div>
+            <h4 ma-tr="edc.outsideTemperature"></h4>
+            <ma-point-value class="data-container" point="$ctrl.points.outsideTemperature"></ma-point-value>
+            <div ng-if="!$ctrl.points.outsideTemperature">---</div>
+        </div>
+        <div>
+            <h4 ma-tr="edc.outsideHumity"></h4>
+            <ma-point-value class="data-container" point="$ctrl.points.outsideHumidity"></ma-point-value>
+            <div ng-if="!$ctrl.points.outsideHumidity">---</div>
+        </div>
+    </div>
+</div>

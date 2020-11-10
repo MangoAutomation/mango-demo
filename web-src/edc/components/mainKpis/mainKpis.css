@@ -1,0 +1,40 @@
+edc-main-kpis > div.charts-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+edc-main-kpis > div.charts-container > div {
+    width: 100%;
+}
+
+edc-main-kpis h4 {
+    font-size: 12px;
+    text-align: center;
+    color: var(--ma-foreground-2);
+}
+
+edc-main-kpis .data-container {
+    font-size: 14px;
+    text-align: center;
+    margin: 0px;
+}
+edc-main-kpis .margin-container {
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+    edc-main-kpis p {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    edc-main-kpis .margin-container {
+        margin-top: -28px;
+    }
+
+    edc-main-kpis > div.charts-container > div {
+        width: 15%;
+    }
+}

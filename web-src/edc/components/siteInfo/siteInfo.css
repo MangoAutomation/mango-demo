@@ -1,0 +1,25 @@
+edc-site-info > div.columns-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+edc-site-info div.column-left {
+    flex-basis: 20%;
+    font-size: small;
+    margin-bottom: 4px;
+}
+
+edc-site-info div.column-right {
+    flex-basis: 40%;
+    font-size: small;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 4px;
+}
+
+edc-site-info .point-text {
+    font-size: small;
+    font-weight: bold;
+}

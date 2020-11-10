@@ -1,0 +1,27 @@
+{
+  "name": "mango-demos",
+  "version": "0.0.1",
+  "description": "Demo dashboards for Mango",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "clean-webpack-plugin": "~0.1.19",
+    "css-loader": "~1.0.0",
+    "file-loader": "~2.0.0",
+    "html-loader": "~0.5.5",
+    "style-loader": "~0.23.1",
+    "webpack": "~4.20.2",
+    "webpack-cli": "~3.1.2"
+  },
+  "scripts": {
+    "webpack": "webpack --config webpack.config.js --mode production",
+    "webpack-dev": "webpack --config webpack.config.js --mode development",
+    "webpack-watch": "webpack --config webpack.config.js --mode development --watch"
+  },
+  "author": "Luis Güette <luis.guette@radixiot.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/infiniteautomation/mango-demo.git"
+  }
+}

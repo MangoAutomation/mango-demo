@@ -1,0 +1,47 @@
+edc-overview-page h4 {
+    font-size: 12px;
+    color: var(--ma-foreground-2);
+}
+
+@media (max-width: 1024px) {
+    edc-overview-page .edc-page-title {
+        font-size: 24px;
+    }
+}
+
+edc-overview-page > div.columns-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+edc-overview-page div.column-left {
+    flex-basis: 25%;
+    margin-top: 8px;
+    padding-right: 16px;
+}
+
+edc-overview-page div.column-right {
+    flex-grow: 1;
+    margin-top: 8px;
+}
+
+edc-overview-page div.columns-wrapper > div > edc-expansion-panel:not(:first-child) {
+    margin-top: 16px;
+}
+
+@media (max-width: 1024px) {
+    edc-overview-page div.columns-wrapper > div {
+        width: 49%;
+    }
+    edc-overview-page div.column-left,
+    edc-overview-page div.column-right {
+        flex-basis: 100%;
+        padding: unset;
+    }
+    edc-site-details .edc-page-title {
+        font-size: 20px !important;
+    }
+}

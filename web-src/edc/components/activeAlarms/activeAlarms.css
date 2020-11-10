@@ -1,0 +1,60 @@
+/* edc-active-alarms td.alarm > div > div {
+    padding: 0 0.5rem;
+} */
+
+edc-active-alarms .edc-alarm-indicator {
+    margin-right: 6px;
+}
+
+/* edc-active-alarms table.md-table:not(.md-row-select) td.md-cell:first-child,
+table.md-table:not(.md-row-select) th.md-column:first-child {
+    padding: 0px !important;
+}
+
+edc-active-alarms table.md-table td.md-cell:last-child,
+table.md-table th.md-column:last-child {
+    padding: 0px !important;
+}
+
+edc-active-alarms md-table-container.uber-table > table.md-table td.md-cell p {
+    font-size: 1.22rem;
+    line-height: 1.25;
+}
+
+edc-active-alarms
+    table.md-table:not(.md-row-select)
+    td.md-cell:nth-child(n + 2):nth-last-child(n + 2),
+table.md-table:not(.md-row-select)
+    th.md-column:nth-child(n + 2):nth-last-child(n + 2) {
+    padding: 0;
+} */
+
+/* Alarm indicators */
+
+edc-active-alarms .edc-alarm-indicator.CRITICAL {
+    fill: #ed1f1f !important;
+}
+
+edc-active-alarms .edc-alarm-indicator.URGENT {
+    fill: #ed7926 !important;
+}
+
+edc-active-alarms .edc-alarm-indicator.MAJOR {
+    fill: #ed7926 !important;
+}
+
+edc-active-alarms .edc-alarm-indicator.WARNING {
+    fill: #ecc94b !important;
+}
+
+edc-active-alarms .edc-alarm-indicator.IMPORTANT {
+    fill: #ecc94b !important;
+}
+
+edc-active-alarms .edc-alarm-indicator.MINOR {
+    fill: #ecc94b !important;
+}
+
+edc-active-alarms .edc-alarm-indicator.INFORMATION {
+    fill: #47b275 !important;
+}

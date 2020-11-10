@@ -1,0 +1,35 @@
+edc-expansion-panel {
+    display: block;
+}
+
+edc-expansion-panel > md-card {
+    margin: 0;
+}
+
+edc-expansion-panel > md-card > md-card-header {
+    padding: 0 0 0 12px;
+}
+
+edc-expansion-panel > md-card > md-card-header .header-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+edc-expansion-panel edc-panel-header {
+    color: var(--edc-expansion-card-header-color);
+}
+
+edc-expansion-panel edc-panel-body {
+    display: block;
+    padding: 12px;
+}
+
+edc-expansion-panel > md-card > md-card-content {
+    padding: 0;
+}
+
+:root {
+    --edc-expansion-card-header-color: var(--ma-accent);
+}

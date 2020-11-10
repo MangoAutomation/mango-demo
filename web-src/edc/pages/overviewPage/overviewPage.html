@@ -1,0 +1,65 @@
+<div layout="row" layout-wrap layout-align="space-between end">
+    <div flex="100" flex-gt-xs="50">
+        <h1 class="edc-page-title">
+            {{$ctrl.site.xid}} &nbsp;—&nbsp;{{$ctrl.site.name}}
+        </h1>
+    </div>
+</div>
+
+<div class="columns-wrapper">
+    <div class="column-left">
+        <edc-expansion-panel>
+            <edc-panel-header>
+                <h2>Site info</h2>
+            </edc-panel-header>
+            <edc-panel-body>
+                <edc-site-info site-info="$ctrl.site" equipment-type="Site"></edc-site-info>
+            </edc-panel-body>
+        </edc-expansion-panel>
+
+        <edc-expansion-panel>
+            <edc-panel-header>
+                <h2>Power path</h2>
+            </edc-panel-header>
+            <edc-panel-body>
+                <edc-power-path xid="{{$ctrl.site.powerPathXID}}"></edc-power-path>
+            </edc-panel-body>
+        </edc-expansion-panel>
+
+        <edc-expansion-panel>
+            <edc-panel-header>
+                <h2>Active Alarms</h2>
+            </edc-panel-header>
+            <edc-panel-body class="ma-no-padding">
+                <edc-active-alarms site="$ctrl.site.xid" equipment-type="Site"></edc-active-alarms>
+            </edc-panel-body>
+        </edc-expansion-panel>
+    </div>
+    <div class="column-right">
+        <edc-expansion-panel>
+            <edc-panel-header>
+                <h2>Main KPIs</h2>
+            </edc-panel-header>
+            <edc-panel-body>
+                <edc-main-kpis site-info="$ctrl.site" equipment-type="Site"></edc-main-kpis>
+            </edc-panel-body>
+        </edc-expansion-panel>
+        <edc-expansion-panel>
+            <edc-panel-header>
+                <h2>Site view</h2>
+            </edc-panel-header>
+            <edc-panel-body class="ma-no-padding">
+                <edc-site-view xid="{{$ctrl.site.siteViewXid}}"></edc-site-view>
+            </edc-panel-body>
+        </edc-expansion-panel>
+        <edc-expansion-panel>
+            <edc-panel-header>
+                <h2>Charts</h2>
+            </edc-panel-header>
+            <edc-panel-body>
+                <edc-statistics-widget site-xid="$ctrl.site.xid" column="true" equipment-type="Site">
+                </edc-statistics-widget>
+            </edc-panel-body>
+        </edc-expansion-panel>
+    </div>
+</div>

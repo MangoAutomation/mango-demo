@@ -1,0 +1,45 @@
+<div class="table-container">
+    <md-table-container class="edc-table">
+        <table md-table>
+            <thead md-head md-order="$ctrl.order">
+                <tr md-row>
+                    <th md-column></th>
+                    <th md-column md-order-by="alarms">Alarms</th>
+                    <th md-column md-order-by="time">Time</th>
+                </tr>
+            </thead>
+            <tbody md-body>
+                <tr md-row ng-if="$ctrl.activeEvents.events.length === 0">
+                    <td md-cell></td>
+                    <td md-cell>
+                        No active alarms
+                    </td>
+                    <td md-cell></td>
+                </tr>
+                <tr md-row
+                    ng-repeat="event in $ctrl.activeEvents.events | limitTo: $ctrl.query.limit: ($ctrl.query.page - 1) * $ctrl.query.limit">
+                    <td md-cell>
+                        <svg class="edc-alarm-indicator" width="20" height="20">
+                            <rect width="20" height="20" rx="0" ry="0"
+                                class="edc-alarm-indicator {{event.alarmLevel}}" />
+                        </svg>
+                    </td>
+                    <td md-cell>
+                        <div class="ma-no-margin" ng-bind="event.message"></div>
+                        <p class="ma-no-margin uber-capitalize">
+                            {{event.alarmLevel === 'URGENT' ? 'MAJOR' : event.alarmLevel}}</p>
+                    </td>
+                    <td md-cell>
+                        <div class="ma-no-margin"
+                            ng-bind="event.activeTimestamp | maMoment:'format': 'DD/MM/YYYY hh:mm:ss'">
+                        </div>
+                        <p class="ma-no-margin" ng-bind="event.duration |maDuration:'humanize'"></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </md-table-container>
+
+    <md-table-pagination md-limit="$ctrl.query.limit" md-limit-options="[5, 10, 15]" md-page="$ctrl.query.page"
+        md-total="{{$ctrl.activeEvents.events.length}}"></md-table-pagination>
+</div>

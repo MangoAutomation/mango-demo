@@ -1,0 +1,11 @@
+<div class="columns-wrapper" ng-repeat="site in $ctrl.siteInfo.siteInfo | filter:{type:'string'}">
+    <div ng-if="site.value !==''" class="column-left">{{site.label}}</div>
+    <div ng-if="site.value !==''" class="column-right">{{site.value}}</div>
+</div>
+<ma-get-point-value point="$ctrl.points"></ma-get-point-value>
+<div class="columns-wrapper" ng-repeat="point in $ctrl.points">
+    <div class="column-left">{{point.name=='Ping'?'Status':point.name}}</div>
+    <div ng-if="point.name == 'Ping'" class="column-right">{{point.renderedValue=='Fail'?'Down':'Up'}}</div>
+    <!--Points-->
+    <ma-point-value class="point-text" ng-if="point.name != 'Ping'" point="point"></ma-point-value>
+</div>

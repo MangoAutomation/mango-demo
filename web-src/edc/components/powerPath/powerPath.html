@@ -1,0 +1,8 @@
+<div ng-if="!$ctrl.selectedDashboardMarkup" class="edc-no-information" layout="column" layout-align="center center">
+    <div>
+        <md-icon>warning</md-icon>
+        <em>Not Found</em>
+    </div>
+</div>
+
+<div ng-if="$ctrl.selectedDashboardMarkup" ma-ui-live-preview="$ctrl.selectedDashboardMarkup"></div>

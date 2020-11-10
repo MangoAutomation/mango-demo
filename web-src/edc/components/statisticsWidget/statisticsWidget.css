@@ -1,0 +1,10 @@
+edc-statistics-widget .edc-statistics-chart {
+    min-height: 250px !important;
+}
+
+edc-statistics-widget .edc-no-layout-margin {
+    margin: unset !important;
+}
+edc-statistics-widget md-input-container {
+    width: 100%;
+}
