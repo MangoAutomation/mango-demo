@@ -11,6 +11,7 @@ import activeAlarms from './components/activeAlarms/activeAlarms';
 import statisticsWidget from './components/statisticsWidget/statisticsWidget';
 
 import sitesFactory from './services/sites';
+import settingsFactory from './services/settings';
 
 const edcModule = angular.module('edcModule', ['maUiApp'])
     .component('edcOverviewPage', overviewPage)
@@ -24,6 +25,7 @@ const edcModule = angular.module('edcModule', ['maUiApp'])
     .component('edcStatisticsWidget', statisticsWidget)
 
     .factory('edcSites', sitesFactory)
+    .factory('edcSettings', settingsFactory)
 
 edcModule.config(['maUiMenuProvider', maUiMenuProvider => {
     maUiMenuProvider.registerMenuItems([

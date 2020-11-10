@@ -51,8 +51,8 @@ class GetSvgPointsController {
     }
 
     $onInit() {
-        this.siteXid = this.localStorageService.get(SITE_KEY);
-        this.tab = this.localStorageService.get(TAB_KEY);
+        this.siteXid = '205588';
+        this.tab = 'overview';
         this.storedItems = this.localStorageService.get(`${this.tab}Storage`);
         if (this.tab === 'pdu') {
             this.pdu = this.storedItems.pdu;
@@ -83,6 +83,7 @@ class GetSvgPointsController {
         }
 
         pointQuery.query().then((points) => {
+            console.log(points);
             let parsedPoints = null;
             if (this.tab === 'pdu') {
                 parsedPoints = this.parseOutlets(points);

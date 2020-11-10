@@ -8,7 +8,7 @@
 <div ng-if="$ctrl.points" class="charts-container">
     <!-- Color Green:#46AF56/ Yellow:#DAC144/ Red:#ED1F1F -->
     <div ng-if="$ctrl.points.pue">
-        <p style="text-align: center;" ma-tr="edc.pue"></p>
+        <p style="text-align: center;">PUE</p>
         <ma-gauge-chart
             point="$ctrl.points.pue"
             start="0"
@@ -28,7 +28,7 @@
         ></ma-gauge-chart>
     </div>
     <div ng-if="$ctrl.points.totalPower">
-        <p style="text-align: center;" ma-tr="edc.totalPower"></p>
+        <p style="text-align: center;">Total Power</p>
         <ma-gauge-chart
             ng-if="$ctrl.points.totalPower"
             point="$ctrl.points.totalPower"
@@ -49,7 +49,7 @@
         ></ma-gauge-chart>
     </div>
     <div ng-if="$ctrl.points.itPower">
-        <p style="text-align: center;" ma-tr="edc.itPower"></p>
+        <p style="text-align: center;">IT Power</p>
         <ma-gauge-chart
             ng-if="$ctrl.points.itPower"
             point="$ctrl.points.itPower"
@@ -70,7 +70,7 @@
         ></ma-gauge-chart>
     </div>
     <div ng-if="$ctrl.points.mechanicalPower">
-        <p style="text-align: center;" ma-tr="edc.mechanicalPower"></p>
+        <p style="text-align: center;">Mechanical Power</p>
         <ma-gauge-chart
             ng-if="$ctrl.points.mechanicalPower"
             point="$ctrl.points.mechanicalPower"
@@ -91,14 +91,14 @@
         ></ma-gauge-chart>
     </div>
     <div class="margin-container">
-        <p ma-tr="edc.environmental"></p>
+        <p>Environmental</p>
         <div>
-            <h4 ma-tr="edc.outsideTemperature"></h4>
+            <h4>Outside Temperature</h4>
             <ma-point-value class="data-container" point="$ctrl.points.outsideTemperature"></ma-point-value>
             <div ng-if="!$ctrl.points.outsideTemperature">---</div>
         </div>
         <div>
-            <h4 ma-tr="edc.outsideHumity"></h4>
+            <h4>Outside Humidity</h4>
             <ma-point-value class="data-container" point="$ctrl.points.outsideHumidity"></ma-point-value>
             <div ng-if="!$ctrl.points.outsideHumidity">---</div>
         </div>
