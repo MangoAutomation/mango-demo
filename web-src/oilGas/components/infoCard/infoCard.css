@@ -1,0 +1,62 @@
+oil-gas-info-card .oil-gas-green {
+    background-color: #12BE77;
+}
+oil-gas-info-card .oil-gas-purple {
+    background-color: #8D5AC0;
+}
+oil-gas-info-card .oil-gas-blue {
+    background-color: #1A6FB2;
+}
+oil-gas-info-card .oil-gas-yellow {
+    background-color: #FFBD6E;
+}
+oil-gas-info-card .oil-gas-red {
+    background-color: #F24D4E;
+}
+
+oil-gas-info-card md-card-header {
+    padding: 8px 8px;
+}
+
+oil-gas-info-card ma-svg {
+    height: 35px;
+}
+
+oil-gas-info-card ma-date-range-picker {
+    font-weight: bold;
+}
+
+oil-gas-info-card ma-date-range-picker md-select {
+    margin: unset;
+    padding: unset;
+    border: unset;
+}
+
+oil-gas-info-card ma-date-range-picker .md-select-value {
+    background: unset !important;
+    padding: unset !important;
+    border: unset !important;
+    min-height: unset !important;
+}
+
+oil-gas-info-card ma-date-range-picker {
+     font-weight: bold;
+ }
+
+oil-gas-info-card ma-date-range-picker md-select {
+    margin: unset;
+    padding: unset;
+    border: unset;
+}
+
+oil-gas-info-card ma-date-range-picker .md-select-value {
+    background: unset !important;
+    padding: unset !important;
+    border: unset !important;
+    min-height: unset !important;
+}
+
+oil-gas-info-card .transclude-card-content {
+    padding: unset;
+    height: 100%;
+}

@@ -1,0 +1,79 @@
+oil-gas-overview-page .header-titles {
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+    color: #999999;
+}
+
+oil-gas-overview-page .oil-gas-site-name {
+    margin-top: unset;
+}
+
+oil-gas-overview-page .oil-gas-sensor-info > div {
+    margin-right: 24px;
+}
+
+oil-gas-overview-page .vertical-divider {
+    border-left: 2px solid #808080;
+    height: 15vh;
+}
+
+oil-gas-overview-page .site-title {
+    margin: unset;
+}
+
+oil-gas-overview-page .conection-indicators {
+    margin: 8px 0px;
+}
+
+oil-gas-overview-page .conection-status > ma-indicator {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    border-radius: 10%;
+}
+
+oil-gas-overview-page .WARNING {
+    background-color: #ffbd6e;
+}
+
+oil-gas-overview-page .DANGER {
+    background-color: #f04d4f;
+}
+
+oil-gas-overview-page .OK {
+    background-color: #61b576;
+}
+
+/* oil-gas-overview-page .select-site-card {
+    margin-left: auto;
+    min-width: 30vh;
+} */
+
+oil-gas-overview-page .device-details {
+    margin-left: auto;
+}
+
+oil-gas-overview-page .generator-img {
+    width: 100%;
+    padding-bottom: 24px;
+}
+
+oil-gas-overview-page .metering-points > div > div {
+    margin: 16px;
+}
+
+oil-gas-overview-page .oil-gas-site-weather md-icon,
+oil-gas-overview-page .oil-gas-site-weather ma-svg {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+}
+
+oil-gas-overview-page .oil-gas-rssi-status div {
+    margin-left: 8px;
+}
+
+oil-gas-overview-page .oil-gas-fluid-level {
+    text-transform: capitalize;
+}

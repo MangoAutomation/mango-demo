@@ -1,0 +1,7 @@
+<ma-get-point-value point-xid="{{$ctrl.point.xid}}" point="$ctrl.rssiValue"></ma-get-point-value>
+<ma-svg ng-if="$ctrl.point" class="oil-gas-rssi" ng-include="$ctrl.rssiSvg">
+    <div ma-selector="#rssi1" ng-class="{'oil-gas-signal-no-fill': $ctrl.rssiSignalUpdate($ctrl.rssiValue,1)}"></div>
+    <div ma-selector="#rssi2" ng-class="{'oil-gas-signal-no-fill': $ctrl.rssiSignalUpdate($ctrl.rssiValue,2)}"></div>
+    <div ma-selector="#rssi3" ng-class="{'oil-gas-signal-no-fill': $ctrl.rssiSignalUpdate($ctrl.rssiValue,3)}"></div>
+    <div ma-selector="#rssi4" ng-class="{'oil-gas-signal-no-fill': $ctrl.rssiSignalUpdate($ctrl.rssiValue,4)}"></div>
+</ma-svg>

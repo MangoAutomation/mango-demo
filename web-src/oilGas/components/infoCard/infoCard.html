@@ -1,0 +1,35 @@
+<md-card layout-fill>
+    <md-card-header ng-class="$ctrl.headerColor">
+        <md-card-header-text ng-if="$ctrl.customPoint == null && $ctrl.title == null" layout layout-align="center center">
+            <span ng-bind="$ctrl.point.name" ng-if="!$ctrl.alarm"></span>
+            <span ng-bind="$ctrl.alarm"></span>
+        </md-card-header-text>
+        <md-card-header-text ng-if="$ctrl.customPoint != null || $ctrl.title != null" layout layout-align="center center">
+            <span ng-bind="$ctrl.customPoint != null ? $ctrl.customPoint.name : $ctrl.title"></span>
+        </md-card-header-text>
+        <ma-date-range-picker ng-if="$ctrl.showDropdown && !$ctrl.alarm && $ctrl.point != null" from="$ctrl.from" to="$ctrl.to" preset="LAST_1_DAYS" update-interval="5 seconds" on-change="$ctrl.timeUpdated(from, to, preset)"></ma-date-range-picker>
+    </md-card-header>
+    <md-card-content layout layout-align="start center" ng-if="$ctrl.title == null" ng-transclude>
+        <div flex>
+            <ma-svg ng-include="$ctrl.icon"></ma-svg>
+        </div>
+
+        <!-- This is the display for point values and alarm values -->
+        <div ng-if="$ctrl.customPoint.value == null" flex="80" layout="row" layout-align="center center">
+            <ma-point-value ng-if="!$ctrl.showDropdown && !$ctrl.alarm" point="$ctrl.point" enable-popup="right"></ma-point-value>
+            <div ng-if="$ctrl.alarmType === 'active-alarms'" ng-bind="$ctrl.activeEvents.events.length"></div>
+            <div ng-if="$ctrl.alarmType === 'average-alarms'" ng-bind="$ctrl.average"></div>
+            <div ng-if="$ctrl.alarmType === 'per-time-alarms'" ng-bind="$ctrl.latestEvents.length"></div>
+            <ma-point-statistics ng-if="$ctrl.showDropdown" point="$ctrl.point" from="$ctrl.from" to="$ctrl.to" statistics="statsObj" display-mode="sum"></ma-point-statistics>
+        </div>
+
+        <!-- This is the display for custom points -->
+        <div ng-if="$ctrl.customPoint.value != null" flex="80" layout="row" layout-align="center center">
+            <div ng-bind="$ctrl.customPoint.value"></div>
+        </div>
+    </md-card-content>
+
+    <!-- This in incase a custom card is required, TITLE attribute is mandatory in component call in order to trigger this -->
+    <md-card-content class="transclude-card-content" ng-if="$ctrl.title != null" ng-transclude>
+    </md-card-content>
+</md-card>

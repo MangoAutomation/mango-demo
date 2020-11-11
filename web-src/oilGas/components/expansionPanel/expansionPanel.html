@@ -1,0 +1,18 @@
+<div flex="100" layout="{{$ctrl.layout}}" layout-align="{{$ctrl.layoutAlign}}">
+    <md-card flex="{{$ctrl.innerFlex}}" flex-order="{{$ctrl.cardOrder}}">
+        <md-card-header ng-class="$ctrl.headerColor">
+            <md-card-header-text layout layout-align="space-between center">
+                <span class="md-title" ng-bind="$ctrl.title"></span>
+            </md-card-header-text>
+            <md-button class="md-icon-button" aria-label="More" ng-click="$ctrl.isOpen = !$ctrl.isOpen">
+                <md-icon ng-if="!$ctrl.isOpen">add_box</md-icon>
+                <md-icon ng-if="$ctrl.isOpen">indeterminate_check_box</md-icon>
+            </md-button>
+        </md-card-header>
+        <md-card-content ng-show="$ctrl.isOpen" ng-transclude="innerContent"></md-card-content>
+    </md-card>
+
+    <div flex="{{$ctrl.outerFlex}}" layout-margin flex-order="{{$ctrl.divOrder}}">
+        <div ng-transclude="outerContent" class="no-margin"></div>
+    </div>
+</div>

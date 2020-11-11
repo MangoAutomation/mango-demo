@@ -1,0 +1,43 @@
+oil-gas-tank-cards .svg-container {
+    margin: 24px 0px;
+}
+
+oil-gas-tank-cards .alarm-warning {
+    width: 18px;
+    height: 18px;
+    margin: 0px 8px;
+}
+
+oil-gas-tank-cards md-table-container.tank-table td,
+oil-gas-tank-cards md-table-container.tank-table th {
+    padding: 10px !important;
+}
+
+oil-gas-tank-cards .oil-gas-small-tank {
+    width: 72px;
+    height: 72px;
+    margin: 0px 8px;
+}
+
+oil-gas-tank-cards .oil-gas-rssi {
+    width: 24px;
+    height: 24px;
+}
+
+oil-gas-tank-cards .oil-gas-signal-no-fill > path {
+    fill: transparent !important;
+}
+
+oil-gas-tank-cards .oil-gas-yellow > rect,
+oil-gas-tank-cards .oil-gas-yellow > path {
+    fill: #FFBD6E !important;
+}
+
+oil-gas-tank-cards .oil-gas-red > rect,
+oil-gas-tank-cards .oil-gas-red > path {
+    fill: #F24D4E !important;
+}
+
+oil-gas-tank-cards .oil-gas-capitalize {
+    text-transform: capitalize;
+}

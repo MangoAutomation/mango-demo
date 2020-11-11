@@ -1,0 +1,289 @@
+<div ng-if="$ctrl.type == 'start' && $ctrl.tankSensors.length > 0" class="svg-container">
+    <ma-svg ng-include="$ctrl.tankSvg">
+        <div ma-selector="#bg > image" href="{{$ctrl.tankPng}}"></div>
+        <div ma-selector="#InfluentValue > text" ng-bind="$ctrl.svgTankPercent('influent', 0, true)"></div>
+        <div ma-selector="#influent10" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('influent', 10)}">
+        </div>
+        <div ma-selector="#influent20" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('influent', 20)}">
+        </div>
+        <div ma-selector="#influent30" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('influent', 30)}">
+        </div>
+        <div ma-selector="#influent40" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('influent', 40)}">
+        </div>
+        <div ma-selector="#influent50" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('influent', 50)}">
+        </div>
+        <div ma-selector="#influent60" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('influent', 60)}">
+        </div>
+        <div ma-selector="#influent70" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('influent', 70)}">
+        </div>
+        <div ma-selector="#influent80" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('influent', 80)}">
+        </div>
+        <div ma-selector="#influent90" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('influent', 90)}">
+        </div>
+        <div ma-selector="#influent100" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('influent', 100)}">
+        </div>
+        <div ma-selector="#filterValue > text" ng-bind="$ctrl.svgTankPercent('filter', 0, true)"></div>
+        <div ma-selector="#filter10" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('filter', 10)}">
+        </div>
+        <div ma-selector="#filter20" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('filter', 20)}">
+        </div>
+        <div ma-selector="#filter30" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('filter', 30)}">
+        </div>
+        <div ma-selector="#filter40" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('filter', 40)}">
+        </div>
+        <div ma-selector="#filter50" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('filter', 50)}">
+        </div>
+        <div ma-selector="#filter60" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('filter', 60)}">
+        </div>
+        <div ma-selector="#filter70" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('filter', 70)}">
+        </div>
+        <div ma-selector="#filter80" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('filter', 80)}">
+        </div>
+        <div ma-selector="#filter90" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('filter', 90)}">
+        </div>
+        <div ma-selector="#filter100" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('filter', 100)}">
+        </div>
+        <div ma-selector="#TransferValue > text" ng-bind="$ctrl.svgTankPercent('transfer', 0, true)"></div>
+        <div ma-selector="#transfer10" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('transfer', 10)}">
+        </div>
+        <div ma-selector="#transfer20" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('transfer', 20)}">
+        </div>
+        <div ma-selector="#transfer30" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('transfer', 30)}">
+        </div>
+        <div ma-selector="#transfer40" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('transfer', 40)}">
+        </div>
+        <div ma-selector="#transfer50" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('transfer', 50)}">
+        </div>
+        <div ma-selector="#transfer60" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('transfer', 60)}">
+        </div>
+        <div ma-selector="#transfer70" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('transfer', 70)}">
+        </div>
+        <div ma-selector="#transfer80" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('transfer', 80)}">
+        </div>
+        <div ma-selector="#transfer90" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('transfer', 90)}">
+        </div>
+        <div ma-selector="#transfer100" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('transfer', 100)}">
+        </div>
+        <div ma-selector="#FreshwaterValue > text" ng-bind="$ctrl.svgTankPercent('freshWater', 0, true)"></div>
+        <div ma-selector="#freshA10" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('freshWater', 10)}">
+        </div>
+        <div ma-selector="#freshA20" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('freshWater', 20)}">
+        </div>
+        <div ma-selector="#freshA30" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('freshWater', 30)}">
+        </div>
+        <div ma-selector="#freshA40" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('freshWater', 40)}">
+        </div>
+        <div ma-selector="#freshA50" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('freshWater', 50)}">
+        </div>
+        <div ma-selector="#freshA60" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('freshWater', 60)}">
+        </div>
+        <div ma-selector="#freshA70" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('freshWater', 70)}">
+        </div>
+        <div ma-selector="#freshA80" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('freshWater', 80)}">
+        </div>
+        <div ma-selector="#freshA90" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('freshWater', 90)}">
+        </div>
+        <div ma-selector="#freshA100" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('freshWater', 100)}">
+        </div>
+        <div ma-selector="#freshB10" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('freshWater', 10)}">
+        </div>
+        <div ma-selector="#freshB20" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('freshWater', 20)}">
+        </div>
+        <div ma-selector="#freshB30" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('freshWater', 30)}">
+        </div>
+        <div ma-selector="#freshB40" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('freshWater', 40)}">
+        </div>
+        <div ma-selector="#freshB50" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('freshWater', 50)}">
+        </div>
+        <div ma-selector="#freshB60" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('freshWater', 60)}">
+        </div>
+        <div ma-selector="#freshB70" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('freshWater', 70)}">
+        </div>
+        <div ma-selector="#freshB80" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('freshWater', 80)}">
+        </div>
+        <div ma-selector="#freshB90" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('freshWater', 90)}">
+        </div>
+        <div ma-selector="#freshB100" ng-class="{'svg-show-tank': $ctrl.svgTankPercent('freshWater', 100)}">
+        </div>
+    </ma-svg>
+</div>
+
+<md-table-container class="tank-table" ng-if="$ctrl.type == 'start' && $ctrl.tankSensors.length > 0">
+    <table md-table md-progress="promise">
+        <thead md-head md-order="query.order">
+        <tr md-row>
+            <th md-column>Tank</th>
+            <th md-column>Volume</th>
+            <th md-column>RoC</th>
+            <th md-column>Total Capacity</th>
+            <th md-column>Level</th>
+            <th md-column>Temp.</th>
+            <th md-column>Last update</th>
+            <th md-column>Active Alarms</th>
+        </tr>
+        </thead>
+        <tbody md-body>
+        <tr md-row ng-repeat="sensor in $ctrl.tankSensors | limitTo: $ctrl.query.limit: ($ctrl.query.page - 1) * $ctrl.query.limit">
+            <td md-cell ng-bind="sensor.data.name"></td>
+            <td md-cell>
+                <div layout="column">
+                        <span
+                                ng-bind="$ctrl.pointPercent(sensor.points.volume.value, sensor.data.capacity, 'rendered')"></span>
+                    <ma-point-value point="sensor.points.volume" enable-popup="right" hide-event-indicator="true">
+                    </ma-point-value>
+                </div>
+            </td>
+            <td md-cell>
+                <ma-point-value point="sensor.points.ROC" enable-popup="right" hide-event-indicator="true">
+                </ma-point-value>
+            </td>
+            <td md-cell ng-bind="sensor.data.capacity.toFixed(2)"></td>
+            <td md-cell>
+                <ma-point-value point="sensor.points.level" enable-popup="right" hide-event-indicator="true">
+                </ma-point-value>
+            </td>
+            <td md-cell>
+                <ma-point-value point="sensor.points.temperature" enable-popup="right" hide-event-indicator="true">
+                </ma-point-value>
+            </td>
+            <td md-cell ng-bind="sensor.points.level.time | maMoment:'format': 'DD MMM YYYY hh:mm a' "></td>
+            <td md-cell>
+                <div layout layout-align="start center" ng-if="sensor.activeEvents.events.length > 0">
+                    <ma-svg class="alarm-warning" ng-include="'/modules/stallion/web/angular/images/warning.svg'">
+                    </ma-svg>
+                    <div ng-bind="sensor.activeEvents.events.length"></div>
+                </div>
+                <div layout layout-align="start center">
+                    <div ng-if="sensor.activeEvents.events.length === 0">No alarms</div>
+                    <md-button class="md-icon-button" aria-label="launch"
+                               ng-click="$ctrl.openDetectorDialog(sensor)">
+                        <md-tooltip md-direction="bottom">View alarm settings</md-tooltip>
+                        <md-icon>launch</md-icon>
+                    </md-button>
+                </div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</md-table-container>
+
+<md-table-container class="tank-table" ng-if="$ctrl.type != 'start' && $ctrl.tankSensors.length > 0">
+    <table md-table>
+        <thead md-head md-order="query.order">
+        <tr md-row>
+            <th md-column>Tank</th>
+            <th md-column>Fluid</th>
+            <th md-column ng-if="$ctrl.type == 'overview'">Level</th>
+            <th md-column ng-bind="$ctrl.type == 'overview' ? 'Current volume' : 'Total volume'"></th>
+            <th md-column ng-if="$ctrl.type == 'overview'">RoC</th>
+            <th md-column ng-if="$ctrl.type == 'overview'">Active alarms</th>
+            <th md-column ng-if="$ctrl.type == 'overview'">Battery voltage</th>
+            <th md-column ng-if="$ctrl.type == 'overview'">RSSI</th>
+            <th md-column ng-if="$ctrl.type == 'overview'">Last update</th>
+            <th md-column></th>
+        </tr>
+        </thead>
+        <tbody md-body>
+        <tr md-row ng-repeat="sensor in $ctrl.tankSensors | limitTo: $ctrl.query.limit: ($ctrl.query.page - 1) * $ctrl.query.limit">
+            <td md-cell ng-bind="sensor.name"></td>
+            <td md-cell class="oil-gas-capitalize" ng-bind="sensor.data.fluidType"></td>
+            <!-- TODO: #186 figure out how to wire up stepped svg -->
+            <td md-cell ng-if="$ctrl.type == 'overview'">
+                <div layout>
+                    <div class="oil-gas-small-tank" layout layout-align="center center">
+                        <oil-gas-fillable-tanks sensor="sensor"></oil-gas-fillable-tanks>
+                    </div>
+                    <div layout="column" layout-align="center center">
+                        <ma-point-value point="sensor.points.level" enable-popup="right">
+                        </ma-point-value>
+                        <div ng-bind="'Capacity: ' + sensor.data.capacity + ' ' + sensor.unitType"></div>
+                    </div>
+                </div>
+            </td>
+            <td md-cell>
+                <ma-point-value point="sensor.points.volume" enable-popup="bottom">
+                </ma-point-value>
+            </td>
+            <td md-cell ng-if="$ctrl.type == 'overview'">
+                <ma-point-value point="sensor.points.ROC" enable-popup="bottom"></ma-point-value>
+            </td>
+            <td md-cell ng-if="$ctrl.type == 'overview'">
+                <div layout layout-align="space-between center" ng-if="sensor.activeEvents.events.length > 0">
+                    <ma-svg class="alarm-warning" ng-include="'/modules/stallion/web/angular/images/warning.svg'">
+                    </ma-svg>
+                    <div ng-bind="sensor.activeEvents.events.length"></div>
+                    <md-button class="md-icon-button" aria-label="launch"
+                               ng-click="$ctrl.openDetectorDialog(sensor)">
+                        <md-tooltip md-direction="bottom">View alarm settings</md-tooltip>
+                        <md-icon>launch</md-icon>
+                    </md-button>
+                </div>
+                <div ng-if="sensor.activeEvents.events.length === 0">No alarms</div>
+            </td>
+            <td md-cell ng-if="$ctrl.type == 'overview'">
+                <ma-point-value point="sensor.points.battery" enable-popup="bottom"></ma-point-value>
+            </td>
+            <td md-cell ng-if="$ctrl.type == 'overview'">
+                <div>
+                    <oil-gas-rssi-indicator point="sensor.points.rssi"></oil-gas-rssi-indicator>
+                    <ma-point-value point="sensor.points.rssi" enable-popup="bottom"></ma-point-value>
+                </div>
+            </td>
+            <td md-cell ng-if="$ctrl.type == 'overview'">
+                <ma-point-value point="sensor.points.runtimeAndLastUpdate" enable-popup="bottom"
+                                display-type="dateTime" date-time-format="l LT"></ma-point-value>
+            </td>
+            <td md-cell>
+                <div layout>
+                    <md-button class="md-icon-button" aria-label="view" ui-state="'ui.fluidlevel.details'"
+                               ui-state-params="{site: sensor.siteXid, equipment: sensor.equipmentXid, sensor: sensor.xid}">
+                        <md-icon>visibility</md-icon>
+                    </md-button>
+                    <md-button class="md-icon-button" aria-label="settings"
+                               ui-state="'ui.configuration.equipmentSetup'"
+                               ui-state-params="{equipment: sensor.equipmentXid}">
+                        <md-icon>settings</md-icon>
+                    </md-button>
+                </div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</md-table-container>
+
+<md-table-pagination ng-if="$ctrl.type != 'start' && $ctrl.tankSensors.length > 0" md-limit="$ctrl.query.limit"
+                     md-limit-options="[5, 10, 15, 20]" md-page="$ctrl.query.page" md-total="{{$ctrl.query.total}}" md-page-select></md-table-pagination>
+
+<ma-dialog show-dialog="$ctrl.showSensorDialog" on-hide="$ctrl.sensorDialogHidden()"
+           on-cancel="$ctrl.sensorDialogCancelled()">
+    <md-dialog flex-xs="100">
+        <md-toolbar>
+            <div class="md-toolbar-tools">
+                <h2>Configure Detectors - {{$ctrl.selectedSensor.xid}}</h2>
+                <span flex></span>
+                <md-button class="md-icon-button" ng-click="$dialog.cancel()">
+                    <md-icon>close</md-icon>
+                </md-button>
+            </div>
+        </md-toolbar>
+
+        <div ng-init="$ctrl.dialog = $dialog"></div>
+
+        <md-dialog-content layout="column" flex>
+            <div class="md-padding">
+                <oil-gas-start-settings ng-if="$ctrl.type == 'start' && $ctrl.tankSensors.length > 0"
+                                         sensor="$ctrl.selectedSensor" type="detectors">
+                </oil-gas-start-settings>
+                <oil-gas-tank-settings ng-if="$ctrl.type != 'start' && $ctrl.tankSensors.length > 0"
+                                        sensor="$ctrl.selectedSensor" type="detectors">
+                </oil-gas-tank-settings>
+            </div>
+            <div class="md-padding" flex="100" layout="row" layout-align="start center">
+                <md-button class="md-raised md-primary" ng-click="$ctrl.saveSensor($dialog)">
+                    <md-icon>save</md-icon>
+                    Save
+                </md-button>
+            </div>
+        </md-dialog-content>
+    </md-dialog>
+</ma-dialog>

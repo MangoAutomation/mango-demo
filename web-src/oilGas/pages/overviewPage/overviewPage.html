@@ -1,0 +1,295 @@
+<main layout="row" layout-align="space-between start" layout-wrap>
+    <div flex="100" layout="column" layout-align="space-between stretch" layout-gt-sm="row" layout-align-gt-sm="space-around start" layout-margin>
+        <div flex-xs="100" flex-sm="100" flex-gt-sm="none" layout="row" layout-align="start center"
+             class="start-logo-container">
+            <img src="../../assets/fl-logo.png" alt="startLogo">
+        </div>
+        <div hide-xs hide-sm class="vertical-divider"></div>
+        <div layout-margin>
+            <div class="oil-gas-site-name">
+                <div layout layout-align="start center">
+                    <h3 class="site-title" ng-bind="$ctrl.selectedSite.name"></h3>
+                    <md-button class="md-icon-button test-tooltip" aria-label="Refresh" ui-state="'ui.sitesOverview'"
+                               ui-state-params="{site: $ctrl.selectedSite.xid}">
+                        <md-tooltip md-direction="right">View site details</md-tooltip>
+                        <md-icon>launch</md-icon>
+                    </md-button>
+                </div>
+            </div>
+            <div>
+                <div layout layout-align="start center">
+                    <ma-svg ng-include="$ctrl.weatherIcon" style="width: 24px; margin: 8px;"></ma-svg>
+                    <span>55.96°F</span>
+                    &ndash;
+                    <span>Clear</span>
+                </div>
+            </div>
+            <div>
+                <div layout layout-align="start center">
+                    <ma-svg ng-include="$ctrl.windIcon" style="width: 24px; margin: 8px;"></ma-svg>
+                    <span>NNE</span>
+                    &ndash;
+                    <span>West</span>
+                </div>
+            </div>
+            <div>
+                <div layout layout-align="start center">
+                    <md-icon style="font-size: 24px; margin: 8px;">location_on</md-icon>
+                    <span ng-bind="$ctrl.parseLocation($ctrl.selectedEquipment.latitude, $ctrl.selectedEquipment.longitude)"></span>
+                </div>
+            </div>
+        </div>
+        <div flex-gt-sm></div>
+        <md-card class="select-site-card">
+            <md-card-header>
+                <md-card-header-text>
+                    <span>
+                        <md-icon>filter_list</md-icon>
+                        <span class="md-title">Search for sensor</span>
+                    </span>
+                </md-card-header-text>
+            </md-card-header>
+            <md-card-content layout layout-wrap>
+                <md-input-container md-no-float="true" flex="100" flex-gt-sm="50">
+                    <label class="header-titles">Organization</label>
+                    <ma-drop-down-button>
+                        <span ng-if="$ctrl.selectedCustomer != null" ng-bind="$ctrl.selectedCustomer.name"></span>
+                        <em ng-if="$ctrl.selectedCustomer == null">No organizations</em>
+                        <ma-drop-down auto-focus="::false">
+                            <ma-option-list
+                                    name="site"
+                                    ng-model="$ctrl.selectedCustomer"
+                                    items="$ctrl.customers | maFilter:$filter"
+                                    ng-change="$ctrl.customerChanged()"
+                                    has-value="$value !== null"
+                                    ma-configure-input-container
+                            >
+                                <ma-option ng-repeat="customer in $items" ng-value="customer">
+                                    <span md-highlight-text="$filter" md-highlight-flags="ig">{{customer.name}}</span>
+                                </ma-option>
+                            </ma-option-list>
+                        </ma-drop-down>
+                    </ma-drop-down-button>
+                </md-input-container>
+                <md-input-container md-no-float="true" flex="100" flex-gt-sm="50">
+                    <label class="header-titles">Site name</label>
+                    <ma-drop-down-button>
+                        <span ng-if="$ctrl.selectedSite != null" ng-bind="$ctrl.selectedSite.name"></span>
+                        <em ng-if="$ctrl.selectedSite == null">No sites</em>
+                        <ma-drop-down auto-focus="::false">
+                            <ma-option-list name="site" ng-model="$ctrl.selectedSite"
+                                            items="$ctrl.sites | maFilter:$filter" ng-change="$ctrl.siteChanged()"
+                                            has-value="$value !== null" ma-configure-input-container>
+                                <ma-option ng-repeat="site in $items" ng-value="site">
+                                    <span md-highlight-text="$filter" md-highlight-flags="ig">{{site.name}}</span>
+                                </ma-option>
+                            </ma-option-list>
+                        </ma-drop-down>
+                    </ma-drop-down-button>
+                </md-input-container>
+                <md-input-container md-no-float="true" flex="100" flex-gt-sm="50">
+                    <label class="header-titles">Equipment</label>
+                    <ma-drop-down-button>
+                        <span ng-if="$ctrl.selectedEquipment != null" ng-bind="$ctrl.selectedEquipment.name"></span>
+                        <em ng-if="$ctrl.selectedEquipment == null">No equipment</em>
+                        <ma-drop-down auto-focus="::false">
+                            <ma-option-list name="site" ng-model="$ctrl.selectedEquipment"
+                                            items="$ctrl.equipments | maFilter:$filter" ng-change="$ctrl.equipmentChanged()"
+                                            has-value="$value !== null" ma-configure-input-container>
+                                <ma-option ng-repeat="equipment in $items" ng-value="equipment">
+                                    <span md-highlight-text="$filter" md-highlight-flags="ig">{{equipment.name}}</span>
+                                </ma-option>
+                            </ma-option-list>
+                        </ma-drop-down>
+                    </ma-drop-down-button>
+                </md-input-container>
+                <md-input-container md-no-float="true" flex="100" flex-gt-sm="50">
+                    <label class="header-titles">Sensor</label>
+                    <ma-drop-down-button>
+                        <span ng-if="$ctrl.selectedSensor != null" ng-bind="$ctrl.selectedSensor.name"></span>
+                        <em ng-if="$ctrl.selectedSensor == null">No sensors</em>
+                        <ma-drop-down auto-focus="::false">
+                            <ma-option-list name="site" ng-model="$ctrl.selectedSensor"
+                                            items="$ctrl.sensors | maFilter:$filter" ng-change="$ctrl.sensorChanged()"
+                                            has-value="$value !== null" ma-configure-input-container>
+                                <ma-option ng-repeat="sensor in $items" ng-value="sensor">
+                                    <span md-highlight-text="$filter" md-highlight-flags="ig">{{sensor.name}}</span>
+                                </ma-option>
+                            </ma-option-list>
+                        </ma-drop-down>
+                    </ma-drop-down-button>
+                </md-input-container>
+            </md-card-content>
+        </md-card>
+    </div>
+    <div class="oil-gas-sensor-info" flex="100" layout="column" layout-align="space-between stretch" layout-gt-sm="row" layout-align-gt-sm="start center" layout-margin>
+        <div>
+            <label class="header-titles">Device name</label>
+            <h3 class="site-title" ng-bind="$ctrl.selectedSensor.name"></h3>
+        </div>
+        <div>
+            <label class="header-titles">Status</label>
+            <div layout="row" class="conection-status">
+                <ma-indicator point="$ctrl.selectedEquipment.points.connected" color-false="#F24D4E" color-true="#12BE77" style="width: 22px"></ma-indicator>
+                <ma-get-point-value point="$ctrl.selectedEquipment.points.connected"></ma-get-point-value>
+                <span ng-bind="$ctrl.selectedEquipment.points.connected.value ? 'Connected' : 'Disconnected'"></span>
+            </div>
+        </div>
+        <div>
+            <label class="header-titles">Connection</label>
+            <div layout="row" class="oil-gas-rssi-status">
+                <oil-gas-rssi-indicator point="$ctrl.selectedEquipment.points.rssi"></oil-gas-rssi-indicator>
+                <div>LTE</div>
+            </div>
+        </div>
+        <div>
+            <label class="header-titles">Fluid Type</label>
+            <span class="oil-gas-fluid-level" ng-bind="$ctrl.selectedSensor.data.fluidType"></span>
+        </div>
+        <div>
+            <label class="header-titles">Uptime</label>
+            <ma-point-value point="$ctrl.selectedEquipment.points.uptime" enable-popup="bottom">
+            </ma-point-value>
+        </div>
+        <div>
+            <label class="header-titles">Last update</label>
+            <ma-point-value point="$ctrl.selectedEquipment.points.lastUpdate" display-type="dateTime"
+                            date-time-format="l LT" enable-popup="bottom" hide-event-indicator="true"></ma-point-value>
+        </div>
+    </div>
+    <div flex="100" layout-gt-sm="row" layout-align="space-between start">
+        <div flex-gt-sm="66">
+            <div layout-gt-xs="row">
+                <oil-gas-info-card flex layout-margin icon="{{$ctrl.dropSvg}}" custom-point="$ctrl.totalStoredFluid"
+                                    point="$ctrl.selectedSite.metaPoints.totalStoredFluid" header-color="oil-gas-green">
+                </oil-gas-info-card>
+                <oil-gas-info-card flex layout-margin icon="{{$ctrl.alarmSvg}}"
+                                    point-ids="$ctrl.selectedSensor.pointIds" header-color="oil-gas-red" alarm-type="active-alarms">
+                </oil-gas-info-card>
+            </div>
+            <md-card>
+                <md-card-header>
+                    <md-card-header-text>
+                        <span class="md-title">Metering</span>
+                    </md-card-header-text>
+                </md-card-header>
+                <md-card-content ng-if="$ctrl.selectedSensor" layout layout-wrap>
+                    <div flex flex-xs="100" flex-sm="100" layout="column" layout-align="space-around center"
+                         layout-margin>
+                        <div>
+                            <label class="header-titles">Level</label>
+                            <ma-point-value point="$ctrl.selectedSensor.points.level" enable-popup="bottom">
+                            </ma-point-value>
+                        </div>
+                        <div ng-if="$ctrl.selectedSensor.points">
+                            <oil-gas-fillable-tanks sensor="$ctrl.selectedSensor"></oil-gas-fillable-tanks>
+                        </div>
+                    </div>
+                    <div flex flex-xs="100" flex-sm="100" layout layout-align="space-around strech" layout-margin>
+                        <div layout="column" layout-align="space-between start" layout-margin>
+                            <div>
+                                <label class="header-titles">Dimensions</label>
+                                <div class="oil-gas-small-text"
+                                     ng-if="$ctrl.selectedSensor.data.dimensions.tankType === 'verticalCylinder' || $ctrl.selectedSensor.data.dimensions.tankType === 'rectangular'">
+                                    Height: {{ $ctrl.selectedSensor.data.dimensions.height }}</div>
+                                <div class="oil-gas-small-text oil-gas-no-wrap"
+                                     ng-if="$ctrl.selectedSensor.data.dimensions.tankType === 'rectangular'">Width:
+                                    {{ $ctrl.selectedSensor.data.dimensions.width }}</div>
+                                <div class="oil-gas-small-text oil-gas-no-wrap"
+                                     ng-if="$ctrl.selectedSensor.data.dimensions.tankType === 'horizontalCylinder'">
+                                    Length:
+                                    {{ $ctrl.selectedSensor.data.dimensions.length }}</div>
+                                <div class="oil-gas-small-text oil-gas-no-wrap"
+                                     ng-if="$ctrl.selectedSensor.data.dimensions.tankType === 'rectangular'">Depth:
+                                    {{ $ctrl.selectedSensor.data.dimensions.depth }}</div>
+                                <div class="oil-gas-small-text oil-gas-no-wrap"
+                                     ng-if="$ctrl.selectedSensor.data.dimensions.tankType === 'verticalCylinder' || $ctrl.selectedSensor.data.dimensions.tankType === 'horizontalCylinder'">
+                                    Diameter: {{ $ctrl.selectedSensor.data.dimensions.diameter }}</div>
+                                <div class="oil-gas-small-text"
+                                     ng-bind="'Total: ' + $ctrl.selectedSensor.data.capacity + ' ' + $ctrl.selectedSensor.unitType">
+                                </div>
+                            </div>
+                            <div>
+                                <label class="header-titles">Maximun Volume</label>
+                                <div ng-bind="$ctrl.calculatePercentage(statsObj, 'maximum')"></div>
+                                <ma-point-statistics class="oil-gas-small-text"
+                                                     point="$ctrl.selectedSensor.points.volume" from="$ctrl.maUiDateBar.from"
+                                                     to="$ctrl.maUiDateBar.to" statistics="statsObj" display-mode="maximum"
+                                                     first-last="false">
+                                </ma-point-statistics>
+                            </div>
+                            <div>
+                                <label class="header-titles">Battery voltage</label>
+                                <ma-point-value point="$ctrl.selectedSensor.points.battery" enable-popup="bottom">
+                                </ma-point-value>
+                            </div>
+                            <div>
+                                <label class="header-titles">RSSI</label>
+                                <oil-gas-rssi-indicator point="$ctrl.selectedSensor.points.rssi">
+                                </oil-gas-rssi-indicator>
+                                <ma-point-value point="$ctrl.selectedSensor.points.rssi" enable-popup="bottom">
+                                </ma-point-value>
+                            </div>
+                        </div>
+                        <div layout="column" layout-align="space-between start" layout-margin>
+                            <div>
+                                <label class="header-titles">Average Volume</label>
+                                <div ng-bind="$ctrl.calculatePercentage(statsObj, 'average')"></div>
+                                <ma-point-statistics class="oil-gas-small-text"
+                                                     point="$ctrl.selectedSensor.points.volume" from="$ctrl.maUiDateBar.from"
+                                                     to="$ctrl.maUiDateBar.to" statistics="statsObj" display-mode="average"
+                                                     first-last="false">
+                                </ma-point-statistics>
+                            </div>
+                            <div>
+                                <label class="header-titles">Minimun Volume</label>
+                                <div ng-bind="$ctrl.calculatePercentage(statsObj, 'minimum')"></div>
+                                <ma-point-statistics class="oil-gas-small-text"
+                                                     point="$ctrl.selectedSensor.points.volume" from="$ctrl.maUiDateBar.from"
+                                                     to="$ctrl.maUiDateBar.to" statistics="statsObj" display-mode="minimum"
+                                                     first-last="false">
+                                </ma-point-statistics>
+                            </div>
+                            <div>
+                                <label class="header-titles">Current Volume</label>
+                                <ma-point-value point="$ctrl.selectedSensor.points.volume" enable-popup="bottom">
+                                </ma-point-value>
+                            </div>
+                            <div>
+                                <label class="header-titles">Sensor</label>
+                                <div layout="column">
+                                    <ma-point-value point="$ctrl.selectedSensor.points.sensorVoltage"
+                                                    enable-popup="right">
+                                    </ma-point-value>
+                                    <ma-point-value point="$ctrl.selectedSensor.points.sensorCurrent"
+                                                    enable-popup="right">
+                                    </ma-point-value>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </md-card-content>
+            </md-card>
+            <oil-gas-expansion-panel title="Statistics">
+                <inner-content>
+                    <oil-gas-statistics-widget product="generator" sensor="$ctrl.selectedSensor" column="true"
+                                                default-points="$ctrl.defaultPoints">
+                    </oil-gas-statistics-widget>
+                </inner-content>
+            </oil-gas-expansion-panel>
+            <oil-gas-expansion-panel title="Alarms">
+                <inner-content>
+                    <oil-gas-events-alarms-table point-ids="$ctrl.selectedSensor.pointIds">
+                    </oil-gas-events-alarms-table>
+                </inner-content>
+            </oil-gas-expansion-panel>
+        </div>
+        <div flex-gt-sm="33">
+            <oil-gas-expansion-panel title="Select a Tank" initial-open="true">
+                <inner-content>
+                    <oil-gas-tank-cards type="details" sensors="$ctrl.sensors"></oil-gas-tank-cards>
+                </inner-content>
+            </oil-gas-expansion-panel>
+        </div>
+    </div>
+</main>

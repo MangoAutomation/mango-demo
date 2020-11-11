@@ -1,0 +1,8 @@
+oil-gas-rssi-indicator .oil-gas-rssi {
+    width: 24px;
+    height: 24px;
+}
+
+oil-gas-rssi-indicator .oil-gas-signal-no-fill > path {
+    fill: transparent !important;
+}
