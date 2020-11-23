@@ -1,0 +1,34 @@
+<ma-tile-map
+        style="height: 550px"
+        center="$ctrl.center"
+        zoom="$ctrl.zoom"
+        options="$ctrl.options"
+        on-move="$ctrl.center = $center; $ctrl.zoom = $zoom"
+>
+    <div ng-init="$ctrl.onlineUnitIcon = $leaflet.icon({iconUrl: $ctrl.onlineIcon, iconSize: [32,32]})"></div>
+    <div ng-init="$ctrl.offlineUnitIcon = $leaflet.icon({iconUrl: $ctrl.offlineIcon, iconSize: [32,32]})"></div>
+    <div ng-init="$ctrl.addEventListener($map)"></div>
+
+    <div ng-repeat="unit in $ctrl.units track by unit.name">
+        <ma-tile-map-marker
+                coordinates="[unit.lat, unit.lon]"
+                riseonhover="true"
+                options="{riseOnHover: true}"
+                icon="unit.points.status.value ? $ctrl.onlineUnitIcon : $ctrl.offlineUnitIcon"
+                on-click="$ctrl.selectUnit(unit)"
+        >
+            <p class="title" md-colors="{color: 'primary-700'}" ng-bind="unit.name"></p>
+
+            <div class="data-container">
+                <div>
+                    <p md-colors="{color: 'accent'}">Occupancy</p>
+                    <ma-point-value point="unit.points.occupancy"></ma-point-value>
+                </div>
+                <div>
+                    <p md-colors="{color: 'accent'}">Status</p>
+                    <ma-point-value point="unit.points.status"></ma-point-value>
+                </div>
+            </div>
+        </ma-tile-map-marker>
+    </div>
+</ma-tile-map>

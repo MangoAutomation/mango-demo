@@ -15,7 +15,7 @@
         </div>
 
         <!-- This is the display for point values and alarm values -->
-        <div ng-if="$ctrl.customPoint.value == null" flex="80" layout="row" layout-align="center center">
+        <div flex="80" layout="row" layout-align="center center">
             <ma-point-value ng-if="!$ctrl.showDropdown && !$ctrl.alarm" point="$ctrl.point" enable-popup="right"></ma-point-value>
             <div ng-if="$ctrl.alarmType === 'active-alarms'" ng-bind="$ctrl.activeEvents.events.length"></div>
             <div ng-if="$ctrl.alarmType === 'average-alarms'" ng-bind="$ctrl.average"></div>

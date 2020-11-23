@@ -1,0 +1,37 @@
+<md-card md-colors="{border: 'primary-700'}">
+    <md-card-content>
+        <div layout="row" layout-wrap layout-align="space-between start">
+            <div flex="100" flex-gt-sm="50" flex-gt-md="70">
+
+                <div flex="100" class="title-container">
+                    <ma-point-value point="$ctrl.unit.points.status"></ma-point-value>
+                    <p md-colors="{color: 'primary-700'}" ng-bind="$ctrl.unit.name"></p>
+                </div>
+
+                <div class="data-container" flex="100" layout="row" layout-wrap layout-align="start start">
+                    <div>
+                        <p md-colors="{color: 'accent'}">Power</p>
+                        <ma-point-value md-colors="{color: 'primary-700'}" point="$ctrl.unit.points.power"></ma-point-value>
+                    </div>
+                    <div>
+                        <p md-colors="{color: 'accent'}">kW/ton</p>
+                        <ma-point-value md-colors="{color: 'primary-700'}" point="$ctrl.unit.points.kwTon"></ma-point-value>
+                    </div>
+                    <div>
+                        <p md-colors="{color: 'accent'}">Occupancy</p>
+                        <ma-point-value point="$ctrl.unit.points.occupancy"></ma-point-value>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="location-container" flex="100" flex-gt-sm="50" flex-gt-md="30" layout="row" layout-align="start start">
+                <img src="{{ $ctrl.locationIcon }}" alt="Location icon">
+                <div>
+                    <p md-colors="{color: 'accent'}">Location</p>
+                    <span md-colors="{color: 'primary-700'}">{{ $ctrl.unit.lat }}, {{ $ctrl.unit.lon }}</span>
+                </div>
+            </div>
+        </div>
+    </md-card-content>
+</md-card>

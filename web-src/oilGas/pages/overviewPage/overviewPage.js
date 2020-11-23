@@ -9,11 +9,26 @@ import './overviewPage.css';
 import weatherIcon from '../../assets/weather-icon.svg';
 import windIcon from '../../assets/wind.svg';
 
+import dropSvg from '../../assets/fresh-water-available.svg';
+import alarmSvg from '../../assets/alarm.svg';
+
+const SITE_POINTS_MAP = {
+    'Total Stored Fluid': 'totalStoredFluid'
+}
+
 const EQUIPMENT_POINTS_MAP = {
     'Connected': 'connected',
     'rssi': 'rssi',
     'Uptime': 'uptime',
     'Last Update': 'lastUpdate'
+}
+
+const SENSOR_POINTS_MAP = {
+    'Level': 'level',
+    'Water Available': 'volume',
+    'Battery Voltage': 'battery',
+    'rssi': 'rssi',
+    'Sensor Voltage': 'sensorVoltage'
 }
 
 class OverviewController {
@@ -33,6 +48,8 @@ class OverviewController {
 
         this.weatherIcon = weatherIcon;
         this.windIcon = windIcon;
+        this.dropSvg = dropSvg;
+        this.alarmSvg = alarmSvg;
     }
 
     $onInit() {
@@ -62,10 +79,26 @@ class OverviewController {
     }
 
     siteChanged() {
+        this.getSitePoints();
         this.getEquipments().then(equipments => {
             this.equipments = equipments;
             [this.selectedEquipment] = this.equipments;
-        }).then(() => this.equipmentChanged());
+        }).then(() => this.equipmentChanged())
+    }
+
+    getSitePoints() {
+        return this.maPoint
+            .buildQuery()
+            .eq('tags.siteXid', this.selectedSite.xid)
+            .query()
+            .then(points => {
+                this.selectedSite.points = points.reduce((result, point) => {
+                    if (SITE_POINTS_MAP[point.name]) {
+                        result[SITE_POINTS_MAP[point.name]] = point;
+                    }
+                    return result;
+                }, {});
+            });
     }
 
     getEquipments() {
@@ -98,18 +131,23 @@ class OverviewController {
     getSensors() {
         this.sensors = this.selectedEquipment.sensors;
         [this.selectedSensor] = this.sensors;
+        this.sensorChanged();
     }
 
     sensorChanged() {
-        this.maPoint
+        return this.maPoint
             .buildQuery()
             .eq('tags.sensorXid', this.selectedSensor.xid)
             .query()
             .then(points => {
-                this.points.reduce((result, point) => {
+                this.selectedSensor.points = points.reduce((result, point) => {
+                    if (SENSOR_POINTS_MAP[point.name]) {
+                        result[SENSOR_POINTS_MAP[point.name]] = point;
+                    }
+                    return result;
+                }, {});
 
-                })
-            })
+            });
     }
 
     parseLocation(lat, lng) {
@@ -130,6 +168,20 @@ class OverviewController {
             renderedLocation = `${renderedLng}, ${renderedLat}`;
         }
         return renderedLocation;
+    }
+
+    calculatePercentage(statsObj, type) {
+        let percent = 0;
+        if (statsObj != null && type !== 'level') {
+            [percent] = statsObj[type].value.split(
+                'gal'
+            );
+            percent = (percent / this.selectedSensor.data.capacity) * 100;
+        }
+        if (this.selectedSensor == null) {
+            return null;
+        }
+        return `${percent.toFixed(2)} %`;
     }
 }
 

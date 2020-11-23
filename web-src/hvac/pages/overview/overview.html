@@ -1,0 +1,57 @@
+<div class="left-container" layout="row" layout-wrap layout-align="space-between start">
+    <div flex="100" flex-gt-sm="50" flex-gt-md="60">
+        <hvac-kpi-indicators units-count="$ctrl.units.length"></hvac-kpi-indicators>
+
+        <md-card>
+            <md-card-header>
+                <p md-colors="::{color: 'accent'}">Active Alarms</p>
+            </md-card-header>
+
+            <md-card-content>
+                <hvac-map units="$ctrl.units" on-select-unit="$ctrl.onSelectUnit(unit)"></hvac-map>
+            </md-card-content>
+        </md-card>
+
+        <hvac-selected-unit-card ng-if="$ctrl.selectedUnit" unit="$ctrl.selectedUnit"></hvac-selected-unit-card>
+    </div>
+    <div class="right-container" flex="100" flex-gt-sm="50" flex-gt-md="40">
+
+        <div layout="row" layout-wrap layout-align="space-between stretch">
+            <div class="energy-chart-container" flex="100" flex-gt-md="60">
+                <md-card>
+                    <md-card-header>
+                        <p md-colors="::{color: 'accent'}">Energy vs kW/ton ratio</p>
+                    </md-card-header>
+
+                    <md-card-content>
+                        <hvac-energy-chart></hvac-energy-chart>
+                    </md-card-content>
+                </md-card>
+            </div>
+
+            <div class="alarms-list-container" flex="100" flex-gt-md="40">
+                <md-card flex="100">
+                    <md-card-header layout="row" layout-align="space-between center">
+                        <p md-colors="::{color: 'accent'}">Active Alarms</p>
+                        <a ui-sref="ui.events">
+                            <md-icon>visibility</md-icon>
+                        </a>
+                    </md-card-header>
+                    <md-card-content>
+                        <hvac-alarm-list></hvac-alarm-list>
+                    </md-card-content>
+                </md-card>
+            </div>
+        </div>
+
+        <md-card>
+            <md-card-header>
+                <p md-colors="::{color: 'accent'}">Units</p>
+            </md-card-header>
+
+            <md-card-content>
+                <hvac-units-table units="$ctrl.units"></hvac-units-table>
+            </md-card-content>
+        </md-card>
+    </div>
+</div>

@@ -1,0 +1,32 @@
+<div layout="row" layout-wrap layout-align="space-between start">
+    <div flex="100" flex-gt-md="33">
+        <md-card>
+            <md-card-content>
+                <p>Occupied Sites</p>
+                <span>
+                    <ma-point-value point="$ctrl.points.occupiedUnits"></ma-point-value>
+                    of
+                    {{ $ctrl.unitsCount }}
+                </span>
+            </md-card-content>
+        </md-card>
+    </div>
+
+    <div flex="100" flex-gt-md="33">
+        <md-card>
+            <md-card-content>
+                <p>Max kW/ton</p>
+                <ma-point-value point="$ctrl.points.maxKwTon"></ma-point-value>
+            </md-card-content>
+        </md-card>
+    </div>
+
+    <div flex="100" flex-gt-md="33">
+        <md-card>
+            <md-card-content>
+                <p>Consumed Energy</p>
+                <ma-point-value point="$ctrl.points.energy"></ma-point-value>
+            </md-card-content>
+        </md-card>
+    </div>
+</div>

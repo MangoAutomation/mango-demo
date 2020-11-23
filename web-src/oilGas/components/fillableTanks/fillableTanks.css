@@ -1,0 +1,17 @@
+oil-gas-fillable-tanks .svg-color-fill.oil-gas-yellow > rect,
+oil-gas-fillable-tanks .svg-color-fill.oil-gas-yellow > path {
+    fill: #FFBD6E !important;
+}
+
+oil-gas-fillable-tanks .svg-color-fill.oil-gas-red > rect,
+oil-gas-fillable-tanks .svg-color-fill.oil-gas-red > path {
+    fill: #F24D4E !important;
+}
+
+oil-gas-fillable-tanks .svg-hide-tank {
+    display: none;
+}
+
+oil-gas-fillable-tanks .svg-show-tank {
+    display: block !important;
+}

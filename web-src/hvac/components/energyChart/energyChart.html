@@ -1,0 +1,40 @@
+<ma-point-values
+        point="$ctrl.points.energy"
+        values="$ctrl.energyValues"
+        rendered="true"
+        from="$ctrl.DateBar.from"
+        to="$ctrl.DateBar.to"
+        rollup="DELTA"
+        rollup-interval="1 HOURS"
+></ma-point-values>
+
+<ma-point-values
+        point="$ctrl.points.kwTon"
+        values="$ctrl.kwTonValues"
+        rendered="true"
+        from="$ctrl.DateBar.from"
+        to="$ctrl.DateBar.to"
+        rollup="AVERAGE"
+        rollup-interval="1 HOURS"
+></ma-point-values>
+
+<ma-serial-chart
+        style="height: 300px; width: 100%"
+        series-1-point="$ctrl.points.energy"
+        series-1-values="$ctrl.energyValues"
+        series-1-type="column"
+        series-1-axis="left"
+        series-1-title="Consumed Energy [kWh]"
+        series-1-graph-options="{fillAlphas: 1}"
+        series-2-point="$ctrl.points.kwTon"
+        series-2-values="$ctrl.kwTonValues"
+        series-2-type="line"
+        series-2-axis="right"
+        series-2-title="kW/ton ratio"
+        legend="true"
+        options="{
+            'legend' : {
+                align: 'center',
+            },
+        }"
+></ma-serial-chart>

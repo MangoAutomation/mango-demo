@@ -126,22 +126,11 @@ class StatisticsWidgetController {
                 });
         }
         if (this.sensor) {
-            return this.sensor
-                .getPoints()
-                .then((points) => {
-                    return this.maFilter(points, filter, [
-                        'name',
-                        'native',
-                        'common'
-                    ]);
-                })
-                .catch((err) => {
-                    this.maDialogHelper.toastOptions({
-                        text: `Error getting points - ${err.mangoStatusText}`,
-                        hideDelay: 10000,
-                        classes: 'md-warn'
-                    });
-                });
+            return this.maFilter(this.sensor.points, filter, [
+                'name',
+                'native',
+                'common'
+            ]);
         }
         return [];
     }

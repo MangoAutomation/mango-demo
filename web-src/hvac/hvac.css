@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+/*
+    Overview page
+*/
+
+hvac-overview md-card-header {
+    padding-bottom: 0;
+}
+
+hvac-overview md-card-header p {
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+hvac-overview .right-container .energy-chart-container,
+hvac-overview .right-container .alarms-list-container {
+    margin-bottom: 1rem;
+}
+
+hvac-overview .right-container .energy-chart-container md-card,
+hvac-overview .right-container .alarms-list-container md-card {
+    height: 100%;
+}
+
+hvac-overview .right-container .alarms-list-container a {
+    border-bottom-color: transparent;
+}
+
+hvac-overview .right-container .alarms-list-container a md-icon {
+    color: var(--ma-accent);
+}
+
+/*
+    map component
+*/
+
+hvac-map ma-tile-map .leaflet-popup-content p {
+    margin: 0;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+hvac-map ma-tile-map .title {
+    font-size: 1.25rem !important;
+    text-transform: uppercase;
+}
+
+hvac-map ma-tile-map ma-tile-map-marker .data-container {
+    display: flex;
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+    text-transform: uppercase;
+}
+
+hvac-map ma-tile-map ma-tile-map-marker .data-container div {
+    width: 50%;
+    padding: 0.75rem;
+}
+
+hvac-map ma-tile-map ma-tile-map-marker .data-container ma-point-value {
+    width: 50%;
+    font-size: 1.375rem;
+}
+
+/*
+    selectedUnitCard component
+*/
+
+hvac-selected-unit-card {
+    text-transform: uppercase;
+}
+
+hvac-selected-unit-card md-card {
+    border-style: solid !important;
+    border-width: 2px !important;
+}
+
+hvac-selected-unit-card p {
+    margin: 0;
+}
+
+hvac-selected-unit-card md-card-content > div {
+    margin: 0 -1rem;
+}
+
+hvac-selected-unit-card md-card-content > div > div {
+    padding: 0 1rem;
+}
+
+hvac-selected-unit-card .title-container ma-point-value {
+    font-size: 1.375rem;
+}
+
+hvac-selected-unit-card .title-container p {
+    font-size: 3rem;
+    line-height: 1;
+}
+
+hvac-selected-unit-card .data-container {
+    margin: 1rem -2rem 0 -2rem;
+}
+
+hvac-selected-unit-card .data-container div {
+    padding: 2rem 2rem 0 2rem;
+}
+
+hvac-selected-unit-card .data-container p {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+hvac-selected-unit-card .location-container {
+    padding: 1rem;
+}
+
+hvac-selected-unit-card .location-container div {
+    margin-left: 1rem;
+}
+
+hvac-selected-unit-card .location-container p {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+hvac-selected-unit-card .location-container span {
+    font-size: 1.375rem;
+}
+
+/*
+    unitsTable component
+*/
+
+hvac-units-table thead tr.md-row,
+hvac-units-table tbody tr.md-row .name,
+hvac-units-table tbody tr.md-row .status,
+hvac-units-table tbody tr.md-row .occupancy {
+    text-transform: uppercase;
+}
+
+hvac-units-table md-table-container thead tr.md-row {
+    height: 2rem !important;
+    color: var(--ma-accent);
+}
+
+hvac-units-table md-table-container thead th {
+    font-size: 1rem !important;
+}
+
+hvac-units-table md-table-container thead th.md-column:first-of-type {
+    padding-left: unset !important;
+}
+
+hvac-units-table md-table-container thead th.md-column:last-of-type {
+    padding-right: unset !important;
+}
+
+hvac-units-table md-table-container table.md-table td.md-cell {
+    border-top: 0;
+    padding-top: 1rem !important;
+}
+
+hvac-units-table md-table-container tbody tr.md-row:first-of-type td.md-cell {
+    border-top: 1px solid var(--ma-primary-700);
+}
+
+hvac-units-table md-table-container tbody tr td.md-cell:first-of-type {
+    padding-left: unset !important;
+}
+
+hvac-units-table md-table-container tbody tr td.md-cell:last-of-type {
+    padding-right: unset !important;
+}
+
+hvac-units-table md-table-pagination {
+    color: var(--ma-primary-700) !important;
+    margin-top: 2rem;
+    border-top: 0 !important;
+    padding: 0 !important;
+}
+
+hvac-units-table md-table-pagination div {
+    height: 2rem !important;
+}
+
+/*
+    kpiIndicators component
+*/
+
+hvac-kpi-indicators div md-card md-card-content p {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--ma-accent);
+    text-transform: uppercase;
+}
+
+hvac-kpi-indicators div md-card md-card-content span {
+    color: var(--ma-primary-700);
+}
+
+/*
+    energyChart component
+*/
+
+hvac-energy-chart .value-axis-left .amcharts-axis-label {
+    color: var(--ma-primary-700);
+}
+
+hvac-energy-chart .value-axis-right .amcharts-axis-label {
+    color: var(--ma-accent);
+}
+
+hvac-energy-chart .amcharts-legend-label {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+hvac-energy-chart .amcharts-legend-item-series-1 .amcharts-legend-label {
+    color: var(--ma-primary-700);
+}
+
+hvac-energy-chart .amcharts-legend-item-series-2 .amcharts-legend-label {
+    color: var(--ma-accent);
+}
+
+/*
+    alarmList component
+*/
+
+hvac-alarm-list div .header {
+    padding: 0.5rem 0;
+    border-bottom: var(--ma-primary-700) solid 1px;
+    color: var(--ma-accent);
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+hvac-alarm-list div .body {
+    margin-top: 0.5rem;
+    color: var(--ma-primary-700);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+hvac-alarm-list div .body div span:last-child {
+    font-weight: 700;
+}

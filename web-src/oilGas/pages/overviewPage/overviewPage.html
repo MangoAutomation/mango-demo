@@ -160,9 +160,11 @@
     <div flex="100" layout-gt-sm="row" layout-align="space-between start">
         <div flex-gt-sm="66">
             <div layout-gt-xs="row">
-                <oil-gas-info-card flex layout-margin icon="{{$ctrl.dropSvg}}" custom-point="$ctrl.totalStoredFluid"
-                                    point="$ctrl.selectedSite.metaPoints.totalStoredFluid" header-color="oil-gas-green">
-                </oil-gas-info-card>
+                <oil-gas-info-card
+                        flex layout-margin icon="{{$ctrl.dropSvg}}"
+                        point="$ctrl.selectedSite.points.totalStoredFluid"
+                        header-color="oil-gas-green"
+                ></oil-gas-info-card>
                 <oil-gas-info-card flex layout-margin icon="{{$ctrl.alarmSvg}}"
                                     point-ids="$ctrl.selectedSensor.pointIds" header-color="oil-gas-red" alarm-type="active-alarms">
                 </oil-gas-info-card>
@@ -174,14 +176,13 @@
                     </md-card-header-text>
                 </md-card-header>
                 <md-card-content ng-if="$ctrl.selectedSensor" layout layout-wrap>
-                    <div flex flex-xs="100" flex-sm="100" layout="column" layout-align="space-around center"
-                         layout-margin>
+                    <div flex flex-xs="100" flex-sm="100" layout="column" layout-align="space-around center" layout-margin>
                         <div>
                             <label class="header-titles">Level</label>
-                            <ma-point-value point="$ctrl.selectedSensor.points.level" enable-popup="bottom">
-                            </ma-point-value>
+                            <ma-point-value point="$ctrl.selectedSensor.points.level" enable-popup="bottom"></ma-point-value>
                         </div>
                         <div ng-if="$ctrl.selectedSensor.points">
+                            <ma-get-point-value point="$ctrl.selectedSensor.points.volume"></ma-get-point-value>
                             <oil-gas-fillable-tanks sensor="$ctrl.selectedSensor"></oil-gas-fillable-tanks>
                         </div>
                     </div>

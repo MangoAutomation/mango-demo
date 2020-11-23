@@ -7,6 +7,7 @@ import eventsAndAlarms from './components/eventsAndAlarms/eventsAndAlarms';
 import tankCards from './components/tankCards/tankCards';
 import rssiIndicator from './components/rssiIndicator/rssiIndicator';
 import infoCard from './components/infoCard/infoCard';
+import fillableTanks from './components/fillableTanks/fillableTanks';
 
 import siteFactory from './services/site';
 import customerFactory from './services/customer';
@@ -20,6 +21,7 @@ const oilGasModule = angular.module('oilGasModule', ['maUiApp'])
     .component('oilGasTankCards', tankCards)
     .component('oilGasRssiIndicator', rssiIndicator)
     .component('oilGasInfoCard', infoCard)
+    .component('oilGasFillableTanks', fillableTanks)
 
     .factory('oilGasCustomer', customerFactory)
     .factory('oilGasSite', siteFactory)

@@ -1,0 +1,122 @@
+{
+  "logoSrc": "/ui/img/Mango_logo_4c-01.svg?v=f58da5e1f7150c3f31610feeb0f73941",
+  "defaultTheme": "mangoLightX",
+  "usePreferredColorScheme": false,
+  "palettes": {
+    "mango-primary": {
+      "50": "#E8F0F5",
+      "100": "#D7D7D7",
+      "200": "#7AA9C3",
+      "300": "#AFAFAF",
+      "400": "#387EA5",
+      "500": "#2C3329",
+      "600": "#FAFAFA",
+      "700": "#0B5A84",
+      "800": "#505050",
+      "900": "#052435",
+      "A100": "#D2E2EB",
+      "A200": "#BCD4E1",
+      "A400": "#649BB9",
+      "A700": "#09486A",
+      "contrastDefaultColor": "light",
+      "contrastDarkColors": "50 100 200 600 A100 A200"
+    },
+    "mango-accent": {
+      "50": "#F6FBEF",
+      "100": "#E3F2CE",
+      "200": "#D1EAAE",
+      "300": "#BFE18E",
+      "400": "#B5DD7E",
+      "500": "#A3D45E",
+      "600": "#90CC3E",
+      "700": "#7BB12F",
+      "800": "#659127",
+      "900": "#2D4011",
+      "A100": "#EDF6DF",
+      "A200": "#DCEDBF",
+      "A400": "#ACD86E",
+      "A700": "#4E711E",
+      "contrastDefaultColor": "light",
+      "contrastDarkColors": "50 100 200 300 400 500 A100 A200"
+    },
+    "mango-danger": {
+      "50": "#FDF0F3",
+      "100": "#FABCBC",
+      "200": "#F88888",
+      "300": "#F56E6E",
+      "400": "#F23D3D",
+      "500": "#D21212",
+      "600": "#DB2121",
+      "700": "#AF1A1A",
+      "800": "#831414",
+      "900": "#420A0A",
+      "A100": "#FCDEDE",
+      "A200": "#F47D7D",
+      "A400": "#C54040",
+      "A700": "#6E2323",
+      "contrastDefaultColor": "light",
+      "contrastDarkColors": "50 100 200 300 A100 A200"
+    },
+    "mango-background": {
+      "50": "#F0F0F0",
+      "100": "#FAFAFA",
+      "200": "#EBEBEB",
+      "300": "#E0E0E0",
+      "400": "#C3D0D9",
+      "500": "#B8C4CC",
+      "600": "#123D59",
+      "700": "#113954",
+      "800": "#1F4259",
+      "900": "#17374D",
+      "A100": "#EBF2F7",
+      "A200": "#162F40",
+      "A400": "#222C33",
+      "A700": "#181F24",
+      "contrastDefaultColor": "light",
+      "contrastDarkColors": "50 100 200 300 400 500 A100"
+    }
+  },
+  "themes": {
+    "mangoLightX": {
+      "primaryPalette": "mango-primary",
+      "primaryPaletteHues": {
+        "default": "500",
+        "hue-1": "300",
+        "hue-2": "800",
+        "hue-3": "100"
+      },
+      "accentPalette": "mango-accent",
+      "accentPaletteHues": {
+        "default": "500",
+        "hue-1": "500",
+        "hue-2": "200",
+        "hue-3": "700"
+      },
+      "dangerPalette": "mango-danger",
+      "dangerPaletteHues": {
+        "default": "500",
+        "hue-1": "500",
+        "hue-2": "500",
+        "hue-3": "500"
+      },
+      "backgroundPalette": "mango-background",
+      "backgroundPaletteHues": {
+        "default": "50",
+        "hue-1": "100",
+        "hue-2": "200",
+        "hue-3": "300"
+      },
+      "dark": false
+    }
+  },
+  "fonts": {
+    "default": "'Montserrat'",
+    "heading": "Montserrat",
+    "paragraph": "'Montserrat'"
+  },
+  "userModule": "/rest/latest/file-stores/public/mangoDemo/web/mangoDemo.js",
+  "pwaManifest": {
+    "theme_color": "rgba(80, 80, 80, 1)",
+    "background_color": "rgba(240, 240, 240, 1)"
+  }
+}

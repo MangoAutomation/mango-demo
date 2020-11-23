@@ -1,0 +1,56 @@
+<md-table-container>
+    <table md-table>
+        <thead md-head>
+            <tr md-row>
+                <th md-column>Unit name</th>
+                <th md-column>Status</th>
+                <th md-column>Power</th>
+                <th md-column>kW/ton</th>
+                <th md-column>Occupancy</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody md-body>
+            <tr md-row ng-repeat="unit in $ctrl.units | limitTo: $ctrl.query.limit: ($ctrl.query.page - 1) * $ctrl.query.limit">
+                <td class="name" md-colors="{color: unit.points.status.value ? 'primary-700' : 'background-500'}" md-cell ng-bind="unit.name"></td>
+                <td class="status" md-cell>
+                    <ma-point-value point="unit.points.status"></ma-point-value>
+                </td>
+                <td class="power" md-cell>
+                    <ma-point-value
+                            ng-if="unit.points.status.value"
+                            md-colors="{color: 'primary-700'}"
+                            point="unit.points.power"
+                    ></ma-point-value>
+                    <span ng-if="!unit.points.status.value" md-colors="{color: 'background-500'}">—</span>
+                </td>
+                <td class="kwton" md-cell>
+                    <ma-point-value
+                            ng-if="unit.points.status.value"
+                            md-colors="{color: 'primary-700'}"
+                            point="unit.points.kwTon"
+                    ></ma-point-value>
+                    <span ng-if="!unit.points.status.value" md-colors="{color: 'background-500'}">—</span>
+                </td>
+                <td class="occupancy" md-cell>
+                    <ma-point-value
+                            ng-if="unit.points.status.value"
+                            md-colors="{color: 'primary-700'}"
+                            point="unit.points.occupancy"
+                    ></ma-point-value>
+                    <span ng-if="!unit.points.status.value" md-colors="{color: 'background-500'}">—</span>
+                </td>
+                <td class="visibility" md-cell>
+                    <md-icon md-colors="{color: unit.points.status.value ? 'accent' : 'background-500'}">visibility</md-icon>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</md-table-container>
+
+<md-table-pagination
+        md-limit="$ctrl.query.limit"
+        md-limit-options="[5, 10, 15]"
+        md-page="$ctrl.query.page"
+        md-total="{{$ctrl.units.length}}"
+></md-table-pagination>

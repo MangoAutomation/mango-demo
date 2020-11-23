@@ -1,0 +1,51 @@
+<div>
+    <div class="header" layout="row" layout-align="space-between center">
+        <span>Alarm Level</span>
+        <span>Count</span>
+    </div>
+
+    <div class="body">
+        <div layout="row" layout-align="space-between center">
+            <span>
+                <md-icon class="fa fa-flag fa-lg ma-alarm-flag ma-alarm-level-life-safety"></md-icon>
+                Safety
+            </span>
+            <span ng-bind="$ctrl.eventsCount.safety"></span>
+        </div>
+        <div layout="row" layout-align="space-between center">
+            <span>
+                <md-icon class="fa fa-flag fa-lg ma-alarm-flag ma-alarm-level-critical"></md-icon>
+                Critical
+            </span>
+            <span ng-bind="$ctrl.eventsCount.critical"></span>
+        </div>
+        <div layout="row" layout-align="space-between center">
+            <span>
+                <md-icon class="fa fa-flag fa-lg ma-alarm-flag ma-alarm-level-urgent"></md-icon>
+                Urgent
+            </span>
+            <span ng-bind="$ctrl.eventsCount.urgent"></span>
+        </div>
+        <div layout="row" layout-align="space-between center">
+            <span>
+                <md-icon class="fa fa-flag fa-lg ma-alarm-flag ma-alarm-level-warning"></md-icon>
+                Warning
+            </span>
+            <span ng-bind="$ctrl.eventsCount.warning"></span>
+        </div>
+        <div layout="row" layout-align="space-between center">
+            <span>
+                <md-icon class="fa fa-flag fa-lg ma-alarm-flag ma-alarm-level-important"></md-icon>
+                Important
+            </span>
+            <span ng-bind="$ctrl.eventsCount.important"></span>
+        </div>
+        <div layout="row" layout-align="space-between center">
+            <span>
+                <md-icon class="fa fa-flag fa-lg ma-alarm-flag ma-alarm-level-information"></md-icon>
+                Information
+            </span>
+            <span ng-bind="$ctrl.eventsCount.information"></span>
+        </div>
+    </div>
+</div>

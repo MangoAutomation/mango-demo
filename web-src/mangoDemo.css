@@ -1,0 +1,34 @@
+.md-button.md-mangoLightX-theme.md-primary.md-fab:not([disabled]).md-focused, .md-button.md-mangoLightX-theme.md-primary.md-fab:not([disabled]):hover, .md-button.md-mangoLightX-theme.md-primary.md-raised:not([disabled]).md-focused, .md-button.md-mangoLightX-theme.md-primary.md-raised:not([disabled]):hover {
+    background-color: var(--ma-accent);
+}
+
+.md-button.md-mangoLightX-theme.md-accent.md-fab:not([disabled]).md-focused, .md-button.md-mangoLightX-theme.md-accent.md-fab:not([disabled]):hover, .md-button.md-mangoLightX-theme.md-accent.md-raised:not([disabled]).md-focused, .md-button.md-mangoLightX-theme.md-accent.md-raised:not([disabled]):hover {
+    background-color: var(--ma-primary);
+    color: var(--ma-primary-contrast);
+}
+
+.md-button.md-mangoLightX-theme.md-accent.md-fab:not([disabled]).md-focused md-icon, .md-button.md-mangoLightX-theme.md-accent.md-fab:not([disabled]):hover md-icon, .md-button.md-mangoLightX-theme.md-accent.md-raised:not([disabled]).md-focused md-icon, .md-button.md-mangoLightX-theme.md-accent.md-raised:not([disabled]):hover md-icon {
+    color: var(--ma-primary-contrast);
+}
+
+.md-button.md-mangoLightX-theme.md-hue-1.md-accent.md-fab:not([disabled]).md-focused, .md-button.md-mangoLightX-theme.md-hue-1.md-accent.md-fab:not([disabled]):hover, .md-button.md-mangoLightX-theme.md-hue-1.md-accent.md-raised:not([disabled]).md-focused, .md-button.md-mangoLightX-theme.md-hue-1.md-accent.md-raised:not([disabled]):hover {
+    background-color: var(--ma-primary);
+    color: var(--ma-primary-contrast);
+}
+
+.md-button.md-mangoLightX-theme.md-hue-1.md-accent.md-fab:not([disabled]).md-focused md-icon, .md-button.md-mangoLightX-theme.md-hue-1.md-accent.md-fab:not([disabled]):hover md-icon, .md-button.md-mangoLightX-theme.md-hue-1.md-accent.md-raised:not([disabled]).md-focused md-icon, .md-button.md-mangoLightX-theme.md-hue-1.md-accent.md-raised:not([disabled]):hover md-icon {
+    color: var(--ma-primary-contrast);
+}
+
+.md-button.md-mangoLightX-theme.md-hue-1.md-primary.md-fab:not([disabled]).md-focused, .md-button.md-mangoLightX-theme.md-hue-1.md-primary.md-fab:not([disabled]):hover, .md-button.md-mangoLightX-theme.md-hue-1.md-primary.md-raised:not([disabled]).md-focused, .md-button.md-mangoLightX-theme.md-hue-1.md-primary.md-raised:not([disabled]):hover {
+    background-color: var(--ma-primary);
+    color: var(--ma-primary-contrast);
+}
+
+.md-button.md-mangoLightX-theme.md-hue-2.md-primary.md-fab:not([disabled]).md-focused, .md-button.md-mangoLightX-theme.md-hue-2.md-primary.md-fab:not([disabled]):hover, .md-button.md-mangoLightX-theme.md-hue-2.md-primary.md-raised:not([disabled]).md-focused, .md-button.md-mangoLightX-theme.md-hue-2.md-primary.md-raised:not([disabled]):hover {
+    background-color: var(--ma-accent);
+}
+
+md-toolbar.md-mangoLightX-theme.md-hue-2:not(.md-menu-toolbar) ma-drop-down-button:not([disabled]) > div  {
+    color: var(--ma-primary-contrast);
+}
