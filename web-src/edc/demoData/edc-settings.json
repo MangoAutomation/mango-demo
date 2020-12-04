@@ -1,0 +1,12 @@
+{
+  "pue": {
+    "band1End": 2,
+    "band2End": 7,
+    "band3End": 10
+  },
+  "itPower": {
+    "band1End": 100,
+    "band2End": 200,
+    "band3End": 300
+  }
+}

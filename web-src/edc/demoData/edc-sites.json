@@ -1,0 +1,147 @@
+{
+  "site-205588": {
+    "xid": "205588",
+    "name": "Test site",
+    "siteInfo": [
+      {
+        "label": "Address",
+        "type": "string",
+        "value": "325 17th Ave N."
+      },
+      {
+        "label": "City",
+        "type": "string",
+        "value": "Test City"
+      },
+      {
+        "label": "State",
+        "type": "string",
+        "value": "FL"
+      },
+      {
+        "label": "ZIP",
+        "type": "string",
+        "value": "32250"
+      },
+      {
+        "label": "Latitude",
+        "type": "string",
+        "value": "30.3050025"
+      },
+      {
+        "label": "Longitude",
+        "type": "string",
+        "value": "-81.3981129"
+      },
+      {
+        "label": "IP Address",
+        "type": "string",
+        "value": ""
+      },
+      {
+        "label": "Site status",
+        "type": "point",
+        "value": "Ping"
+      },
+      {
+        "label": "Latency",
+        "type": "point",
+        "value": "Latency"
+      }
+    ],
+    "pduName": "pdu",
+    "pqmGroup": [
+      "Voltages",
+      "Currents",
+      "Total Power",
+      "Active Power",
+      "Reactive Power",
+      "Energy",
+      "Frequency",
+      "Power Factor",
+      "iTHD",
+      "vTHD"
+    ],
+    "siteViewXid": "66ec4931-ef9d-4b0a-af4e-056b5c0e887a",
+    "powerPathXID": "1f56f452-64de-4023-ad85-252e10f93b2e",
+    "generatorID": "",
+    "cameraUrl": {},
+    "gaugeOverview": [
+      {
+        "pue": {
+          "band1End": 2,
+          "band2End": 7,
+          "band3End": 10
+        },
+        "totalPower": {
+          "band1End": 30,
+          "band2End": 70,
+          "band3End": 100
+        },
+        "itPower": {
+          "band1End": 30,
+          "band2End": 70,
+          "band3End": 100
+        },
+        "mechanicalPower": {
+          "band1End": 30,
+          "band2End": 70,
+          "band3End": 100
+        }
+      }
+    ],
+    "gaugeGenerator": [
+      {
+        "llVoltage": {
+          "band1End": 0.7,
+          "band2End": 1.5,
+          "band3End": 2
+        },
+        "averageCurrent": {
+          "band1End": 100,
+          "band2End": 200,
+          "band3End": 300
+        },
+        "kwTotal": {
+          "band1End": 0.7,
+          "band2End": 1.5,
+          "band3End": 2
+        },
+        "engineSpeed": {
+          "band1End": 100,
+          "band2End": 200,
+          "band3End": 300
+        },
+        "oilPressure": {
+          "band1End": 100,
+          "band2End": 200,
+          "band3End": 300
+        },
+        "coolantTemperature": {
+          "band1End": 100,
+          "band2End": 200,
+          "band3End": 300
+        },
+        "batteryVoltage": {
+          "band1End": 100,
+          "band2End": 200,
+          "band3End": 300
+        },
+        "fuelLevel": {
+          "band1End": 100,
+          "band2End": 200,
+          "band3End": 300
+        }
+      }
+    ],
+    "tabs": [
+      "overview",
+      "electrical",
+      "ups",
+      "pdu",
+      "mechanical",
+      "generator",
+      "camera"
+    ]
+  }
+}

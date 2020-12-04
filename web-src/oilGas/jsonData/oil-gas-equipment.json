@@ -1,0 +1,66 @@
+{
+  "equipment-1": {
+    "xid": "equipment-1",
+    "name": "Tank 1",
+    "type": "tank",
+    "siteXid": "site-1",
+    "latitude": 35.05495316300233,
+    "longitude": -92.56430795387593,
+    "sensors": [
+      {
+        "xid": "sensor-1",
+        "name": "Tank sensor water",
+        "pointIds": [],
+        "data": {
+          "key": "water",
+          "fluidType": "water",
+          "capacity": 181818,
+          "dimensions": {
+            "depth": 100,
+            "diameter": 100,
+            "height": 100,
+            "tankType": "rectangular",
+            "width": 100
+          },
+          "detectors": []
+        }
+      },
+      {
+        "xid": "sensor-2",
+        "name": "Tank sensor seawage",
+        "pointIds": [],
+        "data": {
+          "key": "water",
+          "fluidType": "water",
+          "capacity": 181818,
+          "dimensions": {
+            "depth": 100,
+            "diameter": 100,
+            "height": 100,
+            "tankType": "rectangular",
+            "width": 100,
+            "detectors": []
+          }
+        }
+      },
+      {
+        "xid": "sensor-3",
+        "name": "Tank sensor frac",
+        "pointIds": [],
+        "data": {
+          "key": "water",
+          "fluidType": "water",
+          "capacity": 181818,
+          "dimensions": {
+            "depth": 100,
+            "diameter": 100,
+            "height": 100,
+            "tankType": "rectangular",
+            "width": 100,
+            "detectors": []
+          }
+        }
+      }
+    ]
+  }
+}
