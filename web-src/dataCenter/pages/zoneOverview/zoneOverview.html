@@ -1,0 +1,69 @@
+<dc-bread-crumbs
+        ng-model="$ctrl.selectedOptions.searchOptions"
+        ng-change="$ctrl.updateSearchOptions()"
+></dc-bread-crumbs>
+
+<div class="dc-container">
+    <!-- Inputs -->
+    <dc-point-selectors ng-model="$ctrl.selectedOptions" ng-change="$ctrl.setStatisticsPoints()" hide-asset="true">
+    </dc-point-selectors>
+
+    <!-- Electrical kps -->
+    <div flex layout="row" class="dc-container">
+
+        <dc-main-electrical-kpis
+            ng-if="$ctrl.selectedOptions.searchOptions != null && $ctrl.selectedOptions.searchOptions.zone != null"
+            flex="100" points="$ctrl.selectedOptions.specificPoints">
+        </dc-main-electrical-kpis>
+    </div>
+
+
+    <div layout="row" layout-wrap layout-align="space-between start">
+
+        <div flex="100" layout-gt-md="row" layout-align="space-between stretch">
+            <!-- Floor plan -->
+            <dc-expansion-panel flex="100" flex-gt-md="70" card-title="Zone floor plan" fill-card="true"
+                layout-margin>
+                <content>
+                    <dc-zone-floor-plan search-options="$ctrl.selectedOptions.searchOptions"
+                        display-option="$ctrl.displayOption"
+                        display-option-changed="$ctrl.setDisplayOption($displayOption)"
+                        statistic-points="$ctrl.setStatisticsPoints($points)"
+                        selection-changed="$ctrl.selectRackRow($selection)">
+                    </dc-zone-floor-plan>
+                </content>
+            </dc-expansion-panel>
+            <!-- Active Alarmrs -->
+            <dc-expansion-panel flex="100" flex-gt-md="30" card-title="Active alarms" fill-card="true" layout-margin>
+                <content>
+                    <dc-active-alarms search-options="$ctrl.selectedOptions.searchOptions"></dc-active-alarms>
+                </content>
+            </dc-expansion-panel>
+        </div>
+
+        <div flex="100" layout="row" layout-wrap layout-align="space-between stretch">
+            <!-- Power path -->
+            <div flex="100" flex-gt-md="100" ng-if="$ctrl.displayOption === 'racksLoads'">
+                <dc-expansion-panel card-title="Power path — Rack {{$ctrl.selection.row}}-{{$ctrl.selection.rack}}">
+                    <content>
+                        <dc-power-path selection="$ctrl.selection"></dc-power-path>
+                    </content>
+                </dc-expansion-panel>
+            </div>
+
+            <!-- Charts-->
+            <div flex="100" flex-gt-md="100">
+                <dc-expansion-panel card-title="Charts">
+                    <header-actions>
+                        <md-button ng-click="$ctrl.setStatisticsPoints()">Display zone points</md-button>
+                    </header-actions>
+                    <content>
+                        <dc-statistics-widget points="$ctrl.statisticPoints" hide-settings="true" column="true"
+                            default-points="$ctrl.statisticDefaults">
+                        </dc-statistics-widget>
+                    </content>
+                </dc-expansion-panel>
+            </div>
+        </div>
+    </div>
+</div>
