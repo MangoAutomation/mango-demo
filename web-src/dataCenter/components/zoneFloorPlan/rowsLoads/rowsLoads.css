@@ -1,0 +1,35 @@
+dc-rows-loads h4 {
+    line-height: 1.25;
+    font-size: small;
+    margin-bottom: 0.8rem !important;
+    margin-top: 1rem !important;
+}
+
+dc-rows-loads label {
+    line-height: 1rem !important;
+    font-size: 1rem !important;
+    color: var(--ma-foreground-2);
+    margin-top: 0.4rem !important;
+    margin-bottom: 1rem !important;
+}
+
+dc-rows-loads .dc-small-font {
+    line-height: 1rem !important;
+    font-size: small !important;
+}
+
+dc-rows-loads .dc-floor-padding-8 {
+    padding-bottom: 2px !important;
+    padding-top: 2px !important;
+    padding-right: 4px;
+}
+
+dc-rows-loads .dc-container {
+    margin-left: 16px !important;
+    margin-top: 2px !important;
+}
+
+dc-rows-loads .dc-container-no-margin {
+    margin-left: 0px !important;
+    margin-top: 2px !important;
+}

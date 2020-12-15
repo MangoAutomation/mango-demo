@@ -1,0 +1,329 @@
+<div flex="100" layout="column" layout-align="space-between stretch" layout-gt-sm="row" layout-align-gt-sm="start center" layout-margin>
+    <!-- Region-->
+    <div class="dc-no-layout-margin dc-select-separator" flex="100" flex-gt-sm="25">
+        <md-input-container>
+            <label>Select Region</label>
+            <ma-drop-down-button>
+                <span ng-if="$ctrl.options.searchOptions.region != null" class="ma-ellipsis">
+                    <span ng-bind="$ctrl.options.searchOptions.region"></span>
+                </span>
+                <span ng-if="$ctrl.options.searchOptions.region == null">
+                    <em>None</em>
+                </span>
+
+                <em ng-if="$ctrl.getDataPointTags === null"></em>
+                <ma-drop-down auto-focus="::false">
+                    <ma-option-list
+                        name="region"
+                        ng-model="$ctrl.options.searchOptions.region"
+                        items="$ctrl.getRegionOptions($filter)"
+                        ng-change="$ctrl.searchOptionsHandler('region')"
+                        has-value="$value !== undefined"
+                        ma-configure-input-container
+                    >
+                        <ma-option ng-repeat="region in $items" ng-value="region">
+                            <span class="ma-ellipsis">
+                                <span md-highlight-text="$filter" md-highlight-flags="ig">{{region}}</span>
+                            </span>
+                        </ma-option>
+                    </ma-option-list>
+                </ma-drop-down>
+            </ma-drop-down-button>
+        </md-input-container>
+    </div>
+    <!--Campus-->
+    <div class="dc-no-layout-margin dc-select-separator" flex="100" flex-gt-sm="25">
+        <md-input-container>
+            <label>Select Campus</label>
+            <ma-drop-down-button ng-disabled="!$ctrl.inputEnabled('campus')">
+                <span ng-if="$ctrl.options.searchOptions.campus != null" class="ma-ellipsis">
+                    <span ng-bind="$ctrl.options.searchOptions.campus"></span>
+                </span>
+                <span ng-if="$ctrl.options.searchOptions.campus == null">
+                    <em>All</em>
+                </span>
+
+                <em ng-if="$ctrl.options.searchOptions.campus === null"></em>
+                <ma-drop-down auto-focus="::false">
+                    <ma-option-list
+                        name="campus"
+                        ng-model="$ctrl.options.searchOptions.campus"
+                        items="$ctrl.getCampusOptions($filter)"
+                        ng-change="$ctrl.searchOptionsHandler('campus')"
+                        has-value="$value !== undefined"
+                        ma-configure-input-container
+                    >
+                        <ma-option ng-if="!$filter && $ctrl.options.searchOptions.campus != null" ng-value="null">
+                            <md-icon>clear</md-icon>
+                            <em class="ma-ellipsis">Clear</em>
+                        </ma-option>
+
+                        <ma-option ng-repeat="campus in $items" ng-value="campus">
+                            <span class="ma-ellipsis">
+                                <span md-highlight-text="$filter" md-highlight-flags="ig">{{campus}}</span>
+                            </span>
+                        </ma-option>
+                    </ma-option-list>
+                </ma-drop-down>
+            </ma-drop-down-button>
+        </md-input-container>
+    </div>
+    <!--Zone-->
+    <div class="dc-no-layout-margin dc-select-separator" flex="100" flex-gt-sm="25" ng-if="!$ctrl.hideZone">
+        <md-input-container>
+            <label>Select Zone</label>
+            <ma-drop-down-button ng-disabled="!$ctrl.inputEnabled('zone')">
+                <span ng-if="$ctrl.options.searchOptions.zone != null" class="ma-ellipsis">
+                    <span ng-bind="$ctrl.options.searchOptions.zone"></span>
+                </span>
+                <span ng-if="$ctrl.options.searchOptions.zone == null">
+                    <em>All</em>
+                </span>
+
+                <em ng-if="$ctrl.options.searchOptions.zone === null"></em>
+                <ma-drop-down auto-focus="::false">
+                    <ma-option-list
+                        name="zone"
+                        ng-model="$ctrl.options.searchOptions.zone"
+                        items="$ctrl.getZoneOptions($filter)"
+                        ng-change="$ctrl.searchOptionsHandler('zone')"
+                        has-value="$value !== undefined"
+                        ma-configure-input-container
+                    >
+                        <ma-option ng-if="!$filter && $ctrl.options.searchOptions.zone != null" ng-value="null">
+                            <md-icon>clear</md-icon>
+                            <em class="ma-ellipsis">Clear</em>
+                        </ma-option>
+
+                        <ma-option ng-repeat="zone in $items" ng-value="zone">
+                            <span class="ma-ellipsis">
+                                <span md-highlight-text="$filter" md-highlight-flags="ig">{{zone}}</span>
+                            </span>
+                        </ma-option>
+                    </ma-option-list>
+                </ma-drop-down>
+            </ma-drop-down-button>
+        </md-input-container>
+    </div>
+    <!-- Row -->
+    <div class="dc-no-layout-margin dc-select-separator" flex="100" flex-gt-sm="25" ng-if="!$ctrl.hideAsset">
+        <md-input-container>
+            <label>Select a Row</label>
+            <ma-drop-down-button ng-disabled="!$ctrl.inputEnabled('row')">
+                <span ng-if="$ctrl.options.searchOptions.row != null" class="ma-ellipsis">
+                    <span ng-bind="$ctrl.options.searchOptions.row"></span>
+                </span>
+                <span ng-if="$ctrl.options.searchOptions.row == null">
+                    <em>None</em>
+                </span>
+
+                <em ng-if="$ctrl.options.searchOptions.row === null"></em>
+                <ma-drop-down auto-focus="::false">
+                    <ma-option-list
+                        name="row"
+                        ng-model="$ctrl.options.searchOptions.row"
+                        items="$ctrl.getRowOptions($filter)"
+                        ng-change="$ctrl.searchOptionsHandler('row')"
+                        has-value="$value !== undefined"
+                        ma-configure-input-container
+                    >
+                        <ma-option ng-if="!$filter && $ctrl.options.searchOptions.row != null" ng-value="null">
+                            <md-icon>clear</md-icon>
+                            <em class="ma-ellipsis">Clear</em>
+                        </ma-option>
+
+                        <ma-option ng-repeat="row in $items" ng-value="row">
+                            <span class="ma-ellipsis">
+                                <span md-highlight-text="$filter" md-highlight-flags="ig">{{row}}</span>
+                            </span>
+                        </ma-option>
+                    </ma-option-list>
+                </ma-drop-down>
+            </ma-drop-down-button>
+        </md-input-container>
+    </div>
+    <div class="dc-no-layout-margin dc-select-separator" flex="100" flex-gt-sm="25" ng-if="!$ctrl.hideAsset">
+        <md-input-container>
+            <label>Select a Sub Row</label>
+            <ma-drop-down-button ng-disabled="!$ctrl.inputEnabled('subRow')">
+                <span ng-if="$ctrl.options.searchOptions.subRow != null" class="ma-ellipsis">
+                    <span ng-bind="$ctrl.options.searchOptions.subRow"></span>
+                </span>
+                <span ng-if="$ctrl.options.searchOptions.subRow == null">
+                    <em>None</em>
+                </span>
+
+                <em ng-if="$ctrl.options.searchOptions.subRow === null"></em>
+                <ma-drop-down auto-focus="::false">
+                    <ma-option-list
+                        name="subRow"
+                        ng-model="$ctrl.options.searchOptions.subRow"
+                        items="$ctrl.getSubRowOptions($filter)"
+                        ng-change="$ctrl.searchOptionsHandler('subRow')"
+                        has-value="$value !== undefined"
+                        ma-configure-input-container
+                    >
+                        <ma-option ng-if="!$filter && $ctrl.options.searchOptions.subRow != null" ng-value="null">
+                            <md-icon>clear</md-icon>
+                            <em class="ma-ellipsis">Clear</em>
+                        </ma-option>
+
+                        <ma-option ng-repeat="subRow in $items" ng-value="subRow">
+                            <span class="ma-ellipsis">
+                                <span md-highlight-text="$filter" md-highlight-flags="ig">{{subRow}}</span>
+                            </span>
+                        </ma-option>
+                    </ma-option-list>
+                </ma-drop-down>
+            </ma-drop-down-button>
+        </md-input-container>
+    </div>
+    <!--Busway-->
+    <div class="dc-no-layout-margin dc-select-separator" flex="100" flex-gt-sm="25" ng-if="!$ctrl.hideAsset">
+        <md-input-container>
+            <label>Select a Busway</label>
+            <ma-drop-down-button ng-disabled="!$ctrl.inputEnabled('busway')">
+                <span ng-if="$ctrl.options.searchOptions.busway != null" class="ma-ellipsis">
+                    <span ng-bind="$ctrl.options.searchOptions.busway"></span>
+                </span>
+                <span ng-if="$ctrl.options.searchOptions.busway == null">
+                    <em>None</em>
+                </span>
+
+                <em ng-if="$ctrl.options.searchOptions.busway === null"></em>
+                <ma-drop-down auto-focus="::false">
+                    <ma-option-list
+                        name="busway"
+                        ng-model="$ctrl.options.searchOptions.busway"
+                        items="$ctrl.getBwlmOptions($filter)"
+                        ng-change="$ctrl.searchOptionsHandler('busway')"
+                        has-value="$value !== undefined"
+                        ma-configure-input-container
+                    >
+                        <ma-option ng-if="!$filter && $ctrl.options.searchOptions.busway != null" ng-value="null">
+                            <md-icon>clear</md-icon>
+                            <em class="ma-ellipsis">Clear</em>
+                        </ma-option>
+
+                        <ma-option ng-repeat="busway in $items" ng-value="busway">
+                            <span class="ma-ellipsis">
+                                <span md-highlight-text="$filter" md-highlight-flags="ig">{{busway}}</span>
+                            </span>
+                        </ma-option>
+                    </ma-option-list>
+                </ma-drop-down>
+            </ma-drop-down-button>
+        </md-input-container>
+    </div>
+    <!--Rack-->
+    <div class="dc-no-layout-margin dc-select-separator" flex="100" flex-gt-sm="25" ng-if="!$ctrl.hideAsset">
+        <md-input-container>
+            <label>Select a Rack</label>
+            <ma-drop-down-button ng-disabled="!$ctrl.inputEnabled('rack')">
+                <span ng-if="$ctrl.options.searchOptions.rack != null" class="ma-ellipsis">
+                    <span ng-bind="$ctrl.options.searchOptions.rack"></span>
+                </span>
+                <span ng-if="$ctrl.options.searchOptions.rack == null">
+                    <em>None</em>
+                </span>
+
+                <em ng-if="$ctrl.options.searchOptions.rack === null"></em>
+                <ma-drop-down auto-focus="::false">
+                    <ma-option-list
+                        name="rack"
+                        ng-model="$ctrl.options.searchOptions.rack"
+                        items="$ctrl.getRackOptions($filter)"
+                        ng-change="$ctrl.searchOptionsHandler('rack')"
+                        has-value="$value !== undefined"
+                        ma-configure-input-container
+                    >
+                        <ma-option ng-if="!$filter && $ctrl.options.searchOptions.rack != null" ng-value="null">
+                            <md-icon>clear</md-icon>
+                            <em class="ma-ellipsis">Clear</em>
+                        </ma-option>
+
+                        <ma-option ng-repeat="rack in $items" ng-value="rack">
+                            <span class="ma-ellipsis">
+                                <span md-highlight-text="$filter" md-highlight-flags="ig">{{rack}}</span>
+                            </span>
+                        </ma-option>
+                    </ma-option-list>
+                </ma-drop-down>
+            </ma-drop-down-button>
+        </md-input-container>
+    </div>
+    <!--Tapbox-->
+    <div class="dc-no-layout-margin dc-select-separator" flex="100" flex-gt-sm="25" ng-if="!$ctrl.hideAsset">
+        <md-input-container>
+            <label>Select a Tapbox</label>
+            <ma-drop-down-button ng-disabled="!$ctrl.inputEnabled('tb')">
+                <span ng-if="$ctrl.options.searchOptions.tb != null" class="ma-ellipsis">
+                    <span ng-bind="$ctrl.options.searchOptions.tb"></span>
+                </span>
+                <span ng-if="$ctrl.options.searchOptions.tb == null">
+                    <em>None</em>
+                </span>
+
+                <em ng-if="$ctrl.options.searchOptions.tb === null"></em>
+                <ma-drop-down auto-focus="::false">
+                    <ma-option-list
+                        name="tb"
+                        ng-model="$ctrl.options.searchOptions.tb"
+                        items="$ctrl.getTblmOptions($filter)"
+                        ng-change="$ctrl.searchOptionsHandler('tb')"
+                        has-value="$value !== undefined"
+                        ma-configure-input-container
+                    >
+                        <ma-option ng-if="!$filter && $ctrl.options.searchOptions.tb != null" ng-value="null">
+                            <md-icon>clear</md-icon>
+                            <em class="ma-ellipsis">Clear</em>
+                        </ma-option>
+
+                        <ma-option ng-repeat="tb in $items" ng-value="tb">
+                            <span class="ma-ellipsis">
+                                <span md-highlight-text="$filter" md-highlight-flags="ig">{{tb}}</span>
+                            </span>
+                        </ma-option>
+                    </ma-option-list>
+                </ma-drop-down>
+            </ma-drop-down-button>
+        </md-input-container>
+    </div>
+    <!--Circuit Breaker-->
+    <div class="dc-no-layout-margin dc-select-separator" flex="100" flex-gt-sm="25" ng-if="!$ctrl.hideAsset">
+        <md-input-container>
+            <label>Select a Circuit breaker</label>
+            <ma-drop-down-button ng-disabled="!$ctrl.inputEnabled('cb')">
+                <span ng-if="$ctrl.options.searchOptions.cb != null" class="ma-ellipsis">
+                    <span ng-bind="$ctrl.options.searchOptions.cb"></span>
+                </span>
+                <span ng-if="$ctrl.options.searchOptions.cb == null">
+                    <em>None</em>
+                </span>
+
+                <em ng-if="$ctrl.options.searchOptions.cb === null"></em>
+                <ma-drop-down auto-focus="::false">
+                    <ma-option-list
+                        name="cb"
+                        ng-model="$ctrl.options.searchOptions.cb"
+                        items="$ctrl.getCbOptions($filter)"
+                        ng-change="$ctrl.searchOptionsHandler('cb')"
+                        has-value="$value !== undefined"
+                        ma-configure-input-container
+                    >
+                        <ma-option ng-if="!$filter && $ctrl.options.searchOptions.cb != null" ng-value="null">
+                            <md-icon>clear</md-icon>
+                            <em class="ma-ellipsis">Clear</em>
+                        </ma-option>
+
+                        <ma-option ng-repeat="cb in $items" ng-value="cb">
+                            <span class="ma-ellipsis">
+                                <span md-highlight-text="$filter" md-highlight-flags="ig">{{cb}}</span>
+                            </span>
+                        </ma-option>
+                    </ma-option-list>
+                </ma-drop-down>
+            </ma-drop-down-button>
+        </md-input-container>
+    </div>
+</div>

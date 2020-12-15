@@ -1,0 +1,36 @@
+<!-- TODO: that tag will only have two values 01 and 02. And to get everyone aware of what that means, racks from 01 to 16
+belong
+to subRow = 01 and racks from 17 to 32 belong to subRow = 02 -->
+
+<ma-get-point-value points="$ctrl.points"></ma-get-point-value>
+<!-- SVG to load zone-->
+<ma-svg
+    ng-include="$ctrl.floorPlanZoneSvg"
+    ng-class="{'dc-dcim-show-rows': ($ctrl.displayOption === 'rowLoad' || $ctrl.displayOption === 'TAPSumRatios' ),
+            'dc-dcim-show-racks': $ctrl.displayOption === 'racksLoads'}"
+>
+    <div ma-selector="#bg > image" ng-href="{{$ctrl.floorPlanZonePng}}"></div>
+    <!-- rowLoad &  racksLoads-->
+    <div ng-if="$ctrl.displayOption === 'rowLoad' || $ctrl.displayOption === 'racksLoads'">
+        <div ma-selector="g.dc-dcim-rack > .st0" ng-mouseenter="$ctrl.showTooltip($event)" ng-mouseleave="$ctrl.hideTooltip($event)" ng-click="$ctrl.rackClicked($event)" dc-rack></div>
+
+        <div ma-selector="g.dc-dcim-row > .st4" ng-mouseenter="$ctrl.showTooltip($event)" ng-mouseleave="$ctrl.hideTooltip($event)" ng-click="$ctrl.rackClicked($event)" dc-rack></div>
+    </div>
+    <!-- TAPSumRatios-->
+    <div ng-if="$ctrl.displayOption === 'TAPSumRatios'">
+        <div ma-selector="g.dc-dcim-row > .st4" ng-mouseenter="$ctrl.showTooltip($event)" ng-mouseleave="$ctrl.hideTooltip($event)" ng-click="$ctrl.rackClicked($event)" dc-rack></div>
+    </div>
+    <!-- Enviromental -->
+    <div ng-if="$ctrl.displayOption === 'environmental'">
+        <div ma-selector="g.dc-dcim-temp-color >circle" ng-mouseenter="$ctrl.showTooltip($event)" ng-mouseleave="$ctrl.hideTooltip($event)" ng-click="$ctrl.rackClicked($event)" dc-rack></div>
+
+        <div
+            ma-selector="g.dc-dcim-temp-value > text"
+            ng-bind="$ctrl.temperaturePoint.renderedValue"
+            ng-mouseenter="$ctrl.showTooltip($event)"
+            ng-mouseleave="$ctrl.hideTooltip($event)"
+            ng-click="$ctrl.rackClicked($event)"
+            dc-rack
+        ></div>
+    </div>
+</ma-svg>

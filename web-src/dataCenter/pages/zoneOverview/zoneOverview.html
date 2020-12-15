@@ -5,25 +5,17 @@
 
 <div class="dc-container">
     <!-- Inputs -->
-    <dc-point-selectors ng-model="$ctrl.selectedOptions" ng-change="$ctrl.setStatisticsPoints()" hide-asset="true">
-    </dc-point-selectors>
-
-    <!-- Electrical kps -->
-    <div flex layout="row" class="dc-container">
-
-        <dc-main-electrical-kpis
-            ng-if="$ctrl.selectedOptions.searchOptions != null && $ctrl.selectedOptions.searchOptions.zone != null"
-            flex="100" points="$ctrl.selectedOptions.specificPoints">
-        </dc-main-electrical-kpis>
-    </div>
-
+    <dc-point-selectors
+            ng-model="$ctrl.selectedOptions"
+            ng-change="$ctrl.setStatisticsPoints()"
+            hide-asset="true"
+    ></dc-point-selectors>
 
     <div layout="row" layout-wrap layout-align="space-between start">
 
         <div flex="100" layout-gt-md="row" layout-align="space-between stretch">
             <!-- Floor plan -->
-            <dc-expansion-panel flex="100" flex-gt-md="70" card-title="Zone floor plan" fill-card="true"
-                layout-margin>
+            <dc-expansion-panel flex="100" flex-gt-md="70" card-title="Zone floor plan" fill-card="true" layout-margin>
                 <content>
                     <dc-zone-floor-plan search-options="$ctrl.selectedOptions.searchOptions"
                         display-option="$ctrl.displayOption"

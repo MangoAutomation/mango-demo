@@ -1,0 +1,9 @@
+dc-expansion-panel md-card-header {
+    padding: 0px 8px 0px 8px;
+    line-height: 2rem !important;
+    background-color: #ebebeb !important;
+}
+
+dc-expansion-panel .dc-expand-content {
+    height: 100%;
+}

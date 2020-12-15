@@ -1,0 +1,154 @@
+.dc-bread-crumbs {
+    background-color: var(--ma-background-300) !important;
+}
+
+.dc-font-color-gray {
+    color: var(--ma-background-A200) !important;
+}
+
+.dc-margin-bottom {
+    margin-bottom: 20px !important;
+}
+
+.dc-container {
+    margin: 0px 8px;
+}
+
+/*Card*/
+dc-fleet-overview md-card,
+dc-campus-overview md-card,
+dc-zone-overview-page md-card,
+dc-assets-details md-card {
+    border-radius: 0px !important;
+}
+
+dc-fleet-overview md-input-container,
+dc-campus-overview md-input-container,
+dc-zone-overview-page md-input-container,
+dc-assets-details md-input-container {
+    width: 100% !important;
+}
+
+/* md-select
+*/
+dc-fleet-overview md-input-container > ma-drop-down-button,
+md-input-container > md-select,
+dc-campus-overview md-input-container > ma-drop-down-button,
+md-input-container > md-select,
+dc-zone-overview-page md-input-container > ma-drop-down-button,
+md-input-container > md-select,
+dc-assets-details md-input-container > ma-drop-down-button,
+md-input-container > md-select {
+    border-bottom: 3px solid var(--ma-background-300) !important;
+}
+
+dc-fleet-overview md-input-container > ma-drop-down-button[disabled],
+dc-campus-overview md-input-container > ma-drop-down-button[disabled],
+dc-zone-overview-page md-input-container > ma-drop-down-button[disabled],
+dc-assets-details md-input-container > ma-drop-down-button[disabled] {
+    border-color: transparent;
+    background-image: none;
+}
+dc-fleet-overview md-input-container > md-select:not([disabled]) .md-select-value,
+md-input-container > md-select:not([disabled]):focus .md-select-value,
+md-input-container > md-select:not([disabled]).ng-invalid.ng-touched .md-select-value,
+dc-campus-overview md-input-container > md-select:not([disabled]) .md-select-value,
+md-input-container > md-select:not([disabled]):focus .md-select-value,
+md-input-container > md-select:not([disabled]).ng-invalid.ng-touched .md-select-value,
+dc-zone-overview-page md-input-container > md-select:not([disabled]) .md-select-value,
+md-input-container > md-select:not([disabled]):focus .md-select-value,
+md-input-container > md-select:not([disabled]).ng-invalid.ng-touched .md-select-value,
+dc-assets-details md-input-container > md-select:not([disabled]) .md-select-value,
+md-input-container > md-select:not([disabled]):focus .md-select-value,
+md-input-container > md-select:not([disabled]).ng-invalid.ng-touched .md-select-value {
+    border-bottom-color: transparent !important;
+    border-bottom-style: none !important;
+    padding-bottom: 0 !important;
+}
+
+/* General */
+.container {
+    margin: 8px 16px 8px 16px !important;
+}
+
+.header-titles {
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+    color: #161616;
+}
+
+/* Tables */
+md-table-container.dc-table > table.md-table > thead.md-head > tr.md-row {
+    height: 30px;
+    font-size: 18px !important;
+    font-family: var(--ma-font-default), sans-serif !important;
+}
+
+md-table-container.dc-table > table.md-table > tbody > tr:nth-child(even) {
+    background-color: var(--ma-background-50) !important;
+}
+
+md-table-container.dc-table table.md-table:not(.md-row-select) td.md-cell:first-child,
+table.md-table:not(.md-row-select) th.md-column:first-child {
+    padding-left: 0 !important;
+}
+md-table-container.dc-table > table.md-table td.md-cell {
+    border-top: 0;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+md-table-container.dc-table > table.md-table td.md-cell p {
+    font-size: 1.25rem;
+    line-height: 1.25;
+}
+
+md-table-container.dc-table > table.md-table td.md-cell p.uppercase {
+    text-transform: uppercase;
+}
+
+md-table-container.dc-table > table.md-table td.md-cell p.bold {
+    font-weight: bold;
+}
+
+md-table-pagination.dc-table-pagination {
+    color: var(--ma-background-700) !important;
+    /* margin: 2rem 3rem 0 0; */
+    border-top: 0 !important;
+    padding: 0 !important;
+    font-size: 1.3rem !important;
+}
+
+/* Alarm indicators */
+
+.dc-alarm-indicator.INFORMATION {
+    fill: #47b275 !important;
+}
+
+.dc-alarm-indicator.IMPORTANT {
+    fill: #ecc94b !important;
+}
+
+.dc-alarm-indicator.WARNING {
+    fill: #2b6cb0 !important;
+}
+
+.dc-alarm-indicator.CRITICAL {
+    fill: #ed1f1f !important;
+}
+
+.dc-alarm-indicator.MAJOR {
+    fill: #ed7926 !important;
+}
+
+.dc-alarm-indicator.URGENT {
+    fill: #ed7926 !important;
+}
+
+.dc-alarm-indicator.MINOR {
+    fill: #ecc94b !important;
+}
+.main-application.login {
+    background-color: var(--ma-background-600);
+}

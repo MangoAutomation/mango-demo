@@ -1,0 +1,13 @@
+<div flex layout="column" class="dc-container">
+    <h4>Rack: {{$ctrl.envInfoObj.rack}} — Row: {{$ctrl.envInfoObj.row}}</h4>
+
+    <div flex layout="column" layout-sm="row" layout-gt-sm="row" layout-wrap>
+        <div layout="column" flex-sm="50" flex-gt-sm="25" class="dc-small-font">
+            <ma-point-value point="$ctrl.envInfoObj.point" enable-popup="bottom" style="margin-top: 8px;"> </ma-point-value>
+
+            <!-- <h3>{{$ctrl.envInfoObj.point.renderedValue }}</h3> -->
+            <div class="dc-margin-top" ng-if="!$ctrl.envInfoObj.point">---</div>
+            <label ng-if="$ctrl.envInfoObj.point" class="md-container-ignore">{{$ctrl.envInfoObj.point.tags.equipmentType}}</label>
+        </div>
+    </div>
+</div>

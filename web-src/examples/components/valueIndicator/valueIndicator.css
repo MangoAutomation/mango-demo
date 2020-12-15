@@ -1,0 +1,26 @@
+ex-value-indicator p,
+ex-value-indicator h4 {
+    margin: 0;
+    line-height: 12px;
+}
+
+ex-value-indicator h4 {
+    color: var(--ma-foreground-2);
+    font-size: 16px;
+}
+
+ex-value-indicator p,
+ex-value-indicator ma-point-value span{
+    font-size: 28px;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+}
+
+ex-value-indicator ma-point-value span {
+    margin-top: 0;
+}
+
+ex-value-indicator p {
+    margin-top: 12px;
+}

@@ -1,0 +1,35 @@
+ex-expansion-panel {
+    display: block;
+}
+
+ex-expansion-panel > md-card {
+    margin: 0;
+}
+
+ex-expansion-panel > md-card > md-card-header {
+    padding: 0 0 0 12px;
+}
+
+ex-expansion-panel > md-card > md-card-header .header-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ex-expansion-panel ex-panel-header {
+    color: var(--ex-expansion-card-header-color);
+}
+
+ex-expansion-panel ex-panel-body {
+    display: block;
+    padding: 12px;
+}
+
+ex-expansion-panel > md-card > md-card-content {
+    padding: 0;
+}
+
+:root {
+    --ex-expansion-card-header-color: var(--ma-accent);
+}

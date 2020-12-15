@@ -1,0 +1,76 @@
+<div flex layout="column" class="dc-container">
+    <h4>Rack: {{$ctrl.rackInfoObj.rack}} — Row: {{$ctrl.rackInfoObj.row}} — Sub row: {{$ctrl.rackInfoObj.subRow}}</h4>
+
+    <div flex layout="column" layout-sm="row" layout-gt-sm="row" layout-wrap>
+
+        <div layout="column" flex-sm="50" flex-gt-sm="25" class="dc-small-font dc-floor-padding-8">
+            <ma-point-value point="$ctrl.rackInfoObj.averageTBLMCurrent" enable-popup="bottom">
+            </ma-point-value>
+            <div ng-if="!$ctrl.rackInfoObj.averageTBLMCurrent">---</div>
+            <label class="md-container-ignore">• Average TBLM Current</label>
+        </div>
+
+        <div layout="column" flex-sm="50" flex-gt-sm="25" class="dc-small-font dc-floor-padding-8">
+            <ma-point-value point="$ctrl.rackInfoObj.maxiTHD" enable-popup="bottom">
+            </ma-point-value>
+            <div ng-if="!$ctrl.rackInfoObj.maxiTHD">---</div>
+            <label class="md-container-ignore">• iTHD Max</label>
+        </div>
+        <div layout="column" flex-sm="50" flex-gt-sm="25" class="dc-small-font dc-floor-padding-8">
+            <ma-point-value point="$ctrl.rackInfoObj.load" enable-popup="bottom">
+            </ma-point-value>
+            <div ng-if="!$ctrl.rackInfoObj.load">---</div>
+            <label class="md-container-ignore">• kW Total</label>
+        </div>
+        <div layout="column" flex-sm="50" flex-gt-sm="25" class="dc-small-font dc-floor-padding-8">
+            <ma-point-value point="$ctrl.rackInfoObj.loadPercentage" enable-popup="bottom">
+            </ma-point-value>
+            <div ng-if="!$ctrl.rackInfoObj.loadPercentage">---</div>
+            <label class="md-container-ignore">• Load Percentage</label>
+        </div>
+        <div layout="column" flex-sm="50" flex-gt-sm="25" class="dc-small-font dc-floor-padding-8">
+            <ma-point-value point="$ctrl.rackInfoObj.lowestPowerFactor" enable-popup="bottom">
+            </ma-point-value>
+            <div ng-if="!$ctrl.rackInfoObj.lowestPowerFactor">---</div>
+            <label class="md-container-ignore">• PF Min</label>
+        </div>
+        <div layout="column" flex-sm="50" flex-gt-sm="25" class="dc-small-font dc-floor-padding-8">
+            <div ng-bind="$ctrl.rackInfoObj.snowMetrics && ($ctrl.rackInfoObj.snowMetrics.totalConnectedLoad | number:2) + 'kW' || '---'"></div>
+            <label class="md-container-ignore">• TCL</label>
+        </div>
+        <div layout="column" flex-sm="50" flex-gt-sm="25" class="dc-small-font dc-floor-padding-8">
+            <div ng-bind="$ctrl.rackInfoObj.snowMetrics && ($ctrl.rackInfoObj.snowMetrics.maximumDemandLoad | number:2) + 'kW' || '---'"></div>
+            <label class="md-container-ignore">• MDL</label>
+        </div>
+        <div layout="column" flex-sm="50" flex-gt-sm="25" class="dc-small-font dc-floor-padding-8">
+            <div ng-bind="$ctrl.rackInfoObj.snowMetrics && ($ctrl.rackInfoObj.snowMetrics.averageDemandLoad | number:2) + 'kW' || '---'"></div>
+            <label class="md-container-ignore">• ADL</label>
+        </div>
+        <div layout="column" flex-sm="50" flex-gt-sm="25" class="dc-small-font dc-floor-padding-8">
+            <div ng-bind="$ctrl.rackInfoObj.snowMetrics && ($ctrl.rackInfoObj.snowMetrics.loadMultiplier | number:2) || '---'"></div>
+            <label class="md-container-ignore">• LM</label>
+        </div>
+        <div layout="column" flex-sm="50" flex-gt-sm="25" class="dc-small-font dc-floor-padding-8">
+            <div ng-bind="$ctrl.rackInfoObj.snowMetrics && ($ctrl.rackInfoObj.snowMetrics.averageDemandFactor | number:2) || '---'"></div>
+            <label class="md-container-ignore">• ADF</label>
+        </div>
+        <div layout="column" flex-sm="50" flex-gt-sm="25" class="dc-small-font dc-floor-padding-8">
+            <div ng-bind="$ctrl.rackInfoObj.snowData.hostsPerRack || '---'"></div>
+            <label class="md-container-ignore">• Hosts per rack</label>
+        </div>
+    </div>
+    <div flex layout="column" layout-sm="row" layout-gt-sm="row" layout-wrap>
+        <div layout="column" flex-sm="50" flex-gt-sm="25" class="dc-small-font dc-floor-padding-8">
+            <div ng-bind="$ctrl.rackInfoObj.snowData.rackClass || '---'"></div>
+            <label class="md-container-ignore">• Rack class</label>
+        </div>
+        <div layout="column" flex-sm="50" flex-gt-sm="25" class="dc-small-font dc-floor-padding-8">
+            <div ng-bind="$ctrl.rackInfoObj.snowData.rackType || '---'"></div>
+            <label class="md-container-ignore">• Rack type</label>
+        </div>
+        <div layout="column" flex-sm="100" flex-gt-sm="50" class="dc-small-font dc-floor-padding-8">
+            <div ng-bind="$ctrl.rackInfoObj.snowData.rackSku || '---'"></div>
+            <label class="md-container-ignore">• Rack SKU</label>
+        </div>
+    </div>
+</div>

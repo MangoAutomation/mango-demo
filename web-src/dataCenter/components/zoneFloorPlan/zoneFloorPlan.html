@@ -1,0 +1,131 @@
+<p ng-if="!$ctrl.points">No data for zone floor plan</p>
+
+<div ng-if="$ctrl.points" layout="column" layout-align="streach" layout-fill>
+    <dc-zones-svg
+        flex="100"
+        points="$ctrl.points"
+        display-option="$ctrl.displayOption"
+        display-option-environment="$ctrl.displayOptionEnvironment"
+        temp-level="$ctrl.tempLevel"
+        busway="$ctrl.busway"
+        send-point-data="$ctrl.getInfoPoints($info)"
+    >
+    </dc-zones-svg>
+
+    <div layout="column" layout-gt-xs="row" layout-align-xs="end" layout-align-gt-xs="space-between start">
+        <div ng-if="!$ctrl.$mdMedia('gt-xs')" ng-class="{'dc-margin-legend':  !$ctrl.$mdMedia('gt-xs')}">
+            <dc-environmental env-info-obj="$ctrl.rowAndRackInfoObj"></dc-environmental>
+            <dc-legend display-option="$ctrl.displayOption" display-option-environment="$ctrl.displayOptionEnvironment"></dc-legend>
+        </div>
+
+        <div flex="none" class="radio-button-container container-background-gray" ng-class="{'container-background-gray-width-100':  !$ctrl.$mdMedia('gt-xs') }">
+            <h4><strong>Display options</strong></h4>
+            <md-radio-group ng-model="$ctrl.displayOption" ng-change="$ctrl.toggle(1)">
+                <md-radio-button value="racksLoads">
+                    <span>Rack&nbsp;Loads</span>
+                </md-radio-button>
+                <md-radio-button value="rowLoad">
+                    <span>Row&nbsp;Load</span>
+                </md-radio-button>
+                <md-radio-button value="environmental">
+                    <span>Environmental</span>
+                </md-radio-button>
+                <md-radio-button value="TAPSumRatios">
+                    <span>TAPSum&nbsp;ratios</span>
+                </md-radio-button>
+            </md-radio-group>
+        </div>
+
+        <!-- TAPSumRatios-->
+
+        <div ng-if="$ctrl.displayOption === 'TAPSumRatios'" flex layout="column" layout-align="start" layout-gt-sm="row">
+            <div flext-gt-xs="100" flex-gt-sm="23" class="radio-button-container">
+                <h4><strong>Busways</strong></h4>
+                <md-radio-group ng-model="$ctrl.busway" ng-click="$ctrl.toggle()">
+                    <md-radio-button value="A">
+                        <span>Busway&nbsp;A</span>
+                    </md-radio-button>
+                    <md-radio-button value="B">
+                        <span>Busway&nbsp;B</span>
+                    </md-radio-button>
+                </md-radio-group>
+            </div>
+
+            <div ng-if="$ctrl.$mdMedia('gt-sm')" flex layout-align="start">
+                <dc-tab-sum row-info-obj="$ctrl.rowAndRackInfoObj"></dc-tab-sum>
+            </div>
+        </div>
+
+        <!-- Enviromental-->
+
+        <div ng-if="$ctrl.displayOption === 'environmental'" flex layout="column" layout-align="start" layout-gt-sm="row">
+            <div flext-gt-xs="100" flex-gt-sm="23" class="radio-button-container">
+                <md-radio-group ng-model="$ctrl.displayOptionEnvironment" ng-click="$ctrl.toggle(2)">
+                    <md-radio-button value="coldAisleTemperatures">
+                        <span>Cold&nbsp;aisle&nbsp;temperatures</span>
+                    </md-radio-button>
+                    <md-radio-button value="hotAisleTemperatures">
+                        <span>Hot aisle temperatures</span>
+                    </md-radio-button>
+                    <md-radio-button value="roomTemperature">
+                        <span>Room&nbsp;temperature</span>
+                    </md-radio-button>
+                    <md-radio-button value="roomHumidity">
+                        <span>Room&nbsp;humidity</span>
+                    </md-radio-button>
+                </md-radio-group>
+            </div>
+
+            <div ng-show="!$ctrl.$mdMedia('sm') && $ctrl.displayOptionEnvironment ==='coldAisleTemperatures'" flext-gt-xs="100" flex-gt-sm="8" class="radio-button-container">
+                <md-radio-group ng-model="$ctrl.tempLevel" ng-click="$ctrl.toggle(3)">
+                    <md-radio-button value="Lower">
+                        <span>Lower</span>
+                    </md-radio-button>
+                    <md-radio-button value="Upper">
+                        <span>Upper</span>
+                    </md-radio-button>
+                </md-radio-group>
+            </div>
+
+            <div ng-if="$ctrl.$mdMedia('gt-sm')" flex layout-align="start">
+                <dc-environmental env-info-obj="$ctrl.rowAndRackInfoObj"></dc-environmental>
+            </div>
+        </div>
+        <!-- Racks Power Paths-->
+        <div ng-if="$ctrl.displayOption === 'rackPowerRack'" flex layout="column" layout-align="start center" layout-gt-sm="row"></div>
+        <!--  Rack Load -->
+        <div ng-if="$ctrl.displayOption === 'racksLoads'" flex layout-align="start">
+            <dc-racks-loads rack-info-obj="$ctrl.rowAndRackInfoObj"></dc-racks-loads>
+        </div>
+        <!--  Row Load -->
+        <div ng-if="$ctrl.displayOption === 'rowLoad'" flex layout-align="start">
+            <dc-rows-loads row-info-obj="$ctrl.rowAndRackInfoObj"></dc-rows-loads>
+        </div>
+
+        <div
+            ng-if="$ctrl.$mdMedia('sm') && $ctrl.displayOptionEnvironment ==='coldAisleTemperatures' && $ctrl.displayOption === 'environmental'"
+            flext-gt-xs="100"
+            flex-gt-sm="8"
+            class="radio-button-container"
+        >
+            <md-radio-group ng-model="$ctrl.tempLevel" ng-click="$ctrl.toggle(3)">
+                <md-radio-button value="Lower">
+                    <span>Lower</span>
+                </md-radio-button>
+                <md-radio-button value="Upper">
+                    <span>Upper</span>
+                </md-radio-button>
+            </md-radio-group>
+        </div>
+
+        <div ng-if="$ctrl.$mdMedia('sm') && $ctrl.displayOption === 'environmental'" flex layout-align="start">
+            <dc-environmental env-info-obj="$ctrl.rowAndRackInfoObj"></dc-environmental>
+        </div>
+
+        <!-- Legends -->
+
+        <div ng-if="$ctrl.$mdMedia('gt-xs')" flex="none" class="dc-legend-container">
+            <dc-legend display-option="$ctrl.displayOption" display-option-environment="$ctrl.displayOptionEnvironment"></dc-legend>
+        </div>
+    </div>
+</div>

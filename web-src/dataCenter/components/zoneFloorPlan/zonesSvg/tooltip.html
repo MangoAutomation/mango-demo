@@ -1,0 +1,9 @@
+<div ng-switch="$ctrl.displayOption">
+    <div ng-switch-when="racksLoads"><strong>Rack: </strong>{{$row}}-{{$rack}}</div>
+    <div ng-switch-when="rowLoad "><strong>Sub Row: </strong>{{$row}}-{{$subRow}}</div>
+    <div ng-switch-when="environmental"><strong>Rack: </strong>{{$row}} - {{$rack}}</div>
+    <div ng-switch-when="TAPSumRatios"><strong>Sub Row: </strong>{{$row}}-{{$subRow}}</div>
+
+    <div ng-if="$ctrl.displayOption !== 'environmental'"><strong>{{$ctrl.displayOption === 'TAPSumRatios' ? 'Ratio:' : 'Load:'}}</strong><ma-point-value point="$loadPoint"></ma-point-value></div>
+    <div ng-if="$ctrl.displayOption == 'environmental'"><strong>{{$loadPoint.name}}:</strong><ma-point-value point="$loadPoint"></ma-point-value></div>
+</div>

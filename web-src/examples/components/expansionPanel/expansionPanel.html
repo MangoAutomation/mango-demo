@@ -1,0 +1,15 @@
+<md-card>
+    <md-card-header>
+        <div class="header-wrapper">
+            <div ng-transclude="header"></div>
+            <div layout="row">
+                <div ng-transclude="actions"></div>
+                <md-button ng-if="!$ctrl.hideIcon" class="md-icon-button" aria-label="More" ng-click="$ctrl.isOpen = !$ctrl.isOpen">
+                    <md-icon ng-show="!$ctrl.isOpen">add</md-icon>
+                    <md-icon ng-show="$ctrl.isOpen">remove</md-icon>
+                </md-button>
+            </div>
+        </div>
+    </md-card-header>
+    <md-card-content ng-transclude="body" ng-show="$ctrl.isOpen"></md-card-content>
+</md-card>

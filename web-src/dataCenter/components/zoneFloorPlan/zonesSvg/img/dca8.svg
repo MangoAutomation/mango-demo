@@ -1,0 +1,2028 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2312.8 1733.5" style="enable-background:new 0 0 2312.8 1733.5;" xml:space="preserve">
+<style type="text/css">
+    .st10{opacity:0.75;fill:#E6E7EF;enable-background:new    ;}
+    .st11{fill:#000000;font-size:24px;}
+</style>
+<g id="bg">
+
+		<image style="overflow:visible;enable-background:new    ;" width="2270" height="1697" xlink:href="../OneDrive/Documents/Work/IAS/Dc/resources/renders/dca8x.png"  transform="matrix(1 0 0 1 15.6277 19.9894)">
+	</image>
+</g>
+<polygon class="st10" points="250,215.9 2039.2,215.9 2008.9,34.6 280,34.6 "/>
+<polygon class="st10" points="250.1,215.9 363.7,215.9 150.4,1703.9 53.4,1703.9 16.8,1655.7 "/>
+<g id="rowTitleText">
+	<text transform="matrix(1 0 0 1 401.379 147.4957)" class="st11">Rows</text>
+</g>
+<g id="rowTitleText_2_">
+	<text transform="matrix(1 0 0 1 281.8579 203.3254)" class="st11">Racks</text>
+</g>
+<g id="row01Text">
+	<text transform="matrix(1 0 0 1 400.1312 197.3339)" class="st11">01</text>
+</g>
+<g id="row01Text_9_">
+	<text transform="matrix(1 0 0 1 310.0477 263.2488)" class="st11">01</text>
+</g>
+<g id="row01Text_10_">
+	<text transform="matrix(1 0 0 1 288.9995 392.2341)" class="st11">08</text>
+</g>
+<g id="row01Text_11_">
+	<text transform="matrix(1 0 0 1 278.9831 470.8724)" class="st11">09</text>
+</g>
+<g id="row01Text_12_">
+	<text transform="matrix(1 0 0 1 261.9658 617.0852)" class="st11">16</text>
+</g>
+<g id="row01Text_13_">
+	<text transform="matrix(1 0 0 1 246.1225 728.4044)" class="st11">17</text>
+</g>
+<g id="row01Text_14_">
+	<text transform="matrix(1 0 0 1 219.9384 884.915)" class="st11">24</text>
+</g>
+<g id="row01Text_15_">
+	<text transform="matrix(1 0 0 1 205.9068 978.1065)" class="st11">25</text>
+</g>
+<g id="row01Text_16_">
+	<text transform="matrix(1 0 0 1 181.0845 1150.4469)" class="st11">32</text>
+</g>
+<g id="row02Text">
+	<text transform="matrix(1 0 0 1 504.4207 197.3336)" class="st11">02</text>
+</g>
+<g id="row03Text">
+	<text transform="matrix(1 0 0 1 591.3751 197.3336)" class="st11">03</text>
+</g>
+<g id="row04Text">
+	<text transform="matrix(1 0 0 1 695.0353 197.3339)" class="st11">04</text>
+</g>
+<g id="row05Text">
+	<text transform="matrix(1 0 0 1 780.9977 197.3337)" class="st11">05</text>
+</g>
+<g id="row06Text">
+	<text transform="matrix(1 0 0 1 887.2318 197.5303)" class="st11">06</text>
+</g>
+<g id="row07Text">
+	<text transform="matrix(1 0 0 1 977.3987 197.5303)" class="st11">07</text>
+</g>
+<g id="row08Text">
+	<text transform="matrix(1 0 0 1 1074.929 197.53)" class="st11">08</text>
+</g>
+<g id="row09Text">
+	<text transform="matrix(1 0 0 1 1161.729 197.5303)" class="st11">09</text>
+</g>
+<g id="row10Text">
+	<text transform="matrix(1 0 0 1 1269.8583 197.5303)" class="st11">10</text>
+</g>
+<g id="row11Text">
+	<text transform="matrix(1 0 0 1 1357.2867 197.5303)" class="st11">11</text>
+</g>
+<g id="row12Text">
+	<text transform="matrix(1 0 0 1 1464.3347 197.53)" class="st11">12</text>
+</g>
+<g id="row13Text">
+	<text transform="matrix(1 0 0 1 1549.7147 197.5303)" class="st11">13</text>
+</g>
+<g id="row14Text">
+	<text transform="matrix(1 0 0 1 1652.4453 197.5303)" class="st11">14</text>
+</g>
+<g id="row15Text">
+	<text transform="matrix(1 0 0 1 1735.9156 197.5303)" class="st11">15</text>
+</g>
+<g id="row16Text">
+	<text transform="matrix(1 0 0 1 1845.552 197.53)" class="st11">16</text>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-01*01">
+	<polygon class="st0" points="393,247.2 429.6,247.2 444.1,303.6 442.2,318.1 427.6,263.6 390.8,263.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-02*01">
+	<polygon class="st0" points="442.2,318.1 440.1,336.9 425.2,284 388,284 390.8,263.6 427.6,263.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-03*01">
+	<polygon class="st0" points="440.1,336.9 437.9,356.5 422.4,301.3 385.6,301.3 388,284 425.2,284 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-04*01">
+	<polygon class="st0" points="437.9,356.5 435.9,374.4 420.1,320.2 383.1,320.2 385.6,301.3 422.4,301.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-05*01">
+	<polygon class="st0" points="435.9,374.4 433.7,393.8 417.5,339.8 380.4,339.8 383.1,320.2 420.1,320.2 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-06*01">
+	<polygon class="st0" points="433.7,393.8 431.3,412.3 415.1,358.5 377.9,358.5 380.4,339.8 417.5,339.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-07*01">
+	<polygon class="st0" points="431.3,412.3 428.9,432.7 413.6,377.8 375.3,377.8 377.9,358.5 415.1,358.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-08*01">
+	<polygon class="st0" points="428.9,432.7 426.4,451.6 388.7,451.6 384.3,435.5 386.5,435.5 388,413.9 384.3,404.3 375.3,404.3
+		372.8,395.6 375.3,377.8 413.6,377.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-08_AR*01">
+	<polygon class="st0" points="375.3,404.3 384.3,404.3 388,413.9 386.5,435.5 366.5,435.5 363,421.6 365.4,404.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-09*02">
+	<polygon class="st0" points="363.6,459.7 401.6,459.7 418.4,515.5 416.2,531 399.6,477.2 361.7,477.2 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-10*02">
+	<polygon class="st0" points="416.2,531 413.6,549.5 397.7,498.3 358.9,498.3 361.7,477.2 399.6,477.2 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-11*02">
+	<polygon class="st0" points="413.6,549.5 411.6,569.6 394.7,518.5 356.2,518.5 358.9,498.3 397.7,498.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-12*02">
+	<polygon class="st0" points="411.6,569.6 409.2,590.5 392.7,538.8 353.5,538.8 356.2,518.5 394.7,518.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-13*02">
+	<polygon class="st0" points="409.2,590.5 406.4,610.8 390,559.2 350.7,559.2 353.5,538.8 392.7,538.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-14*02">
+	<polygon class="st0" points="406.4,610.8 403.9,630.9 387.5,580.1 347.9,580.1 350.7,559.2 390,559.2 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-15*02">
+	<polygon class="st0" points="403.9,630.9 402.2,652 384.9,600.6 345.1,600.6 347.9,580.1 387.5,580.1 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-16*02">
+	<polygon class="st0" points="402.2,652 400.2,672.8 359.6,672.8 342.3,620.9 345.1,600.6 384.9,600.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-17*03">
+	<polygon class="st0" points="329.9,712.4 370.2,712.4 387.2,762.1 384.8,783.7 366.4,732.7 327.1,732.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-18*03">
+	<polygon class="st0" points="384.8,783.7 382.3,804 364.7,756 324,756 327.1,732.7 366.4,732.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-19*03">
+	<polygon class="st0" points="382.3,804 379.8,826.1 362.2,776.8 321.2,776.8 324,756 364.7,756 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-20*03">
+	<polygon class="st0" points="379.8,826.1 376.5,848.6 359.1,799.6 318.1,799.6 321.2,776.8 362.2,776.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-21*03">
+	<polygon class="st0" points="376.5,848.6 374.2,869.3 356.3,821.9 315.1,821.9 318.1,799.6 359.1,799.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-22*03">
+	<polygon class="st0" points="374.2,869.3 371.7,891.5 353.5,843.8 312.1,843.8 315.1,821.9 356.3,821.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-23*03">
+	<polygon class="st0" points="371.7,891.5 368.8,913.6 350.4,865.9 309.1,865.9 312.1,843.8 353.5,843.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-24*03">
+	<polygon class="st0" points="368.8,913.6 366.3,936.9 324.6,936.9 321.2,926.4 323.4,913.6 318.1,901.5 312.1,901.5 306.3,887.2
+		309.1,865.9 350.4,865.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-24_AR*03">
+	<polygon class="st0" points="312.1,901.5 318.1,901.5 323.4,913.6 319.4,935.4 299.5,935.4 294.1,922.4 297.6,901.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-25*04">
+	<polygon class="st0" points="296,962.6 337.5,962.6 356.2,1009.9 353.9,1031 334.8,985.4 293,985.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-26*04">
+	<polygon class="st0" points="353.9,1031 351,1054 331.9,1009.3 289.7,1009.3 293,985.4 334.8,985.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-27*04">
+	<polygon class="st0" points="351,1054 348.4,1077.5 329.3,1032.9 286.5,1032.9 289.7,1009.3 331.9,1009.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-28*04">
+	<polygon class="st0" points="348.4,1077.5 345.9,1101.9 325.6,1056.7 283.3,1056.7 286.5,1032.9 329.3,1032.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-29*04">
+	<polygon class="st0" points="345.9,1101.9 342.5,1124.1 322.6,1080 280.1,1080 283.3,1056.7 325.6,1056.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-30*04">
+	<polygon class="st0" points="342.5,1124.1 339.2,1148.8 319.6,1104.6 276.8,1104.6 280.1,1080 322.6,1080 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-31*04">
+	<polygon class="st0" points="339.2,1148.8 336.1,1172.5 316.6,1129.4 273.5,1129.4 276.8,1104.6 319.6,1104.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-01-32*04">
+	<polygon class="st0" points="336.1,1172.5 333.8,1197.9 290.9,1197.9 270.4,1151.7 273.5,1129.4 316.6,1129.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-01*01">
+	<polygon class="st0" points="496.6,247.2 534.9,247.2 547,305.3 545.1,318.7 531.9,264.6 494.7,264.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-02*01">
+	<polygon class="st0" points="545.1,318.7 542.6,337.9 530.4,284 492.3,284 494.7,264.6 531.9,264.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-03*01">
+	<polygon class="st0" points="542.6,337.9 540.9,356.5 527.8,302.2 490.2,302.2 492.3,284 530.4,284 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-04*01">
+	<polygon class="st0" points="540.9,356.5 539.4,376.1 525.4,320.2 488.1,320.2 490.2,302.2 527.8,302.2 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-05*01">
+	<polygon class="st0" points="539.4,376.1 537.2,394.6 524.4,339.1 485.9,339.1 488.1,320.2 525.4,320.2 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-06*01">
+	<polygon class="st0" points="537.2,394.6 535,412.3 522.2,358.5 483.6,358.5 485.9,339.1 524.4,339.1 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-07*01">
+	<polygon class="st0" points="535,412.3 533.1,431.3 520,377.1 481.5,377.1 483.6,358.5 522.2,358.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-08*01">
+	<path class="st0" d="M520,377.1h-38.5l-2.2,18.5l13.6,56h38.3l1.9-20.4L520,377.1z M513.9,435.7h-21.2l-2.7-13.1l2.7-18.3h20.5
+		l2.9,13.8L513.9,435.7z"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-08_AR*01">
+	<polygon class="st0" points="492.8,404.3 513.3,404.3 516.1,418.1 513.9,435.7 492.8,435.7 490.1,422.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-09*02">
+	<polygon class="st0" points="471.9,459.7 510.4,459.7 524.1,513.3 522.5,531 508.2,479.4 469.6,479.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-10*02">
+	<polygon class="st0" points="522.5,531 520.5,549.5 506.2,499.3 467.3,499.3 469.6,479.4 508.2,479.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-11*02">
+	<polygon class="st0" points="520.5,549.5 519.3,571 504.1,518.5 465,518.5 467.3,499.3 506.2,499.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-12*02">
+	<polygon class="st0" points="519.3,571 516.9,592.7 501.9,539.5 462.6,539.5 465,518.5 504.1,518.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-13*02">
+	<polygon class="st0" points="516.9,592.7 514.7,611.8 500.1,559.2 460.3,559.2 462.6,539.5 501.9,539.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-14*02">
+	<polygon class="st0" points="514.7,611.8 512.7,630.9 498.3,580.1 457.9,580.1 460.3,559.2 500.1,559.2 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-15*02">
+	<polygon class="st0" points="512.7,630.9 510.1,653 495.1,600.6 455.5,600.6 457.9,580.1 498.3,580.1 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-16*02">
+	<polygon class="st0" points="510.1,653 508.2,672.8 468.2,672.8 453.3,619.8 455.5,600.6 495.1,600.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-17*03">
+	<polygon class="st0" points="442.5,712.4 482.7,712.4 498.3,764.5 496,782.9 481,734 439.9,734 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-18*03">
+	<polygon class="st0" points="496,782.9 494.1,804.3 478.1,754.7 437.6,754.7 439.9,734 481,734 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-19*03">
+	<polygon class="st0" points="494.1,804.3 491.4,829.3 476.6,777.5 434.9,777.5 437.6,754.7 478.1,754.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-20*03">
+	<polygon class="st0" points="491.4,829.3 489.2,849 474,799.6 432.4,799.6 434.9,777.5 476.6,777.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-21*03">
+	<polygon class="st0" points="489.2,849 487,869.3 471.5,821.9 429.8,821.9 432.4,799.6 474,799.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-22*03">
+	<polygon class="st0" points="487,869.3 484.5,892.1 469.1,843.8 427.2,843.8 429.8,821.9 471.5,821.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-23*03">
+	<polygon class="st0" points="484.5,892.1 482,914.8 466.1,865.9 424.7,865.9 427.2,843.8 469.1,843.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-24*03">
+	<path class="st0" d="M466.1,865.9h-41.4l-2.3,19.8l16.5,51.7h40.6l2.5-22.7L466.1,865.9z M459.9,935.1h-20l-4.7-12.7l0.7-20.9h21.2
+		l4.9,12.1L459.9,935.1z"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-24_AR*03">
+	<polygon class="st0" points="435.9,901.5 457.1,901.5 462,913.6 459.9,935.1 439.9,935.1 435.2,922.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-25*04">
+	<polygon class="st0" points="413.4,962.6 455.5,962.6 471.9,1013.2 469.7,1032.9 453.3,985.4 410.8,985.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-26*04">
+	<polygon class="st0" points="469.7,1032.9 467.3,1055.4 450.8,1009.3 408,1009.3 410.8,985.4 453.3,985.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-27*04">
+	<polygon class="st0" points="467.3,1055.4 464.8,1078.3 448.3,1032.9 405.3,1032.9 408,1009.3 450.8,1009.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-28*04">
+	<polygon class="st0" points="464.8,1078.3 462.2,1101.9 445.5,1056.7 402.5,1056.7 405.3,1032.9 448.3,1032.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-29*04">
+	<polygon class="st0" points="462.2,1101.9 459.6,1125.4 443,1080.8 399.7,1080.8 402.5,1056.7 445.5,1056.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-30*04">
+	<polygon class="st0" points="459.6,1125.4 457.1,1148.8 440.5,1105 396.9,1105 399.7,1080.8 443,1080.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-31*04">
+	<polygon class="st0" points="457.1,1148.8 454.3,1173.9 438.2,1129.4 394,1129.4 396.9,1105 440.5,1105 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-02-32*04">
+	<polygon class="st0" points="454.3,1173.9 451.7,1198.2 409.3,1198.2 391.4,1152.3 394,1129.4 438.2,1129.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-01*01">
+	<polygon class="st0" points="584.9,247.6 622.4,247.6 632.8,304.4 631.8,319.3 620.2,264.6 583.2,264.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-02*01">
+	<polygon class="st0" points="631.8,319.3 630,339.1 618.5,284 581.2,284 583.2,264.6 620.2,264.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-03*01">
+	<polygon class="st0" points="630,339.1 628.3,358.5 616.5,302.6 579.4,302.6 581.2,284 618.5,284 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-04*01">
+	<polygon class="st0" points="628.3,358.5 626.6,376.7 615.3,320.7 577.5,320.7 579.4,302.6 616.5,302.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-05*01">
+	<polygon class="st0" points="626.6,376.7 624.8,396.3 613.3,339.6 575.7,339.6 577.5,320.7 615.3,320.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-06*01">
+	<polygon class="st0" points="624.8,396.3 623.3,413.3 611,358.5 573.8,358.5 575.7,339.6 613.3,339.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-07*01">
+	<polygon class="st0" points="623.3,413.3 621.5,433.2 609.7,377.1 571.9,377.1 573.8,358.5 611,358.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-08*01">
+	<polygon class="st0" points="609.7,377.1 571.9,377.1 570,395.8 571.8,404.3 584.2,404.3 587.3,416.1 585,435.7 578.5,435.7
+		581.9,451.6 619.8,451.6 621.5,433.2 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-08_AR*01">
+	<polygon class="st0" points="565,404.3 584.2,404.3 587.3,416.1 585,435.7 565.7,435.7 562.6,421.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-09*02">
+	<polygon class="st0" points="563.7,459.7 601.2,459.7 613.9,516.3 612.2,535.4 600,478.9 561.7,478.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-10*02">
+	<polygon class="st0" points="612.2,535.4 610.6,553.4 598.7,499.3 559.7,499.3 561.7,478.9 600,478.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-11*02">
+	<polygon class="st0" points="610.6,553.4 608.8,572.6 596.9,518.5 557.8,518.5 559.7,499.3 598.7,499.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-12*02">
+	<polygon class="st0" points="608.8,572.6 607.2,590.6 594.9,538.8 555.7,538.8 557.8,518.5 596.9,518.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-13*02">
+	<polygon class="st0" points="607.2,590.6 605.4,609.8 593.1,559.5 553.7,559.5 555.7,538.8 594.9,538.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-14*02">
+	<polygon class="st0" points="605.4,609.8 603.4,631.7 590.8,580.1 551.6,580.1 553.7,559.5 593.1,559.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-15*02">
+	<polygon class="st0" points="603.4,631.7 601.6,652.4 589,600.6 549.6,600.6 551.6,580.1 590.8,580.1 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-16*02">
+	<polygon class="st0" points="601.6,652.4 599.7,672.8 561,672.8 547.6,619.8 549.6,600.6 589,600.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-17*03">
+	<polygon class="st0" points="538.4,712.4 577.4,712.4 591.3,765.7 589.6,784.5 575.9,733.4 536.3,733.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-18*03">
+	<polygon class="st0" points="589.6,784.5 587.8,804.3 574.4,755.4 534.1,755.4 536.3,733.4 575.9,733.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-19*03">
+	<polygon class="st0" points="587.8,804.3 585.6,828.2 572.6,777.5 531.9,777.5 534.1,755.4 574.4,755.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-20*03">
+	<polygon class="st0" points="585.6,828.2 583.7,849 570.6,800 529.6,800 531.9,777.5 572.6,777.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-21*03">
+	<polygon class="st0" points="583.7,849 581.8,870.3 568.6,821.4 527.5,821.4 529.6,800 570.6,800 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-22*03">
+	<polygon class="st0" points="581.8,870.3 579.9,891.4 566.2,843.8 525.3,843.8 527.5,821.4 568.6,821.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-23*03">
+	<polygon class="st0" points="579.9,891.4 577.8,914.2 564.1,866.8 523,866.8 525.3,843.8 566.2,843.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-24*03">
+	<polygon class="st0" points="564.1,866.8 523,866.8 520.8,888.3 524.5,901.7 535.1,901.7 539.6,914.2 536.7,935.1 533.9,935.1
+		534.5,937.5 575.7,937.5 577.8,914.2 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-24_AR*03">
+	<polygon class="st0" points="514.9,901.7 535.1,901.7 539.6,914.2 536.7,935.1 516,935.1 511.8,922.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-25*04">
+	<polygon class="st0" points="513.4,962.6 554.2,962.6 569.1,1010.1 567,1033.4 552.7,985.4 511,985.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-26*04">
+	<polygon class="st0" points="567,1033.4 565.1,1053.4 550.9,1009.3 508.7,1009.3 511,985.4 552.7,985.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-27*04">
+	<polygon class="st0" points="565.1,1053.4 562.9,1078.3 548.8,1033.4 506.3,1033.4 508.7,1009.3 550.9,1009.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-28*04">
+	<polygon class="st0" points="562.9,1078.3 560.7,1102.7 546.3,1056.7 504,1056.7 506.3,1033.4 548.8,1033.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-29*04">
+	<polygon class="st0" points="560.7,1102.7 558.6,1125.7 544.4,1080.8 501.6,1080.8 504,1056.7 546.3,1056.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-30*04">
+	<polygon class="st0" points="558.6,1125.7 556.5,1149.1 542.1,1105 499.1,1105 501.6,1080.8 544.4,1080.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-31*04">
+	<polygon class="st0" points="556.5,1149.1 554.3,1173.3 539.6,1129.4 496.7,1129.4 499.1,1105 542.1,1105 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-03-32*04">
+	<polygon class="st0" points="554.3,1173.3 552,1198.2 509.4,1198.2 494.4,1152.6 496.7,1129.4 539.6,1129.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-01*01">
+	<polygon class="st0" points="688.8,247.6 725.3,247.6 735.4,304.7 734.2,320.7 724.9,265.8 687.4,265.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-02*01">
+	<polygon class="st0" points="734.2,320.7 732.9,339.1 723.6,283.4 685.9,283.4 687.4,265.8 724.9,265.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-03*01">
+	<polygon class="st0" points="732.9,339.1 731.7,355.4 722.4,302.5 684.4,302.5 685.9,283.4 723.6,283.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-04*01">
+	<polygon class="st0" points="731.7,355.4 730.6,371.6 720.7,320.7 682.9,320.7 684.4,302.5 722.4,302.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-05*01">
+	<polygon class="st0" points="730.6,371.6 729.1,391.8 719.4,339.6 681.4,339.6 682.9,320.7 720.7,320.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-06*01">
+	<polygon class="st0" points="729.1,391.8 727.8,410.5 717.9,358.5 679.8,358.5 681.4,339.6 719.4,339.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-07*01">
+	<polygon class="st0" points="727.8,410.5 726.3,430.2 716.7,378 678.3,378 679.8,358.5 717.9,358.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-08*01">
+	<path class="st0" d="M716.7,378h-38.4l-1.3,16.3l10.4,57.3h37.4l1.5-21.4L716.7,378z M712.8,435.7h-20.3l-1.8-13.4l1.2-18h20.7
+		l2.2,13.2L712.8,435.7z"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-08_AR*01">
+	<polygon class="st0" points="691.9,404.3 712.6,404.3 714.8,417.5 712.8,435.7 692.5,435.7 690.7,422.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-09*02">
+	<polygon class="st0" points="671.7,459.7 710.1,459.7 720.1,516.5 718.9,532.3 709,478.9 670.1,478.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-10*02">
+	<polygon class="st0" points="718.9,532.3 717.6,551.5 707.8,499.3 668.4,499.3 670.1,478.9 709,478.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-11*02">
+	<polygon class="st0" points="717.6,551.5 716.1,571 706,518.5 666.9,518.5 668.4,499.3 707.8,499.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-12*02">
+	<polygon class="st0" points="716.1,571 714.9,588.5 704.2,538.8 665.2,538.8 666.9,518.5 706,518.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-13*02">
+	<polygon class="st0" points="714.9,588.5 713.1,613.4 703,559.5 663.6,559.5 665.2,538.8 704.2,538.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-14*02">
+	<polygon class="st0" points="713.1,613.4 711.6,633.8 701.5,579.8 661.9,579.8 663.6,559.5 703,559.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-15*02">
+	<polygon class="st0" points="711.6,633.8 710.5,649.3 699.3,600.6 660.2,600.6 661.9,579.8 701.5,579.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-16*02">
+	<polygon class="st0" points="710.5,649.3 708.8,672.8 669.6,672.8 658.7,619.8 660.2,600.6 699.3,600.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-17*02">
+	<polygon class="st0" points="651.2,712.4 690.9,712.4 702.1,765 700.8,782.9 689.3,733.4 649.5,733.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-18*03">
+	<polygon class="st0" points="700.8,782.9 699.4,802.7 688.1,755.4 647.7,755.4 649.5,733.4 689.3,733.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-19*03">
+	<polygon class="st0" points="699.4,802.7 697.8,824.7 687.1,776.8 646,776.8 647.7,755.4 688.1,755.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-20*03">
+	<polygon class="st0" points="697.8,824.7 696,849 685.3,799.6 644.1,799.6 646,776.8 687.1,776.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-21*03">
+	<polygon class="st0" points="696,849 694.5,870.3 683.4,821.9 642.3,821.9 644.1,799.6 685.3,799.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-22*03">
+	<polygon class="st0" points="694.5,870.3 693,891.4 681.7,843.8 640.5,843.8 642.3,821.9 683.4,821.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-23*03">
+	<polygon class="st0" points="693,891.4 691.4,913.1 680.6,865.9 638.7,865.9 640.5,843.8 681.7,843.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-24*03">
+	<path class="st0" d="M680.6,865.9h-41.8l-1.6,20.3l12.4,51.3h40.2l1.8-24.4L680.6,865.9z M675.8,935.1h-22l-2.3-12.8l0.9-20.6h22.5
+		l2.4,11.4L675.8,935.1z"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-2_AR*03">
+	<polygon class="st0" points="652.4,901.7 674.9,901.7 677.3,913.1 675.8,935.1 653.9,935.1 651.6,922.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-25*04">
+	<polygon class="st0" points="630.9,962.6 672.7,962.6 684.4,1010.6 683,1029 671,985.4 629.1,985.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-26*04">
+	<polygon class="st0" points="683,1029 681.1,1055.4 669.8,1009.3 627.1,1009.3 629.1,985.4 671,985.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-27*04">
+	<polygon class="st0" points="681.1,1055.4 679.6,1076.1 667.5,1032.9 625.2,1032.9 627.1,1009.3 669.8,1009.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-28*04">
+	<polygon class="st0" points="679.6,1076.1 677.8,1101.9 666,1056.7 623.3,1056.7 625.2,1032.9 667.5,1032.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-29*04">
+	<polygon class="st0" points="677.8,1101.9 676.1,1125.4 664.7,1080.8 621.3,1080.8 623.3,1056.7 666,1056.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-30*04">
+	<polygon class="st0" points="676.1,1125.4 674.4,1148.8 662.1,1104.6 619.4,1104.6 621.3,1080.8 664.7,1080.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-31*04">
+	<polygon class="st0" points="674.4,1148.8 672.6,1172.5 660.2,1129.4 617.3,1129.4 619.4,1104.6 662.1,1104.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-04-32*04">
+	<polygon class="st0" points="672.6,1172.5 670.8,1198.2 628.1,1198.2 615.7,1150.4 617.3,1129.4 660.2,1129.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-01*01">
+	<polygon class="st0" points="778.2,247.2 814.6,247.2 822.8,305.5 821.8,321.9 813.7,264.7 777,264.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-02*01">
+	<polygon class="st0" points="821.8,321.9 821,335.7 813,284.1 775.7,284.1 777,264.7 813.7,264.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-03*01">
+	<polygon class="st0" points="821,335.7 820.2,351.3 811.8,302.1 774.6,302.1 775.7,284.1 813,284.1 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-04*01">
+	<polygon class="st0" points="820.2,351.3 819.1,370.5 811.3,320.7 773.3,320.7 774.6,302.1 811.8,302.1 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-05*01">
+	<polygon class="st0" points="819.1,370.5 818.1,387.6 810,339.6 772.1,339.6 773.3,320.7 811.3,320.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-06*01">
+	<polygon class="st0" points="818.1,387.6 817.1,405.4 809.2,358.5 770.9,358.5 772.1,339.6 810,339.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-07*01">
+	<polygon class="st0" points="817.1,405.4 815.8,427.9 807.6,377.3 769.6,377.3 770.9,358.5 809.2,358.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-08*01">
+	<polygon class="st0" points="807.6,377.3 769.6,377.3 768.4,395.2 769.7,404.3 784.7,404.3 785.9,416.3 784.7,435.7 774.1,435.7
+		776.3,451.6 814.5,451.6 815.8,427.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-08_AR*01">
+	<polygon class="st0" points="765.2,404.3 784.7,404.3 785.9,416.3 784.7,435.7 765.2,435.7 763.9,421.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-09*02">
+	<polygon class="st0" points="764.2,460.1 802.4,460.1 810.9,513.7 810.2,527.2 801.5,478.9 762.9,478.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-10*02">
+	<polygon class="st0" points="810.2,527.2 809.2,545.2 800.8,499.3 761.6,499.3 762.9,478.9 801.5,478.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-11*02">
+	<polygon class="st0" points="809.2,545.2 808.1,563.7 799.6,518.5 760.3,518.5 761.6,499.3 800.8,499.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-12*02">
+	<polygon class="st0" points="808.1,563.7 806.9,585.7 798,538.8 759,538.8 760.3,518.5 799.6,518.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-13*02">
+	<polygon class="st0" points="806.9,585.7 805.6,608.4 797.1,558.5 757.7,558.5 759,538.8 798,538.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-14*02">
+	<polygon class="st0" points="805.6,608.4 804.3,631.2 795.5,580.1 756.3,580.1 757.7,558.5 797.1,558.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-15*02">
+	<polygon class="st0" points="804.3,631.2 803.1,652.4 794.4,600.6 754.9,600.6 756.3,580.1 795.5,580.1 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-16*02">
+	<polygon class="st0" points="803.1,652.4 801.9,672.8 762.3,672.8 753.8,617.7 754.9,600.6 794.4,600.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-17*03">
+	<polygon class="st0" points="747.6,712.4 786.9,712.4 796.6,767.4 795.4,787.2 786.3,733.4 746.1,733.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-18*03">
+	<polygon class="st0" points="795.4,787.2 794.5,803.6 785.4,755.4 744.7,755.4 746.1,733.4 786.3,733.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-19*03">
+	<polygon class="st0" points="794.5,803.6 793.4,823.6 784.2,776.8 743.3,776.8 744.7,755.4 785.4,755.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-20*03">
+	<polygon class="st0" points="793.4,823.6 792.2,843.8 782.8,798.5 741.9,798.5 743.3,776.8 784.2,776.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-21*03">
+	<polygon class="st0" points="792.2,843.8 791,865.9 781.7,821.4 740.4,821.4 741.9,798.5 782.8,798.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-22*03">
+	<polygon class="st0" points="791,865.9 789.5,891.4 779.9,843.8 738.9,843.8 740.4,821.4 781.7,821.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-23*03">
+	<polygon class="st0" points="789.5,891.4 788.4,911.2 779.1,866.8 737.4,866.8 738.9,843.8 779.9,843.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-24*03">
+	<polygon class="st0" points="779.1,866.8 737.4,866.8 736.1,886.6 738.9,901.7 752.3,901.7 755.4,914.8 754.8,935.1 745.2,935.1
+		745.7,937.5 786.9,937.5 788.4,911.2 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-24_AR*03">
+	<polygon class="st0" points="732.1,901.7 752.3,901.7 755.4,914.8 754.8,935.1 732.1,935.1 730.2,921.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-25*04">
+	<polygon class="st0" points="731.1,962.6 772.4,962.6 782.7,1012 781.6,1030.2 771.5,984.6 729.6,984.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-26*04">
+	<polygon class="st0" points="781.6,1030.2 780.3,1054.4 770.4,1009.3 728,1009.3 729.6,984.6 771.5,984.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-27*04">
+	<polygon class="st0" points="780.3,1054.4 779.1,1074.8 768.8,1033.4 726.4,1033.4 728,1009.3 770.4,1009.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-28*04">
+	<polygon class="st0" points="779.1,1074.8 777.8,1098.8 767.6,1056.7 724.8,1056.7 726.4,1033.4 768.8,1033.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-29*04">
+	<polygon class="st0" points="777.8,1098.8 776.4,1122.8 765.9,1080.8 723.3,1080.8 724.8,1056.7 767.6,1056.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-30*04">
+	<polygon class="st0" points="776.4,1122.8 774.9,1148.8 765.1,1105 721.7,1105 723.3,1080.8 765.9,1080.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-31*04">
+	<polygon class="st0" points="774.9,1148.8 773.7,1169.6 763.2,1129.4 720.1,1129.4 721.7,1105 765.1,1105 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-05-32*04">
+	<polygon class="st0" points="773.7,1169.6 772.1,1199 729.6,1199 718.7,1150.4 720.1,1129.4 763.2,1129.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-01*04*01">
+	<polygon class="st0" points="882.4,247.6 919.4,247.6 924.9,305.5 924.4,317 918.8,265.3 881.6,265.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-02*01">
+	<polygon class="st0" points="924.4,317 924,326.4 918.3,283.4 880.7,283.4 881.6,265.3 918.8,265.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-03*01">
+	<polygon class="st0" points="924,326.4 923.5,341.1 917.4,302.5 879.8,302.5 880.7,283.4 918.3,283.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-04*01">
+	<polygon class="st0" points="923.5,341.1 923,352.7 916.5,320.1 879,320.1 879.8,302.5 917.4,302.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-05*01">
+	<polygon class="st0" points="923,352.7 922.4,367.9 916,339.6 878.1,339.6 879,320.1 916.5,320.1 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-06*01">
+	<polygon class="st0" points="922.4,367.9 921.7,385.9 916.1,358.5 877.2,358.5 878.1,339.6 916,339.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-07*01">
+	<polygon class="st0" points="921.7,385.9 920.6,414.8 914.4,377.3 876.3,377.3 877.2,358.5 916.1,358.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-08*01">
+	<path class="st0" d="M914.4,377.3h-38.1l-0.8,17l6.1,57.3h37.6l1.4-36.8L914.4,377.3z M912.7,435.7h-19.3l-2.4-13.6l1.4-17.8h20
+		l1.1,13.3L912.7,435.7z"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-08_AR*01">
+	<polygon class="st0" points="892.4,404.3 912.4,404.3 913.6,417.7 912.7,435.7 893.4,435.7 891,422.1 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-09*02">
+	<polygon class="st0" points="872.4,460.1 910.4,460.1 916.8,513 916.1,530.8 909.5,477.7 871.5,477.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-10*02">
+	<polygon class="st0" points="916.1,530.8 915.5,545.2 909,499.3 870.5,499.3 871.5,477.7 909.5,477.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-11*02">
+	<polygon class="st0" points="915.5,545.2 914.9,560.4 908.4,518.5 869.6,518.5 870.5,499.3 909,499.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-12*02">
+	<polygon class="st0" points="914.9,560.4 914.3,576.1 907.9,538.8 868.7,538.8 869.6,518.5 908.4,518.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-13*02">
+	<polygon class="st0" points="914.3,576.1 913.7,592.7 907.2,559.5 867.7,559.5 868.7,538.8 907.9,538.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-14*02">
+	<polygon class="st0" points="913.7,592.7 912.7,616.3 906.4,579.8 866.7,579.8 867.7,559.5 907.2,559.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-15*02">
+	<polygon class="st0" points="912.7,616.3 911.7,643.1 905.7,600.6 865.8,600.6 866.7,579.8 906.4,579.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-16*02">
+	<polygon class="st0" points="911.7,643.1 910.5,672.8 871.5,672.8 864.9,618.6 865.8,600.6 905.7,600.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-17*02">
+	<polygon class="st0" points="860.4,712.4 900.2,712.4 907,763.3 906.5,776.8 899.4,732.3 859.5,732.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-18*02">
+	<polygon class="st0" points="906.5,776.8 905.9,790.9 899.4,755.4 858.4,755.4 859.5,732.3 899.4,732.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-19*02">
+	<polygon class="st0" points="905.9,790.9 905.3,807.7 898.1,776.8 857.4,776.8 858.4,755.4 899.4,755.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-20*02">
+	<polygon class="st0" points="905.3,807.7 904.5,827 897.9,798.5 856.3,798.5 857.4,776.8 898.1,776.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-21*02">
+	<polygon class="st0" points="904.5,827 903.7,849 897.3,820.5 855.3,820.5 856.3,798.5 897.9,798.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-22*02">
+	<polygon class="st0" points="903.7,849 902.5,878.5 896.2,843.1 854.2,843.1 855.3,820.5 897.3,820.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-23*02">
+	<polygon class="st0" points="902.5,878.5 901.3,910.5 894.9,865.9 853.2,865.9 854.2,843.1 896.2,843.1 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-24*02">
+	<path class="st0" d="M894.9,865.9h-41.7l-1,21.4l7.1,50.1h40.9l1.1-27L894.9,865.9z M892.1,935.1h-21.7l-1.4-13.4l2-20h21.6
+		L892.1,935.1z"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-24_AR*02">
+	<polygon class="st0" points="871,901.7 892.6,901.7 892.1,935.1 870.4,935.1 869,921.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-25*04">
+	<polygon class="st0" points="848.6,962.6 890.9,962.6 897.3,1013 896.2,1040.2 889.4,983.9 847.6,983.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-26*04">
+	<polygon class="st0" points="896.2,1040.2 895.1,1069.2 888.8,1009.3 846.4,1009.3 847.6,983.9 889.4,983.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-27*04">
+	<polygon class="st0" points="895.1,1069.2 894.3,1088.3 888.4,1032.9 845.3,1032.9 846.4,1009.3 888.8,1009.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-28*04">
+	<polygon class="st0" points="894.3,1088.3 893.6,1108.1 887.3,1056.7 844.2,1056.7 845.3,1032.9 888.4,1032.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-29*04">
+	<polygon class="st0" points="893.6,1108.1 892.7,1130.3 886.2,1080.8 843,1080.8 844.2,1056.7 887.3,1056.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-30*04">
+	<polygon class="st0" points="892.7,1130.3 891.7,1156.2 885.1,1104.6 841.9,1104.6 843,1080.8 886.2,1080.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-31*04">
+	<polygon class="st0" points="891.7,1156.2 890.8,1179.2 884.4,1129.4 840.7,1129.4 841.9,1104.6 885.1,1104.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-06-32*04">
+	<polygon class="st0" points="890.8,1179.2 890,1199 847.6,1199 839.7,1151.4 840.7,1129.4 884.4,1129.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-01*01">
+	<polygon class="st0" points="1007.8,248.6 1011.6,303.6 1011.6,309.1 1007.2,265.3 969.7,265.3 969.7,248 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-02*01">
+	<polygon class="st0" points="1011.6,309.7 1011.6,315.4 1007,283.4 968.6,283.4 969.7,265.3 1007.2,265.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-03*01">
+	<polygon class="st0" points="1011.6,315.4 1011.6,339.6 1007,302.1 968,302.1 968.6,283.4 1007,283.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-04*01">
+	<polygon class="st0" points="1011.6,339.6 1010.2,363.6 1006.4,320.1 967.5,320.1 968,302.1 1007,302.1 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-05*01">
+	<polygon class="st0" points="1010.2,363.6 1009.6,387.6 1005.7,339.6 966.9,339.6 967.5,320.1 1006.4,320.1 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-06*01">
+	<polygon class="st0" points="1009.6,387.6 1008.8,406.1 1005,358.5 966.3,358.5 966.9,339.6 1005.7,339.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-07*01">
+	<polygon class="st0" points="1008.8,406.1 1008.1,430.5 1004.4,377.3 965.8,377.3 966.3,358.5 1005,358.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-08*01">
+	<polygon class="st0" points="1004.4,377.3 965.8,377.3 965.2,396.2 965.9,404.3 984.1,404.3 984.1,435.7 968.4,435.7 969.7,451.6
+		1007.5,451.6 1008.1,430.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-08_AR*01">
+	<polygon class="st0" points="964.2,404.3 984.1,404.3 984.1,435.7 964.2,435.7 963.3,420.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-09*02">
+	<rect x="963.3" y="459.7" class="st0" width="40.4" height="20"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-10*02">
+	<polygon class="st0" points="1003.7,479.8 1005.6,529.9 1001.9,499 962.1,499 963.3,479.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-11*02">
+	<polygon class="st0" points="1005.6,529.9 1005.6,550.4 1001.6,518.5 961.5,518.5 962.1,499 1001.9,499 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-12*02">
+	<polygon class="st0" points="1005.6,550.4 1005,567.2 1001.3,538.8 960.9,538.8 961.5,518.5 1001.6,518.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-13*02">
+	<polygon class="st0" points="1005,567.2 1004.3,586.4 1000.5,558.5 960.3,558.5 960.9,538.8 1001.3,538.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-14*02">
+	<polygon class="st0" points="1004.3,586.4 1003.8,615.2 999.6,579.4 959.6,579.4 960.3,558.5 1000.5,558.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-15*02">
+	<polygon class="st0" points="1003.8,615.2 1003.8,639.5 999.2,600 959,600 959.6,579.4 999.6,579.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-16*02">
+	<polygon class="st0" points="1003.8,639.5 1002.4,672.8 963.2,672.8 958.5,617.1 959,600 999.2,600 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-17*02">
+	<polygon class="st0" points="955.6,712.4 996.4,712.4 1000.5,767.9 1000.5,780 995.8,733.4 955,733.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-18*03">
+	<polygon class="st0" points="1000.5,780 999.7,800.2 995.3,754.7 954.3,754.7 955,733.4 995.8,733.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-19*03">
+	<polygon class="st0" points="999.7,800.2 999,823 995.4,776.1 953.7,776.1 954.3,754.7 995.3,754.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-20*03">
+	<polygon class="st0" points="999,823 998.3,845.4 994.2,799 953,799 953.7,776.1 995.4,776.1 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-21*03">
+	<polygon class="st0" points="998.3,845.4 997.7,868.5 994.2,820.5 952.4,820.5 953,799 994.2,799 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-22*03">
+	<polygon class="st0" points="997.7,868.5 997.7,889 993.5,843.8 951.7,843.8 952.4,820.5 994.2,820.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-23*03">
+	<polygon class="st0" points="997.7,889 997.7,914.7 993.2,866.8 951,866.8 951.7,843.8 993.5,843.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-24*03">
+	<polygon class="st0" points="993.2,866.8 951,866.8 950.3,888 951.8,901.7 969.9,901.7 970.4,935.1 955.4,935.1 955.7,937.5
+		996,937.5 997.7,914.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-24_AR*03">
+	<polygon class="st0" points="948,901.7 969.9,901.7 970.4,935.1 948,935.1 947.4,920.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-25*01">
+	<polygon class="st0" points="948.1,962.6 990.5,962.6 995.1,1012 994,1038.4 989.6,984.6 947.4,984.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-26*01">
+	<polygon class="st0" points="994,1038.4 994,1058.4 989.4,1008.4 946.6,1008.4 947.4,984.6 989.6,984.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-27*01">
+	<polygon class="st0" points="994,1058.4 994,1081.8 988.9,1032.9 945.9,1032.9 946.6,1008.4 989.4,1008.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-28*01">
+	<polygon class="st0" points="994,1081.8 993.1,1105.9 988.6,1056.7 945.2,1056.7 945.9,1032.9 988.9,1032.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-29*01">
+	<polygon class="st0" points="993.1,1105.9 992.3,1134.1 987.7,1079.6 944.5,1079.6 945.2,1056.7 988.6,1056.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-30*01">
+	<polygon class="st0" points="992.3,1134.1 991.8,1157.9 987,1105 943.7,1105 944.5,1079.6 987.7,1079.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-31*01">
+	<polygon class="st0" points="991.8,1157.9 990.8,1182.5 986.2,1129.4 943,1129.4 943.7,1105 987,1105 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-07-32*01">
+	<polygon class="st0" points="990.8,1182.5 990.1,1198.2 947.4,1198.2 942.3,1152.1 943,1129.4 986.2,1129.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-01*01">
+	<rect x="1074.5" y="248" class="st0" width="37.8" height="17.3"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-02*01">
+	<rect x="1074.5" y="265.3" class="st0" width="37.8" height="17.3"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-03*01">
+	<rect x="1074.5" y="282.6" class="st0" width="37.8" height="19.7"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-04*01">
+	<rect x="1074.5" y="302.4" class="st0" width="37.8" height="19.2"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-05*01">
+	<rect x="1074.5" y="321.6" class="st0" width="37.8" height="19.2"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-06*01">
+	<rect x="1074.5" y="340.8" class="st0" width="37.8" height="19.2"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-07*01">
+	<rect x="1074.5" y="360.1" class="st0" width="37.8" height="19.2"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-08*01">
+	<polygon class="st0" points="1112.3,404.3 1112.3,379.3 1074.5,379.3 1074.5,451.6 1112.3,451.6 1112.3,435.7 1091,435.7
+		1091,404.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-08_AR*01">
+	<rect x="1091" y="404.3" class="st0" width="21.4" height="31.4"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-09*02">
+	<rect x="1071.5" y="459.7" class="st0" width="40.3" height="19.3"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-10*02">
+	<rect x="1071.5" y="479" class="st0" width="40.3" height="19.9"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-11*02">
+	<rect x="1071.5" y="499" class="st0" width="40.3" height="19.9"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-12*02">
+	<rect x="1071.5" y="518.9" class="st0" width="40.3" height="19.9"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-13*02">
+	<rect x="1071.5" y="538.8" class="st0" width="40.3" height="19.9"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-14*02">
+	<rect x="1071.5" y="558.7" class="st0" width="40.3" height="19.9"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-15*02">
+	<rect x="1071.5" y="578.7" class="st0" width="40.3" height="19.9"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-16*02">
+	<rect x="1071.5" y="598.6" class="st0" width="40.3" height="74.2"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-17*03">
+	<rect x="1067.3" y="712.4" class="st0" width="43.3" height="19.3"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-18*03">
+	<rect x="1067.3" y="731.8" class="st0" width="43.3" height="23"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-19*03">
+	<rect x="1067.3" y="754.7" class="st0" width="43.3" height="22.1"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-20*03">
+	<rect x="1067.3" y="776.9" class="st0" width="43.3" height="22.1"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-21*03">
+	<rect x="1067.3" y="799" class="st0" width="43.3" height="22.1"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-22*03">
+	<rect x="1067.3" y="821.2" class="st0" width="43.3" height="22.1"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-23*03">
+	<rect x="1067.3" y="843.3" class="st0" width="43.3" height="22.1"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-24*03">
+	<polygon class="st0" points="1110.6,901.5 1110.6,865.5 1067.3,865.5 1067.3,937.5 1110.6,937.5 1110.6,935.5 1087,935.5
+		1087,901.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-24_AR*03">
+	<rect x="1087" y="901.5" class="st0" width="23.7" height="34"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-25*04">
+	<rect x="1064" y="962.6" class="st0" width="44.9" height="19.3"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-26*04">
+	<rect x="1064" y="981.9" class="st0" width="44.9" height="27.3"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-27*04">
+	<rect x="1064" y="1009.3" class="st0" width="44.9" height="24.4"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-28*04">
+	<rect x="1064" y="1033.7" class="st0" width="44.9" height="23.1"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-29*04">
+	<rect x="1064" y="1056.7" class="st0" width="44.9" height="23.6"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-30*04">
+	<rect x="1064" y="1080.3" class="st0" width="44.9" height="24.3"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-31*04">
+	<rect x="1064" y="1104.6" class="st0" width="44.9" height="24.3"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-08-32*04">
+	<rect x="1064" y="1128.9" class="st0" width="44.9" height="69.4"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-09-01*01">
+	<rect x="1185.9" y="293.4" class="st0" width="14.8" height="20"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-09-02*01">
+	<rect x="1185.9" y="313.4" class="st0" width="14.8" height="20"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-09-03*01">
+	<rect x="1186.2" y="333.4" class="st0" width="14.8" height="20.6"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-09-04*01">
+	<rect x="1186.7" y="354" class="st0" width="14.8" height="20.6"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-09-05*01">
+	<rect x="1187.3" y="374.5" class="st0" width="14.8" height="20.6"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-09-06*01">
+	<rect x="1187.2" y="394.9" class="st0" width="14.8" height="22.6"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-09-07*01">
+	<rect x="1187.6" y="417.5" class="st0" width="14.8" height="21.3"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-09-08*01">
+	<rect x="1188" y="438.8" class="st0" width="14.8" height="21.3"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-09-09*02">
+	<rect x="1188" y="460.2" class="st0" width="14.8" height="21.3"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-09-10*02">
+	<rect x="1188.3" y="481.4" class="st0" width="14.8" height="21.3"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-09-11*02">
+	<rect x="1188.3" y="502.7" class="st0" width="14.8" height="22.1"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-09-12*02">
+	<rect x="1188.3" y="524.9" class="st0" width="14.8" height="22.1"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-09-13*02">
+	<rect x="1188.8" y="547" class="st0" width="14.8" height="22.1"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-09-14*02">
+	<rect x="1188.8" y="569.2" class="st0" width="14.8" height="34.9"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-09-15*02">
+	<rect x="1189.6" y="762" class="st0" width="15.9" height="23.6"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-09-16*02">
+	<rect x="1189.6" y="785.6" class="st0" width="15.9" height="24.3"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-09-17*03">
+	<rect x="1190.1" y="809.8" class="st0" width="15.9" height="24.3"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-09-18*03">
+	<rect x="1190.6" y="834.1" class="st0" width="15.9" height="23"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-09-19*03">
+	<rect x="1190.9" y="857" class="st0" width="15.9" height="24.8"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-09-20*03">
+	<rect x="1190.9" y="881.8" class="st0" width="15.9" height="24.8"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-09-21*03">
+	<rect x="1191.3" y="906.5" class="st0" width="15.9" height="25.5"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-09-22*03">
+	<rect x="1191.3" y="932.1" class="st0" width="15.9" height="25.5"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-09-23*03">
+	<rect x="1192" y="957.6" class="st0" width="15.9" height="25.5"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-09-24*03">
+	<rect x="1192" y="983.1" class="st0" width="15.9" height="26.5"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-09-25*04">
+	<rect x="1192" y="1009.6" class="st0" width="15.9" height="26.5"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-09-26*04">
+	<rect x="1192" y="1036.1" class="st0" width="16.5" height="25.4"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-09-27*04">
+	<rect x="1192.4" y="1061.5" class="st0" width="16.5" height="26"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-09-28*04">
+	<rect x="1192.4" y="1087.5" class="st0" width="16.5" height="35.4"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-01*01">
+	<polygon class="st0" points="1266.3,248.6 1262.5,303.6 1262.5,309.1 1266.9,265.3 1304.4,265.3 1304.4,248 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-02*01">
+	<polygon class="st0" points="1262.5,309.7 1262.5,315.4 1267,283.4 1305.5,283.4 1304.4,265.3 1266.9,265.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-03*01">
+	<polygon class="st0" points="1262.5,315.4 1262.5,339.6 1267,302.1 1306,302.1 1305.5,283.4 1267,283.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-04*01">
+	<polygon class="st0" points="1262.5,339.6 1263.9,363.6 1267.6,320.1 1306.6,320.1 1306,302.1 1267,302.1 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-05*01">
+	<polygon class="st0" points="1263.9,363.6 1264.5,387.6 1268.4,339.6 1307.2,339.6 1306.6,320.1 1267.6,320.1 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-06*01">
+	<polygon class="st0" points="1264.5,387.6 1265.2,406.1 1269.1,358.5 1307.7,358.5 1307.2,339.6 1268.4,339.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-07*01">
+	<polygon class="st0" points="1265.2,406.1 1265.9,430.5 1269.7,377.3 1308.3,377.3 1307.7,358.5 1269.1,358.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-08*01">
+	<polygon class="st0" points="1269.7,377.3 1308.3,377.3 1308.9,396.2 1308.2,404.3 1289.9,404.3 1289.9,435.7 1305.7,435.7
+		1304.4,451.6 1266.6,451.6 1265.9,430.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-08_AR*01">
+	<polygon class="st0" points="1309.8,404.3 1289.9,404.3 1289.9,435.7 1309.8,435.7 1310.8,420.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-09*02">
+	<rect x="1270.4" y="459.8" class="st0" width="40.4" height="20"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-10*02">
+	<polygon class="st0" points="1270.4,479.8 1268.5,529.9 1272.2,499 1312,499 1310.8,479.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-11*02">
+	<polygon class="st0" points="1268.5,529.9 1268.5,550.4 1272.5,518.5 1312.6,518.5 1312,499 1272.2,499 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-12*02">
+	<polygon class="st0" points="1268.5,550.4 1269.1,567.2 1272.7,538.8 1313.2,538.8 1312.6,518.5 1272.5,518.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-13*02">
+	<polygon class="st0" points="1269.1,567.2 1269.8,586.4 1273.6,558.5 1313.8,558.5 1313.2,538.8 1272.7,538.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-14*02">
+	<polygon class="st0" points="1269.8,586.4 1270.3,615.2 1274.4,579.4 1314.4,579.4 1313.8,558.5 1273.6,558.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-15*02">
+	<polygon class="st0" points="1270.3,615.2 1270.3,639.5 1274.9,600 1315.1,600 1314.4,579.4 1274.4,579.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-16*02">
+	<polygon class="st0" points="1270.3,639.5 1271.7,672.8 1310.9,672.8 1315.6,617.1 1315.1,600 1274.9,600 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-17*03">
+	<polygon class="st0" points="1318.4,712.4 1277.7,712.4 1273.6,767.9 1273.6,780 1278.3,733.4 1319.1,733.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-18*03">
+	<polygon class="st0" points="1273.6,780 1274.3,800.2 1278.8,754.7 1319.7,754.7 1319.1,733.4 1278.3,733.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-19*03">
+	<polygon class="st0" points="1274.3,800.2 1275.1,823 1278.7,776.1 1320.4,776.1 1319.7,754.7 1278.8,754.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-20*03">
+	<polygon class="st0" points="1275.1,823 1275.8,845.4 1279.8,799 1321.1,799 1320.4,776.1 1278.7,776.1 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-21*03">
+	<polygon class="st0" points="1275.8,845.4 1276.4,868.5 1279.8,820.5 1321.7,820.5 1321.1,799 1279.8,799 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-22*03">
+	<polygon class="st0" points="1276.4,868.5 1276.4,889 1280.6,843.8 1322.4,843.8 1321.7,820.5 1279.8,820.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-23*03">
+	<polygon class="st0" points="1276.4,889 1276.4,914.7 1280.9,866.8 1323.1,866.8 1322.4,843.8 1280.6,843.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-24*03">
+	<polygon class="st0" points="1280.9,866.8 1323.1,866.8 1323.8,888 1322.3,901.7 1304.1,901.7 1303.6,935.1 1318.7,935.1
+		1318.4,937.5 1278,937.5 1276.4,914.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-24_AR*03">
+	<polygon class="st0" points="1326.1,901.7 1304.1,901.7 1303.6,935.1 1326.1,935.1 1326.7,920.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-25*04">
+	<polygon class="st0" points="1326,962.6 1283.5,962.6 1278.9,1012 1280.1,1038.4 1284.4,984.6 1326.7,984.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-26*04">
+	<polygon class="st0" points="1280.1,1038.4 1280.1,1058.4 1284.6,1008.4 1327.4,1008.4 1326.7,984.6 1284.4,984.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-27*04">
+	<polygon class="st0" points="1280.1,1058.4 1280.1,1081.8 1285.2,1032.9 1328.2,1032.9 1327.4,1008.4 1284.6,1008.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-28*04">
+	<polygon class="st0" points="1280.1,1081.8 1281,1105.9 1285.5,1056.7 1328.9,1056.7 1328.2,1032.9 1285.2,1032.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-29*04">
+	<polygon class="st0" points="1281,1105.9 1281.8,1134.1 1286.3,1079.6 1329.6,1079.6 1328.9,1056.7 1285.5,1056.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-30*04">
+	<polygon class="st0" points="1281.8,1134.1 1282.3,1157.9 1287.1,1105 1330.3,1105 1329.6,1079.6 1286.3,1079.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-31*04">
+	<polygon class="st0" points="1282.3,1157.9 1283.3,1182.5 1287.9,1129.4 1331.1,1129.4 1330.3,1105 1287.1,1105 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-10-32*04">
+	<polygon class="st0" points="1283.3,1182.5 1283.9,1198.2 1326.7,1198.2 1331.7,1152.1 1331.1,1129.4 1287.9,1129.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-01*01">
+	<polygon class="st0" points="1391.6,247.6 1354.6,247.6 1349.2,305.5 1349.7,317 1355.3,265.3 1392.5,265.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-02*01">
+	<polygon class="st0" points="1349.7,317 1350,326.4 1355.8,283.4 1393.3,283.4 1392.5,265.3 1355.3,265.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-03*01">
+	<polygon class="st0" points="1350,326.4 1350.6,341.1 1356.6,302.5 1394.2,302.5 1393.3,283.4 1355.8,283.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-04*01">
+	<polygon class="st0" points="1350.6,341.1 1351.1,352.7 1357.6,320.1 1395.1,320.1 1394.2,302.5 1356.6,302.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-05*01">
+	<polygon class="st0" points="1351.1,352.7 1351.6,367.9 1358.1,339.6 1396,339.6 1395.1,320.1 1357.6,320.1 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-06*01">
+	<polygon class="st0" points="1351.6,367.9 1352.3,385.9 1358,358.5 1396.9,358.5 1396,339.6 1358.1,339.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-07*01">
+	<polygon class="st0" points="1352.3,385.9 1353.5,414.8 1359.6,377.3 1397.8,377.3 1396.9,358.5 1358,358.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-08*01">
+	<path class="st0" d="M1353.5,414.8l1.4,36.8h37.6l6.1-57.3l-0.8-17h-38.1L1353.5,414.8z M1360.5,417.7l1.1-13.3h20l1.4,17.8
+		l-2.4,13.6h-19.3L1360.5,417.7z"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-08_AR*01">
+	<polygon class="st0" points="1381.7,404.3 1361.7,404.3 1360.5,417.7 1361.4,435.7 1380.7,435.7 1383.1,422.1 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-09*02">
+	<polygon class="st0" points="1401.7,460.1 1363.6,460.1 1357.3,513 1358,530.8 1364.6,477.7 1402.5,477.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-10*02">
+	<polygon class="st0" points="1358,530.8 1358.6,545.2 1365.1,499.3 1403.5,499.3 1402.5,477.7 1364.6,477.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-11*02">
+	<polygon class="st0" points="1358.6,545.2 1359.2,560.4 1365.7,518.5 1404.5,518.5 1403.5,499.3 1365.1,499.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-12*02">
+	<polygon class="st0" points="1359.2,560.4 1359.8,576.1 1366.1,538.8 1405.4,538.8 1404.5,518.5 1365.7,518.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-13*02">
+	<polygon class="st0" points="1359.8,576.1 1360.4,592.7 1366.9,559.5 1406.4,559.5 1405.4,538.8 1366.1,538.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-14*02">
+	<polygon class="st0" points="1360.4,592.7 1361.3,616.3 1367.7,579.8 1407.4,579.8 1406.4,559.5 1366.9,559.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-15*02">
+	<polygon class="st0" points="1361.3,616.3 1362.4,643.1 1368.4,600.6 1408.3,600.6 1407.4,579.8 1367.7,579.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-16*02">
+	<polygon class="st0" points="1362.4,643.1 1363.5,672.8 1402.5,672.8 1409.2,618.6 1408.3,600.6 1368.4,600.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-17*03">
+	<polygon class="st0" points="1413.6,712.4 1373.8,712.4 1367.1,763.3 1367.6,776.8 1374.7,732.3 1414.6,732.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-18*03">
+	<polygon class="st0" points="1367.6,776.8 1368.1,790.9 1374.7,755.4 1415.7,755.4 1414.6,732.3 1374.7,732.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-19*03">
+	<polygon class="st0" points="1368.1,790.9 1368.8,807.7 1376,776.8 1416.7,776.8 1415.7,755.4 1374.7,755.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-20*03">
+	<polygon class="st0" points="1368.8,807.7 1369.5,827 1376.2,798.5 1417.7,798.5 1416.7,776.8 1376,776.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-21*03">
+	<polygon class="st0" points="1369.5,827 1370.4,849 1376.7,820.5 1418.8,820.5 1417.7,798.5 1376.2,798.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-22*03">
+	<polygon class="st0" points="1370.4,849 1371.6,878.5 1377.9,843.1 1419.8,843.1 1418.8,820.5 1376.7,820.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-23*03">
+	<polygon class="st0" points="1371.6,878.5 1372.8,910.5 1379.2,865.9 1420.9,865.9 1419.8,843.1 1377.9,843.1 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-24*03">
+	<path class="st0" d="M1372.8,910.5l1.1,27h40.9l7.1-50.1l-1-21.4h-41.7L1372.8,910.5z M1381.5,901.7h21.6l2,20l-1.4,13.4H1382
+		L1381.5,901.7z"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-24_AR*03">
+	<polygon class="st0" points="1403,901.7 1381.5,901.7 1382,935.1 1403.7,935.1 1405.1,921.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-25*04">
+	<polygon class="st0" points="1425.5,962.6 1383.2,962.6 1376.8,1013 1377.9,1040.2 1384.6,983.9 1426.5,983.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-26*04">
+	<polygon class="st0" points="1377.9,1040.2 1379,1069.2 1385.2,1009.3 1427.7,1009.3 1426.5,983.9 1384.6,983.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-27*04">
+	<polygon class="st0" points="1379,1069.2 1379.7,1088.3 1385.7,1032.9 1428.8,1032.9 1427.7,1009.3 1385.2,1009.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-28*04">
+	<polygon class="st0" points="1379.7,1088.3 1380.5,1108.1 1386.8,1056.7 1429.9,1056.7 1428.8,1032.9 1385.7,1032.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-29*04">
+	<polygon class="st0" points="1380.5,1108.1 1381.4,1130.3 1387.8,1080.8 1431.1,1080.8 1429.9,1056.7 1386.8,1056.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-30*04">
+	<polygon class="st0" points="1381.4,1130.3 1382.4,1156.2 1389,1104.6 1432.2,1104.6 1431.1,1080.8 1387.8,1080.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-31*04">
+	<polygon class="st0" points="1382.4,1156.2 1383.3,1179.2 1389.6,1129.4 1433.4,1129.4 1432.2,1104.6 1389,1104.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-11-32*04">
+	<polygon class="st0" points="1383.3,1179.2 1384.1,1199 1426.5,1199 1434.4,1151.4 1433.4,1129.4 1389.6,1129.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-01*01">
+	<polygon class="st0" points="1495.9,247.2 1459.5,247.2 1451.3,305.5 1452.2,321.9 1460.4,264.7 1497,264.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-02*01">
+	<polygon class="st0" points="1452.2,321.9 1453,335.7 1461.1,284.1 1498.3,284.1 1497,264.7 1460.4,264.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-03*01">
+	<polygon class="st0" points="1453,335.7 1453.9,351.3 1462.3,302.1 1499.5,302.1 1498.3,284.1 1461.1,284.1 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-04*01">
+	<polygon class="st0" points="1453.9,351.3 1455,370.5 1462.8,320.7 1500.7,320.7 1499.5,302.1 1462.3,302.1 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-05*01">
+	<polygon class="st0" points="1455,370.5 1456,387.6 1464,339.6 1502,339.6 1500.7,320.7 1462.8,320.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-06*01">
+	<polygon class="st0" points="1456,387.6 1457,405.4 1464.9,358.5 1503.2,358.5 1502,339.6 1464,339.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-07*01">
+	<polygon class="st0" points="1457,405.4 1458.3,427.9 1466.5,377.3 1504.4,377.3 1503.2,358.5 1464.9,358.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-08*01">
+	<polygon class="st0" points="1466.5,377.3 1504.4,377.3 1505.6,395.2 1504.4,404.3 1489.3,404.3 1488.2,416.3 1489.3,435.7
+		1500,435.7 1497.8,451.6 1459.6,451.6 1458.3,427.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-08_AR*01">
+	<polygon class="st0" points="1508.9,404.3 1489.3,404.3 1488.2,416.3 1489.3,435.7 1508.9,435.7 1510.1,421.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-09*02">
+	<polygon class="st0" points="1509.9,460.1 1471.7,460.1 1463.1,513.7 1463.9,527.2 1472.6,478.9 1511.1,478.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-10*02">
+	<polygon class="st0" points="1463.9,527.2 1464.9,545.2 1473.2,499.3 1512.5,499.3 1511.1,478.9 1472.6,478.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-11*02">
+	<polygon class="st0" points="1464.9,545.2 1466,563.7 1474.5,518.5 1513.7,518.5 1512.5,499.3 1473.2,499.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-12*02">
+	<polygon class="st0" points="1466,563.7 1467.2,585.7 1476,538.8 1515.1,538.8 1513.7,518.5 1474.5,518.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-13*02">
+	<polygon class="st0" points="1467.2,585.7 1468.5,608.4 1476.9,558.5 1516.4,558.5 1515.1,538.8 1476,538.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-14*02">
+	<polygon class="st0" points="1468.5,608.4 1469.8,631.2 1478.5,580.1 1517.8,580.1 1516.4,558.5 1476.9,558.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-15*02">
+	<polygon class="st0" points="1469.8,631.2 1471,652.4 1479.6,600.6 1519.2,600.6 1517.8,580.1 1478.5,580.1 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-16*02">
+	<polygon class="st0" points="1471,652.4 1472.2,672.8 1511.8,672.8 1520.3,617.7 1519.2,600.6 1479.6,600.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-17*03">
+	<polygon class="st0" points="1526.5,712.4 1487.2,712.4 1477.5,767.4 1478.6,787.2 1487.8,733.4 1527.9,733.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-18*03">
+	<polygon class="st0" points="1478.6,787.2 1479.6,803.6 1488.7,755.4 1529.3,755.4 1527.9,733.4 1487.8,733.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-19*03">
+	<polygon class="st0" points="1479.6,803.6 1480.7,823.6 1489.8,776.8 1530.7,776.8 1529.3,755.4 1488.7,755.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-20*03">
+	<polygon class="st0" points="1480.7,823.6 1481.9,843.8 1491.2,798.5 1532.2,798.5 1530.7,776.8 1489.8,776.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-21*03">
+	<polygon class="st0" points="1481.9,843.8 1483.1,865.9 1492.4,821.4 1533.7,821.4 1532.2,798.5 1491.2,798.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-22*03">
+	<polygon class="st0" points="1483.1,865.9 1484.6,891.4 1494.2,843.8 1535.2,843.8 1533.7,821.4 1492.4,821.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-23*03">
+	<polygon class="st0" points="1484.6,891.4 1485.7,911.2 1494.9,866.8 1536.7,866.8 1535.2,843.8 1494.2,843.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-24*03">
+	<polygon class="st0" points="1494.9,866.8 1536.7,866.8 1538,886.6 1535.1,901.7 1521.8,901.7 1518.7,914.8 1519.2,935.1
+		1528.8,935.1 1528.4,937.5 1487.2,937.5 1485.7,911.2 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-24_AR*03">
+	<polygon class="st0" points="1541.9,901.7 1521.8,901.7 1518.7,914.8 1519.2,935.1 1541.9,935.1 1543.8,921.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-25*04">
+	<polygon class="st0" points="1543,962.6 1501.7,962.6 1491.4,1012 1492.4,1030.2 1502.6,984.6 1544.5,984.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-26*04">
+	<polygon class="st0" points="1492.4,1030.2 1493.8,1054.4 1503.7,1009.3 1546,1009.3 1544.5,984.6 1502.6,984.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-27*04">
+	<polygon class="st0" points="1493.8,1054.4 1495,1074.8 1505.2,1033.4 1547.6,1033.4 1546,1009.3 1503.7,1009.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-28*04">
+	<polygon class="st0" points="1495,1074.8 1496.3,1098.8 1506.4,1056.7 1549.2,1056.7 1547.6,1033.4 1505.2,1033.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-29*04">
+	<polygon class="st0" points="1496.3,1098.8 1497.7,1122.8 1508.1,1080.8 1550.8,1080.8 1549.2,1056.7 1506.4,1056.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-30*04">
+	<polygon class="st0" points="1497.7,1122.8 1499.2,1148.8 1509,1105 1552.4,1105 1550.8,1080.8 1508.1,1080.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-31*04">
+	<polygon class="st0" points="1499.2,1148.8 1500.3,1169.6 1510.9,1129.4 1554,1129.4 1552.4,1105 1509,1105 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-12-32*04">
+	<polygon class="st0" points="1500.3,1169.6 1502,1199 1544.5,1199 1555.3,1150.4 1554,1129.4 1510.9,1129.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-01*01">
+	<polygon class="st0" points="1585.2,247.6 1548.8,247.6 1538.7,304.7 1539.8,320.7 1549.1,265.8 1586.7,265.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-02*01">
+	<polygon class="st0" points="1539.8,320.7 1541.2,339.1 1550.4,283.4 1588.1,283.4 1586.7,265.8 1549.1,265.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-03*01">
+	<polygon class="st0" points="1541.2,339.1 1542.3,355.4 1551.7,302.5 1589.7,302.5 1588.1,283.4 1550.4,283.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-04*01">
+	<polygon class="st0" points="1542.3,355.4 1543.5,371.6 1553.3,320.7 1591.2,320.7 1589.7,302.5 1551.7,302.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-05*01">
+	<polygon class="st0" points="1543.5,371.6 1545,391.8 1554.7,339.6 1592.7,339.6 1591.2,320.7 1553.3,320.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-06*01">
+	<polygon class="st0" points="1545,391.8 1546.3,410.5 1556.2,358.5 1594.2,358.5 1592.7,339.6 1554.7,339.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-07*01">
+	<polygon class="st0" points="1546.3,410.5 1547.7,430.2 1557.4,378 1595.8,378 1594.2,358.5 1556.2,358.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-08*01">
+	<path class="st0" d="M1547.7,430.2l1.5,21.4h37.4l10.4-57.3l-1.3-16.3h-38.4L1547.7,430.2z M1559.3,417.5l2.2-13.2h20.7l1.2,18
+		l-1.8,13.4h-20.3L1559.3,417.5z"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-08_AR*01">
+	<polygon class="st0" points="1582.1,404.3 1561.5,404.3 1559.3,417.5 1561.3,435.7 1581.6,435.7 1583.3,422.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-09*02">
+	<polygon class="st0" points="1602.4,459.7 1564,459.7 1554,516.5 1555.1,532.3 1565.1,478.9 1604,478.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-10*02">
+	<polygon class="st0" points="1555.1,532.3 1556.5,551.5 1566.3,499.3 1605.6,499.3 1604,478.9 1565.1,478.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-11*02">
+	<polygon class="st0" points="1556.5,551.5 1557.9,571 1568,518.5 1607.2,518.5 1605.6,499.3 1566.3,499.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-12*02">
+	<polygon class="st0" points="1557.9,571 1559.2,588.5 1569.8,538.8 1608.8,538.8 1607.2,518.5 1568,518.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-13*02">
+	<polygon class="st0" points="1559.2,588.5 1561,613.4 1571.1,559.5 1610.5,559.5 1608.8,538.8 1569.8,538.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-14*02">
+	<polygon class="st0" points="1561,613.4 1562.5,633.8 1572.6,579.8 1612.1,579.8 1610.5,559.5 1571.1,559.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-15*02">
+	<polygon class="st0" points="1562.5,633.8 1563.6,649.3 1574.8,600.6 1613.8,600.6 1612.1,579.8 1572.6,579.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-16*02">
+	<polygon class="st0" points="1563.6,649.3 1565.3,672.8 1604.5,672.8 1615.4,619.8 1613.8,600.6 1574.8,600.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-17*03">
+	<polygon class="st0" points="1622.9,712.4 1583.2,712.4 1571.9,765 1573.2,782.9 1584.7,733.4 1624.6,733.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-18*03">
+	<polygon class="st0" points="1573.2,782.9 1574.7,802.7 1586,755.4 1626.4,755.4 1624.6,733.4 1584.7,733.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-19*03">
+	<polygon class="st0" points="1574.7,802.7 1576.3,824.7 1587,776.8 1628.1,776.8 1626.4,755.4 1586,755.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-20*03">
+	<polygon class="st0" points="1576.3,824.7 1578,849 1588.8,799.6 1629.9,799.6 1628.1,776.8 1587,776.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-21*03">
+	<polygon class="st0" points="1578,849 1579.6,870.3 1590.7,821.9 1631.8,821.9 1629.9,799.6 1588.8,799.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-22*03">
+	<polygon class="st0" points="1579.6,870.3 1581.1,891.4 1592.3,843.8 1633.5,843.8 1631.8,821.9 1590.7,821.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-23*03">
+	<polygon class="st0" points="1581.1,891.4 1582.7,913.1 1593.5,865.9 1635.3,865.9 1633.5,843.8 1592.3,843.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-24*03">
+	<path class="st0" d="M1582.7,913.1l1.8,24.4h40.2l12.4-51.3l-1.6-20.3h-41.8L1582.7,913.1z M1596.8,913.1l2.4-11.4h22.5l0.9,20.6
+		l-2.3,12.8h-22L1596.8,913.1z"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-24_AR*03">
+	<polygon class="st0" points="1621.7,901.7 1599.2,901.7 1596.8,913.1 1598.3,935.1 1620.2,935.1 1622.5,922.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-25*04">
+	<polygon class="st0" points="1643.2,962.6 1601.4,962.6 1589.7,1010.6 1591,1029 1603.1,985.4 1645,985.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-26*04">
+	<polygon class="st0" points="1591,1029 1593,1055.4 1604.3,1009.3 1646.9,1009.3 1645,985.4 1603.1,985.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-27*04">
+	<polygon class="st0" points="1593,1055.4 1594.5,1076.1 1606.5,1032.9 1648.9,1032.9 1646.9,1009.3 1604.3,1009.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-28*04">
+	<polygon class="st0" points="1594.5,1076.1 1596.3,1101.9 1608,1056.7 1650.8,1056.7 1648.9,1032.9 1606.5,1032.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-29*04">
+	<polygon class="st0" points="1596.3,1101.9 1598,1125.4 1609.4,1080.8 1652.7,1080.8 1650.8,1056.7 1608,1056.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-30*04">
+	<polygon class="st0" points="1598,1125.4 1599.7,1148.8 1612,1104.6 1654.7,1104.6 1652.7,1080.8 1609.4,1080.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-31*04">
+	<polygon class="st0" points="1599.7,1148.8 1601.4,1172.5 1613.8,1129.4 1656.7,1129.4 1654.7,1104.6 1612,1104.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-13-32*04">
+	<polygon class="st0" points="1601.4,1172.5 1603.3,1198.2 1646,1198.2 1658.4,1150.4 1656.7,1129.4 1613.8,1129.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-01*01">
+	<polygon class="st0" points="1689.2,247.6 1652.6,247.6 1641.2,308 1642.3,319.3 1653.8,264.6 1690.9,264.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-02*01">
+	<polygon class="st0" points="1642.3,319.3 1644.1,339.1 1655.6,284 1692.8,284 1690.9,264.6 1653.8,264.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-03*01">
+	<polygon class="st0" points="1644.1,339.1 1645.8,358.5 1657.6,302.6 1694.7,302.6 1692.8,284 1655.6,284 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-04*01">
+	<polygon class="st0" points="1645.8,358.5 1647.5,376.7 1658.8,320.7 1696.5,320.7 1694.7,302.6 1657.6,302.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-05*01">
+	<polygon class="st0" points="1647.5,376.7 1649.2,396.3 1660.7,339.6 1698.4,339.6 1696.5,320.7 1658.8,320.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-06*01">
+	<polygon class="st0" points="1649.2,396.3 1650.8,413.3 1663,358.5 1700.3,358.5 1698.4,339.6 1660.7,339.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-07*01">
+	<polygon class="st0" points="1650.8,413.3 1652.6,433.2 1664.4,377.1 1702.2,377.1 1700.3,358.5 1663,358.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-08*01">
+	<polygon class="st0" points="1664.4,377.1 1702.2,377.1 1704,395.8 1702.2,404.3 1689.9,404.3 1686.8,416.1 1689.1,435.7
+		1695.5,435.7 1692.1,451.6 1654.3,451.6 1652.6,433.2 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-08_AR*01">
+	<polygon class="st0" points="1709.1,404.3 1689.9,404.3 1686.8,416.1 1689.1,435.7 1708.4,435.7 1711.5,421.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-09*02">
+	<polygon class="st0" points="1710.4,459.7 1672.8,459.7 1660.1,516.3 1661.9,535.4 1674,478.9 1712.4,478.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-10*02">
+	<polygon class="st0" points="1661.9,535.4 1663.5,553.4 1675.4,499.3 1714.4,499.3 1712.4,478.9 1674,478.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-11*02">
+	<polygon class="st0" points="1663.5,553.4 1665.3,572.6 1677.2,518.5 1716.3,518.5 1714.4,499.3 1675.4,499.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-12*02">
+	<polygon class="st0" points="1665.3,572.6 1666.9,590.6 1679.2,538.8 1718.3,538.8 1716.3,518.5 1677.2,518.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-13*02">
+	<polygon class="st0" points="1666.9,590.6 1668.6,609.8 1681,559.5 1720.4,559.5 1718.3,538.8 1679.2,538.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-14*02">
+	<polygon class="st0" points="1668.6,609.8 1670.6,631.7 1683.2,580.1 1722.5,580.1 1720.4,559.5 1681,559.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-15*02">
+	<polygon class="st0" points="1670.6,631.7 1672.5,652.4 1685,600.6 1724.5,600.6 1722.5,580.1 1683.2,580.1 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-16*02">
+	<polygon class="st0" points="1672.5,652.4 1674.4,672.8 1713,672.8 1726.4,619.8 1724.5,600.6 1685,600.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-17*03">
+	<polygon class="st0" points="1735.7,712.4 1696.6,712.4 1682.8,765.7 1684.5,784.5 1698.2,733.4 1737.8,733.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-18*03">
+	<polygon class="st0" points="1684.5,784.5 1686.3,804.3 1699.7,755.4 1740,755.4 1737.8,733.4 1698.2,733.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-19*03">
+	<polygon class="st0" points="1686.3,804.3 1688.5,828.2 1701.5,777.5 1742.2,777.5 1740,755.4 1699.7,755.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-20*03">
+	<polygon class="st0" points="1688.5,828.2 1690.4,849 1703.5,800 1744.5,800 1742.2,777.5 1701.5,777.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-21*03">
+	<polygon class="st0" points="1690.4,849 1692.3,870.3 1705.5,821.4 1746.6,821.4 1744.5,800 1703.5,800 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-22*03">
+	<polygon class="st0" points="1692.3,870.3 1694.2,891.4 1707.9,843.8 1748.8,843.8 1746.6,821.4 1705.5,821.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-23*03">
+	<polygon class="st0" points="1694.2,891.4 1696.3,914.2 1709.9,866.8 1751.1,866.8 1748.8,843.8 1707.9,843.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-24*03">
+	<polygon class="st0" points="1709.9,866.8 1751.1,866.8 1753.3,888.3 1749.5,901.7 1738.9,901.7 1734.4,914.2 1737.4,935.1
+		1740.2,935.1 1739.5,937.5 1698.4,937.5 1696.3,914.2 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-24_AR*03">
+	<polygon class="st0" points="1759.2,901.7 1738.9,901.7 1734.4,914.2 1737.4,935.1 1758.1,935.1 1762.3,922.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-25*04">
+	<polygon class="st0" points="1760.7,962.6 1719.9,962.6 1705,1010.1 1707.1,1033.4 1721.4,985.4 1763,985.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-26*04">
+	<polygon class="st0" points="1707.1,1033.4 1708.9,1053.4 1723.1,1009.3 1765.4,1009.3 1763,985.4 1721.4,985.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-27*04">
+	<polygon class="st0" points="1708.9,1053.4 1711.2,1078.3 1725.3,1033.4 1767.8,1033.4 1765.4,1009.3 1723.1,1009.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-28*04">
+	<polygon class="st0" points="1711.2,1078.3 1713.4,1102.7 1727.8,1056.7 1770.1,1056.7 1767.8,1033.4 1725.3,1033.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-29*04">
+	<polygon class="st0" points="1713.4,1102.7 1715.5,1125.7 1729.7,1080.8 1772.5,1080.8 1770.1,1056.7 1727.8,1056.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-30*04">
+	<polygon class="st0" points="1715.5,1125.7 1717.6,1149.1 1731.9,1105 1774.9,1105 1772.5,1080.8 1729.7,1080.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-31*04">
+	<polygon class="st0" points="1717.6,1149.1 1719.8,1173.3 1734.5,1129.4 1777.4,1129.4 1774.9,1105 1731.9,1105 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-14-32*04">
+	<polygon class="st0" points="1719.8,1173.3 1722.1,1198.2 1764.7,1198.2 1779.7,1152.6 1777.4,1129.4 1734.5,1129.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-01*01">
+	<polygon class="st0" points="1777.5,247.2 1740.8,247.2 1727,305.3 1729,318.7 1742.2,264.6 1779.4,264.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-02*01">
+	<polygon class="st0" points="1729,318.7 1731.5,337.9 1743.7,284 1781.8,284 1779.4,264.6 1742.2,264.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-03*01">
+	<polygon class="st0" points="1731.5,337.9 1733.2,356.5 1746.3,302.2 1783.9,302.2 1781.8,284 1743.7,284 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-04*01">
+	<polygon class="st0" points="1733.2,356.5 1734.7,376.1 1748.6,320.2 1786,320.2 1783.9,302.2 1746.3,302.2 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-05*01">
+	<polygon class="st0" points="1734.7,376.1 1736.9,394.6 1749.7,339.1 1788.2,339.1 1786,320.2 1748.6,320.2 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-06*01">
+	<polygon class="st0" points="1736.9,394.6 1739.1,412.3 1751.9,358.5 1790.4,358.5 1788.2,339.1 1749.7,339.1 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-07*01">
+	<polygon class="st0" points="1739.1,412.3 1740.9,431.3 1754.1,377.1 1792.6,377.1 1790.4,358.5 1751.9,358.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-08*01">
+	<path class="st0" d="M1740.9,431.3l1.9,20.4h38.3l13.6-56l-2.2-18.5H1754L1740.9,431.3z M1757.9,418.1l2.9-13.8h20.5l2.7,18.3
+		l-2.7,13.1h-21.2L1757.9,418.1z"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-08_AR*01">
+	<polygon class="st0" points="1781.3,404.3 1760.8,404.3 1757.9,418.1 1760.2,435.7 1781.3,435.7 1784,422.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-09*02">
+	<polygon class="st0" points="1802.2,459.7 1763.7,459.7 1750,513.3 1751.5,531 1765.9,479.4 1804.5,479.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-10*02">
+	<polygon class="st0" points="1751.5,531 1753.6,549.5 1767.8,499.3 1806.8,499.3 1804.5,479.4 1765.9,479.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-11*02">
+	<polygon class="st0" points="1753.6,549.5 1754.8,571 1769.9,518.5 1809,518.5 1806.8,499.3 1767.8,499.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-12*02">
+	<polygon class="st0" points="1754.8,571 1757.2,592.7 1772.1,539.5 1811.5,539.5 1809,518.5 1769.9,518.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-13*02">
+	<polygon class="st0" points="1757.2,592.7 1759.4,611.8 1774,559.2 1813.8,559.2 1811.5,539.5 1772.1,539.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-14*02">
+	<polygon class="st0" points="1759.4,611.8 1761.4,630.9 1775.7,580.1 1816.2,580.1 1813.8,559.2 1774,559.2 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-15*02">
+	<polygon class="st0" points="1761.4,630.9 1764,653 1778.9,600.6 1818.6,600.6 1816.2,580.1 1775.7,580.1 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-16*02">
+	<polygon class="st0" points="1764,653 1765.8,672.8 1805.8,672.8 1820.8,619.8 1818.6,600.6 1778.9,600.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-17*03">
+	<polygon class="st0" points="1831.6,712.4 1791.4,712.4 1775.7,764.5 1778.1,782.9 1793.1,734 1834.1,734 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-18*03">
+	<polygon class="st0" points="1778.1,782.9 1780,804.3 1796,754.7 1836.5,754.7 1834.1,734 1793.1,734 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-19*03">
+	<polygon class="st0" points="1780,804.3 1782.7,829.3 1797.5,777.5 1839.1,777.5 1836.5,754.7 1796,754.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-20*03">
+	<polygon class="st0" points="1782.7,829.3 1784.9,849 1800,799.6 1841.7,799.6 1839.1,777.5 1797.5,777.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-21*03">
+	<polygon class="st0" points="1784.9,849 1787.1,869.3 1802.6,821.9 1844.3,821.9 1841.7,799.6 1800,799.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-22*03">
+	<polygon class="st0" points="1787.1,869.3 1789.6,892.1 1804.9,843.8 1846.8,843.8 1844.3,821.9 1802.6,821.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-23*03">
+	<polygon class="st0" points="1789.6,892.1 1792.1,914.8 1808,865.9 1849.4,865.9 1846.8,843.8 1804.9,843.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-24*03">
+	<path class="st0" d="M1792.1,914.8l2.5,22.7h40.6l16.5-51.7l-2.3-19.8H1808L1792.1,914.8z M1812.1,913.6l4.9-12.1h21.2l0.7,20.9
+		l-4.7,12.7h-20L1812.1,913.6z"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-24_AR*03">
+	<polygon class="st0" points="1838.2,901.5 1817,901.5 1812.1,913.6 1814.2,935.1 1834.2,935.1 1838.9,922.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-25*04">
+	<polygon class="st0" points="1860.6,962.6 1818.6,962.6 1802.2,1013.2 1804.3,1032.9 1820.7,985.4 1863.3,985.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-26*04">
+	<polygon class="st0" points="1804.3,1032.9 1806.8,1055.4 1823.3,1009.3 1866.1,1009.3 1863.3,985.4 1820.7,985.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-27*04">
+	<polygon class="st0" points="1806.8,1055.4 1809.3,1078.3 1825.8,1032.9 1868.8,1032.9 1866.1,1009.3 1823.3,1009.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-28*04">
+	<polygon class="st0" points="1809.3,1078.3 1811.9,1101.9 1828.6,1056.7 1871.6,1056.7 1868.8,1032.9 1825.8,1032.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-29*04">
+	<polygon class="st0" points="1811.9,1101.9 1814.4,1125.4 1831.1,1080.8 1874.4,1080.8 1871.6,1056.7 1828.6,1056.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-30*04">
+	<polygon class="st0" points="1814.4,1125.4 1817,1148.8 1833.6,1105 1877.2,1105 1874.4,1080.8 1831.1,1080.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-31*04">
+	<polygon class="st0" points="1817,1148.8 1819.8,1173.9 1835.9,1129.4 1880,1129.4 1877.2,1105 1833.6,1105 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-15-32*04">
+	<polygon class="st0" points="1819.8,1173.9 1822.4,1198.2 1864.8,1198.2 1882.7,1152.3 1880,1129.4 1835.9,1129.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-01*01">
+	<polygon class="st0" points="1881.1,247.2 1844.5,247.2 1829.9,303.6 1831.8,318.1 1846.5,263.6 1883.3,263.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-02*01">
+	<polygon class="st0" points="1831.8,318.1 1833.9,336.9 1848.9,284 1886.1,284 1883.3,263.6 1846.5,263.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-03*01">
+	<polygon class="st0" points="1833.9,336.9 1836.1,356.5 1851.6,301.3 1888.5,301.3 1886.1,284 1848.9,284 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-04*01">
+	<polygon class="st0" points="1836.1,356.5 1838.2,374.4 1854,320.2 1891,320.2 1888.5,301.3 1851.6,301.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-05*01">
+	<polygon class="st0" points="1838.2,374.4 1840.4,393.8 1856.6,339.8 1893.7,339.8 1891,320.2 1854,320.2 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-06*01">
+	<polygon class="st0" points="1840.4,393.8 1842.8,412.3 1859,358.5 1896.2,358.5 1893.7,339.8 1856.6,339.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-07*01">
+	<polygon class="st0" points="1842.8,412.3 1845.2,432.7 1860.5,377.8 1898.8,377.8 1896.2,358.5 1859,358.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-08*01">
+	<polygon class="st0" points="1845.2,432.7 1847.7,451.6 1885.3,451.6 1889.8,435.5 1887.5,435.5 1886.1,413.9 1889.8,404.3
+		1898.8,404.3 1901.2,395.6 1898.8,377.8 1860.5,377.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-08_AR*01">
+	<polygon class="st0" points="1898.8,404.3 1889.8,404.3 1886.1,413.9 1887.5,435.5 1907.5,435.5 1911,421.6 1908.6,404.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-09*02">
+	<polygon class="st0" points="1910.5,459.7 1872.4,459.7 1855.7,515.5 1857.9,531 1874.4,477.2 1912.4,477.2 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-10*02">
+	<polygon class="st0" points="1857.9,531 1860.5,549.5 1876.4,498.3 1915.2,498.3 1912.4,477.2 1874.4,477.2 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-11*02">
+	<polygon class="st0" points="1860.5,549.5 1862.5,569.6 1879.4,518.5 1917.9,518.5 1915.2,498.3 1876.4,498.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-12*02">
+	<polygon class="st0" points="1862.5,569.6 1864.9,590.5 1881.4,538.8 1920.6,538.8 1917.9,518.5 1879.4,518.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-13*02">
+	<polygon class="st0" points="1864.9,590.5 1867.6,610.8 1884.1,559.2 1923.4,559.2 1920.6,538.8 1881.4,538.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-14*02">
+	<polygon class="st0" points="1867.6,610.8 1870.2,630.9 1886.5,580.1 1926.2,580.1 1923.4,559.2 1884.1,559.2 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-15*02">
+	<polygon class="st0" points="1870.2,630.9 1871.9,652 1889.2,600.6 1929,600.6 1926.2,580.1 1886.5,580.1 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-16*02">
+	<polygon class="st0" points="1871.9,652 1873.8,672.8 1914.4,672.8 1931.7,620.9 1929,600.6 1889.2,600.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-17*03">
+	<polygon class="st0" points="1944.1,712.4 1903.9,712.4 1886.9,762.1 1889.2,783.7 1907.6,732.7 1947,732.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-18*03">
+	<polygon class="st0" points="1889.2,783.7 1891.8,804 1909.3,756 1950,756 1947,732.7 1907.6,732.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-19*03">
+	<polygon class="st0" points="1891.8,804 1894.3,826.1 1911.9,776.8 1952.9,776.8 1950,756 1909.3,756 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-20*03">
+	<polygon class="st0" points="1894.3,826.1 1897.6,848.6 1914.9,799.6 1955.9,799.6 1952.9,776.8 1911.9,776.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-21*03">
+	<polygon class="st0" points="1897.6,848.6 1899.9,869.3 1917.8,821.9 1959,821.9 1955.9,799.6 1914.9,799.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-22*03">
+	<polygon class="st0" points="1899.9,869.3 1902.3,891.5 1920.6,843.8 1961.9,843.8 1959,821.9 1917.8,821.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-23*03">
+	<polygon class="st0" points="1902.3,891.5 1905.2,913.6 1923.6,865.9 1964.9,865.9 1961.9,843.8 1920.6,843.8 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-24*03">
+	<polygon class="st0" points="1905.2,913.6 1907.8,936.9 1949.5,936.9 1952.9,926.4 1950.7,913.6 1955.9,901.5 1961.9,901.5
+		1967.8,887.2 1964.9,865.9 1923.6,865.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-24_AR*03">
+	<polygon class="st0" points="1961.9,901.5 1955.9,901.5 1950.7,913.6 1954.6,935.4 1974.6,935.4 1979.9,922.4 1976.5,901.5 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-25*04">
+	<polygon class="st0" points="1978,962.6 1936.5,962.6 1917.8,1009.9 1920.2,1031 1939.3,985.4 1981.1,985.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-26*04">
+	<polygon class="st0" points="1920.2,1031 1923.1,1054 1942.2,1009.3 1984.3,1009.3 1981.1,985.4 1939.3,985.4 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-27*04">
+	<polygon class="st0" points="1923.1,1054 1925.7,1077.5 1944.7,1032.9 1987.5,1032.9 1984.3,1009.3 1942.2,1009.3 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-28*04">
+	<polygon class="st0" points="1925.7,1077.5 1928.2,1101.9 1948.5,1056.7 1990.8,1056.7 1987.5,1032.9 1944.7,1032.9 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-29*04">
+	<polygon class="st0" points="1928.2,1101.9 1931.5,1124.1 1951.5,1080 1993.9,1080 1990.8,1056.7 1948.5,1056.7 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-30*04">
+	<polygon class="st0" points="1931.5,1124.1 1934.9,1148.8 1954.4,1104.6 1997.3,1104.6 1993.9,1080 1951.5,1080 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-31*04">
+	<polygon class="st0" points="1934.9,1148.8 1937.9,1172.5 1957.5,1129.4 2000.6,1129.4 1997.3,1104.6 1954.4,1104.6 	"/>
+</g>
+<g class="dc-dcim-rack"  id="rack-16-32*04">
+	<polygon class="st0" points="1937.9,1172.5 1940.3,1197.9 1983.2,1197.9 2003.6,1151.7 2000.6,1129.4 1957.5,1129.4 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-01-01"  >
+	<polygon class="st4" points="429.6,247.2 393,247.2 372.8,395.6 375.3,404.4 388.7,451.6 426.4,451.6 444.1,303.6 	"/>
+	<polygon class="st4" points="363,421.6 366.5,435.5 384.1,435.5 375.3,404.4 365.4,404.3 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-01-02"  >
+	<polygon class="st4" points="363.6,459.7 401.6,459.7 418.4,515.5 400.2,672.8 359.6,672.8 342.3,620.9 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-01-03"  >
+	<polygon class="st4" points="370.2,712.4 329.9,712.4 306.3,887.2 311.5,901.4 311.5,901.4 297.6,901.5 294.1,922.4 299.5,935.4
+		319.3,935.4 320.9,926.8 324.6,936.9 366.3,936.9 387.2,762.1 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-01-04"  >
+	<polygon class="st4" points="337.5,962.6 356.2,1009.9 333.8,1197.9 290.9,1197.9 270.4,1151.7 296,962.6 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-02-01"  >
+	<polygon class="st4" points="496.6,247.2 534.9,247.2 547,305.3 531.2,451.6 492.9,451.6 479.3,395.6 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-02-02"  >
+	<polygon class="st4" points="471.9,459.7 510.4,459.7 524.1,513.3 508.2,672.8 468.2,672.8 453.3,619.8 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-02-03"  >
+	<polygon class="st4" points="442.5,712.4 482.7,712.4 498.3,764.5 479.6,937.5 438.9,937.4 422.4,885.7 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-02-04"  >
+	<polygon class="st4" points="413.4,962.6 455.5,962.6 471.9,1013.2 451.7,1198.2 409.3,1198.2 391.4,1152.3 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-03-01"  >
+	<polygon class="st4" points="622.4,247.6 584.9,247.6 583.2,264.6 581.2,284 579.4,302.6 577.5,320.7 575.7,339.6 573.8,358.5
+		571.9,377.1 570,395.8 571.8,404.3 565,404.3 562.6,421.8 565.7,435.7 578.5,435.7 581.9,451.6 619.8,451.6 621.5,433.2
+		623.3,413.3 624.8,396.3 626.6,376.7 628.3,358.5 630,339.1 631.8,319.3 632.8,304.4 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-03-02"  >
+	<polygon class="st4" points="601.2,459.7 563.7,459.7 561.7,478.9 559.7,499.3 557.8,518.5 555.7,538.8 553.7,559.5 551.6,580.1
+		549.6,600.6 547.6,619.8 561,672.8 599.7,672.8 601.6,652.4 603.4,631.7 605.4,609.8 607.2,590.6 608.8,572.6 610.6,553.4
+		612.2,535.4 613.9,516.3 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-03-03"  >
+	<polygon class="st4" points="577.4,712.4 538.4,712.4 536.3,733.4 534.1,755.4 531.9,777.5 529.6,800 527.5,821.4 525.3,843.8
+		523,866.8 520.8,888.3 524.5,901.7 514.9,901.7 511.8,922.7 516,935.1 533.9,935.1 534.5,937.5 575.7,937.5 577.8,914.2
+		579.9,891.4 581.8,870.3 583.7,849 585.6,828.2 587.8,804.3 589.6,784.5 591.3,765.7 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-03-04"  >
+	<polygon class="st4" points="554.2,962.6 513.4,962.6 511,985.4 508.7,1009.3 506.3,1033.4 504,1056.7 501.6,1080.8 499.1,1105
+		496.7,1129.4 494.4,1152.6 509.4,1198.2 552,1198.2 554.3,1173.3 556.5,1149.1 558.6,1125.7 560.7,1102.7 562.9,1078.3
+		565.1,1053.4 567,1033.4 569.1,1010.1 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-04-01"  >
+	<polygon class="st4" points="725.3,247.6 688.8,247.6 687.4,265.8 685.9,283.4 684.4,302.5 682.9,320.7 681.4,339.6 679.8,358.5
+		678.3,378 677,394.3 687.4,451.6 724.8,451.6 726.3,430.2 726.3,430.2 727.8,410.5 729.1,391.8 730.6,371.6 731.7,355.4
+		732.9,339.1 734.2,320.7 735.4,304.7 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-04-02"  >
+	<polygon class="st4" points="710.1,459.7 671.7,459.7 670.1,478.9 668.4,499.3 666.9,518.5 665.2,538.8 663.6,559.5 661.9,579.8
+		660.2,600.6 658.7,619.8 669.6,672.8 708.8,672.8 710.5,649.3 711.6,633.8 713.1,613.4 714.9,588.5 716.1,571 717.6,551.5
+		718.9,532.3 720.1,516.5 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-04-03"  >
+	<polygon class="st4" points="690.9,712.4 651.2,712.4 649.5,733.4 647.7,755.4 646,776.8 644.1,799.6 642.3,821.9 640.5,843.8
+		638.7,865.9 638.8,865.9 637.2,886.2 649.6,937.5 689.8,937.5 691.6,913.1 691.4,912.4 693,891.4 694.5,870.3 696,849 697.8,824.7
+		699.4,802.7 700.8,782.9 702.1,765 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-04-04"  >
+	<polygon class="st4" points="672.7,962.6 630.9,962.6 629.1,985.4 627.1,1009.3 625.2,1032.9 623.3,1056.7 621.3,1080.8
+		619.4,1104.6 617.3,1129.4 615.7,1150.4 628.1,1198.2 670.8,1198.2 672.6,1172.5 674.4,1148.8 676.1,1125.4 677.8,1101.9
+		679.6,1076.1 681.1,1055.4 683,1029 684.4,1010.6 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-05-01"  >
+	<polygon class="st4" points="814.6,247.2 778.2,247.2 777,264.7 775.7,284.1 774.6,302.1 773.3,320.7 772.1,339.6 770.9,358.5
+		769.6,377.3 768.4,395.2 769.7,404.3 765.2,404.3 763.9,421.9 765.2,435.7 774.1,435.7 776.3,451.6 814.5,451.6 815.8,427.9
+		817.1,405.4 818.1,387.6 819.1,370.5 820.2,351.3 821,335.7 821.8,321.9 822.8,305.5 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-05-02"  >
+	<polygon class="st4" points="802.4,460.1 764.2,460.1 762.9,478.9 761.6,499.3 760.3,518.5 759,538.8 757.7,558.5 756.3,580.1
+		754.9,600.6 753.8,617.7 762.3,672.8 801.9,672.8 803.1,652.4 804.3,631.2 805.6,608.4 806.9,585.7 808.1,563.7 809.2,545.2
+		810.2,527.2 810.9,513.7 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-05-03"  >
+	<polygon class="st4" points="786.9,712.4 747.6,712.4 746.1,733.4 744.7,755.4 743.3,776.8 741.9,798.5 740.4,821.4 738.9,843.8
+		737.4,866.8 736.1,886.6 738.9,901.7 732.1,901.7 730.2,921.5 732.1,935.1 745.2,935.1 745.7,937.5 786.9,937.5 788.4,911.2
+		789.5,891.4 791,865.9 792.2,843.8 793.4,823.6 794.5,803.6 795.4,787.2 796.6,767.4 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-05-04"  >
+	<polygon class="st4" points="772.4,962.6 731.1,962.6 729.6,984.6 728,1009.3 726.4,1033.4 724.8,1056.7 723.3,1080.8 721.7,1105
+		720.1,1129.4 718.7,1150.4 729.6,1199 772.1,1199 773.7,1169.6 774.9,1148.8 776.4,1122.8 777.8,1098.8 779.1,1074.8 780.3,1054.4
+		781.6,1030.2 782.7,1012 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-06-01"  >
+	<polygon class="st4" points="919.4,247.6 882.4,247.6 881.6,265.3 880.7,283.4 879.8,302.5 879,320.1 878.1,339.6 877.2,358.5
+		876.3,377.3 876.3,377.3 875.5,394.3 881.6,451.6 919.2,451.6 920.6,414.8 920.6,414.8 921.7,385.9 922.4,367.9 923,352.7
+		923.5,341.1 924,326.4 924.4,317 924.9,305.5 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-06-02"  >
+	<polygon class="st4" points="910.4,460.1 872.4,460.1 871.5,477.7 870.5,499.3 869.6,518.5 868.7,538.8 867.7,559.5 866.7,579.8
+		865.8,600.6 864.9,618.6 871.5,672.8 910.5,672.8 911.7,643.1 912.7,616.3 913.7,592.7 914.3,576.1 914.9,560.4 915.5,545.2
+		916.1,530.8 916.8,513 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-06-03"  >
+	<polygon class="st4" points="900.2,712.4 860.4,712.4 859.5,732.3 858.4,755.4 857.4,776.8 856.3,798.5 855.3,820.5 854.2,843.1
+		853.2,865.9 852.2,887.3 859.3,937.4 900.2,937.4 901.3,910.5 901.3,910.5 902.5,878.5 903.7,849 904.5,827 905.3,807.7
+		905.9,790.9 906.5,776.8 907,763.3 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-06-04"  >
+	<polygon class="st4" points="890.9,962.6 848.6,962.6 847.6,983.9 846.4,1009.3 845.3,1032.9 844.2,1056.7 843,1080.8
+		841.9,1104.6 840.7,1129.4 839.7,1151.4 847.6,1199 890,1199 890.8,1179.2 891.7,1156.2 892.7,1130.3 893.6,1108.1 894.3,1088.3
+		895.1,1069.2 896.2,1040.2 897.3,1013 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-07-01"  >
+	<polygon class="st4" points="1011.6,303.6 1007.8,248.6 969.7,248 969.7,265.3 968.6,283.4 968,302.1 967.5,320.1 966.9,339.6
+		966.3,358.5 965.8,377.3 965.2,396.2 965.9,404.3 964.2,404.3 963.3,420.7 964.2,435.7 968.4,435.7 969.7,451.6 1007.5,451.6
+		1008.1,430.5 1008.8,406.1 1009.6,387.6 1010.2,363.6 1011.6,339.6 1011.6,315.4 1011.6,309.7 1007.2,265.3 1011.6,309.1 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-07-02"  >
+	<polygon class="st4" points="1003.7,479.8 1003.7,460 963.3,460 963.3,479.8 962.1,499 961.5,518.5 960.9,538.8 960.3,558.5
+		959.6,579.4 959,600 958.5,617.1 963.2,672.8 1002.4,672.8 1003.8,639.5 1003.8,615.2 1004.3,586.4 1005,567.2 1005.6,550.4
+		1005.6,529.9 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-07-03">
+	<polygon class="st4" points="996.4,712.4 955.6,712.4 955,733.4 954.3,754.7 953.7,776.1 953,799 952.4,820.5 951.7,843.8
+		951,866.8 950.3,888 951.8,901.7 948,901.7 947.4,920.6 948,935.1 955.4,935.1 955.7,937.5 996,937.5 997.7,914.7 997.7,889
+		997.7,868.5 998.3,845.4 999,823 999.7,800.2 1000.5,780 1000.5,767.9 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-07-04">
+	<polygon class="st4" points="990.5,962.6 948.1,962.6 947.4,984.6 946.6,1008.4 945.9,1032.9 945.2,1056.7 944.5,1079.6
+		943.7,1105 943,1129.4 942.3,1152.1 947.4,1198.2 990.1,1198.2 990.8,1182.5 991.8,1157.9 992.3,1134.1 993.1,1105.9 994,1081.8
+		994,1058.4 994,1038.4 995.1,1012 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-08-01"  >
+	<polygon class="st4" points="1112.3,403.5 1112.3,378 1112.3,360 1112.3,358.5 1112.3,340.8 1112.3,321.6 1112.3,302.6
+		1112.3,302.4 1112.3,282.8 1112.3,265.4 1112.3,248 1074.5,248 1074.5,265.4 1074.5,282.8 1074.5,302.4 1074.5,302.6 1074.5,321.6
+		1074.5,340.8 1074.5,358.5 1074.5,360 1074.5,378 1074.5,451.6 1112.3,451.6 1112.3,435.4 1112.4,435.4 1112.4,403.5 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-08-02"  >
+	<polygon class="st4" points="1071.5,459.7 1071.5,480.9 1071.5,499 1071.5,502.7 1071.5,518.9 1071.5,538.8 1071.5,558.7
+		1071.5,574.3 1071.5,578.6 1071.5,595.1 1071.5,595.1 1071.5,672.8 1111.8,672.8 1111.8,595.1 1111.8,595.1 1111.8,578.6
+		1111.8,574.3 1111.8,558.7 1111.8,538.8 1111.8,518.9 1111.8,502.7 1111.8,499 1111.8,480.9 1111.8,459.7 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-08-03"  >
+	<polygon class="st4" points="1110.6,901.5 1110.6,869.4 1110.6,869.4 1110.6,845.3 1110.6,825 1110.6,821.2 1110.6,800.9
+		1110.6,780 1110.6,776.9 1110.6,756.4 1110.6,756.3 1110.6,735.9 1110.6,731.8 1110.6,712.4 1067.3,712.4 1067.3,731.8
+		1067.3,735.9 1067.3,756.3 1067.3,756.4 1067.3,776.9 1067.3,780 1067.3,800.9 1067.3,821.2 1067.3,825 1067.3,845.3 1067.3,865.5
+		1067.3,869.4 1067.3,937.5 1110.6,937.5 1110.6,935.5 1110.7,935.5 1110.7,901.5 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-08-04"  >
+	<polygon class="st4" points="1064,962.6 1064,981.9 1064,985.4 1064,1009.3 1064,1015.8 1064,1036.2 1064,1061.5 1064,1061.6
+		1064,1080.3 1064,1087.5 1064,1104.6 1064,1104.6 1064,1128.9 1064,1198.3 1108.9,1198.3 1108.9,1128.9 1108.9,1104.6
+		1108.9,1104.6 1108.9,1087.5 1108.9,1080.3 1108.9,1061.6 1108.9,1061.5 1108.9,1036.2 1108.9,1015.8 1108.9,1009.3 1108.9,985.4
+		1108.9,981.9 1108.9,962.6 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-09-01"  >
+	<polygon class="st4" points="1203.1,547.6 1203.1,525.8 1203.1,524.9 1203.1,503.6 1203.1,502.7 1203.1,481.6 1202.8,481.6
+		1202.8,460.1 1202.8,459.7 1202.8,438.8 1202.4,438.8 1202.4,417.5 1202,417.5 1202,395.1 1202.1,395.1 1202.1,374.5 1201.5,374.5
+		1201.5,354 1201,354 1201,333.4 1200.7,333.4 1200.7,313.4 1200.7,293.4 1185.9,293.4 1185.9,313.4 1185.9,333.4 1186.2,333.4
+		1186.2,354 1186.7,354 1186.7,374.6 1187.3,374.6 1187.3,394.9 1187.2,394.9 1187.2,417.5 1187.6,417.5 1187.6,438.8 1188,438.8
+		1188,459.7 1188,460.1 1188,481.7 1188.3,481.7 1188.3,502.7 1188.3,503.6 1188.3,524.9 1188.3,525.8 1188.3,547.6 1188.8,547.6
+		1188.8,569.2 1188.8,570.2 1188.8,604.1 1203.6,604.1 1203.6,570.2 1203.6,569.2 1203.6,547.6 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-09-02">
+	<polygon class="st4" points="1208.5,1061.5 1208.5,1036.1 1207.9,1036.1 1207.9,1009.6 1207.9,983.1 1207.9,957.6 1207.2,957.6
+		1207.2,935.1 1207.2,932.1 1207.2,909.1 1206.8,909.1 1206.8,884 1206.8,858.7 1206.5,858.7 1206.5,835.4 1206,835.4 1206,810.7
+		1205.5,810.7 1205.5,786 1205.5,762 1189.6,762 1189.6,786 1189.6,810.8 1190.1,810.8 1190.1,835.4 1190.6,835.4 1190.6,858.8
+		1190.9,858.8 1190.9,884 1190.9,909.2 1191.3,909.2 1191.3,932.1 1191.3,935.1 1191.3,957.6 1192,957.6 1192,983.1 1192,1009.6
+		1192,1036.1 1192,1061.5 1192.4,1061.5 1192.4,1087.5 1192.4,1122.9 1208.9,1122.9 1208.9,1087.5 1208.9,1061.5 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-10-01"  >
+	<polygon class="st4" points="1262.5,303.6 1266.3,248.6 1304.4,248 1304.4,265.3 1305.5,283.4 1306.1,302.1 1306.6,320.1
+		1307.2,339.6 1307.8,358.5 1308.3,377.3 1308.9,396.2 1308.2,404.3 1309.9,404.3 1310.8,420.7 1309.9,435.7 1305.7,435.7
+		1304.4,451.6 1266.6,451.6 1266,430.5 1265.3,406.1 1264.5,387.6 1263.9,363.6 1262.5,339.6 1262.5,315.4 1262.5,309.7
+		1266.9,265.3 1262.5,309.1 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-10-02"  >
+	<polygon class="st4" points="1270.4,479.8 1270.4,460 1310.8,460 1310.8,479.8 1312,499 1312.6,518.5 1313.2,538.8 1313.8,558.5
+		1314.5,579.4 1315.1,600 1315.6,617.1 1310.9,672.8 1271.7,672.8 1270.3,639.5 1270.3,615.2 1269.8,586.4 1269.1,567.2
+		1268.5,550.4 1268.5,529.9 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-10-03" >
+	<polygon class="st4" points="1277.7,712.4 1318.5,712.4 1319.1,733.4 1319.8,754.7 1320.4,776.1 1321.1,799 1321.7,820.5
+		1322.4,843.8 1323.1,866.8 1323.8,888 1322.3,901.7 1326.1,901.7 1326.7,920.6 1326.1,935.1 1318.7,935.1 1318.4,937.5
+		1278.1,937.5 1276.4,914.7 1276.4,889 1276.4,868.5 1275.8,845.4 1275.1,823 1274.4,800.2 1273.6,780 1273.6,767.9 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-10-04">
+	<polygon class="st4" points="1283.6,962.6 1326,962.6 1326.7,984.6 1327.5,1008.4 1328.2,1032.9 1328.9,1056.7 1329.6,1079.6
+		1330.4,1105 1331.1,1129.4 1331.8,1152.1 1326.7,1198.2 1284,1198.2 1283.3,1182.5 1282.3,1157.9 1281.8,1134.1 1281,1105.9
+		1280.1,1081.8 1280.1,1058.4 1280.1,1038.4 1279,1012 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-11-01"  >
+	<polygon class="st4" points="1354.7,247.6 1391.7,247.6 1392.5,265.3 1393.4,283.4 1394.3,302.5 1395.1,320.1 1396,339.6
+		1396.9,358.5 1397.8,377.3 1397.8,377.3 1398.6,394.3 1392.5,451.6 1354.9,451.6 1353.5,414.8 1353.5,414.8 1352.4,385.9
+		1351.7,367.9 1351.1,352.7 1350.6,341.1 1350.1,326.4 1349.7,317 1349.2,305.5 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-11-02"  >
+	<polygon class="st4" points="1363.7,460.1 1401.7,460.1 1402.6,477.7 1403.6,499.3 1404.5,518.5 1405.4,538.8 1406.4,559.5
+		1407.4,579.8 1408.3,600.6 1409.2,618.6 1402.6,672.8 1363.6,672.8 1362.4,643.1 1361.4,616.3 1360.4,592.7 1359.8,576.1
+		1359.2,560.4 1358.6,545.2 1358,530.8 1357.3,513 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-11-03"  >
+	<polygon class="st4" points="1367.1,763.3 1367.6,776.8 1368.2,790.9 1368.8,807.7 1369.6,827 1370.4,849 1371.6,878.5
+		1372.8,910.5 1372.8,910.5 1373.9,937.4 1414.8,937.4 1421.9,887.3 1420.9,865.9 1419.9,843.1 1418.8,820.5 1417.8,798.5
+		1416.7,776.8 1415.7,755.4 1414.6,732.3 1413.7,712.4 1373.9,712.4 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-11-04"  >
+	<polygon class="st4" points="1383.2,962.6 1425.5,962.6 1426.5,983.9 1427.7,1009.3 1428.8,1032.9 1429.9,1056.7 1431.1,1080.8
+		1432.2,1104.6 1433.4,1129.4 1434.4,1151.4 1426.5,1199 1384.1,1199 1383.3,1179.2 1382.4,1156.2 1381.4,1130.3 1380.5,1108.1
+		1379.8,1088.3 1379,1069.2 1377.9,1040.2 1376.8,1013 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-12-01"  >
+	<polygon class="st4" points="1459.5,247.2 1495.9,247.2 1497.1,264.7 1498.4,284.1 1499.5,302.1 1500.8,320.7 1502,339.6
+		1503.2,358.5 1504.5,377.3 1505.7,395.2 1504.4,404.3 1508.9,404.3 1510.2,421.9 1508.9,435.7 1500,435.7 1497.8,451.6
+		1459.6,451.6 1458.3,427.9 1457,405.4 1456,387.6 1455,370.5 1453.9,351.3 1453.1,335.7 1452.3,321.9 1451.3,305.5 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-12-02"  >
+	<polygon class="st4" points="1471.7,460.1 1509.9,460.1 1511.2,478.9 1512.5,499.3 1513.8,518.5 1515.1,538.8 1516.4,558.5
+		1517.8,580.1 1519.2,600.6 1520.3,617.7 1511.8,672.8 1472.2,672.8 1471,652.4 1469.8,631.2 1468.5,608.4 1467.2,585.7 1466,563.7
+		1464.9,545.2 1463.9,527.2 1463.2,513.7 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-12-03"  >
+	<polygon class="st4" points="1487.2,712.4 1526.5,712.4 1528,733.4 1529.4,755.4 1530.8,776.8 1532.2,798.5 1533.7,821.4
+		1535.2,843.8 1536.7,866.8 1538,886.6 1535.2,901.7 1542,901.7 1543.9,921.5 1542,935.1 1528.9,935.1 1528.4,937.5 1487.2,937.5
+		1485.7,911.2 1484.6,891.4 1483.1,865.9 1481.9,843.8 1480.7,823.6 1479.6,803.6 1478.7,787.2 1477.5,767.4 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-12-04"  >
+	<polygon class="st4" points="1501.7,962.6 1543,962.6 1544.5,984.6 1546.1,1009.3 1547.7,1033.4 1549.3,1056.7 1550.8,1080.8
+		1552.4,1105 1554,1129.4 1555.4,1150.4 1544.5,1199 1502,1199 1500.4,1169.6 1499.2,1148.8 1497.7,1122.8 1496.3,1098.8
+		1495,1074.8 1493.8,1054.4 1492.5,1030.2 1491.4,1012 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-13-01"  >
+	<polygon class="st4" points="1538.7,304.7 1539.9,320.7 1541.2,339.1 1542.4,355.4 1543.5,371.6 1545,391.8 1546.3,410.5
+		1547.8,430.2 1547.8,430.2 1549.3,451.6 1586.7,451.6 1597.1,394.3 1595.8,378 1594.3,358.5 1592.7,339.6 1591.2,320.7
+		1589.7,302.5 1588.2,283.4 1586.7,265.8 1585.3,247.6 1548.8,247.6 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-13-02"  >
+	<polygon class="st4" points="1564,459.7 1602.4,459.7 1604,478.9 1605.7,499.3 1607.2,518.5 1608.9,538.8 1610.5,559.5
+		1612.2,579.8 1613.9,600.6 1615.4,619.8 1604.5,672.8 1565.3,672.8 1563.6,649.3 1562.5,633.8 1561,613.4 1559.2,588.5 1558,571
+		1556.5,551.5 1555.2,532.3 1554,516.5 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-13-03"  >
+	<polygon class="st4" points="1572,765 1573.3,782.9 1574.7,802.7 1576.3,824.7 1578.1,849 1579.6,870.3 1581.1,891.4 1582.7,912.4
+		1582.5,913.1 1584.3,937.5 1624.5,937.5 1636.9,886.2 1635.3,865.9 1635.4,865.9 1633.6,843.8 1631.8,821.9 1630,799.6
+		1628.1,776.8 1626.4,755.4 1624.6,733.4 1622.9,712.4 1583.2,712.4 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-13-04"  >
+	<polygon class="st4" points="1601.4,962.6 1643.2,962.6 1645,985.4 1647,1009.3 1648.9,1032.9 1650.8,1056.7 1652.8,1080.8
+		1654.7,1104.6 1656.8,1129.4 1658.4,1150.4 1646,1198.2 1603.3,1198.2 1601.5,1172.5 1599.7,1148.8 1598,1125.4 1596.3,1101.9
+		1594.5,1076.1 1593,1055.4 1591.1,1029 1589.7,1010.6 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-14-01"  >
+	<polygon class="st4" points="1651.7,247.6 1689.2,247.6 1690.9,264.6 1692.9,284 1694.7,302.6 1696.6,320.7 1698.4,339.6
+		1700.3,358.5 1702.2,377.1 1704.1,395.8 1702.3,404.3 1709.1,404.3 1711.5,421.8 1708.4,435.7 1695.6,435.7 1692.2,451.6
+		1654.3,451.6 1652.6,433.2 1650.8,413.3 1649.3,396.3 1647.5,376.7 1645.8,358.5 1644.1,339.1 1642.3,319.3 1641.3,304.4 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-14-02"  >
+	<polygon class="st4" points="1672.9,459.7 1710.4,459.7 1712.4,478.9 1714.4,499.3 1716.3,518.5 1718.4,538.8 1720.4,559.5
+		1722.5,580.1 1724.5,600.6 1726.5,619.8 1713.1,672.8 1674.4,672.8 1672.5,652.4 1670.7,631.7 1668.7,609.8 1666.9,590.6
+		1665.3,572.6 1663.5,553.4 1661.9,535.4 1660.2,516.3 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-14-03"  >
+	<polygon class="st4" points="1696.7,712.4 1735.7,712.4 1737.8,733.4 1740,755.4 1742.2,777.5 1744.5,800 1746.6,821.4
+		1748.8,843.8 1751.1,866.8 1753.3,888.3 1749.6,901.7 1759.2,901.7 1762.3,922.7 1758.1,935.1 1740.2,935.1 1739.6,937.5
+		1698.4,937.5 1696.3,914.2 1694.2,891.4 1692.3,870.3 1690.4,849 1688.5,828.2 1686.3,804.3 1684.5,784.5 1682.8,765.7 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-14-04"  >
+	<polygon class="st4" points="1719.9,962.6 1760.7,962.6 1763.1,985.4 1765.4,1009.3 1767.8,1033.4 1770.1,1056.7 1772.5,1080.8
+		1775,1105 1777.4,1129.4 1779.7,1152.6 1764.7,1198.2 1722.1,1198.2 1719.8,1173.3 1717.6,1149.1 1715.5,1125.7 1713.4,1102.7
+		1711.2,1078.3 1709,1053.4 1707.1,1033.4 1705,1010.1 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-15-01"  >
+	<polygon class="st4" points="1777.5,247.2 1739.2,247.2 1727.1,305.3 1742.9,451.6 1781.2,451.6 1794.8,395.6 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-15-02"  >
+	<polygon class="st4" points="1802.2,459.7 1763.7,459.7 1750,513.3 1765.9,672.8 1805.9,672.8 1820.8,619.8 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-15-03"  >
+	<polygon class="st4" points="1831.6,712.4 1791.4,712.4 1775.8,764.5 1794.5,937.5 1835.2,937.4 1851.7,885.7 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-15-04"  >
+	<polygon class="st4" points="1860.7,962.6 1818.6,962.6 1802.2,1013.2 1822.4,1198.2 1864.8,1198.2 1882.7,1152.3 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-16-01"  >
+	<polygon class="st4" points="1844.5,247.2 1881.1,247.2 1901.3,395.6 1898.8,404.4 1885.4,451.6 1847.7,451.6 1830,303.6 	"/>
+	<polygon class="st4" points="1911.1,421.6 1907.6,435.5 1890,435.5 1898.8,404.4 1908.7,404.3 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-16-02"  >
+	<polygon class="st4" points="1910.5,459.7 1872.5,459.7 1855.7,515.5 1873.9,672.8 1914.5,672.8 1931.8,620.9 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-16-03"  >
+	<polygon class="st4" points="1903.9,712.4 1944.2,712.4 1967.8,887.2 1962.6,901.4 1962.6,901.4 1976.5,901.5 1980,922.4
+		1974.6,935.4 1954.8,935.4 1953.2,926.8 1949.5,936.9 1907.8,936.9 1886.9,762.1 	"/>
+</g>
+<g class="dc-dcim-row"  id="row-16-04"  >
+	<polygon class="st4" points="1936.6,962.6 1917.9,1009.9 1940.3,1197.9 1983.2,1197.9 2003.7,1151.7 1978.1,962.6 	"/>
+</g>
+</svg>

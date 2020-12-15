@@ -1,12 +1,12 @@
-dc-zone-overview .dc-no-layout-margin {
+dc-zone-overview-page .dc-no-layout-margin {
     margin: unset !important;
 }
 
-dc-zone-overview .dc-select-separator {
+dc-zone-overview-page .dc-select-separator {
     margin-right: 8px !important;
 }
 
-dc-zone-overview .card-container > md-card {
+dc-zone-overview-page .card-container > md-card {
     height: 100%;
 }
 

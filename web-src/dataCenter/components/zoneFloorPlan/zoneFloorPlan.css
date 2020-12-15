@@ -1,0 +1,139 @@
+dc-zone-floor-plan p,
+dc-zone-floor-plan h4 {
+    line-height: 1.25;
+    font-size: small;
+}
+
+dc-zone-floor-plan p {
+    color: var(--ma-foreground-2);
+    text-align: center;
+}
+
+dc-zone-floor-plan .radio-button-container {
+    margin-top: 0rem;
+    padding: 0 1rem;
+}
+
+dc-zone-floor-plan .radio-button-container md-radio-button {
+    display: block;
+}
+
+dc-zone-floor-plan .container-background-gray {
+    background-color: #f6f6f6 !important;
+}
+
+dc-zone-floor-plan .container-background-gray-width-100 {
+    width: 100% !important;
+}
+
+dc-zone-floor-plan .radio-button-container md-radio-button .md-label {
+    font-size: 12px !important;
+}
+
+dc-zone-floor-plan .radio-button-container > h4 {
+    margin-bottom: 1rem;
+}
+
+dc-zone-floor-plan .dc-legend-container {
+    margin-top: 0rem;
+    padding: 0 1rem;
+    text-align: center !important;
+}
+
+dc-zone-floor-plan .dc-margin-top {
+    margin-top: 0 rem !important;
+}
+
+dc-zone-floor-plan .dc-margin-legend {
+    margin-bottom: 2rem;
+    margin-top: 0rem !important;
+    text-align: right !important;
+}
+
+/* SVG
+*/
+dc-zone-floor-plan .dc-svg-opacity {
+    -webkit-filter: blur(6px);
+}
+
+dc-zone-floor-plan .dc-alarm-indicator-no-opacity {
+    opacity: 1 !important;
+}
+
+dc-zone-floor-plan .dc-alarm-indicator-information {
+    fill: #47b275 !important;
+    opacity: 0.5;
+}
+dc-zone-floor-plan .dc-alarm-indicator-important {
+    opacity: 0.5;
+    fill: #ffc043 !important;
+}
+
+dc-zone-floor-plan .dc-alarm-indicator-warning {
+    opacity: 0.5;
+    fill: #ed7926 !important;
+}
+
+dc-zone-floor-plan .dc-alarm-indicator-critical {
+    opacity: 0.5;
+    fill: #ed1f1f !important;
+}
+
+dc-zone-floor-plan .dc-alarm-indicator-major {
+    opacity: 0.5;
+    fill: #b5249d !important;
+}
+
+dc-zone-floor-plan .dc-alarm-indicator-minor {
+    opacity: 0.5;
+    fill: #276ef1 !important;
+}
+
+dc-zone-floor-plan .dc-alarm-indicator-none {
+    opacity: 0.5;
+    fill: #707070 !important;
+}
+
+dc-zone-floor-plan .dc-information-container {
+    margin-top: 16px;
+}
+
+/* Temperatures*/
+dc-zone-floor-plan .dc-temp-information {
+    fill: #47b275 !important;
+    display: block;
+    opacity: 0.5;
+}
+dc-zone-floor-plan .dc-temp-important {
+    opacity: 0.5;
+    display: block;
+    fill: #ffc043 !important;
+}
+
+dc-zone-floor-plan .dc-temp-warning {
+    opacity: 0.5;
+    display: block;
+    fill: #ed7926 !important;
+}
+
+dc-zone-floor-plan .dc-temp-critical {
+    opacity: 0.5;
+    display: block;
+    fill: #ed1f1f !important;
+}
+
+dc-zone-floor-plan .dc-temp-major {
+    opacity: 0.5;
+    display: block;
+    fill: #b5249d !important;
+}
+
+dc-zone-floor-plan .dc-temp-minor {
+    opacity: 0.5;
+    display: block;
+    fill: #276ef1 !important;
+}
+
+dc-zone-floor-plan .dc-temp-none-hide-value {
+    display: none;
+}

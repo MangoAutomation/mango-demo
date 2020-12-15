@@ -1,0 +1,7 @@
+dc-statistics-widget .dc-statistics-chart {
+    min-height: 250px !important;
+}
+
+dc-statistics-widget .dc-no-layout-margin {
+    margin: unset !important;
+}

@@ -27,6 +27,11 @@ class OverviewController {
         this.edcSites.list().then(sites => {
             this.site = sites[0];
         });
+
+        this.edcSites.buildQuery()
+            .eq('customerNane', )
+            .query()
+            .then(sites => sd)
     }
 }
 

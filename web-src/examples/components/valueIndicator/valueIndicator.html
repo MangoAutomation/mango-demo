@@ -1,0 +1,6 @@
+<h4 ng-if="$ctrl.titleTr && !$ctrl.usePointName" ma-tr="{{$ctrl.titleTr}}"></h4>
+<h4 ng-if="$ctrl.title && !$ctrl.usePointName" ng-bind="$ctrl.title"></h4>
+<h4 ng-if="$ctrl.usePointName" ng-bind="$ctrl.value.name"></h4>
+<p ng-if="!$ctrl.isPoint" ng-bind="$ctrl.value"></p>
+<ma-point-value ng-if="$ctrl.isPoint" enable-popup="right" point="$ctrl.value" ng-hide="!$ctrl.value.value  && !$ctrl.value.value == 0 || $ctrl.value.value == 'NaN' "></ma-point-value>
+<p ng-if="$ctrl.isPoint && (!$ctrl.value.value  && !$ctrl.value.value == 0 || $ctrl.value.value == 'NaN')" class="no-value">No value</p>

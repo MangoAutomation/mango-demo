@@ -1,0 +1,15 @@
+<md-card ng-class="{'layout-fill': $ctrl.fillCard && $ctrl.$mdMedia('gt-md')}">
+    <md-card-header class="md-card-header" layout layout-align="space-between center">
+        <span ng-bind="$ctrl.cardTitle"></span>
+        <!-- <div class="header-title" ng-bind="$ctrl.title"></div> -->
+        <div layout layout-align="start center">
+            <div ng-transclude="actions"></div>
+            <md-button class="md-icon-button" aria-label="More" ng-click="$ctrl.isOpen = !$ctrl.isOpen">
+                <md-icon ng-if="!$ctrl.isOpen">add</md-icon>
+                <md-icon ng-if="$ctrl.isOpen">remove</md-icon>
+            </md-button>
+        </div>
+    </md-card-header>
+    <md-card-content ng-show="$ctrl.isOpen" ng-transclude="content"
+        ng-class="{'dc-expand-content': $ctrl.fillCard && $ctrl.$mdMedia('gt-md')}"></md-card-content>
+</md-card>
