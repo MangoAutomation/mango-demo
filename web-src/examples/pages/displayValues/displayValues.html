@@ -7,20 +7,23 @@
         <h2>Value Indicator</h2>
     </ex-panel-header>
     <ex-panel-actions>
-        <md-button href="">Go to code</md-button>
+        <md-button href="https://github.com/infiniteautomation/mango-demo/tree/master/web-src/examples/components/valueIndicator" target="_blank">Go to code</md-button>
     </ex-panel-actions>
-    <ex-panel-body layout="row" layout-align="start start">
+    <ex-panel-body layout="row" layout-align="start start" layout-wrap>
         <ex-value-indicator title="Test title" value="'Test value'"></ex-value-indicator>
         <ex-value-indicator is-point="true" use-point-name="true" value="$ctrl.points.dataPoints"></ex-value-indicator>
+        <ex-value-indicator is-point="true" use-point-name="true" value="$ctrl.points.dataSources"></ex-value-indicator>
     </ex-panel-body>
 </ex-expansion-panel>
 
-<md-card>
-    <md-card-header>
-        <h2>Value Indicator</h2>
-    </md-card-header>
-    <md-card-content layout="row" layout-align="start start">
-        <ex-value-indicator title="Test title" value="'Test value'"></ex-value-indicator>
-        <ex-value-indicator is-point="true" use-point-name="true" value="$ctrl.points.dataPoints"></ex-value-indicator>
-    </md-card-content>
-</md-card>
+<ex-expansion-panel>
+    <ex-panel-header>
+        <h2>Group points</h2>
+    </ex-panel-header>
+    <ex-panel-actions>
+        <md-button href="https://github.com/infiniteautomation/mango-demo/tree/master/web-src/examples/components/valueIndicator" target="_blank">Go to code</md-button>
+    </ex-panel-actions>
+    <ex-panel-body layout="row" layout-align="start start">
+        <ex-point-groups groups="['Voltages', 'Currents', 'Power']"></ex-point-groups>
+    </ex-panel-body>
+</ex-expansion-panel>

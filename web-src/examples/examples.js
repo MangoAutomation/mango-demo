@@ -5,15 +5,19 @@ import displayValuesPage from './pages/displayValues/displayValues';
 // Components
 import valueIndicator from './components/valueIndicator/valueIndicator';
 import expansionPanel from './components/expansionPanel/expansionPanel';
+import pointGroups from './components/pointGroups/pointGroups';
+import pointsGroup from './components/pointGroups/pointsGroup/pointsGroup';
 
 
-const oilGasModule = angular.module('oilGasModule', ['maUiApp'])
+const examplesModule = angular.module('examplesModule', ['maUiApp'])
     .component('exDisplayValuesPage', displayValuesPage)
 
     .component('exValueIndicator', valueIndicator)
     .component('exExpansionPanel', expansionPanel)
+    .component('exPointGroups', pointGroups)
+    .component('exPointsGroup', pointsGroup)
 
-oilGasModule.config(['maUiMenuProvider', maUiMenuProvider => {
+examplesModule.config(['maUiMenuProvider', maUiMenuProvider => {
     maUiMenuProvider.registerMenuItems([
         {
             url: '/ui-examples',
@@ -41,4 +45,4 @@ oilGasModule.config(['maUiMenuProvider', maUiMenuProvider => {
     ]);
 }])
 
-export default oilGasModule;
+export default examplesModule;

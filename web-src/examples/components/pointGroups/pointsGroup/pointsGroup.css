@@ -1,0 +1,11 @@
+ex-points-group {
+    display: block;
+}
+
+ex-points-group h3 {
+    font-weight: bolder;
+}
+
+:root {
+    --ex-tabs-bg-color: var(--ma-background-hue-1);
+}

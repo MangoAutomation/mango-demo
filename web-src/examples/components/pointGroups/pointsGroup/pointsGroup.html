@@ -1,0 +1,5 @@
+<h3>{{$ctrl.group}}</h3>
+
+<div ng-if="$ctrl.groupPoints != null" ng-repeat="point in $ctrl.groupPoints track by point.xid">
+    <ex-value-indicator value="point" is-point="true" use-point-name="true"></ex-value-indicator>
+</div>

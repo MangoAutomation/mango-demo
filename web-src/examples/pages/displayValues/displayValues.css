@@ -6,3 +6,6 @@ ex-display-values-page ex-value-indicator {
     padding: 4px 30px;
 }
 
+ex-display-values-page ex-expansion-panel {
+    margin-top: 24px;
+}

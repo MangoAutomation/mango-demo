@@ -1,0 +1,12 @@
+<div ng-if="$ctrl.groups.length == 0" ayout="column" layout-gt-sm="row" layout-align-gt-sm="center center">
+    <div class="not-found-imagen" class="container">
+        <md-icon>priority_high</md-icon>
+        <em ma-tr="edc.notFoundInformation"></em>
+    </div>
+</div>
+
+<md-content class="container" layout="row" layout-align="space-between stretch">
+    <div ng-repeat="group in $ctrl.groups track by group" flex-xs="100" flex-sm="50" flex-gt-sm="20">
+        <ex-points-group points="$ctrl.points" group="group"></ex-points-group>
+    </div>
+</md-content>

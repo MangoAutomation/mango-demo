@@ -1,0 +1,34 @@
+ex-point-groups {
+    width: 100%;
+}
+
+ex-point-groups .container {
+    background-color: var(--edc-tabs-bg-color);
+}
+
+ex-point-groups .parent {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+ex-point-groups .child {
+    width: calc(25% - 10px);
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+ex-point-groups h3 {
+    margin-top: 8px;
+    line-height: 12px;
+    font-size: 16px;
+}
+
+ex-point-groups .not-found-imagen {
+    height: 40px;
+}
+
+:root {
+    --ex-tabs-bg-color: var(--ma-background-hue-1);
+}
