@@ -16,7 +16,7 @@ const ALARM_LEVELS = {
     'INFORMATION': {name: 'informational', color: '#47b275'},
     'IMPORTANT': {name: 'important', color: '#ECC94B'},
     'WARNING': {name: 'warning', color: '#2B6CB0'},
-    'URGENT': {name: 'major', color: '#ed7926'},
+    'URGENT': {name: 'urgent', color: '#ed7926'},
     'CRITICAL': {name: 'critical', color: '#ed1f1f'},
 }
 
@@ -78,7 +78,7 @@ class AlarmStatsController {
                     informational: [],
                     important: [],
                     warning: [],
-                    major: [],
+                    urgent: [],
                     critical: []
                 })
             });
