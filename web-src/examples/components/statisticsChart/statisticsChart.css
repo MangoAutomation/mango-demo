@@ -1,0 +1,15 @@
+ex-statistics-chart {
+    width: 100%;
+}
+
+ex-statistics-chart md-input-container {
+    width: 100%;
+}
+
+ex-statistics-chart .ex-statistics-chart {
+    min-height: 400px !important;
+}
+
+ex-statistics-chart .ex-no-layout-margin {
+    margin: unset !important;
+}

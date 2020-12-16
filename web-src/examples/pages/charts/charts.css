@@ -1,0 +1,7 @@
+ex-charts-page > div.page-header {
+    padding: 0 8px;
+}
+
+ex-charts-page ex-expansion-panel {
+    margin-top: 24px;
+}
