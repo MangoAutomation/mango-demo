@@ -45,8 +45,6 @@ class DisplayValuesController {
 
                     return result;
                 }, {});
-
-                console.log(this.points);
             });
     }
 }

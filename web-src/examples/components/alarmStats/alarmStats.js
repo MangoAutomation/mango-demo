@@ -37,7 +37,6 @@ class AlarmStatsController {
     $onInit() {
         this.DateBar.subscribe((event, changed) => {
             if (changed.includes('from') || changed.includes('to')) {
-                console.log('hola')
                 this.buildChartData();
             }
         }, this.$scope);

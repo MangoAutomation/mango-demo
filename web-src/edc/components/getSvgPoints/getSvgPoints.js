@@ -83,7 +83,6 @@ class GetSvgPointsController {
         }
 
         pointQuery.query().then((points) => {
-            console.log(points);
             let parsedPoints = null;
             if (this.tab === 'pdu') {
                 parsedPoints = this.parseOutlets(points);
