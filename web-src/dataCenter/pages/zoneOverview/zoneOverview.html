@@ -34,15 +34,6 @@
         </div>
 
         <div flex="100" layout="row" layout-wrap layout-align="space-between stretch">
-            <!-- Power path -->
-            <div flex="100" flex-gt-md="100" ng-if="$ctrl.displayOption === 'racksLoads'">
-                <dc-expansion-panel card-title="Power path — Rack {{$ctrl.selection.row}}-{{$ctrl.selection.rack}}">
-                    <content>
-                        <dc-power-path selection="$ctrl.selection"></dc-power-path>
-                    </content>
-                </dc-expansion-panel>
-            </div>
-
             <!-- Charts-->
             <div flex="100" flex-gt-md="100">
                 <dc-expansion-panel card-title="Charts">
@@ -50,8 +41,11 @@
                         <md-button ng-click="$ctrl.setStatisticsPoints()">Display zone points</md-button>
                     </header-actions>
                     <content>
-                        <dc-statistics-widget points="$ctrl.statisticPoints" hide-settings="true" column="true"
-                            default-points="$ctrl.statisticDefaults">
+                        <dc-statistics-widget
+                                points="$ctrl.statisticPoints"
+                                hide-settings="true"
+                                column="true"
+                                default-points="$ctrl.statisticDefaults">
                         </dc-statistics-widget>
                     </content>
                 </dc-expansion-panel>
