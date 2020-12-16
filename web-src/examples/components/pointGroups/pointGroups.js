@@ -1,6 +1,6 @@
 /**
  * Copyright (C) 2020 RadixIot. All rights reserved.
- * @author Jose Puccini
+ * @author Luis Güette
  */
 
 import htmlTemplate from './pointGroups.html';
@@ -26,8 +26,16 @@ class PointGroupsController {
     }
 
     getPoints() {
-        this.maPoint
-            .buildQuery()
+        const query = this.maPoint
+            .buildQuery();
+
+        if (this.filterTags) {
+            Object.keys(this.filterTags).forEach(tag => {
+                query.eq(`tags.${tag}`, this.filterTags[tag]);
+            });
+        }
+
+        query
             .in('tags.group', this.groups)
             .sort('name')
             .limit(1000)
@@ -39,6 +47,7 @@ class PointGroupsController {
 export default {
     bindings: {
         groups: '<',
+        filterTags: '<?'
     },
     controller: PointGroupsController,
     template: htmlTemplate
