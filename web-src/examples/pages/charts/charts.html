@@ -3,28 +3,46 @@
     <md-button href="https://github.com/infiniteautomation/mango-demo/tree/master/web-src/examples/pages/charts" target="_blank">Go to page code</md-button>
 </div>
 
-<ex-expansion-panel>
-    <ex-panel-header>
-        <h2>Statistics Chart</h2>
-    </ex-panel-header>
-    <ex-panel-actions>
-        <md-button href="https://github.com/infiniteautomation/mango-demo/tree/master/web-src/examples/components/statisticsChart" target="_blank">Go to code</md-button>
-    </ex-panel-actions>
-    <ex-panel-body>
-        <ex-statistics-chart column="true" points="$ctrl.points" default-points="['Voltage L1']"></ex-statistics-chart>
-    </ex-panel-body>
-</ex-expansion-panel>
-
-<div layout="row" layout-align="space-between stretch" layout-wrap>
-    <ex-expansion-panel flex-="100" flex-gt-sm="50">
+<div class="card-container">
+    <ex-expansion-panel>
         <ex-panel-header>
-            <h2>Overall Health</h2>
+            <h2>Statistics Chart</h2>
         </ex-panel-header>
         <ex-panel-actions>
-            <md-button href="https://github.com/infiniteautomation/mango-demo/tree/master/web-src/examples/components/overallHealth" target="_blank">Go to code</md-button>
+            <md-button href="https://github.com/infiniteautomation/mango-demo/tree/master/web-src/examples/components/statisticsChart" target="_blank">Go to code</md-button>
         </ex-panel-actions>
         <ex-panel-body>
-            <ex-overall-health></ex-overall-health>
+            <ex-statistics-chart column="true" points="$ctrl.points" default-points="['Voltage L1']"></ex-statistics-chart>
         </ex-panel-body>
     </ex-expansion-panel>
+</div>
+
+<div layout="row" layout-align="space-between stretch" layout-wrap>
+    <div class="card-container" flex="100" flex-gt-md="50">
+        <ex-expansion-panel>
+            <ex-panel-header>
+                <h2>Overall Health</h2>
+            </ex-panel-header>
+            <ex-panel-actions>
+                <md-button href="https://github.com/infiniteautomation/mango-demo/tree/master/web-src/examples/components/overallHealth" target="_blank">Go to code</md-button>
+            </ex-panel-actions>
+            <ex-panel-body>
+                <ex-overall-health></ex-overall-health>
+            </ex-panel-body>
+        </ex-expansion-panel>
+    </div>
+
+    <div class="card-container" flex="100" flex-gt-md="50">
+        <ex-expansion-panel>
+            <ex-panel-header>
+                <h2>Alarm Stats</h2>
+            </ex-panel-header>
+            <ex-panel-actions>
+                <md-button href="https://github.com/infiniteautomation/mango-demo/tree/master/web-src/examples/components/alarmStats" target="_blank">Go to code</md-button>
+            </ex-panel-actions>
+            <ex-panel-body>
+                <ex-alarm-stats></ex-alarm-stats>
+            </ex-panel-body>
+        </ex-expansion-panel>
+    </div>
 </div>

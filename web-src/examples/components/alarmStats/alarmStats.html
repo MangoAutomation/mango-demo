@@ -1,0 +1,26 @@
+<div>
+    <ma-serial-chart
+            series-1-values="$ctrl.chartData.informational"
+            series-1-type="column"
+            series-1-title="Informational"
+            series-1-color="#47b275"
+            series-2-values="$ctrl.chartData.minor"
+            series-2-type="column"
+            series-2-title="Minor"
+            series-2-color="#ECC94B"
+            series-3-values="$ctrl.chartData.warning"
+            series-3-type="column"
+            series-3-title="Warning"
+            series-3-color="#2B6CB0"
+            series-4-values="$ctrl.chartData.major"
+            series-4-type="column"
+            series-4-title="Major"
+            series-4-color="#ed7926"
+            series-5-values="$ctrl.chartData.critical"
+            series-5-type="column"
+            series-5-title="Critical"
+            series-5-color="#ed1f1f"
+            stack-type="regular"
+            legend="false"
+    ></ma-serial-chart>
+</div>

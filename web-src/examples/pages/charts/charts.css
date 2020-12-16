@@ -5,3 +5,7 @@ ex-charts-page > div.page-header {
 ex-charts-page ex-expansion-panel {
     margin-top: 24px;
 }
+
+ex-charts-page .card-container {
+    padding: 8px;
+}

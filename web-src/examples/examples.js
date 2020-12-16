@@ -11,6 +11,7 @@ import pointsGroup from './components/pointGroups/pointsGroup/pointsGroup';
 import statisticsChart from './components/statisticsChart/statisticsChart';
 import overallHealth from './components/overallHealth/overallHealth';
 import donutChart from './components/donutChart/donutChart';
+import alarmStats from './components/alarmStats/alarmStats';
 
 
 const examplesModule = angular.module('examplesModule', ['maUiApp'])
@@ -24,6 +25,7 @@ const examplesModule = angular.module('examplesModule', ['maUiApp'])
     .component('exStatisticsChart', statisticsChart)
     .component('exOverallHealth', overallHealth)
     .component('exDonutChart', donutChart)
+    .component('exAlarmStats', alarmStats)
 
 examplesModule.config(['maUiMenuProvider', maUiMenuProvider => {
     maUiMenuProvider.registerMenuItems([

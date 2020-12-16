@@ -1,0 +1,19 @@
+ex-alarm-stats .indicator {
+    margin-right: 3px;
+}
+
+ex-alarm-stats md-table-container table.md-table td.md-cell {
+    border-top: 0;
+}
+
+ex-alarm-stats md-table-container table.md-table > thead.md-head > tr.md-row {
+    height: 2rem !important;
+}
+ex-alarm-stats md-table-container .alarm-name {
+    text-transform: capitalize;
+}
+
+ex-alarm-stats ma-serial-chart {
+    height: 300px;
+    width: 100%;
+}
