@@ -1,3 +1,7 @@
+ex-value-indicator {
+    display: block;
+}
+
 ex-value-indicator p,
 ex-value-indicator h4 {
     margin: 0;
@@ -6,12 +10,12 @@ ex-value-indicator h4 {
 
 ex-value-indicator h4 {
     color: var(--ma-foreground-2);
-    font-size: 16px;
+    font-size: 14px;
 }
 
 ex-value-indicator p,
 ex-value-indicator ma-point-value span{
-    font-size: 28px;
+    font-size: 20px;
     font-weight: bold;
     display: inline-block;
     position: relative;

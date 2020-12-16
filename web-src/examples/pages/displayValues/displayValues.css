@@ -2,7 +2,7 @@ ex-display-values-page > div.page-header {
     padding: 0 8px;
 }
 
-ex-display-values-page ex-value-indicator {
+ex-display-values-page .value-indicator-section ex-value-indicator {
     padding: 4px 30px;
 }
 

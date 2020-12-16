@@ -2,8 +2,13 @@ ex-points-group {
     display: block;
 }
 
+ex-points-group ex-value-indicator {
+    padding-top: 12px;
+}
+
 ex-points-group h3 {
     font-weight: bolder;
+    margin-top: 12px;
 }
 
 :root {

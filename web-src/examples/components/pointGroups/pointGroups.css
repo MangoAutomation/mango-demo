@@ -20,7 +20,8 @@ ex-point-groups .child {
 }
 
 ex-point-groups h3 {
-    margin-top: 8px;
+    margin-top: 24px;
+    margin-bottom: 0;
     line-height: 12px;
     font-size: 16px;
 }
