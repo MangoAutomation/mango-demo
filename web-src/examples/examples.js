@@ -9,6 +9,9 @@ import expansionPanel from './components/expansionPanel/expansionPanel';
 import pointGroups from './components/pointGroups/pointGroups';
 import pointsGroup from './components/pointGroups/pointsGroup/pointsGroup';
 import statisticsChart from './components/statisticsChart/statisticsChart';
+import overallHealth from './components/overallHealth/overallHealth';
+import donutChart from './components/donutChart/donutChart';
+
 
 const examplesModule = angular.module('examplesModule', ['maUiApp'])
     .component('exDisplayValuesPage', displayValuesPage)
@@ -19,6 +22,8 @@ const examplesModule = angular.module('examplesModule', ['maUiApp'])
     .component('exPointGroups', pointGroups)
     .component('exPointsGroup', pointsGroup)
     .component('exStatisticsChart', statisticsChart)
+    .component('exOverallHealth', overallHealth)
+    .component('exDonutChart', donutChart)
 
 examplesModule.config(['maUiMenuProvider', maUiMenuProvider => {
     maUiMenuProvider.registerMenuItems([

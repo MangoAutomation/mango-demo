@@ -1,0 +1,38 @@
+<div class="columns-wrapper">
+    <div class="chart-container">
+        <ex-donut-chart height="300px" width="100%" values="$ctrl.values"></ex-donut-chart>
+    </div>
+    <div class="counts-container">
+        <div class="count-container total-active-alarms">
+            <h4>Total active alarms</h4>
+            <p ng-bind="$ctrl.activeAlarms.events.length | number"></p>
+        </div>
+
+        <div class="count-container total-unacknowledged">
+            <h4>Total unacknowledged</h4>
+            <p ng-bind="$ctrl.counts.unacknowledged | number"></p>
+        </div>
+
+        <div class="total-alarm-level">
+            <div class="count-container">
+                <h4 ma-tr="common.alarmLevel.critical"></h4>
+                <p ng-bind="$ctrl.valuesObject.CRITICAL.value | number"></p>
+            </div>
+
+            <div class="count-container">
+                <h4 ma-tr="common.alarmLevel.urgent"></h4>
+                <p ng-bind="$ctrl.valuesObject.URGENT.value | number"></p>
+            </div>
+
+            <div class="count-container">
+                <h4 ma-tr="common.alarmLevel.warning"></h4>
+                <p ng-bind="$ctrl.valuesObject.WARNING.value | number"></p>
+            </div>
+
+            <div class="count-container">
+                <h4 ma-tr="common.alarmLevel.info"></h4>
+                <p ng-bind="$ctrl.valuesObject.INFORMATION.value | number"></p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+<ma-pie-chart
+        ng-style="::{ height: $ctrl.height, width: $ctrl.width }"
+        values="$ctrl.values"
+        options="$ctrl.chartOptions"
+></ma-pie-chart>
+<div class="ex-no-alarms-in-range" ng-if="$ctrl.values && !$ctrl.values.length" layout="column" layout-align="center center">
+    <div>
+        <md-icon>done_outline</md-icon>
+        <em ma-tr="edc.noAlarmsInTimeRange"></em>
+    </div>
+</div>

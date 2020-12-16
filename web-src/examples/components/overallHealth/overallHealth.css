@@ -1,0 +1,83 @@
+ex-overall-health {
+    display: block;
+}
+
+ex-overall-health p, ex-overall-health h4 {
+    margin: 0;
+    line-height: 1;
+    font-weight: normal;
+}
+
+ex-overall-health > div.columns-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+ex-overall-health > div.columns-wrapper > div {
+    width: 100%;
+}
+
+ex-overall-health div.chart-container {
+    min-height: 300px;
+}
+
+ex-overall-health div.counts-container {
+    margin-top: 12px;
+}
+
+ex-overall-health div.counts-container div.count-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+ex-overall-health div.total-active-alarms > h4, ex-overall-health div.total-active-alarms > p,
+ex-overall-health div.total-sites > h4, ex-overall-health div.total-sites > p {
+    font-size: 24px;
+}
+
+ex-overall-health div.total-unacknowledged {
+    margin-top: 8px;
+}
+
+ex-overall-health div.total-unacknowledged > h4, ex-overall-health div.total-unacknowledged > p {
+    font-size: 18px;
+}
+
+ex-overall-health div.total-alarm-level {
+    margin-top: 24px;
+}
+
+ex-overall-health div.total-alarm-level > div.count-container {
+    margin-top: 8px;
+}
+
+ex-overall-health div.total-alarm-level h4, ex-overall-health div.total-alarm-level p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+ex-overall-health div.total-sites {
+    margin-top: 32px;
+}
+
+@media (min-width: 600px) {
+    ex-overall-health > div.columns-wrapper > div {
+        width: 49%;
+    }
+
+    ex-overall-health div.counts-container {
+        margin-top: 0;
+    }
+
+    ex-overall-health div.total-alarm-level {
+        margin-top: 48px;
+    }
+
+    ex-overall-health div.total-sites {
+        margin-top: 80px;
+    }
+}

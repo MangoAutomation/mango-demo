@@ -1,0 +1,22 @@
+ex-donut-chart {
+    display: block;
+    position: relative;
+}
+
+ex-donut-chart ma-pie-chart {
+    position: relative;
+}
+
+ex-donut-chart .ex-no-alarms-in-range md-icon.material-icons {
+    display: block;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+ex-donut-chart .ex-no-alarms-in-range {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
