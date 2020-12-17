@@ -1,0 +1,46 @@
+ex-sites-table .filters-container {
+    padding: 20px;
+}
+
+ex-sites-table .filters-container .sites-filter-container > label {
+    display: block;
+}
+
+ex-sites-table .filters-container .sites-filter-container > input {
+    width: 100%;
+    padding: 6px 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--ma-foreground-3);
+    border-radius: 5px;
+}
+
+ex-sites-table td {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+ex-sites-table td > h4,
+ex-sites-table td > p {
+    margin: 0;
+}
+
+ex-sites-table td > h4 {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+ex-sites-table td > p {
+    font-size: 11px;
+}
+
+ex-sites-table td ma-point-value span {
+    font-weight: bold;
+}
+
+ex-sites-table table.md-table td.md-cell.loading-text {
+    height: 70px;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}

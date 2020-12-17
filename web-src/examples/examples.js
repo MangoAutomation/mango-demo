@@ -2,6 +2,7 @@ import angular from 'angular';
 
 import displayValuesPage from './pages/displayValues/displayValues';
 import chartsPage from './pages/charts/charts';
+import tablesPage from './pages/tables/tables';
 
 // Components
 import valueIndicator from './components/valueIndicator/valueIndicator';
@@ -12,11 +13,19 @@ import statisticsChart from './components/statisticsChart/statisticsChart';
 import overallHealth from './components/overallHealth/overallHealth';
 import donutChart from './components/donutChart/donutChart';
 import alarmStats from './components/alarmStats/alarmStats';
+import sitesTable from './components/sitesTable/sitesTable';
 
+// Directives
+import intersectionObserver from './directives/intersectionObserver';
+import intersectionListener from './directives/intersectionListener';
+
+// Services
+import site from './services/site';
 
 const examplesModule = angular.module('examplesModule', ['maUiApp'])
     .component('exDisplayValuesPage', displayValuesPage)
     .component('exChartsPage', chartsPage)
+    .component('exTablesPage', tablesPage)
 
     .component('exValueIndicator', valueIndicator)
     .component('exExpansionPanel', expansionPanel)
@@ -26,6 +35,13 @@ const examplesModule = angular.module('examplesModule', ['maUiApp'])
     .component('exOverallHealth', overallHealth)
     .component('exDonutChart', donutChart)
     .component('exAlarmStats', alarmStats)
+    .component('exSitesTable', sitesTable)
+
+    // Directives
+    .directive('exIntersectionObserver', intersectionObserver)
+    .directive('exIntersectionListener', intersectionListener)
+
+    .factory('exSite', site);
 
 examplesModule.config(['maUiMenuProvider', maUiMenuProvider => {
     maUiMenuProvider.registerMenuItems([
@@ -59,6 +75,20 @@ examplesModule.config(['maUiMenuProvider', maUiMenuProvider => {
             weight: 200,
             menuText: 'Charts',
             menuIcon: 'timeline',
+            params: {
+                hideFooter: true,
+                dateBar: {
+                    rollupControls: true
+                }
+            }
+        },
+        {
+            name: 'ui.uiExamples.tables',
+            url: '/tables',
+            template: '<ex-tables-page></ex-tables-page>',
+            weight: 300,
+            menuText: 'Tables',
+            menuIcon: 'table_chart',
             params: {
                 hideFooter: true,
                 dateBar: {

@@ -1,0 +1,11 @@
+ex-tables-page > div.page-header {
+    padding: 0 8px;
+}
+
+ex-tables-page ex-expansion-panel {
+    margin-top: 24px;
+}
+
+ex-tables-page .card-container {
+    padding: 8px;
+}
