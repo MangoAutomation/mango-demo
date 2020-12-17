@@ -1,0 +1,1442 @@
+{
+  "SITE_01": {
+    "xid": "SITE_01",
+    "name": "Site 01",
+    "owner": "Site Owner 01",
+    "contactName": "Justin Cronin",
+    "contactEmail": "justin.cronin@siteowner01.com",
+    "address": "Address ex. 1234 Street, City, ST ZIPCODE",
+    "latitude": 33.466667,
+    "longitude": -81.966667,
+    "capacity": 4,
+    "serviceEpirationDate": "11/12/2021",
+    "tier": "Tier 01",
+    "readPermissions": [],
+    "status": "ENABLED",
+    "documentationPath": "/path/to/file/directory/with/docs/",
+    "portfolioPoints": {
+      "consumedEnergyXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+      "currentPowerProductionXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+      "irradianceXid": "DP_REIG_SITE_01_COMBINED_WEATHER_SENSORS_GHI_01_IRRADIANCE",
+      "statusXid": "DP_REIG_SITE_01_META_STATUS",
+      "performanceRatioXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+      "heartbeatXid": "DP_REIG_SITE_01_HEART_BEAT"
+    },
+    "tabs": [
+      {
+        "name": "Production",
+        "type": "WATCHLIST",
+        "watchListXid": "WL_REIG_SITE_01_PRODUCTION",
+        "showFastDatesButtons": true,
+        "showDevicesListCard": true
+      },
+      {
+        "name": "SLD",
+        "type": "DASHBOARD",
+        "dashboardXid": "57c11b63-ef4d-4eb5-9a7b-beccdf051686",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Network",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Site View",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Devices",
+        "type": "DEVICES",
+        "showDevicesListCard": false
+      },
+      {
+        "name": "Custom Dashboard",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      }
+    ],
+    "kpis": [
+      {
+        "name": "Current Power",
+        "pointXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/kW.svg"
+      },
+      {
+        "name": "Energy",
+        "pointXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+        "type": "DATA_POINT",
+        "dateBarRollup": true,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/energy.svg"
+      },
+      {
+        "name": "Availability",
+        "pointXid": "DP_REIG_SITE_01_AVAILABILITY",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/percentage.svg"
+      },
+      {
+        "name": "Performance Ratio",
+        "pointXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/eta.svg"
+      },
+      {
+        "type": "ACTIVE_ALARMS",
+        "iconPath": "/path/icon.svg"
+      }
+    ]
+  },
+  "SITE_02": {
+    "xid": "SITE_02",
+    "name": "Site 02",
+    "owner": "Site Owner 02",
+    "contactName": "Justin Cronin",
+    "contactEmail": "justin.cronin@siteowner01.com",
+    "address": "Address ex. 1234 Street, City, ST ZIPCODE",
+    "latitude": 33.466667,
+    "longitude": -81.966667,
+    "capacity": 4,
+    "serviceEpirationDate": "11/12/2021",
+    "tier": "Tier 01",
+    "readPermissions": [],
+    "status": "ENABLED",
+    "documentationPath": "/path/to/file/directory/with/docs/",
+    "portfolioPoints": {
+      "consumedEnergyXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+      "currentPowerProductionXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+      "irradianceXid": "DP_REIG_SITE_01_COMBINED_WEATHER_SENSORS_GHI_01_IRRADIANCE",
+      "statusXid": "DP_REIG_SITE_01_META_STATUS",
+      "performanceRatioXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+      "heartbeatXid": "DP_REIG_SITE_01_HEART_BEAT"
+    },
+    "tabs": [
+      {
+        "name": "Production",
+        "type": "WATCHLIST",
+        "watchListXid": "WL_REIG_SITE_01_PRODUCTION",
+        "showFastDatesButtons": true,
+        "showDevicesListCard": true
+      },
+      {
+        "name": "SLD",
+        "type": "DASHBOARD",
+        "dashboardXid": "57c11b63-ef4d-4eb5-9a7b-beccdf051686",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Network",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Site View",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Devices",
+        "type": "DEVICES",
+        "showDevicesListCard": false
+      },
+      {
+        "name": "Custom Dashboard",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      }
+    ],
+    "kpis": [
+      {
+        "name": "Current Power",
+        "pointXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/kW.svg"
+      },
+      {
+        "name": "Energy",
+        "pointXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+        "type": "DATA_POINT",
+        "dateBarRollup": true,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/energy.svg"
+      },
+      {
+        "name": "Availability",
+        "pointXid": "DP_REIG_SITE_01_AVAILABILITY",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/percentage.svg"
+      },
+      {
+        "name": "Performance Ratio",
+        "pointXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/eta.svg"
+      },
+      {
+        "type": "ACTIVE_ALARMS",
+        "iconPath": "/path/icon.svg"
+      }
+    ]
+  },
+  "SITE_03": {
+    "xid": "SITE_03",
+    "name": "Site 03",
+    "owner": "Site Owner 03",
+    "contactName": "Justin Cronin",
+    "contactEmail": "justin.cronin@siteowner01.com",
+    "address": "Address ex. 1234 Street, City, ST ZIPCODE",
+    "latitude": 33.466667,
+    "longitude": -81.966667,
+    "capacity": 4,
+    "serviceEpirationDate": "11/12/2021",
+    "tier": "Tier 01",
+    "readPermissions": [],
+    "status": "ENABLED",
+    "documentationPath": "/path/to/file/directory/with/docs/",
+    "portfolioPoints": {
+      "consumedEnergyXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+      "currentPowerProductionXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+      "irradianceXid": "DP_REIG_SITE_01_COMBINED_WEATHER_SENSORS_GHI_01_IRRADIANCE",
+      "statusXid": "DP_REIG_SITE_01_META_STATUS",
+      "performanceRatioXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+      "heartbeatXid": "DP_REIG_SITE_01_HEART_BEAT"
+    },
+    "tabs": [
+      {
+        "name": "Production",
+        "type": "WATCHLIST",
+        "watchListXid": "WL_REIG_SITE_01_PRODUCTION",
+        "showFastDatesButtons": true,
+        "showDevicesListCard": true
+      },
+      {
+        "name": "SLD",
+        "type": "DASHBOARD",
+        "dashboardXid": "57c11b63-ef4d-4eb5-9a7b-beccdf051686",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Network",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Site View",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Devices",
+        "type": "DEVICES",
+        "showDevicesListCard": false
+      },
+      {
+        "name": "Custom Dashboard",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      }
+    ],
+    "kpis": [
+      {
+        "name": "Current Power",
+        "pointXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/kW.svg"
+      },
+      {
+        "name": "Energy",
+        "pointXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+        "type": "DATA_POINT",
+        "dateBarRollup": true,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/energy.svg"
+      },
+      {
+        "name": "Availability",
+        "pointXid": "DP_REIG_SITE_01_AVAILABILITY",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/percentage.svg"
+      },
+      {
+        "name": "Performance Ratio",
+        "pointXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/eta.svg"
+      },
+      {
+        "type": "ACTIVE_ALARMS",
+        "iconPath": "/path/icon.svg"
+      }
+    ]
+  },
+  "SITE_04": {
+    "xid": "SITE_04",
+    "name": "Site 04",
+    "owner": "Site Owner 04",
+    "contactName": "Justin Cronin",
+    "contactEmail": "justin.cronin@siteowner01.com",
+    "address": "Address ex. 1234 Street, City, ST ZIPCODE",
+    "latitude": 33.466667,
+    "longitude": -81.966667,
+    "capacity": 4,
+    "serviceEpirationDate": "11/12/2021",
+    "tier": "Tier 01",
+    "readPermissions": [],
+    "status": "ENABLED",
+    "documentationPath": "/path/to/file/directory/with/docs/",
+    "portfolioPoints": {
+      "consumedEnergyXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+      "currentPowerProductionXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+      "irradianceXid": "DP_REIG_SITE_01_COMBINED_WEATHER_SENSORS_GHI_01_IRRADIANCE",
+      "statusXid": "DP_REIG_SITE_01_META_STATUS",
+      "performanceRatioXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+      "heartbeatXid": "DP_REIG_SITE_01_HEART_BEAT"
+    },
+    "tabs": [
+      {
+        "name": "Production",
+        "type": "WATCHLIST",
+        "watchListXid": "WL_REIG_SITE_01_PRODUCTION",
+        "showFastDatesButtons": true,
+        "showDevicesListCard": true
+      },
+      {
+        "name": "SLD",
+        "type": "DASHBOARD",
+        "dashboardXid": "57c11b63-ef4d-4eb5-9a7b-beccdf051686",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Network",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Site View",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Devices",
+        "type": "DEVICES",
+        "showDevicesListCard": false
+      },
+      {
+        "name": "Custom Dashboard",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      }
+    ],
+    "kpis": [
+      {
+        "name": "Current Power",
+        "pointXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/kW.svg"
+      },
+      {
+        "name": "Energy",
+        "pointXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+        "type": "DATA_POINT",
+        "dateBarRollup": true,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/energy.svg"
+      },
+      {
+        "name": "Availability",
+        "pointXid": "DP_REIG_SITE_01_AVAILABILITY",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/percentage.svg"
+      },
+      {
+        "name": "Performance Ratio",
+        "pointXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/eta.svg"
+      },
+      {
+        "type": "ACTIVE_ALARMS",
+        "iconPath": "/path/icon.svg"
+      }
+    ]
+  },
+  "SITE_05": {
+    "xid": "SITE_05",
+    "name": "Site 05",
+    "owner": "Site Owner 05",
+    "contactName": "Justin Cronin",
+    "contactEmail": "justin.cronin@siteowner01.com",
+    "address": "Address ex. 1234 Street, City, ST ZIPCODE",
+    "latitude": 33.466667,
+    "longitude": -81.966667,
+    "capacity": 4,
+    "serviceEpirationDate": "11/12/2021",
+    "tier": "Tier 01",
+    "readPermissions": [],
+    "status": "ENABLED",
+    "documentationPath": "/path/to/file/directory/with/docs/",
+    "portfolioPoints": {
+      "consumedEnergyXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+      "currentPowerProductionXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+      "irradianceXid": "DP_REIG_SITE_01_COMBINED_WEATHER_SENSORS_GHI_01_IRRADIANCE",
+      "statusXid": "DP_REIG_SITE_01_META_STATUS",
+      "performanceRatioXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+      "heartbeatXid": "DP_REIG_SITE_01_HEART_BEAT"
+    },
+    "tabs": [
+      {
+        "name": "Production",
+        "type": "WATCHLIST",
+        "watchListXid": "WL_REIG_SITE_01_PRODUCTION",
+        "showFastDatesButtons": true,
+        "showDevicesListCard": true
+      },
+      {
+        "name": "SLD",
+        "type": "DASHBOARD",
+        "dashboardXid": "57c11b63-ef4d-4eb5-9a7b-beccdf051686",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Network",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Site View",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Devices",
+        "type": "DEVICES",
+        "showDevicesListCard": false
+      },
+      {
+        "name": "Custom Dashboard",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      }
+    ],
+    "kpis": [
+      {
+        "name": "Current Power",
+        "pointXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/kW.svg"
+      },
+      {
+        "name": "Energy",
+        "pointXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+        "type": "DATA_POINT",
+        "dateBarRollup": true,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/energy.svg"
+      },
+      {
+        "name": "Availability",
+        "pointXid": "DP_REIG_SITE_01_AVAILABILITY",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/percentage.svg"
+      },
+      {
+        "name": "Performance Ratio",
+        "pointXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/eta.svg"
+      },
+      {
+        "type": "ACTIVE_ALARMS",
+        "iconPath": "/path/icon.svg"
+      }
+    ]
+  },
+  "SITE_06": {
+    "xid": "SITE_06",
+    "name": "Site 06",
+    "owner": "Site Owner 06",
+    "contactName": "Justin Cronin",
+    "contactEmail": "justin.cronin@siteowner01.com",
+    "address": "Address ex. 1234 Street, City, ST ZIPCODE",
+    "latitude": 33.466667,
+    "longitude": -81.966667,
+    "capacity": 4,
+    "serviceEpirationDate": "11/12/2021",
+    "tier": "Tier 01",
+    "readPermissions": [],
+    "status": "ENABLED",
+    "documentationPath": "/path/to/file/directory/with/docs/",
+    "portfolioPoints": {
+      "consumedEnergyXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+      "currentPowerProductionXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+      "irradianceXid": "DP_REIG_SITE_01_COMBINED_WEATHER_SENSORS_GHI_01_IRRADIANCE",
+      "statusXid": "DP_REIG_SITE_01_META_STATUS",
+      "performanceRatioXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+      "heartbeatXid": "DP_REIG_SITE_01_HEART_BEAT"
+    },
+    "tabs": [
+      {
+        "name": "Production",
+        "type": "WATCHLIST",
+        "watchListXid": "WL_REIG_SITE_01_PRODUCTION",
+        "showFastDatesButtons": true,
+        "showDevicesListCard": true
+      },
+      {
+        "name": "SLD",
+        "type": "DASHBOARD",
+        "dashboardXid": "57c11b63-ef4d-4eb5-9a7b-beccdf051686",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Network",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Site View",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Devices",
+        "type": "DEVICES",
+        "showDevicesListCard": false
+      },
+      {
+        "name": "Custom Dashboard",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      }
+    ],
+    "kpis": [
+      {
+        "name": "Current Power",
+        "pointXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/kW.svg"
+      },
+      {
+        "name": "Energy",
+        "pointXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+        "type": "DATA_POINT",
+        "dateBarRollup": true,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/energy.svg"
+      },
+      {
+        "name": "Availability",
+        "pointXid": "DP_REIG_SITE_01_AVAILABILITY",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/percentage.svg"
+      },
+      {
+        "name": "Performance Ratio",
+        "pointXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/eta.svg"
+      },
+      {
+        "type": "ACTIVE_ALARMS",
+        "iconPath": "/path/icon.svg"
+      }
+    ]
+  },
+  "SITE_07": {
+    "xid": "SITE_07",
+    "name": "Site 07",
+    "owner": "Site Owner 07",
+    "contactName": "Justin Cronin",
+    "contactEmail": "justin.cronin@siteowner01.com",
+    "address": "Address ex. 1234 Street, City, ST ZIPCODE",
+    "latitude": 33.466667,
+    "longitude": -81.966667,
+    "capacity": 4,
+    "serviceEpirationDate": "11/12/2021",
+    "tier": "Tier 01",
+    "readPermissions": [],
+    "status": "ENABLED",
+    "documentationPath": "/path/to/file/directory/with/docs/",
+    "portfolioPoints": {
+      "consumedEnergyXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+      "currentPowerProductionXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+      "irradianceXid": "DP_REIG_SITE_01_COMBINED_WEATHER_SENSORS_GHI_01_IRRADIANCE",
+      "statusXid": "DP_REIG_SITE_01_META_STATUS",
+      "performanceRatioXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+      "heartbeatXid": "DP_REIG_SITE_01_HEART_BEAT"
+    },
+    "tabs": [
+      {
+        "name": "Production",
+        "type": "WATCHLIST",
+        "watchListXid": "WL_REIG_SITE_01_PRODUCTION",
+        "showFastDatesButtons": true,
+        "showDevicesListCard": true
+      },
+      {
+        "name": "SLD",
+        "type": "DASHBOARD",
+        "dashboardXid": "57c11b63-ef4d-4eb5-9a7b-beccdf051686",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Network",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Site View",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Devices",
+        "type": "DEVICES",
+        "showDevicesListCard": false
+      },
+      {
+        "name": "Custom Dashboard",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      }
+    ],
+    "kpis": [
+      {
+        "name": "Current Power",
+        "pointXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/kW.svg"
+      },
+      {
+        "name": "Energy",
+        "pointXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+        "type": "DATA_POINT",
+        "dateBarRollup": true,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/energy.svg"
+      },
+      {
+        "name": "Availability",
+        "pointXid": "DP_REIG_SITE_01_AVAILABILITY",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/percentage.svg"
+      },
+      {
+        "name": "Performance Ratio",
+        "pointXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/eta.svg"
+      },
+      {
+        "type": "ACTIVE_ALARMS",
+        "iconPath": "/path/icon.svg"
+      }
+    ]
+  },
+  "SITE_08": {
+    "xid": "SITE_08",
+    "name": "Site 08",
+    "owner": "Site Owner 08",
+    "contactName": "Justin Cronin",
+    "contactEmail": "justin.cronin@siteowner01.com",
+    "address": "Address ex. 1234 Street, City, ST ZIPCODE",
+    "latitude": 33.466667,
+    "longitude": -81.966667,
+    "capacity": 4,
+    "serviceEpirationDate": "11/12/2021",
+    "tier": "Tier 01",
+    "readPermissions": [],
+    "status": "ENABLED",
+    "documentationPath": "/path/to/file/directory/with/docs/",
+    "portfolioPoints": {
+      "consumedEnergyXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+      "currentPowerProductionXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+      "irradianceXid": "DP_REIG_SITE_01_COMBINED_WEATHER_SENSORS_GHI_01_IRRADIANCE",
+      "statusXid": "DP_REIG_SITE_01_META_STATUS",
+      "performanceRatioXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+      "heartbeatXid": "DP_REIG_SITE_01_HEART_BEAT"
+    },
+    "tabs": [
+      {
+        "name": "Production",
+        "type": "WATCHLIST",
+        "watchListXid": "WL_REIG_SITE_01_PRODUCTION",
+        "showFastDatesButtons": true,
+        "showDevicesListCard": true
+      },
+      {
+        "name": "SLD",
+        "type": "DASHBOARD",
+        "dashboardXid": "57c11b63-ef4d-4eb5-9a7b-beccdf051686",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Network",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Site View",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Devices",
+        "type": "DEVICES",
+        "showDevicesListCard": false
+      },
+      {
+        "name": "Custom Dashboard",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      }
+    ],
+    "kpis": [
+      {
+        "name": "Current Power",
+        "pointXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/kW.svg"
+      },
+      {
+        "name": "Energy",
+        "pointXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+        "type": "DATA_POINT",
+        "dateBarRollup": true,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/energy.svg"
+      },
+      {
+        "name": "Availability",
+        "pointXid": "DP_REIG_SITE_01_AVAILABILITY",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/percentage.svg"
+      },
+      {
+        "name": "Performance Ratio",
+        "pointXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/eta.svg"
+      },
+      {
+        "type": "ACTIVE_ALARMS",
+        "iconPath": "/path/icon.svg"
+      }
+    ]
+  },
+  "SITE_09": {
+    "xid": "SITE_09",
+    "name": "Site 09",
+    "owner": "Site Owner 09",
+    "contactName": "Justin Cronin",
+    "contactEmail": "justin.cronin@siteowner01.com",
+    "address": "Address ex. 1234 Street, City, ST ZIPCODE",
+    "latitude": 33.466667,
+    "longitude": -81.966667,
+    "capacity": 4,
+    "serviceEpirationDate": "11/12/2021",
+    "tier": "Tier 01",
+    "readPermissions": [],
+    "status": "ENABLED",
+    "documentationPath": "/path/to/file/directory/with/docs/",
+    "portfolioPoints": {
+      "consumedEnergyXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+      "currentPowerProductionXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+      "irradianceXid": "DP_REIG_SITE_01_COMBINED_WEATHER_SENSORS_GHI_01_IRRADIANCE",
+      "statusXid": "DP_REIG_SITE_01_META_STATUS",
+      "performanceRatioXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+      "heartbeatXid": "DP_REIG_SITE_01_HEART_BEAT"
+    },
+    "tabs": [
+      {
+        "name": "Production",
+        "type": "WATCHLIST",
+        "watchListXid": "WL_REIG_SITE_01_PRODUCTION",
+        "showFastDatesButtons": true,
+        "showDevicesListCard": true
+      },
+      {
+        "name": "SLD",
+        "type": "DASHBOARD",
+        "dashboardXid": "57c11b63-ef4d-4eb5-9a7b-beccdf051686",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Network",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Site View",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Devices",
+        "type": "DEVICES",
+        "showDevicesListCard": false
+      },
+      {
+        "name": "Custom Dashboard",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      }
+    ],
+    "kpis": [
+      {
+        "name": "Current Power",
+        "pointXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/kW.svg"
+      },
+      {
+        "name": "Energy",
+        "pointXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+        "type": "DATA_POINT",
+        "dateBarRollup": true,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/energy.svg"
+      },
+      {
+        "name": "Availability",
+        "pointXid": "DP_REIG_SITE_01_AVAILABILITY",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/percentage.svg"
+      },
+      {
+        "name": "Performance Ratio",
+        "pointXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/eta.svg"
+      },
+      {
+        "type": "ACTIVE_ALARMS",
+        "iconPath": "/path/icon.svg"
+      }
+    ]
+  },
+  "SITE_10": {
+    "xid": "SITE_10",
+    "name": "Site 10",
+    "owner": "Site Owner 10",
+    "contactName": "Justin Cronin",
+    "contactEmail": "justin.cronin@siteowner01.com",
+    "address": "Address ex. 1234 Street, City, ST ZIPCODE",
+    "latitude": 33.466667,
+    "longitude": -81.966667,
+    "capacity": 4,
+    "serviceEpirationDate": "11/12/2021",
+    "tier": "Tier 01",
+    "readPermissions": [],
+    "status": "ENABLED",
+    "documentationPath": "/path/to/file/directory/with/docs/",
+    "portfolioPoints": {
+      "consumedEnergyXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+      "currentPowerProductionXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+      "irradianceXid": "DP_REIG_SITE_01_COMBINED_WEATHER_SENSORS_GHI_01_IRRADIANCE",
+      "statusXid": "DP_REIG_SITE_01_META_STATUS",
+      "performanceRatioXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+      "heartbeatXid": "DP_REIG_SITE_01_HEART_BEAT"
+    },
+    "tabs": [
+      {
+        "name": "Production",
+        "type": "WATCHLIST",
+        "watchListXid": "WL_REIG_SITE_01_PRODUCTION",
+        "showFastDatesButtons": true,
+        "showDevicesListCard": true
+      },
+      {
+        "name": "SLD",
+        "type": "DASHBOARD",
+        "dashboardXid": "57c11b63-ef4d-4eb5-9a7b-beccdf051686",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Network",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Site View",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Devices",
+        "type": "DEVICES",
+        "showDevicesListCard": false
+      },
+      {
+        "name": "Custom Dashboard",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      }
+    ],
+    "kpis": [
+      {
+        "name": "Current Power",
+        "pointXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/kW.svg"
+      },
+      {
+        "name": "Energy",
+        "pointXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+        "type": "DATA_POINT",
+        "dateBarRollup": true,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/energy.svg"
+      },
+      {
+        "name": "Availability",
+        "pointXid": "DP_REIG_SITE_01_AVAILABILITY",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/percentage.svg"
+      },
+      {
+        "name": "Performance Ratio",
+        "pointXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/eta.svg"
+      },
+      {
+        "type": "ACTIVE_ALARMS",
+        "iconPath": "/path/icon.svg"
+      }
+    ]
+  },
+  "SITE_11": {
+    "xid": "SITE_11",
+    "name": "Site 11",
+    "owner": "Site Owner 11",
+    "contactName": "Justin Cronin",
+    "contactEmail": "justin.cronin@siteowner01.com",
+    "address": "Address ex. 1234 Street, City, ST ZIPCODE",
+    "latitude": 33.466667,
+    "longitude": -81.966667,
+    "capacity": 4,
+    "serviceEpirationDate": "11/12/2021",
+    "tier": "Tier 01",
+    "readPermissions": [],
+    "status": "ENABLED",
+    "documentationPath": "/path/to/file/directory/with/docs/",
+    "portfolioPoints": {
+      "consumedEnergyXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+      "currentPowerProductionXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+      "irradianceXid": "DP_REIG_SITE_01_COMBINED_WEATHER_SENSORS_GHI_01_IRRADIANCE",
+      "statusXid": "DP_REIG_SITE_01_META_STATUS",
+      "performanceRatioXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+      "heartbeatXid": "DP_REIG_SITE_01_HEART_BEAT"
+    },
+    "tabs": [
+      {
+        "name": "Production",
+        "type": "WATCHLIST",
+        "watchListXid": "WL_REIG_SITE_01_PRODUCTION",
+        "showFastDatesButtons": true,
+        "showDevicesListCard": true
+      },
+      {
+        "name": "SLD",
+        "type": "DASHBOARD",
+        "dashboardXid": "57c11b63-ef4d-4eb5-9a7b-beccdf051686",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Network",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Site View",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Devices",
+        "type": "DEVICES",
+        "showDevicesListCard": false
+      },
+      {
+        "name": "Custom Dashboard",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      }
+    ],
+    "kpis": [
+      {
+        "name": "Current Power",
+        "pointXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/kW.svg"
+      },
+      {
+        "name": "Energy",
+        "pointXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+        "type": "DATA_POINT",
+        "dateBarRollup": true,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/energy.svg"
+      },
+      {
+        "name": "Availability",
+        "pointXid": "DP_REIG_SITE_01_AVAILABILITY",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/percentage.svg"
+      },
+      {
+        "name": "Performance Ratio",
+        "pointXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/eta.svg"
+      },
+      {
+        "type": "ACTIVE_ALARMS",
+        "iconPath": "/path/icon.svg"
+      }
+    ]
+  },
+  "SITE_12": {
+    "xid": "SITE_12",
+    "name": "Site 12",
+    "owner": "Site Owner 12",
+    "contactName": "Justin Cronin",
+    "contactEmail": "justin.cronin@siteowner01.com",
+    "address": "Address ex. 1234 Street, City, ST ZIPCODE",
+    "latitude": 33.466667,
+    "longitude": -81.966667,
+    "capacity": 4,
+    "serviceEpirationDate": "11/12/2021",
+    "tier": "Tier 01",
+    "readPermissions": [],
+    "status": "ENABLED",
+    "documentationPath": "/path/to/file/directory/with/docs/",
+    "portfolioPoints": {
+      "consumedEnergyXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+      "currentPowerProductionXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+      "irradianceXid": "DP_REIG_SITE_01_COMBINED_WEATHER_SENSORS_GHI_01_IRRADIANCE",
+      "statusXid": "DP_REIG_SITE_01_META_STATUS",
+      "performanceRatioXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+      "heartbeatXid": "DP_REIG_SITE_01_HEART_BEAT"
+    },
+    "tabs": [
+      {
+        "name": "Production",
+        "type": "WATCHLIST",
+        "watchListXid": "WL_REIG_SITE_01_PRODUCTION",
+        "showFastDatesButtons": true,
+        "showDevicesListCard": true
+      },
+      {
+        "name": "SLD",
+        "type": "DASHBOARD",
+        "dashboardXid": "57c11b63-ef4d-4eb5-9a7b-beccdf051686",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Network",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Site View",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Devices",
+        "type": "DEVICES",
+        "showDevicesListCard": false
+      },
+      {
+        "name": "Custom Dashboard",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      }
+    ],
+    "kpis": [
+      {
+        "name": "Current Power",
+        "pointXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/kW.svg"
+      },
+      {
+        "name": "Energy",
+        "pointXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+        "type": "DATA_POINT",
+        "dateBarRollup": true,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/energy.svg"
+      },
+      {
+        "name": "Availability",
+        "pointXid": "DP_REIG_SITE_01_AVAILABILITY",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/percentage.svg"
+      },
+      {
+        "name": "Performance Ratio",
+        "pointXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/eta.svg"
+      },
+      {
+        "type": "ACTIVE_ALARMS",
+        "iconPath": "/path/icon.svg"
+      }
+    ]
+  },
+  "SITE_13": {
+    "xid": "SITE_13",
+    "name": "Site 13",
+    "owner": "Site Owner 13",
+    "contactName": "Justin Cronin",
+    "contactEmail": "justin.cronin@siteowner01.com",
+    "address": "Address ex. 1234 Street, City, ST ZIPCODE",
+    "latitude": 33.466667,
+    "longitude": -81.966667,
+    "capacity": 4,
+    "serviceEpirationDate": "11/12/2021",
+    "tier": "Tier 01",
+    "readPermissions": [],
+    "status": "ENABLED",
+    "documentationPath": "/path/to/file/directory/with/docs/",
+    "portfolioPoints": {
+      "consumedEnergyXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+      "currentPowerProductionXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+      "irradianceXid": "DP_REIG_SITE_01_COMBINED_WEATHER_SENSORS_GHI_01_IRRADIANCE",
+      "statusXid": "DP_REIG_SITE_01_META_STATUS",
+      "performanceRatioXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+      "heartbeatXid": "DP_REIG_SITE_01_HEART_BEAT"
+    },
+    "tabs": [
+      {
+        "name": "Production",
+        "type": "WATCHLIST",
+        "watchListXid": "WL_REIG_SITE_01_PRODUCTION",
+        "showFastDatesButtons": true,
+        "showDevicesListCard": true
+      },
+      {
+        "name": "SLD",
+        "type": "DASHBOARD",
+        "dashboardXid": "57c11b63-ef4d-4eb5-9a7b-beccdf051686",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Network",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Site View",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Devices",
+        "type": "DEVICES",
+        "showDevicesListCard": false
+      },
+      {
+        "name": "Custom Dashboard",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      }
+    ],
+    "kpis": [
+      {
+        "name": "Current Power",
+        "pointXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/kW.svg"
+      },
+      {
+        "name": "Energy",
+        "pointXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+        "type": "DATA_POINT",
+        "dateBarRollup": true,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/energy.svg"
+      },
+      {
+        "name": "Availability",
+        "pointXid": "DP_REIG_SITE_01_AVAILABILITY",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/percentage.svg"
+      },
+      {
+        "name": "Performance Ratio",
+        "pointXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/eta.svg"
+      },
+      {
+        "type": "ACTIVE_ALARMS",
+        "iconPath": "/path/icon.svg"
+      }
+    ]
+  },
+  "SITE_14": {
+    "xid": "SITE_14",
+    "name": "Site 14",
+    "owner": "Site Owner 14",
+    "contactName": "Justin Cronin",
+    "contactEmail": "justin.cronin@siteowner01.com",
+    "address": "Address ex. 1234 Street, City, ST ZIPCODE",
+    "latitude": 33.466667,
+    "longitude": -81.966667,
+    "capacity": 4,
+    "serviceEpirationDate": "11/12/2021",
+    "tier": "Tier 01",
+    "readPermissions": [],
+    "status": "ENABLED",
+    "documentationPath": "/path/to/file/directory/with/docs/",
+    "portfolioPoints": {
+      "consumedEnergyXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+      "currentPowerProductionXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+      "irradianceXid": "DP_REIG_SITE_01_COMBINED_WEATHER_SENSORS_GHI_01_IRRADIANCE",
+      "statusXid": "DP_REIG_SITE_01_META_STATUS",
+      "performanceRatioXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+      "heartbeatXid": "DP_REIG_SITE_01_HEART_BEAT"
+    },
+    "tabs": [
+      {
+        "name": "Production",
+        "type": "WATCHLIST",
+        "watchListXid": "WL_REIG_SITE_01_PRODUCTION",
+        "showFastDatesButtons": true,
+        "showDevicesListCard": true
+      },
+      {
+        "name": "SLD",
+        "type": "DASHBOARD",
+        "dashboardXid": "57c11b63-ef4d-4eb5-9a7b-beccdf051686",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Network",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Site View",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Devices",
+        "type": "DEVICES",
+        "showDevicesListCard": false
+      },
+      {
+        "name": "Custom Dashboard",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      }
+    ],
+    "kpis": [
+      {
+        "name": "Current Power",
+        "pointXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/kW.svg"
+      },
+      {
+        "name": "Energy",
+        "pointXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+        "type": "DATA_POINT",
+        "dateBarRollup": true,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/energy.svg"
+      },
+      {
+        "name": "Availability",
+        "pointXid": "DP_REIG_SITE_01_AVAILABILITY",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/percentage.svg"
+      },
+      {
+        "name": "Performance Ratio",
+        "pointXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/eta.svg"
+      },
+      {
+        "type": "ACTIVE_ALARMS",
+        "iconPath": "/path/icon.svg"
+      }
+    ]
+  },
+  "SITE_15": {
+    "xid": "SITE_15",
+    "name": "Site 15",
+    "owner": "Site Owner 15",
+    "contactName": "Justin Cronin",
+    "contactEmail": "justin.cronin@siteowner01.com",
+    "address": "Address ex. 1234 Street, City, ST ZIPCODE",
+    "latitude": 33.466667,
+    "longitude": -81.966667,
+    "capacity": 4,
+    "serviceEpirationDate": "11/12/2021",
+    "tier": "Tier 01",
+    "readPermissions": [],
+    "status": "ENABLED",
+    "documentationPath": "/path/to/file/directory/with/docs/",
+    "portfolioPoints": {
+      "consumedEnergyXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+      "currentPowerProductionXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+      "irradianceXid": "DP_REIG_SITE_01_COMBINED_WEATHER_SENSORS_GHI_01_IRRADIANCE",
+      "statusXid": "DP_REIG_SITE_01_META_STATUS",
+      "performanceRatioXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+      "heartbeatXid": "DP_REIG_SITE_01_HEART_BEAT"
+    },
+    "tabs": [
+      {
+        "name": "Production",
+        "type": "WATCHLIST",
+        "watchListXid": "WL_REIG_SITE_01_PRODUCTION",
+        "showFastDatesButtons": true,
+        "showDevicesListCard": true
+      },
+      {
+        "name": "SLD",
+        "type": "DASHBOARD",
+        "dashboardXid": "57c11b63-ef4d-4eb5-9a7b-beccdf051686",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Network",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Site View",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      },
+      {
+        "name": "Devices",
+        "type": "DEVICES",
+        "showDevicesListCard": false
+      },
+      {
+        "name": "Custom Dashboard",
+        "type": "DASHBOARD",
+        "dashboardXid": "xxxx-xxxx-xxxx-xxxx",
+        "showDevicesListCard": true
+      }
+    ],
+    "kpis": [
+      {
+        "name": "Current Power",
+        "pointXid": "DP_REIG_SITE_01_META_CURRENT_POWER_PRODUCTION",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/kW.svg"
+      },
+      {
+        "name": "Energy",
+        "pointXid": "DP_REIG_SITE_01_META_TOTAL_ENERGY",
+        "type": "DATA_POINT",
+        "dateBarRollup": true,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/energy.svg"
+      },
+      {
+        "name": "Availability",
+        "pointXid": "DP_REIG_SITE_01_AVAILABILITY",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/percentage.svg"
+      },
+      {
+        "name": "Performance Ratio",
+        "pointXid": "DP_REIG_SITE_01_PERFORMANCE_RATIO",
+        "type": "DATA_POINT",
+        "dateBarRollup": false,
+        "iconPath": "/rest/latest/file-stores/public/resources/icons/eta.svg"
+      },
+      {
+        "type": "ACTIVE_ALARMS",
+        "iconPath": "/path/icon.svg"
+      }
+    ]
+  }
+}
