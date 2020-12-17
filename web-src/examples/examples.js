@@ -14,6 +14,7 @@ import overallHealth from './components/overallHealth/overallHealth';
 import donutChart from './components/donutChart/donutChart';
 import alarmStats from './components/alarmStats/alarmStats';
 import sitesTable from './components/sitesTable/sitesTable';
+import activeAlarms from './components/activeAlarms/activeAlarms';
 
 // Directives
 import intersectionObserver from './directives/intersectionObserver';
@@ -36,6 +37,7 @@ const examplesModule = angular.module('examplesModule', ['maUiApp'])
     .component('exDonutChart', donutChart)
     .component('exAlarmStats', alarmStats)
     .component('exSitesTable', sitesTable)
+    .component('exActiveAlarms', activeAlarms)
 
     // Directives
     .directive('exIntersectionObserver', intersectionObserver)

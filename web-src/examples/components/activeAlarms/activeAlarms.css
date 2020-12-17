@@ -1,0 +1,17 @@
+ex-active-alarms .ex-alarm-indicator {
+    margin-right: 6px;
+}
+
+/* Alarm indicators */
+
+ex-active-alarms .ex-alarm-indicator.CRITICAL {
+    fill: #ed1f1f !important;
+}
+
+ex-active-alarms .ex-alarm-indicator.WARNING {
+    fill: #ecc94b !important;
+}
+
+ex-active-alarms .ex-alarm-indicator.INFORMATION {
+    fill: #47b275 !important;
+}
