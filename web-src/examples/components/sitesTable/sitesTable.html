@@ -1,5 +1,10 @@
 <div ng-repeat="site in $ctrl.sites track by site.xid">
     <ma-get-point-value point-xid="{{site.portfolioPoints.consumedEnergyXid}}" point="site.consumedEnergy"></ma-get-point-value>
+    <ma-get-point-value point-xid="{{site.portfolioPoints.heartbeatXid}}" point="site.heartbeat"></ma-get-point-value>
+    <ma-get-point-value point-xid="{{site.portfolioPoints.currentPowerProductionXid}}" point="site.currentPowerProduction"></ma-get-point-value>
+    <ma-get-point-value point-xid="{{site.portfolioPoints.irradianceXid}}" point="site.irradiance"></ma-get-point-value>
+    <ma-get-point-value point-xid="{{site.portfolioPoints.statusXid}}" point="site.status"></ma-get-point-value>
+    <ma-get-point-value point-xid="{{site.portfolioPoints.performanceRatioXid}}" point="site.performanceRatio"></ma-get-point-value>
 </div>
 
 <md-table-container class="ex-table" ex-intersection-observer style="height: 600px; overflow: auto;">
@@ -8,16 +13,17 @@
             <th md-column md-order-by="name">Site</th>
             <th md-column>Last day trend</th>
             <th md-column>Metering</th>
+            <th md-column>Alarms</th>
             <th md-column md-order-by="status.renderedValue">Status/Performance</th>
             <th md-column>Heartbeat</th>
             <th md-column></th>
         </thead>
         <tbody md-body>
             <tr ng-repeat="site in $ctrl.sites | orderBy: $ctrl.order" ex-intersection-listener="$ctrl.onScroll($index, site, $entry, $intersectionSupported)">
-                <td md-cell colspan="7" class="loading-text" ng-if="!(site.isIntersecting && (!site.consumedEnergy || site.consumedEnergy.value != null))">
+                <td md-cell colspan="7" class="loading-text" ng-if="$ctrl.sitePointsLoading(site)">
                     <span>Loading site {{site.name}}</span>
                 </td>
-                <td md-cell ng-if-start="site.isIntersecting && (!site.consumedEnergy || site.consumedEnergy.value != null)">
+                <td md-cell ng-if-start="!$ctrl.sitePointsLoading(site)">
                     <h4 ng-bind="site.name"></h4>
                     <p>{{site.capacity}} [MW]</p>
                 </td>
@@ -49,11 +55,11 @@
                 <td md-cell>
                     <p>
                         <span>Power: </span>
-                        <ma-point-value point-xid="{{site.portfolioPoints.currentPowerProductionXid}}" enable-popup="right"></ma-point-value>
+                        <ma-point-value point="site.currentPowerProduction" enable-popup="right"></ma-point-value>
                     </p>
                     <p>
                         <span>Irradiance: </span>
-                        <ma-point-value point-xid="{{site.portfolioPoints.irradianceXid}}" enable-popup="right"></ma-point-value>
+                        <ma-point-value point="site.irradiance" enable-popup="right"></ma-point-value>
                     </p>
                 </td>
                 <td md-cell>
@@ -61,15 +67,13 @@
                 </td>
                 <td md-cell>
                     <p>
-                        <ma-get-point-value point-xid="{{site.portfolioPoints.statusXid}}" point="site.status"></ma-get-point-value>
                         <ma-point-value point="site.status" enable-popup="right"></ma-point-value>
                     </p>
                     <p>
-                        <ma-point-value point-xid="{{site.portfolioPoints.performanceRatioXid}}" enable-popup="right"></ma-point-value>
+                        <ma-point-value point="site.performanceRatio" enable-popup="right"></ma-point-value>
                     </p>
                 </td>
                 <td md-cell>
-                    <ma-get-point-value point-xid="{{site.portfolioPoints.heartbeatXid}}" point="site.heartbeat"></ma-get-point-value>
                     <ma-point-values point="site.heartbeat" values="site.heartbeatValues" latest="20"></ma-point-values>
 
                     <div flex="100">

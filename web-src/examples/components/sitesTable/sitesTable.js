@@ -62,6 +62,16 @@ class SitesTableController {
             this.getSites(true);
         }
     }
+
+    sitePointsLoading(site) {
+        return !(
+            site.isIntersecting
+            && (!site.consumedEnergy || site.consumedEnergy.value != null)
+            && (!site.currentPowerProduction || site.currentPowerProduction.value != null)
+            && (!site.irradiance || site.irradiance.value != null)
+            && (!site.heartbeat || site.heartbeat.value != null)
+        );
+    }
 }
 
 export default {
