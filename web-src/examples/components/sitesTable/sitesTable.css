@@ -15,6 +15,17 @@ ex-sites-table .filters-container .sites-filter-container > input {
     border-radius: 5px;
 }
 
+ex-sites-table table.md-table {
+    overflow: auto;
+}
+
+ex-sites-table th {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--ma-background);
+}
+
 ex-sites-table td {
     padding-top: 10px !important;
     padding-bottom: 10px !important;

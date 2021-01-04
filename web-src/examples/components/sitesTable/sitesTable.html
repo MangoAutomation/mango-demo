@@ -10,16 +10,18 @@
 <md-table-container class="ex-table" ex-intersection-observer style="height: 600px; overflow: auto;">
     <table md-table>
         <thead md-head md-order="$ctrl.order">
-            <th md-column md-order-by="name">Site</th>
-            <th md-column>Last day trend</th>
-            <th md-column>Metering</th>
-            <th md-column>Alarms</th>
-            <th md-column md-order-by="status.renderedValue">Status/Performance</th>
-            <th md-column>Heartbeat</th>
-            <th md-column></th>
+            <tr md-row>
+                <th md-column md-order-by="name">Site</th>
+                <th md-column>Last day trend</th>
+                <th md-column>Metering</th>
+                <th md-column>Alarms</th>
+                <th md-column md-order-by="status.renderedValue">Status/Performance</th>
+                <th md-column>Heartbeat</th>
+                <th md-column></th>
+            </tr>
         </thead>
         <tbody md-body>
-            <tr ng-repeat="site in $ctrl.sites | orderBy: $ctrl.order" ex-intersection-listener="$ctrl.onScroll($index, site, $entry, $intersectionSupported)">
+            <tr md-row ng-repeat="site in $ctrl.sites | orderBy: $ctrl.order" ex-intersection-listener="$ctrl.onScroll($index, site, $entry, $intersectionSupported)">
                 <td md-cell colspan="7" class="loading-text" ng-if="$ctrl.sitePointsLoading(site)">
                     <span>Loading site {{site.name}}</span>
                 </td>

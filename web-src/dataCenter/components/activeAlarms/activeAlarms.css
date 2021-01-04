@@ -7,12 +7,12 @@ dc-active-alarms .dc-indicator {
 }
 
 dc-active-alarms table.md-table:not(.md-row-select) td.md-cell:first-child,
-table.md-table:not(.md-row-select) th.md-column:first-child {
+dc-active-alarms table.md-table:not(.md-row-select) th.md-column:first-child {
     padding: 0px !important;
 }
 
 dc-active-alarms table.md-table td.md-cell:last-child,
-table.md-table th.md-column:last-child {
+dc-active-alarms table.md-table th.md-column:last-child {
     padding: 0px !important;
 }
 
@@ -24,7 +24,7 @@ dc-active-alarms md-table-container.dc-table > table.md-table td.md-cell p {
 dc-active-alarms
     table.md-table:not(.md-row-select)
     td.md-cell:nth-child(n + 2):nth-last-child(n + 2),
-table.md-table:not(.md-row-select)
+dc-active-alarms table.md-table:not(.md-row-select)
     th.md-column:nth-child(n + 2):nth-last-child(n + 2) {
     padding: 0;
 }

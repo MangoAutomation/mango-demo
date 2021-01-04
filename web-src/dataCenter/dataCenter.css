@@ -90,7 +90,7 @@ md-table-container.dc-table > table.md-table > tbody > tr:nth-child(even) {
 }
 
 md-table-container.dc-table table.md-table:not(.md-row-select) td.md-cell:first-child,
-table.md-table:not(.md-row-select) th.md-column:first-child {
+md-table-container.dc-table table.md-table:not(.md-row-select) th.md-column:first-child {
     padding-left: 0 !important;
 }
 md-table-container.dc-table > table.md-table td.md-cell {
