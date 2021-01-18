@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1771.2 927.1" style="enable-background:new 0 0 1771.2 927.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.5;fill:#AD6421;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'Montserrat-Bold';}
+	.st3{font-size:18px;}
+	.st4{opacity:0.5;fill:#006837;}
+	.st5{opacity:0.5;fill:#992222;}
+</style>
+<g id="bg">
+	<image id="background" style="overflow:visible;" width="1920" height="1005" xlink:href="bmsBg01.png"  transform="matrix(0.9225 0 0 0.9225 0 0)"></image>
+</g>
+<g id="dataHallF1Bg">
+	<polygon points="1097,476.6 1122.3,799 757.2,799 767.1,476.6 	"/>
+</g>
+<g id="dataHallF1Label">
+	<text transform="matrix(1 0 0 1 884.3547 607.7053)" class="st1 st2 st3">Data Hall F1</text>
+</g>
+<g id="dataHallF1Load">
+	<text transform="matrix(1 0 0 1 889.7727 642.2713)" class="st1 st2 st3">875.69 kW</text>
+</g>
+<g id="dataHallF1LoadPercentage">
+	<text transform="matrix(1 0 0 1 897.8362 664.2096)" class="st1 st2 st3">(72.69 %)</text>
+</g>
+<g id="dataHallF2Bg">
+	<polygon points="337,476.6 667.6,476.6 646.4,799 281.5,799 	"/>
+</g>
+<g id="dataHallF2Label">
+	<text transform="matrix(1 0 0 1 426.36 607.7053)" class="st1 st2 st3">Data Hall F2</text>
+</g>
+<g id="dataHallF2Load">
+	<text transform="matrix(1 0 0 1 433.5602 642.2713)" class="st1 st2 st3">875.69 kW</text>
+</g>
+<g id="dataHallF2LoadPercentage">
+	<text transform="matrix(1 0 0 1 441.6237 664.2096)" class="st1 st2 st3">(72.69 %)</text>
+</g>
+<g id="dataHallF3Bg">
+	<polygon points="347.2,424.6 870.4,424.6 870.4,362.6 892.9,362.6 889.5,44.3 412.2,44.3 	"/>
+</g>
+<g id="dataHallF3Label">
+	<text transform="matrix(1 0 0 1 578.9514 213.5583)" class="st1 st2 st3">Data Hall F3</text>
+</g>
+<g id="dataHallF3Load">
+	<text transform="matrix(1 0 0 1 586.1691 248.1243)" class="st1 st2 st3">875.69 kW</text>
+</g>
+<g id="dataHallF3LoadPercentage">
+	<text transform="matrix(1 0 0 1 594.2326 270.0625)" class="st1 st2 st3">(72.69 %)</text>
+</g>
+</svg>

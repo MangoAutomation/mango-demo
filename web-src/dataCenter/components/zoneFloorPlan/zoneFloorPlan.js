@@ -66,7 +66,6 @@ class ZoneFloorPlanController {
 
     $onChanges(changes) {
         if (changes.searchOptions && changes.searchOptions.currentValue) {
-            console.log('hola');
             // erase data from a zone
             this.rowAndRackInfoObj = { ...this.searchOptions };
 

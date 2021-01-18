@@ -1,0 +1,10 @@
+dc-site-floor-plan > p,
+dc-site-floor-plan > h4 {
+    line-height: 1.25;
+    font-size: small;
+}
+
+dc-site-floor-plan > p {
+    color: var(--ma-foreground-2);
+    text-align: center;
+}

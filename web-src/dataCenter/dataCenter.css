@@ -17,14 +17,14 @@
 /*Card*/
 dc-fleet-overview md-card,
 dc-campus-overview md-card,
-dc-zone-overview-page md-card,
+dc-data-hall-overview-page md-card,
 dc-assets-details md-card {
     border-radius: 0px !important;
 }
 
 dc-fleet-overview md-input-container,
 dc-campus-overview md-input-container,
-dc-zone-overview-page md-input-container,
+dc-data-hall-overview-page md-input-container,
 dc-assets-details md-input-container {
     width: 100% !important;
 }
@@ -35,7 +35,7 @@ dc-fleet-overview md-input-container > ma-drop-down-button,
 md-input-container > md-select,
 dc-campus-overview md-input-container > ma-drop-down-button,
 md-input-container > md-select,
-dc-zone-overview-page md-input-container > ma-drop-down-button,
+dc-data-hall-overview-page md-input-container > ma-drop-down-button,
 md-input-container > md-select,
 dc-assets-details md-input-container > ma-drop-down-button,
 md-input-container > md-select {
@@ -44,7 +44,7 @@ md-input-container > md-select {
 
 dc-fleet-overview md-input-container > ma-drop-down-button[disabled],
 dc-campus-overview md-input-container > ma-drop-down-button[disabled],
-dc-zone-overview-page md-input-container > ma-drop-down-button[disabled],
+dc-data-hall-overview-page md-input-container > ma-drop-down-button[disabled],
 dc-assets-details md-input-container > ma-drop-down-button[disabled] {
     border-color: transparent;
     background-image: none;
@@ -55,7 +55,7 @@ md-input-container > md-select:not([disabled]).ng-invalid.ng-touched .md-select-
 dc-campus-overview md-input-container > md-select:not([disabled]) .md-select-value,
 md-input-container > md-select:not([disabled]):focus .md-select-value,
 md-input-container > md-select:not([disabled]).ng-invalid.ng-touched .md-select-value,
-dc-zone-overview-page md-input-container > md-select:not([disabled]) .md-select-value,
+dc-data-hall-overview-page md-input-container > md-select:not([disabled]) .md-select-value,
 md-input-container > md-select:not([disabled]):focus .md-select-value,
 md-input-container > md-select:not([disabled]).ng-invalid.ng-touched .md-select-value,
 dc-assets-details md-input-container > md-select:not([disabled]) .md-select-value,
@@ -148,7 +148,4 @@ md-table-pagination.dc-table-pagination {
 
 .dc-alarm-indicator.MINOR {
     fill: #ecc94b !important;
-}
-.main-application.login {
-    background-color: var(--ma-background-600);
 }

@@ -1,12 +1,12 @@
 /**
  * @copyright 2020 {@link http://Radixiot.com|Radix IOT,LLC.} All rights reserved.
- * @author Jose Puccini
+ * @author Luis Güette
  */
 
-import zoneTemplate from './zoneOverview.html';
-import './zoneOverview.css';
+import zoneTemplate from './dataHallOverview.html';
+import './dataHallOverview.css';
 
-class ZoneOverviewController {
+class DataHallController {
     static get $$ngIsClass() {
         return true;
     }
@@ -68,6 +68,6 @@ class ZoneOverviewController {
 
 export default {
     bindings: {},
-    controller: ZoneOverviewController,
+    controller: DataHallController,
     template: zoneTemplate
 };

@@ -2,13 +2,15 @@ import angular from 'angular';
 
 import './dataCenter.css';
 
-import zoneOverviewPage from './pages/zoneOverview/zoneOverview';
+import dataHallOverviewPage from './pages/dataHallOverview/dataHallOverview';
 
 import breadCrumbs from './components/breadCrumbs/breadCrumbs';
 import pointSelectors from './components/pointSelectors/pointSelectors';
 import expansionPanel from './components/expansionPanel/expansionPanel';
 import activeAlarms from './components/activeAlarms/activeAlarms';
 import statisticsWidget from './components/statisticsWidget/statisticsWidget';
+
+import siteFloorPlan from './components/siteFloorPlan/siteFloorPlan';
 
 import zoneFloorPlan from './components/zoneFloorPlan/zoneFloorPlan';
 import zonesSvg from './components/zoneFloorPlan/zonesSvg/zonesSvg';
@@ -24,12 +26,13 @@ import utilFactory from './services/util';
 import snowDataFactory from './services/snowData';
 
 const dataCenterModule = angular.module('dataCenterModule', ['maUiApp'])
-    .component('dcZoneOverviewPage', zoneOverviewPage)
+    .component('dcDataHallOverviewPage', dataHallOverviewPage)
     .component('dcBreadCrumbs', breadCrumbs)
     .component('dcPointSelectors', pointSelectors)
     .component('dcExpansionPanel', expansionPanel)
     .component('dcActiveAlarms', activeAlarms)
     .component('dcStatisticsWidget', statisticsWidget)
+    .component('dcSiteFloorPlan', siteFloorPlan)
     .component('dcZoneFloorPlan', zoneFloorPlan)
     .component('dcZonesSvg', zonesSvg)
     .directive('dcRack', rack)
@@ -57,7 +60,7 @@ dataCenterModule.config(['maUiMenuProvider', maUiMenuProvider => {
         {
             name: 'ui.datacenter.overview',
             url: '/overview',
-            template: '<dc-zone-overview-page></dc-zone-overview-page>',
+            template: '<dc-data-hall-overview-page></dc-data-hall-overview-page>',
             weight: 100,
             menuText: 'Overview',
             menuIcon: 'public',

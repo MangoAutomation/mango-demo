@@ -15,14 +15,13 @@
 
         <div flex="100" layout-gt-md="row" layout-align="space-between stretch">
             <!-- Floor plan -->
-            <dc-expansion-panel flex="100" flex-gt-md="70" card-title="Zone floor plan" fill-card="true" layout-margin>
+            <dc-expansion-panel flex="100" flex-gt-md="70" card-title="Floor plan" fill-card="true" layout-margin>
                 <content>
-                    <dc-zone-floor-plan search-options="$ctrl.selectedOptions.searchOptions"
-                        display-option="$ctrl.displayOption"
-                        display-option-changed="$ctrl.setDisplayOption($displayOption)"
-                        statistic-points="$ctrl.setStatisticsPoints($points)"
-                        selection-changed="$ctrl.selectRackRow($selection)">
-                    </dc-zone-floor-plan>
+                    <dc-site-floor-plan
+                        ng-if="!$ctrl.selectedOptions.searchOptions.dataHall"
+                        site="$ctrl.selectedOptions.searchOptions.site"
+                        points="$ctrl.selectedOptions.specificPoints"
+                    ></dc-site-floor-plan>
                 </content>
             </dc-expansion-panel>
             <!-- Active Alarmrs -->

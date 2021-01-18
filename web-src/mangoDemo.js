@@ -13,7 +13,7 @@ const userModule = angular.module('userModule', [
     edcModule.name,
     oilGasModule.name,
     hvacModule.name,
-    // dataCenter.name,
+    dataCenter.name,
     examples.name
 ]);
 

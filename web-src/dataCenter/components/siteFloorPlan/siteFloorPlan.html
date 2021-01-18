@@ -1,0 +1,28 @@
+<p ng-if="!$ctrl.points || !$ctrl.points.length">No data for zone floor plan</p>
+
+<div ng-if="$ctrl.points && $ctrl.points.length">
+    <ma-get-point-value point="$ctrl.dataHallPoints.dataHallF1.load"></ma-get-point-value>
+    <ma-get-point-value point="$ctrl.dataHallPoints.dataHallF1.loadPercentage"></ma-get-point-value>
+
+    <ma-get-point-value point="$ctrl.dataHallPoints.dataHallF2.load"></ma-get-point-value>
+    <ma-get-point-value point="$ctrl.dataHallPoints.dataHallF2.loadPercentage"></ma-get-point-value>
+
+    <ma-get-point-value point="$ctrl.dataHallPoints.dataHallF3.load"></ma-get-point-value>
+    <ma-get-point-value point="$ctrl.dataHallPoints.dataHallF3.loadPercentage"></ma-get-point-value>
+
+    <ma-svg ng-include="$ctrl.floorPlanSvg">
+        <div ma-selector="#bg > image" ng-href="{{$ctrl.floorPlanBackground}}"></div>
+
+        <div ma-selector="#dataHallF1Load > text" ng-bind="$ctrl.dataHallPoints.dataHallF1.load.renderedValue"></div>
+        <div ma-selector="#dataHallF1LoadPercentage > text" ng-bind="$ctrl.dataHallPoints.dataHallF1.loadPercentage.renderedValue"></div>
+        <div ma-selector="#dataHallF1Bg > polygon" ng-class="$ctrl.setBackgroundColorClass('dataHallF1')"></div>
+
+        <div ma-selector="#dataHallF2Load > text" ng-bind="$ctrl.dataHallPoints.dataHallF2.load.renderedValue"></div>
+        <div ma-selector="#dataHallF2LoadPercentage > text" ng-bind="$ctrl.dataHallPoints.dataHallF2.loadPercentage.renderedValue"></div>
+        <div ma-selector="#dataHallF2Bg > polygon" ng-class="$ctrl.setBackgroundColorClass('dataHallF2')"></div>
+
+        <div ma-selector="#dataHallF3Load > text" ng-bind="$ctrl.dataHallPoints.dataHallF3.load.renderedValue"></div>
+        <div ma-selector="#dataHallF3LoadPercentage > text" ng-bind="$ctrl.dataHallPoints.dataHallF3.loadPercentage.renderedValue"></div>
+        <div ma-selector="#dataHallF3Bg > polygon" ng-class="$ctrl.setBackgroundColorClass('dataHallF3')"></div>
+    </ma-svg>
+</div>
