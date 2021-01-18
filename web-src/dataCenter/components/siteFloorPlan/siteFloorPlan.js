@@ -27,7 +27,7 @@ class SiteFloorPlanController {
     $onInit() {}
 
     $onChanges(changes) {
-        if (changes.site && this.site) {
+        if (changes.points && this.points && this.site) {
             this.dcUtil.dataHallOptions(this.site).then(dataHalls => {
                 this.dataHallPoints = dataHalls.reduce((result, item) => {
                     result[this.dcUtil.snakeToCamel(item)] = this.points
