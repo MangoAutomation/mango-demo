@@ -32,18 +32,18 @@
         </md-input-container>
     </div>
 
-    <!-- <div class="dc-no-layout-margin dc-select-separator" flex="100" flex-gt-sm="25" ng-if="$ctrl.options.searchOptions.site">
+    <div class="dc-no-layout-margin dc-select-separator" flex="100" flex-gt-sm="25" ng-if="$ctrl.options.searchOptions.site">
         <md-input-container>
             <label>Select Data Hall</label>
             <ma-drop-down-button>
-                <span ng-if="$ctrl.options.searchOptions.dataHall != null" class="ma-ellipsis">
+                <span ng-if="$ctrl.options.searchOptions.dataHall" class="ma-ellipsis">
                     <span ng-bind="$ctrl.options.searchOptions.dataHall"></span>
                 </span>
-                <span ng-if="$ctrl.options.searchOptions.dataHall == null">
+                <span ng-if="!$ctrl.options.searchOptions.dataHall">
                     <em>None</em>
                 </span>
 
-                <em ng-if="$ctrl.getDataPointTags === null"></em>
+                <em ng-if="!$ctrl.getDataPointTags"></em>
                 <ma-drop-down auto-focus="::false">
                     <ma-option-list
                         name="dataHall"
@@ -53,6 +53,11 @@
                         has-value="$value !== undefined"
                         ma-configure-input-container
                     >
+                        <ma-option ng-if="!$filter" ng-value="null">
+                            <md-icon>clear</md-icon>
+                            <em class="ma-ellipsis">Clear</em>
+                        </ma-option>
+
                         <ma-option ng-repeat="dataHall in $items" ng-value="dataHall">
                             <span class="ma-ellipsis">
                                 <span md-highlight-text="$filter" md-highlight-flags="ig">{{dataHall}}</span>
@@ -62,5 +67,5 @@
                 </ma-drop-down>
             </ma-drop-down-button>
         </md-input-container>
-    </div> -->
+    </div>
 </div>

@@ -10,6 +10,9 @@ import activeAlarms from './components/activeAlarms/activeAlarms';
 import statisticsWidget from './components/statisticsWidget/statisticsWidget';
 
 import siteFloorPlan from './components/siteFloorPlan/siteFloorPlan';
+import dataHallFloorPlan from './components/dataHallFloorPlan/dataHallFloorPlan';
+
+import rackDirective from './components/dataHallFloorPlan/rack';
 
 import utilFactory from './services/util';
 import snowDataFactory from './services/snowData';
@@ -21,11 +24,15 @@ const dataCenterModule = angular.module('dataCenterModule', ['maUiApp'])
     .component('dcActiveAlarms', activeAlarms)
     .component('dcStatisticsWidget', statisticsWidget)
     .component('dcSiteFloorPlan', siteFloorPlan)
+    .component('dcDataHallFloorPlan', dataHallFloorPlan)
+
+    .directive('dcRack', rackDirective)
 
     .factory('dcUtil', utilFactory)
-    .factory('dcSnowData', snowDataFactory)
+    .factory('dcSnowData', snowDataFactory);
 
 dataCenterModule.config(['maUiMenuProvider', maUiMenuProvider => {
+    'use strict';
     maUiMenuProvider.registerMenuItems([
         {
             url: '/data-center',
@@ -51,6 +58,6 @@ dataCenterModule.config(['maUiMenuProvider', maUiMenuProvider => {
             }
         },
     ]);
-}])
+}]);
 
 export default dataCenterModule;

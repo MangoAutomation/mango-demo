@@ -73,14 +73,15 @@ class PointSelectorsController {
     }
 
     getDataHallOptions(filter, site) {
-        return this.dcUtil.dataHallOptions(site).then(dataHalls => this.maFilter(dataHalls, filter, []).sort());
+        return this.dcUtil.dataHallOptions(site)
+            .then(dataHalls => this.maFilter(dataHalls, filter, []).sort());
     }
 
     searchOptionsHandler(type) {
         const { searchOptions } = this.options;
         const { site, dataHall } = searchOptions;
 
-        if ((type === 'site' && site && !dataHall) || (type === 'dataHall' && site && dataHall)) {
+        if ((type === 'site' && site && !dataHall) || (type === 'dataHall')) {
             this.getPoints();
         }
     }

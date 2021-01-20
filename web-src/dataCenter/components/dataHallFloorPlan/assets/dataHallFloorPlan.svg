@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1068.8 846.8" style="enable-background:new 0 0 1068.8 846.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.5;fill:#39B54A;}
+</style>
+<g id="bg">
+	<image style="overflow:visible;" width="1425" height="1129" xlink:href="bmsBg02.png"  transform="matrix(0.75 0 0 0.75 0 0)">
+	</image>
+</g>
+<g class="dc-rack" id="rack-01-01">
+	<polygon class="st0" points="167.3,139.8 227.1,139.8 241.2,228 239.1,254.2 224.3,167.6 164.5,167.6 	"/>
+</g>
+<g class="dc-rack" id="rack-01-02">
+	<polygon class="st0" points="239.1,254.2 236.6,285.1 221.9,197.5 161.4,197.5 164.5,167.6 224.3,167.6 	"/>
+</g>
+<g class="dc-rack" id="rack-01-03">
+	<polygon class="st0" points="236.6,285.1 234.5,311 219,227.8 158.3,227.8 161.4,197.5 221.9,197.5 	"/>
+</g>
+<g class="dc-rack" id="rack-01-04">
+	<polygon class="st0" points="234.5,311 232.1,340.8 216.3,258.5 155.2,258.5 158.3,227.8 219,227.8 	"/>
+</g>
+<g class="dc-rack" id="rack-01-05">
+	<polygon class="st0" points="232.1,340.8 229.2,377.5 213.5,289 152.1,289 155.2,258.5 216.3,258.5 	"/>
+</g>
+<g class="dc-rack" id="rack-01-06">
+	<polygon class="st0" points="229.2,377.5 226.4,412.6 210.7,321 148.9,321 152.1,289 213.5,289 	"/>
+</g>
+<g class="dc-rack" id="rack-01-07">
+	<polygon class="st0" points="226.4,412.6 224.5,435.3 208,353 145.6,353 148.9,321 210.7,321 	"/>
+</g>
+<g class="dc-rack" id="rack-01-08">
+	<polygon class="st0" points="224.5,435.3 222.3,462.7 210.8,462.7 201.7,421 152.1,421 142.4,384.3 145.6,353 208,353 	"/>
+</g>
+<g class="dc-rack" id="rack-01-09">
+	<polygon class="st0" points="210.8,462.7 218.7,503.4 216.5,530.1 198.7,454.6 134.5,454.6 138,421.2 152.1,421 201.7,421 	"/>
+</g>
+<g class="dc-rack" id="rack-01-10">
+	<polygon class="st0" points="216.5,530.1 213.6,563.5 194.9,488.6 130.9,488.6 134.5,454.6 198.7,454.6 	"/>
+</g>
+<g class="dc-rack" id="rack-01-11">
+	<polygon class="st0" points="213.6,563.5 210.9,596.2 192.7,523.5 127.3,523.5 130.9,488.6 194.9,488.6 	"/>
+</g>
+<g class="dc-rack" id="rack-01-12">
+	<polygon class="st0" points="210.9,596.2 207.8,631.9 189.4,558.9 123.5,558.9 127.3,523.5 192.7,523.5 	"/>
+</g>
+<g class="dc-rack" id="rack-01-13">
+	<polygon class="st0" points="207.8,631.9 204.9,666.4 186,594.6 119.8,594.6 123.5,558.9 189.4,558.9 	"/>
+</g>
+<g class="dc-rack" id="rack-01-14">
+	<polygon class="st0" points="204.9,666.4 201.9,701.5 183,631.9 115.8,631.9 119.8,594.6 186,594.6 	"/>
+</g>
+<g class="dc-rack" id="rack-01-15">
+	<polygon class="st0" points="201.9,701.5 198.8,738.3 179.6,668.1 112.1,668.1 115.8,631.9 183,631.9 	"/>
+</g>
+<g class="dc-rack" id="rack-01-16">
+	<polygon class="st0" points="198.8,738.3 195.7,774.7 130.9,774.7 108.5,702.5 112.1,668.1 179.6,668.1 	"/>
+</g>
+<g class="dc-rack" id="rack-02-01">
+	<polygon class="st0" points="249.6,139.8 308.3,139.8 319.6,228.5 317.7,257.9 306.9,167.6 247.2,167.6 	"/>
+</g>
+<g class="dc-rack" id="rack-02-02">
+	<polygon class="st0" points="317.7,257.9 316.3,280 304.2,197.5 244.7,197.5 247.2,167.6 306.9,167.6 	"/>
+</g>
+<g class="dc-rack" id="rack-02-03">
+	<polygon class="st0" points="316.3,280 314.2,311.8 302.2,227.8 242.1,227.8 244.7,197.5 304.2,197.5 	"/>
+</g>
+<g class="dc-rack" id="rack-02-04">
+	<polygon class="st0" points="314.2,311.8 312.5,337.6 300.6,258.5 239.6,258.5 242.1,227.8 302.2,227.8 	"/>
+</g>
+<g class="dc-rack" id="rack-02-05">
+	<polygon class="st0" points="312.5,337.6 310.6,367.7 298.2,289 236.9,289 239.6,258.5 300.6,258.5 	"/>
+</g>
+<g class="dc-rack" id="rack-02-06">
+	<polygon class="st0" points="310.6,367.7 308.6,398.5 296.7,321 234.3,321 236.9,289 298.2,289 	"/>
+</g>
+<g class="dc-rack" id="rack-02-07">
+	<polygon class="st0" points="308.6,398.5 306.6,428.6 294.1,353 231.6,353 234.3,321 296.7,321 	"/>
+</g>
+<g class="dc-rack" id="rack-02-08">
+	<polygon class="st0" points="306.6,428.6 304.4,462.3 296.1,462.3 289.6,421 236.9,421 229,383.4 231.6,353 294.1,353 	"/>
+</g>
+<g class="dc-rack" id="rack-02-09">
+	<polygon class="st0" points="302,499.9 300,529.4 287.5,454.6 223,454.6 225.8,421 236.9,421 289.6,421 296.1,462.3 	"/>
+</g>
+<g class="dc-rack" id="rack-02-10">
+	<polygon class="st0" points="300,529.4 297.8,563.5 285.1,488.6 220.1,488.6 223,454.6 287.5,454.6 	"/>
+</g>
+<g class="dc-rack" id="rack-02-11">
+	<polygon class="st0" points="297.8,563.5 295.8,594.6 283,523.5 217.2,523.5 220.1,488.6 285.1,488.6 	"/>
+</g>
+<g class="dc-rack" id="rack-02-12">
+	<polygon class="st0" points="295.8,594.6 293.4,630.8 280.6,558.9 214.2,558.9 217.2,523.5 283,523.5 	"/>
+</g>
+<g class="dc-rack" id="rack-02-13">
+	<polygon class="st0" points="293.4,630.8 291.1,667 277.8,594.6 211.2,594.6 214.2,558.9 280.6,558.9 	"/>
+</g>
+<g class="dc-rack" id="rack-02-14">
+	<polygon class="st0" points="291.1,667 288.9,700.3 275.9,630.8 208.1,630.8 211.2,594.6 277.8,594.6 	"/>
+</g>
+<g class="dc-rack" id="rack-02-15">
+	<polygon class="st0" points="288.9,700.3 286.6,735.5 273.2,669 204.9,669 208.1,630.8 275.9,630.8 	"/>
+</g>
+<g class="dc-rack" id="rack-02-16">
+	<polygon class="st0" points="286.6,735.5 284.3,770.7 259.8,770.7 259.8,774 220.4,774 201.9,704.2 204.9,669 273.2,669 	"/>
+</g>
+</svg>

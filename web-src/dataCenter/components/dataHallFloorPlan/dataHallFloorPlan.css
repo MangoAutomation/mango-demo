@@ -1,0 +1,49 @@
+dc-data-hall-floor-plan > p,
+dc-data-hall-floor-plan > h4 {
+    line-height: 1.25;
+    font-size: small;
+}
+
+dc-data-hall-floor-plan > p {
+    color: var(--ma-foreground-2);
+    text-align: center;
+}
+
+dc-data-hall-floor-plan > .dc-rack-tooltip {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 8px;
+    border: 1px solid var(--ma-background-contrast);
+    border-radius: 8px;
+    background-color: var(--ma-background);
+    color: var(--ma-background-contrast);
+    font-size: 1.2rem;
+}
+
+.dc-alarm-indicator-information {
+    fill: #39B54A !important;
+}
+
+.dc-alarm-indicator-important {
+    fill: #ecc94b !important;
+}
+
+.dc-alarm-indicator-warning {
+    fill: #2b6cb0 !important;
+}
+
+.dc-alarm-indicator-critical {
+    fill: #ed1f1f !important;
+}
+
+dc-data-hall-floor-plan ma-svg {
+    height: 300px;
+}
+
+@media(min-width: 1024px) {
+    dc-data-hall-floor-plan ma-svg {
+        height: 700px;
+    }
+}

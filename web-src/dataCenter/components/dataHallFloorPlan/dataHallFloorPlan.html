@@ -1,0 +1,9 @@
+<p ng-if="!$ctrl.points || !$ctrl.points.length">No data for data hall floor plan</p>
+
+<ma-get-point-value points="$ctrl.points"></ma-get-point-value>
+
+<ma-svg ng-include="$ctrl.floorPlanSvg">
+    <div ma-selector="#bg > image" ng-href="{{$ctrl.floorPlanBackground}}"></div>
+
+    <div ma-selector="g.dc-rack > .st0" ng-mouseenter="$ctrl.showTooltip($event)" ng-mouseleave="$ctrl.hideTooltip($event)" ng-click="$ctrl.rackClicked($event)" dc-rack></div>
+</ma-svg>

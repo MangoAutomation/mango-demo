@@ -2,7 +2,7 @@
     <!-- Inputs -->
     <dc-point-selectors
             ng-model="$ctrl.selectedOptions"
-            ng-change="$ctrl.setStatisticsPoints()"
+            ng-change="$ctrl.onSelectorUpdate()"
             hide-asset="true"
     ></dc-point-selectors>
 
@@ -13,10 +13,15 @@
             <dc-expansion-panel flex="100" flex-gt-md="70" card-title="Floor plan" fill-card="true" layout-margin>
                 <content>
                     <dc-site-floor-plan
-                        ng-if="!$ctrl.selectedOptions.searchOptions.dataHall"
-                        site="$ctrl.selectedOptions.searchOptions.site"
-                        points="$ctrl.selectedOptions.specificPoints"
+                        ng-if="!$ctrl.selectedDataHall"
+                        site="$ctrl.selectedSite"
+                        points="$ctrl.selectedPoints"
                     ></dc-site-floor-plan>
+                    <dc-data-hall-floor-plan
+                        ng-if="$ctrl.selectedDataHall"
+                        data-hall="$ctrl.selectedDataHall"
+                        points="$ctrl.selectedPoints"
+                    ></dc-data-hall-floor-plan>
                 </content>
             </dc-expansion-panel>
             <!-- Active Alarmrs -->

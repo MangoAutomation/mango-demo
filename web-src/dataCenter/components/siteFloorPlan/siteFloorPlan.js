@@ -43,6 +43,7 @@ class SiteFloorPlanController {
     }
 
     setBackgroundColorClass(dataHall) {
+        if (!this.dataHallPoints) return '';
         return {
             'st4': this.dataHallPoints[dataHall].loadPercentage.value < 50.0,
             'st0': this.dataHallPoints[dataHall].loadPercentage.value >= 50.0 && this.dataHallPoints[dataHall].loadPercentage.value < 90.0,

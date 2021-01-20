@@ -12,57 +12,20 @@ class DataHallController {
     }
 
     static get $inject() {
-        return ['$stateParams'];
+        return [];
     }
 
-    constructor($stateParams) {
-        this.$stateParams = $stateParams;
-
+    constructor() {
         this.statisticDefaults = ['kW Total'];
     }
 
-    $onInit() {
-        this.displayOption = 'racksLoads';
-        if (this.$stateParams.zone) {
-            this.setStateParams();
-            this.displayOption = 'racksLoads';
+    onSelectorUpdate() {
+        if (this.selectedOptions.searchOptions) {
+            this.selectedDataHall =  this.selectedOptions.searchOptions.dataHall;
+            this.selectedSite =  this.selectedOptions.searchOptions.site;
         }
-    }
-
-    setStateParams() {
-        this.selectedOptions = {
-            searchOptions: {
-                region: this.$stateParams.region,
-                campus: this.$stateParams.campus || null,
-                zone: this.$stateParams.zone || null,
-                row: null,
-                asset: null
-            }
-        };
-    }
-
-    updateSearchOptions() {
-        this.selectedOptions = { ...this.selectedOptions };
-    }
-
-    setStatisticsPoints(svgPoints) {
-        if (svgPoints) {
-            this.statisticPoints = svgPoints;
-        } else if (this.selectedOptions.specificPoints && this.selectedOptions.specificPoints.length > 0 && svgPoints == null) {
-            this.statisticPoints = this.selectedOptions.specificPoints;
-        }
-    }
-
-    selectRackRow(selection) {
-        this.selection = {
-            ...this.selectedOptions.searchOptions,
-            ...selection
-        };
-    }
-
-    setDisplayOption(displayOption) {
-        this.selection = null;
-        this.displayOption = displayOption;
+        this.selectedPoints =  [...this.selectedOptions.specificPoints];
+        this.statisticPoints = this.selectedPoints;
     }
 }
 
