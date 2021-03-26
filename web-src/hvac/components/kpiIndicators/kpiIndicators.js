@@ -4,12 +4,13 @@
  */
 
 import htmlTemplate from './kpiIndicators.html';
+import './kpiIndicators.css';
 
 const POINT_KEYS = {
     'Occupied Units': 'occupiedUnits',
     'Max kW/ton': 'maxKwTon',
     'Consumed Energy': 'energy',
-}
+};
 
 class KpiIndicatorsController {
     static get $$ngIsClass() {
@@ -25,25 +26,24 @@ class KpiIndicatorsController {
     }
 
     $onInit() {
-        this.Point
-            .buildQuery()
+        this.Point.buildQuery()
             .eq('deviceName', 'HVAC General')
             .limit(1000)
             .query()
-            .then(points => {
-                this.points = {}
+            .then((points) => {
+                this.points = {};
 
-                points.forEach(point => {
-                    this.points[POINT_KEYS[point.name]] = point
-                })
+                points.forEach((point) => {
+                    this.points[POINT_KEYS[point.name]] = point;
+                });
             });
     }
 }
 
 export default {
     bindings: {
-        unitsCount: '<'
+        unitsCount: '<',
     },
     controller: KpiIndicatorsController,
-    template: htmlTemplate
+    template: htmlTemplate,
 };

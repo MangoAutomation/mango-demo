@@ -4,13 +4,14 @@
  */
 
 import htmlTemplate from './overview.html';
+import './overview.css';
 
 const POINT_KEYS = {
     'kW/ton': 'kwTon',
-    'Occupancy': 'occupancy',
-    'Power': 'power',
-    'Status': 'status'
-}
+    Occupancy: 'occupancy',
+    Power: 'power',
+    Status: 'status',
+};
 
 class OverviewController {
     static get $$ngIsClass() {
@@ -33,24 +34,25 @@ class OverviewController {
     }
 
     getUnits() {
-        this.Unit.list().then(units => {
+        this.Unit.list().then((units) => {
             this.units = units;
             this.getPoints();
         });
     }
 
     getPoints() {
-        this.Point
-            .buildQuery()
+        this.Point.buildQuery()
             .or()
             .match('deviceName', 'Unit*')
             .limit(1000)
             .query()
-            .then(points => {
-                this.units.map(unit => {
-                    unit.points = this.mapPoints(points.filter(point => {
-                        return point.deviceName === unit.name
-                    }));
+            .then((points) => {
+                this.units.map((unit) => {
+                    unit.points = this.mapPoints(
+                        points.filter((point) => {
+                            return point.deviceName === unit.name;
+                        })
+                    );
 
                     return unit;
                 });
@@ -75,5 +77,5 @@ class OverviewController {
 export default {
     bindings: {},
     controller: OverviewController,
-    template: htmlTemplate
+    template: htmlTemplate,
 };

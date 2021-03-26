@@ -1,0 +1,51 @@
+hvac-units-table thead tr.md-row,
+hvac-units-table tbody tr.md-row .name,
+hvac-units-table tbody tr.md-row .status,
+hvac-units-table tbody tr.md-row .occupancy {
+    text-transform: uppercase;
+}
+
+hvac-units-table md-table-container thead tr.md-row {
+    height: 2rem !important;
+    color: var(--ma-accent);
+}
+
+hvac-units-table md-table-container thead th {
+    font-size: 1rem !important;
+}
+
+hvac-units-table md-table-container thead th.md-column:first-of-type {
+    padding-left: unset !important;
+}
+
+hvac-units-table md-table-container thead th.md-column:last-of-type {
+    padding-right: unset !important;
+}
+
+hvac-units-table md-table-container table.md-table td.md-cell {
+    border-top: 0;
+    padding-top: 1rem !important;
+}
+
+hvac-units-table md-table-container tbody tr.md-row:first-of-type td.md-cell {
+    border-top: 1px solid var(--ma-primary-700);
+}
+
+hvac-units-table md-table-container tbody tr td.md-cell:first-of-type {
+    padding-left: unset !important;
+}
+
+hvac-units-table md-table-container tbody tr td.md-cell:last-of-type {
+    padding-right: unset !important;
+}
+
+hvac-units-table md-table-pagination {
+    color: var(--ma-primary-700) !important;
+    margin-top: 2rem;
+    border-top: 0 !important;
+    padding: 0 !important;
+}
+
+hvac-units-table md-table-pagination div {
+    height: 2rem !important;
+}

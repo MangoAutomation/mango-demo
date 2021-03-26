@@ -4,7 +4,7 @@
  */
 
 import htmlTemplate from './unitsTable.html';
-
+import './unitsTable.css';
 class UnitsTableController {
     static get $$ngIsClass() {
         return true;
@@ -17,19 +17,17 @@ class UnitsTableController {
     constructor() {
         this.query = {
             limit: 10,
-            page: 1
-        }
+            page: 1,
+        };
     }
 
-    $onInit() {
-
-    }
+    $onInit() {}
 }
 
 export default {
     bindings: {
-        units: '<'
+        units: '<',
     },
     controller: UnitsTableController,
-    template: htmlTemplate
+    template: htmlTemplate,
 };

@@ -14,7 +14,7 @@ const userModule = angular.module('userModule', [
     oilGasModule.name,
     hvacModule.name,
     dataCenter.name,
-    examples.name
+    examples.name,
 ]);
 
 export default userModule;

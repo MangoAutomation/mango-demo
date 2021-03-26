@@ -1,0 +1,19 @@
+hvac-alarm-list div .header {
+    padding: 0.5rem 0;
+    border-bottom: var(--ma-primary-700) solid 1px;
+    color: var(--ma-accent);
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+hvac-alarm-list div .body {
+    margin-top: 0.5rem;
+    color: var(--ma-primary-700);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+hvac-alarm-list div .body div span:last-child {
+    font-weight: 700;
+}

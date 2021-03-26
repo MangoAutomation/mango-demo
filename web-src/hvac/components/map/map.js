@@ -4,16 +4,17 @@
  */
 
 import htmlTemplate from './map.html';
+import './map.css';
 
 import onlineIcon from '../../assets/online-unit.svg';
 import offlineIcon from '../../assets/offline-unit.svg';
 
 const DEFAULT_CENTER = {
     lat: 35.618379,
-    lon: -78.413052
-}
+    lon: -78.413052,
+};
 
-const DEFAULT_ZOOM = 7
+const DEFAULT_ZOOM = 7;
 
 class MapController {
     static get $$ngIsClass() {
@@ -40,13 +41,13 @@ class MapController {
     }
 
     addEventListener(map) {
-        map.on('popupclose', event => {
+        map.on('popupclose', (event) => {
             this.selectUnit(null);
         });
     }
 
     selectUnit(unit) {
-        this.onSelectUnit({unit: unit});
+        this.onSelectUnit({ unit: unit });
     }
 }
 
@@ -56,8 +57,8 @@ export default {
         zoom: '<?',
         options: '<?',
         units: '<',
-        onSelectUnit: '&'
+        onSelectUnit: '&',
     },
     controller: MapController,
-    template: htmlTemplate
+    template: htmlTemplate,
 };

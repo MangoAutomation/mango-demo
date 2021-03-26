@@ -4,11 +4,12 @@
  */
 
 import htmlTemplate from './energyChart.html';
+import './energyChart.css';
 
 const POINT_KEYS = {
     'kW/ton': 'kwTon',
     'Consumed Energy': 'energy',
-}
+};
 
 class EnergyChartController {
     static get $$ngIsClass() {
@@ -25,19 +26,18 @@ class EnergyChartController {
     }
 
     $onInit() {
-        this.Point
-            .buildQuery()
+        this.Point.buildQuery()
             .eq('deviceName', 'HVAC General')
             .or()
             .eq('name', 'Consumed Energy')
             .eq('name', 'kW/ton')
             .limit(1000)
             .query()
-            .then(points => {
-                this.points = {}
+            .then((points) => {
+                this.points = {};
 
-                points.forEach(point => {
-                    this.points[POINT_KEYS[point.name]] = point
+                points.forEach((point) => {
+                    this.points[POINT_KEYS[point.name]] = point;
                 });
             });
     }
@@ -46,5 +46,5 @@ class EnergyChartController {
 export default {
     bindings: {},
     controller: EnergyChartController,
-    template: htmlTemplate
+    template: htmlTemplate,
 };

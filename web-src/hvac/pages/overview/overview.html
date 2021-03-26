@@ -3,10 +3,6 @@
         <hvac-kpi-indicators units-count="$ctrl.units.length"></hvac-kpi-indicators>
 
         <md-card>
-            <md-card-header>
-                <p md-colors="::{color: 'accent'}">Active Alarms</p>
-            </md-card-header>
-
             <md-card-content>
                 <hvac-map units="$ctrl.units" on-select-unit="$ctrl.onSelectUnit(unit)"></hvac-map>
             </md-card-content>

@@ -1,0 +1,59 @@
+hvac-selected-unit-card {
+    text-transform: uppercase;
+}
+
+hvac-selected-unit-card md-card {
+    border-style: solid !important;
+    border-width: 2px !important;
+}
+
+hvac-selected-unit-card p {
+    margin: 0;
+}
+
+hvac-selected-unit-card md-card-content > div {
+    margin: 0 -1rem;
+}
+
+hvac-selected-unit-card md-card-content > div > div {
+    padding: 0 1rem;
+}
+
+hvac-selected-unit-card .title-container ma-point-value {
+    font-size: 1.375rem;
+}
+
+hvac-selected-unit-card .title-container p {
+    font-size: 3rem;
+    line-height: 1;
+}
+
+hvac-selected-unit-card .data-container {
+    margin: 1rem -2rem 0 -2rem;
+}
+
+hvac-selected-unit-card .data-container div {
+    padding: 2rem 2rem 0 2rem;
+}
+
+hvac-selected-unit-card .data-container p {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+hvac-selected-unit-card .location-container {
+    padding: 1rem;
+}
+
+hvac-selected-unit-card .location-container div {
+    margin-left: 1rem;
+}
+
+hvac-selected-unit-card .location-container p {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+hvac-selected-unit-card .location-container span {
+    font-size: 1.375rem;
+}

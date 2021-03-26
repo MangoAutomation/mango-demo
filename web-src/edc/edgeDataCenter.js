@@ -15,7 +15,8 @@ import statisticsWidget from './components/statisticsWidget/statisticsWidget';
 import sitesFactory from './services/sites';
 import settingsFactory from './services/settings';
 
-const edcModule = angular.module('edcModule', ['maUiApp'])
+const edcModule = angular
+    .module('edcModule', ['maUiApp'])
     .component('edcOverviewPage', overviewPage)
     .component('edcExpansionPanel', expansionPanel)
     .component('edcSiteInfo', siteInfo)
@@ -27,34 +28,37 @@ const edcModule = angular.module('edcModule', ['maUiApp'])
     .component('edcStatisticsWidget', statisticsWidget)
 
     .factory('edcSites', sitesFactory)
-    .factory('edcSettings', settingsFactory)
+    .factory('edcSettings', settingsFactory);
 
-edcModule.config(['maUiMenuProvider', maUiMenuProvider => {
-    maUiMenuProvider.registerMenuItems([
-        {
-            url: '/edc',
-            name: 'ui.edc',
-            menuIcon: 'fiber_manual_record',
-            menuText: 'Edge data center',
-            template: '<div flex="noshrink" layout="column" ui-view></div>',
-            abstract: true,
-            weight: 100,
-        },
-        {
-            name: 'ui.edc.overview',
-            url: '/overview',
-            template: '<edc-overview-page></edc-overview-page>',
-            weight: 100,
-            menuText: 'Overview',
-            menuIcon: 'public',
-            params: {
-                hideFooter: true,
-                dateBar: {
-                    rollupControls: true
-                }
-            }
-        },
-    ]);
-}])
+edcModule.config([
+    'maUiMenuProvider',
+    (maUiMenuProvider) => {
+        maUiMenuProvider.registerMenuItems([
+            {
+                url: '/edc',
+                name: 'ui.edc',
+                menuIcon: 'fiber_manual_record',
+                menuText: 'Edge data center',
+                template: '<div flex="noshrink" layout="column" ui-view></div>',
+                abstract: true,
+                weight: 100,
+            },
+            {
+                name: 'ui.edc.overview',
+                url: '/overview',
+                template: '<edc-overview-page></edc-overview-page>',
+                weight: 100,
+                menuText: 'Overview',
+                menuIcon: 'public',
+                params: {
+                    hideFooter: true,
+                    dateBar: {
+                        rollupControls: true,
+                    },
+                },
+            },
+        ]);
+    },
+]);
 
 export default edcModule;

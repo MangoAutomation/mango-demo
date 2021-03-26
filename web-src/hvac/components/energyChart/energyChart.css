@@ -1,0 +1,20 @@
+hvac-energy-chart .value-axis-left .amcharts-axis-label {
+    color: var(--ma-primary-700);
+}
+
+hvac-energy-chart .value-axis-right .amcharts-axis-label {
+    color: var(--ma-accent);
+}
+
+hvac-energy-chart .amcharts-legend-label {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+hvac-energy-chart .amcharts-legend-item-series-1 .amcharts-legend-label {
+    color: var(--ma-primary-700);
+}
+
+hvac-energy-chart .amcharts-legend-item-series-2 .amcharts-legend-label {
+    color: var(--ma-accent);
+}

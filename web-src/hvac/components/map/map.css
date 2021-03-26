@@ -1,0 +1,27 @@
+hvac-map ma-tile-map .leaflet-popup-content p {
+    margin: 0;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+hvac-map ma-tile-map .title {
+    font-size: 1.25rem !important;
+    text-transform: uppercase;
+}
+
+hvac-map ma-tile-map ma-tile-map-marker .data-container {
+    display: flex;
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+    text-transform: uppercase;
+}
+
+hvac-map ma-tile-map ma-tile-map-marker .data-container div {
+    width: 50%;
+    padding: 0.75rem;
+}
+
+hvac-map ma-tile-map ma-tile-map-marker .data-container ma-point-value {
+    width: 50%;
+    font-size: 1.375rem;
+}

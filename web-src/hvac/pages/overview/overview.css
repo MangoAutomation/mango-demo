@@ -1,0 +1,27 @@
+hvac-overview md-card-header {
+    padding-bottom: 0;
+}
+
+hvac-overview md-card-header p {
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+hvac-overview .right-container .energy-chart-container,
+hvac-overview .right-container .alarms-list-container {
+    margin-bottom: 1rem;
+}
+
+hvac-overview .right-container .energy-chart-container md-card,
+hvac-overview .right-container .alarms-list-container > md-card {
+    height: 100%;
+}
+
+hvac-overview .right-container .alarms-list-container a {
+    border-bottom-color: transparent;
+}
+
+hvac-overview .right-container .alarms-list-container a md-icon {
+    color: var(--ma-accent);
+}

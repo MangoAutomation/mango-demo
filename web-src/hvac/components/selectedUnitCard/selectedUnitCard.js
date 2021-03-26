@@ -4,6 +4,7 @@
  */
 
 import htmlTemplate from './selectedUnitcard.html';
+import './selectedUnitCard.css';
 
 import locationIcon from '../../assets/location.svg';
 
@@ -20,15 +21,13 @@ class SelectedUnitCardController {
         this.locationIcon = locationIcon;
     }
 
-    $onInit() {
-
-    }
+    $onInit() {}
 }
 
 export default {
     bindings: {
-        unit: '<?'
+        unit: '<?',
     },
     controller: SelectedUnitCardController,
-    template: htmlTemplate
+    template: htmlTemplate,
 };

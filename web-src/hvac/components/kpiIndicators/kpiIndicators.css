@@ -1,0 +1,11 @@
+hvac-kpi-indicators div md-card md-card-content p {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--ma-accent);
+    text-transform: uppercase;
+}
+
+hvac-kpi-indicators div md-card md-card-content span {
+    color: var(--ma-primary-700);
+}
