@@ -257,58 +257,58 @@
       "purgeType":"YEARS",
       "pointLocator":{
         "dataType":"NUMERIC",
-        "updateEvent":"CRON",
+        "updateEvent":"MINUTES",
         "contextUpdateEvent":"CONTEXT_UPDATE",
         "context":[
           {
             "varName":"u1",
             "dataPointXid":"DP_f80a2dd9-d87e-4ef5-b7a3-63c16a8bb8ba",
-            "updateContext":true
+            "updateContext":false
           },
           {
             "varName":"u2",
             "dataPointXid":"DP_Unit_02_Power",
-            "updateContext":true
+            "updateContext":false
           },
           {
             "varName":"u3",
             "dataPointXid":"DP_Unit_03_Power",
-            "updateContext":true
+            "updateContext":false
           },
           {
             "varName":"u4",
             "dataPointXid":"DP_Unit_04_Power",
-            "updateContext":true
+            "updateContext":false
           },
           {
             "varName":"u5",
             "dataPointXid":"DP_Unit_05_Power",
-            "updateContext":true
+            "updateContext":false
           },
           {
             "varName":"u6",
             "dataPointXid":"DP_Unit_06_Power",
-            "updateContext":true
+            "updateContext":false
           },
           {
             "varName":"u7",
             "dataPointXid":"DP_Unit_07_Power",
-            "updateContext":true
+            "updateContext":false
           },
           {
             "varName":"u8",
             "dataPointXid":"DP_Unit_08_Power",
-            "updateContext":true
+            "updateContext":false
           },
           {
             "varName":"u9",
             "dataPointXid":"DP_Unit_09_Power",
-            "updateContext":true
+            "updateContext":false
           },
           {
             "varName":"u10",
             "dataPointXid":"DP_Unit_10_Power",
-            "updateContext":true
+            "updateContext":false
           }
         ],
         "logLevel":"NONE",
@@ -316,7 +316,7 @@
         "executionDelaySeconds":0,
         "logCount":5,
         "logSize":1.0,
-        "script":"return consumedEnergy.value \n    + (u1.past(MINUTE, 5).average \/ 12)\n    + (u2.past(MINUTE, 5).average \/ 12)\n    + (u3.past(MINUTE, 5).average \/ 12)\n    + (u4.past(MINUTE, 5).average \/ 12) \n    + (u5.past(MINUTE, 5).average \/ 12)\n    + (u6.past(MINUTE, 5).average \/ 12)\n    + (u7.past(MINUTE, 5).average \/ 12)\n    + (u8.past(MINUTE, 5).average \/ 12)\n    + (u9.past(MINUTE, 5).average \/ 12)\n    + (u10.past(MINUTE, 5).average \/ 12);",
+        "script":"if (isNaN(consumedEnergy.value)) {\n    return 0;\n}\n\nreturn consumedEnergy.value \n    + (u1.past(MINUTE, 5).average \/ 12)\n    + (u2.past(MINUTE, 5).average \/ 12)\n    + (u3.past(MINUTE, 5).average \/ 12)\n    + (u4.past(MINUTE, 5).average \/ 12) \n    + (u5.past(MINUTE, 5).average \/ 12)\n    + (u6.past(MINUTE, 5).average \/ 12)\n    + (u7.past(MINUTE, 5).average \/ 12)\n    + (u8.past(MINUTE, 5).average \/ 12)\n    + (u9.past(MINUTE, 5).average \/ 12)\n    + (u10.past(MINUTE, 5).average \/ 12);",
         "scriptRoles":[
         ],
         "settable":false,
