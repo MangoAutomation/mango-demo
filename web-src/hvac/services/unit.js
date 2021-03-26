@@ -9,7 +9,7 @@ function unitFactory(RestResource) {
 
     const JSON_STORE_XID = 'hvac-units';
 
-    class Site extends RestResource {
+    class Unit extends RestResource {
         static get defaultProperties() {
             return {};
         }
@@ -36,7 +36,9 @@ function unitFactory(RestResource) {
                     break;
                 case 'save':
                     httpConfig.method = 'POST';
-                    httpConfig.url = `${this.baseUrl}/${this.encodeUriSegment(httpConfig.data.xid)}`;
+                    httpConfig.url = `${this.baseUrl}/${this.encodeUriSegment(
+                        httpConfig.data.xid
+                    )}`;
                     break;
                 default:
                     break;
@@ -44,10 +46,14 @@ function unitFactory(RestResource) {
 
             return super.http(httpConfig, opts).finally(() => {
                 // delete old xid when updating to new xid
-                if (resourceMethod === 'save' && saveType === 'update' && httpConfig.data.xid !== originalId) {
+                if (
+                    resourceMethod === 'save' &&
+                    saveType === 'update' &&
+                    httpConfig.data.xid !== originalId
+                ) {
                     return this.http({
                         method: 'DELETE',
-                        url: `${this.baseUrl}/${this.encodeUriSegment(originalId)}`
+                        url: `${this.baseUrl}/${this.encodeUriSegment(originalId)}`,
                     }).then(
                         () => null,
                         () => null
@@ -57,7 +63,7 @@ function unitFactory(RestResource) {
         }
     }
 
-    return Site;
+    return Unit;
 }
 
 export default unitFactory;

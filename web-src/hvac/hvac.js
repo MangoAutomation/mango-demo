@@ -1,24 +1,30 @@
 import angular from 'angular';
 
 import overviewPage from './pages/overview/overview';
+import unitDetailesPage from './pages/unitDetails/unitDetails';
+
 import alarmList from './components/alarmList/alarmList';
 import energyChart from './components/energyChart/energyChart';
 import kpiIndicators from './components/kpiIndicators/kpiIndicators';
 import map from './components/map/map';
 import selectedUnitCard from './components/selectedUnitCard/selectedUnitCard';
 import unitsTable from './components/unitsTable/unitsTable';
+import unitsSearch from './components/unitSearch/unitsSearch';
 
 import unitFactory from './services/unit';
 
 const hvacModule = angular
     .module('hvacModule', ['maUiApp'])
     .component('hvacOverviewPage', overviewPage)
+    .component('hvacUnitDetailsPage', unitDetailesPage)
+
     .component('hvacMap', map)
     .component('hvacSelectedUnitCard', selectedUnitCard)
     .component('hvacUnitsTable', unitsTable)
     .component('hvacKpiIndicators', kpiIndicators)
     .component('hvacAlarmList', alarmList)
     .component('hvacEnergyChart', energyChart)
+    .component('hvacUnitsSearch', unitsSearch)
 
     .factory('hvacUnit', unitFactory);
 
@@ -43,6 +49,20 @@ hvacModule.config([
                 weight: 100,
                 menuText: 'Overview',
                 menuIcon: 'public',
+                params: {
+                    hideFooter: true,
+                    dateBar: {
+                        rollupControls: true,
+                    },
+                },
+            },
+            {
+                name: 'ui.hvac.unitDetails',
+                url: '/unit-details?xid',
+                template: '<hvac-unit-details-page></hvac-unit-details-page>',
+                weight: 100,
+                menuText: 'Unit Details',
+                menuIcon: 'dns',
                 params: {
                     hideFooter: true,
                     dateBar: {

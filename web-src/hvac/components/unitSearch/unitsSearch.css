@@ -1,0 +1,23 @@
+hvac-units-search,
+hvac-units-search md-input-container {
+    display: block;
+}
+
+hvac-units-search > md-input-container > ma-drop-down-button {
+    border: 1px solid var(--ma-background-300);
+    background: var(--ma-background-hue-1);
+    padding: 4px;
+    padding-left: 6px;
+}
+
+hvac-units-search > md-input-container > ma-drop-down-button > div span {
+    font-size: small;
+}
+
+hvac-units-search > md-input-container > ma-drop-down-button:focus:not([disabled]),
+hvac-units-search > md-input-container > ma-drop-down-button:active:not([disabled]),
+hvac-units-search > md-input-container > ma-drop-down-button.ma-drop-down-open:not([disabled]) {
+    padding-bottom: 4px;
+    background: var(--ma-background-hue-1);
+    border-bottom-width: 1px;
+}
