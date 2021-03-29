@@ -1,26 +1,26 @@
 <md-input-container>
     <label>Select Unit</label>
     <ma-drop-down-button>
-        <span ng-if="$ctrl.unit != null" class="ma-ellipsis">
-            <span ng-bind="$ctrl.unit.name"></span>
+        <span ng-if="$ctrl.selectedItem != null" class="ma-ellipsis">
+            <span ng-bind="$ctrl.selectedItem.name"></span>
         </span>
 
-        <span ng-if="!$ctrl.unit">
+        <span ng-if="!$ctrl.selectedItem">
             <em>None</em>
         </span>
 
         <ma-drop-down auto-focus="::false">
             <ma-option-list
                 name="unit"
-                ng-model="$ctrl.unit"
-                items="$ctrl.getUnits($filter)"
-                ng-change="$ctrl.unitUpdated()"
+                ng-model="$ctrl.selectedItem"
+                items="$ctrl.getItems($filter)"
+                ng-change="$ctrl.inputUpdated()"
                 has-value="$value !== undefined"
                 ma-configure-input-container
             >
-                <ma-option ng-repeat="unit in $items" ng-value="unit">
+                <ma-option ng-repeat="item in $items" ng-value="item">
                     <span class="ma-ellipsis">
-                        <span md-highlight-text="$filter" md-highlight-flags="ig">{{unit.name}}</span>
+                        <span md-highlight-text="$filter" md-highlight-flags="ig">{{item.name}}</span>
                     </span>
                 </ma-option>
             </ma-option-list>

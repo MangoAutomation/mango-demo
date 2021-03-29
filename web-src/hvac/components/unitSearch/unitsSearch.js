@@ -5,10 +5,11 @@
 
 import template from './unitsSearch.html';
 import './unitsSearch.css';
+import SearchController from '../../classes/SearchController';
 
 const STORAGE_KEY = 'lastSelectedUnit';
 
-class UnitsSearchController {
+class UnitsSearchController extends SearchController {
     static get $$ngIsClass() {
         return true;
     }
@@ -18,56 +19,29 @@ class UnitsSearchController {
     }
 
     constructor(hvacUnit, localStorageService, $stateParams, maDialogHelper, $state) {
+        super({
+            hasStateParams: true,
+            stateParamKey: 'xid',
+            hasStoredValue: true,
+            storageKey: STORAGE_KEY,
+            $stateParams,
+            maDialogHelper,
+            $state,
+            localStorageService,
+        });
+
         this.hvacUnit = hvacUnit;
-        this.localStorageService = localStorageService;
-        this.$stateParams = $stateParams;
-        this.maDialogHelper = maDialogHelper;
-        this.$state = $state;
     }
 
     $onInit() {
-        this.ngModelCtrl.$render = () => this.render();
-        this.lastSelectedUnit = this.localStorageService.get(STORAGE_KEY);
-
-        if (this.$stateParams.xid) {
-            this.hvacUnit.get(this.$stateParams.xid).then(
-                (unit) => {
-                    this.unit = unit;
-                    this.unitUpdated();
-                },
-                () => {
-                    this.maDialogHelper.errorToast([
-                        'literal',
-                        `${this.$stateParams.xid} not found`,
-                    ]);
-                    this.$state.go(this.$state.current.name, { xid: undefined });
-                }
-            );
-        } else if (this.lastSelectedUnit) {
-            this.unit = this.lastSelectedUnit;
-            this.setViewValue();
-        } else {
-            this.getUnits().then((units) => {
-                [this.unit] = units;
-                this.unitUpdated();
-            });
-        }
+        this.initializeValue();
     }
 
-    render() {
-        this.unit = this.ngModelCtrl.$viewValue;
+    getItemByParamKey(stateParamKey) {
+        return this.hvacUnit.get(stateParamKey);
     }
 
-    setViewValue() {
-        this.ngModelCtrl.$setViewValue({ ...this.unit });
-        if (this.unit) {
-            this.updateQueryParams(this.unit.xid);
-        } else {
-            this.updateQueryParams(undefined);
-        }
-    }
-
-    getUnits(filter) {
+    getItems(filter) {
         const query = this.hvacUnit.buildQuery();
 
         if (filter) {
@@ -77,21 +51,8 @@ class UnitsSearchController {
         return query.limit(10).sort('name').query();
     }
 
-    updateQueryParams(unitXid) {
-        this.$state.go(
-            '.',
-            { ...this.$stateParams, xid: unitXid },
-            { location: 'replace', notify: false }
-        );
-    }
-
-    storeUnit() {
-        this.localStorageService.set(STORAGE_KEY, this.unit);
-    }
-
-    unitUpdated() {
-        this.setViewValue();
-        this.storeUnit();
+    getItemStateParam(selectedItem) {
+        return selectedItem.xid;
     }
 }
 export default {
