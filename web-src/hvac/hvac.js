@@ -10,6 +10,7 @@ import map from './components/map/map';
 import selectedUnitCard from './components/selectedUnitCard/selectedUnitCard';
 import unitsTable from './components/unitsTable/unitsTable';
 import unitsSearch from './components/unitSearch/unitsSearch';
+import dataList from './components/dataList/dataList';
 
 import unitFactory from './services/unit';
 
@@ -25,6 +26,7 @@ const hvacModule = angular
     .component('hvacAlarmList', alarmList)
     .component('hvacEnergyChart', energyChart)
     .component('hvacUnitsSearch', unitsSearch)
+    .component('hvacDataList', dataList)
 
     .factory('hvacUnit', unitFactory);
 

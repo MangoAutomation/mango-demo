@@ -1,3 +1,36 @@
-<div flex="100" flex-gt-sm="50" flex-gt-md="30">
-    <hvac-units-search ng-model="$ctrl.unit"></hvac-units-search>
+<div class="search-container" flex="100" flex-gt-sm="50" flex-gt-md="20">
+    <hvac-units-search ng-model="$ctrl.unit" ng-change="$ctrl.onUnitChange()"></hvac-units-search>
+</div>
+
+<div layout="row" layout-align="space-between start" layout-wrap>
+    <div class="card-container" flex="100" flex-gt-md="20">
+        <ex-expansion-panel>
+            <ex-panel-header>
+                <h3>Device Info</h3>
+            </ex-panel-header>
+            <ex-panel-body>
+                <hvac-data-list data="$ctrl.unitData"></hvac-data-list>
+            </ex-panel-body>
+        </ex-expansion-panel>
+    </div>
+    <div class="card-container" flex="100" flex-gt-md="60">
+        <ex-expansion-panel>
+            <ex-panel-header>
+                <h3>Metering</h3>
+            </ex-panel-header>
+            <ex-panel-body>
+                Test
+            </ex-panel-body>
+        </ex-expansion-panel>
+    </div>
+    <div class="card-container" flex="100" flex-gt-md="20">
+        <ex-expansion-panel>
+            <ex-panel-header>
+                <h3>Additional Points</h3>
+            </ex-panel-header>
+            <ex-panel-body>
+                Test
+            </ex-panel-body>
+        </ex-expansion-panel>
+    </div>
 </div>

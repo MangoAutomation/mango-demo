@@ -1,0 +1,29 @@
+hvac-data-list > div > span {
+    margin-top: 10px;
+    font-size: small;
+    color: var(--ma-foreground-2);
+}
+
+hvac-data-list > div > span.value {
+    font-weight: bold;
+}
+
+hvac-data-list ma-point-value .md-button.event-indicator {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    height: 18px;
+    width: 18px;
+    min-width: 18px;
+    min-height: 18px;
+}
+
+hvac-data-list ma-point-value .md-button.event-indicator > md-icon {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    height: 16px;
+    width: 16px;
+    min-width: 16px;
+    min-height: 16px;
+}

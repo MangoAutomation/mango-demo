@@ -18,6 +18,19 @@ class UnitDetailsController {
     constructor() {}
 
     $onInit() {}
+
+    onUnitChange() {
+        this.unitData = [
+            {
+                title: 'Name',
+                value: this.unit.name,
+            },
+            {
+                title: 'Type',
+                value: this.unit.type,
+            },
+        ];
+    }
 }
 export default {
     bindings: {},

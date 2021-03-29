@@ -37,8 +37,8 @@ class UnitsSearchController extends SearchController {
         this.initializeValue();
     }
 
-    getItemByParamKey(stateParamKey) {
-        return this.hvacUnit.get(stateParamKey);
+    getItemByParamKeyValue(stateParamKeyValue) {
+        return this.hvacUnit.get(stateParamKeyValue);
     }
 
     getItems(filter) {
