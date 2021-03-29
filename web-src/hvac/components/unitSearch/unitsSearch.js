@@ -33,10 +33,6 @@ class UnitsSearchController extends SearchController {
         this.hvacUnit = hvacUnit;
     }
 
-    $onInit() {
-        this.initializeValue();
-    }
-
     getItemByParamKeyValue(stateParamKeyValue) {
         return this.hvacUnit.get(stateParamKeyValue);
     }

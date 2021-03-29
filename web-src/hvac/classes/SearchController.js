@@ -24,12 +24,16 @@ class SearchController {
         this.localStorageService = localStorageService;
     }
 
+    $onInit() {
+        this.ngModelCtrl.$render = () => this.render();
+        this.initValue = true;
+    }
+
     /**
      * Depending on the selected options, this method initialize the selected value.
      * It should be used on $onInit
      */
     initializeValue() {
-        this.ngModelCtrl.$render = () => this.render();
         if (this.hasStoredValue) {
             this.lastSelectedItem = this.localStorageService.get(this.storageKey);
         }
@@ -72,7 +76,12 @@ class SearchController {
     }
 
     render() {
-        this.selectedItem = this.ngModelCtrl.$viewValue;
+        if (this.initValue) {
+            this.initializeValue();
+            this.initValue = false;
+        } else {
+            this.selectedItem = this.ngModelCtrl.$viewValue;
+        }
     }
 
     /**
