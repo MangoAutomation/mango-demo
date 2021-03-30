@@ -6,6 +6,7 @@
 utilFactory.$inject = ['$q', 'maDataPointTags', 'maPoint'];
 
 function utilFactory($q, maDataPointTags, maPoint) {
+    'use strict';
     return Object.freeze({
         siteOptions() {
             return maDataPointTags
@@ -41,13 +42,12 @@ function utilFactory($q, maDataPointTags, maPoint) {
         },
 
         snakeToCamel(str) {
-            return str.toLowerCase().replace(
-                /([-_][a-z])/g,
-                (group) => group.toUpperCase()
-                                .replace('-', '')
-                                .replace('_', '')
-            );
-        }
+            return str
+                .toLowerCase()
+                .replace(/([-_][a-z])/g, (group) =>
+                    group.toUpperCase().replace('-', '').replace('_', '')
+                );
+        },
     });
 }
 export default utilFactory;

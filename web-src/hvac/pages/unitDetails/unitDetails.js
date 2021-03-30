@@ -12,14 +12,19 @@ class UnitDetailsController {
     }
 
     static get $inject() {
-        return [];
+        return ['maPoint', 'maDataPointTags'];
     }
 
-    constructor() {}
+    constructor(maPoint, maDataPointTags) {
+        this.maPoint = maPoint;
+        this.maDataPointTags = maDataPointTags;
+    }
 
     $onInit() {}
 
     onUnitChange() {
+        if (!this.unit) return;
+
         this.unitData = [
             {
                 title: 'Name',
@@ -30,6 +35,19 @@ class UnitDetailsController {
                 value: this.unit.type,
             },
         ];
+
+        this.getGroupTags();
+    }
+
+    getGroupTags() {
+        this.maDataPointTags
+            .buildQuery('group')
+            .ne('group', null)
+            .eq('deviceID', this.unit.xid)
+            .query()
+            .then((groups) => {
+                this.groups = groups;
+            });
     }
 }
 export default {
